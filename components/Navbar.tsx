@@ -2,24 +2,26 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
   const t = useTranslations();
+  const locale = useLocale();
 
   const navItems = [
     { label: t("nav.services"), href: "/#services" },
     { label: t("nav.process"), href: "/#process" },
     { label: t("nav.cases"), href: "/#cases" },
-    { label: t("nav.contact"), href: "/contact" },
+    { label: t("nav.contact"), href: `/${locale}/contact` },
   ];
 
   useEffect(() => {
@@ -28,18 +30,14 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [pathname]);
-
   const handleNavClick = (href: string) => {
     if (href.startsWith("/#")) {
       const id = href.slice(2);
-      const isHome = pathname === "/" || pathname.includes("/en") || pathname.includes("/es");
+      const isHome = pathname === `/${locale}` || pathname === "/";
       if (isHome) {
         document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
       } else {
-        window.location.href = href;
+        router.push(`/${locale}${href}`);
       }
     }
     setMobileOpen(false);
@@ -52,7 +50,7 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href={`/${locale}`} className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
             <span className="text-primary-foreground font-display font-bold text-sm">N</span>
           </div>
@@ -86,7 +84,7 @@ const Navbar = () => {
           {/* Language switcher */}
           <LanguageSwitcher />
 
-          <Link href="/contact">
+          <Link href={`/${locale}/contact`}>
             <Button
               size="sm"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan font-semibold"
@@ -135,7 +133,7 @@ const Navbar = () => {
                 )
               )}
               <LanguageSwitcher />
-              <Link href="/contact">
+              <Link href={`/${locale}/contact`}>
                 <Button className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
                   {t("nav.cta")}
                 </Button>

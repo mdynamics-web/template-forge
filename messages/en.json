@@ -2,101 +2,101 @@
   "nav": {
     "services": "Solutions",
     "process": "Process",
-    "cases": "Case Studies",
+    "cases": "Success Stories",
     "contact": "Contact",
     "cta": "Book a Call"
   },
   "hero": {
-    "badge": "AI-Powered Growth for Enterprise",
-    "title1": "Your Competitors Are Already",
-    "title2": "Using AI to Win.",
-    "title3": "Are You?",
-    "subtitle": "We build AI systems, automated workflows, and high-converting websites that help mid-market and enterprise companies grow revenue, cut costs, and scale faster — without hiring more people.",
-    "cta1": "Book Your Free Strategy Call",
-    "cta2": "See How It Works",
+    "badge": "Professional Web Development in Valencia and Alicante",
+    "title1": "Grow Your Business",
+    "title2": "with a Professional Website",
+    "title3": "that Generates Clients",
+    "subtitle": "Software engineers with experience in top tech companies. We create websites, mobile apps, and SEO solutions that generate real results for businesses in Valencia and Alicante: more clients, better rankings, and optimized processes.",
+    "cta1": "Free Consultation",
+    "cta2": "View Our Work",
     "stat1": {
-      "value": "$2.4B+",
-      "label": "Revenue Generated for Clients"
+      "value": "15+",
+      "label": "Completed Projects"
     },
     "stat2": {
-      "value": "98%",
-      "label": "Client Retention Rate"
+      "value": "100%",
+      "label": "Satisfied Clients"
     },
     "stat3": {
-      "value": "3.5x",
-      "label": "Average ROI in 6 Months"
+      "value": "10+",
+      "label": "Years of Combined Experience"
     },
     "stat4": {
-      "value": "24/7",
-      "label": "AI Systems Running Non-Stop"
+      "value": "3.5X",
+      "label": "Average ROI in 6 Months"
     }
   },
   "problems": {
-    "tag": "The Real Cost of Doing Nothing",
-    "title1": "Every Day Without AI,",
-    "title2": "You're Losing Money",
+    "tag": "Why Do You Need a Professional Website?",
+    "title1": "Your Business Needs a",
+    "title2": "Professional Digital Presence",
     "card1": {
-      "title": "Your Website Is Losing Clients",
-      "desc": "A slow, outdated website costs you millions in lost deals. While your competitors run AI-powered platforms, you're stuck with a digital brochure from 2015."
+      "title": "Without a Website, You Lose Clients Every Day",
+      "desc": "89% of consumers search online before buying. If your business doesn't have a professional website or is hard to find, your clients are choosing your competition."
     },
     "card2": {
-      "title": "You're Invisible to Decision Makers",
-      "desc": "Your ideal clients are searching online right now — and finding your competitors. No SEO strategy means no pipeline. No pipeline means no growth."
+      "title": "A Bad Website Damages Your Reputation",
+      "desc": "A slow, outdated, or non-mobile-friendly website conveys a lack of professionalism. Clients in Valencia and Alicante are looking for modern and reliable businesses."
     },
     "card3": {
-      "title": "Your Team Wastes 40% of Their Time",
-      "desc": "Manual emails, spreadsheet tracking, no automation. Your best people spend half their day on tasks that AI could handle in seconds."
+      "title": "Manual Management Limits Your Growth",
+      "desc": "Wasting time with phone reservations, WhatsApp orders, or inventory in Excel prevents you from scaling. A good web application automates and optimizes your business."
     }
   },
   "services": {
-    "tag": "AI-Powered Solutions",
-    "title1": "Intelligent Systems That",
-    "title2": "Run Your Business",
-    "subtitle": "We don't build websites — we build revenue engines powered by artificial intelligence and automation.",
+    "tag": "Our Services",
+    "title1": "Web Development and",
+    "title2": "Custom Apps",
+    "subtitle": "We create custom digital solutions for businesses that want to grow. From professional websites to complex applications.",
     "s1": {
-      "title": "AI-Powered Websites",
-      "desc": "Websites that convert visitors into clients automatically. Smart CTAs, personalized content, and real-time analytics — built for companies doing $5M–$500M."
+      "title": "Professional Websites",
+      "desc": "Modern, fast, and mobile-optimized web design and development. Perfect for restaurants, hotels, stores, clinics, and businesses in Valencia and Alicante."
     },
     "s2": {
-      "title": "AI Search Domination",
-      "desc": "Get found by the right buyers at the right time. Our AI-driven SEO puts your company on page one and keeps you there — guaranteed."
+      "title": "SEO and Search Ranking",
+      "desc": "We improve your business's traffic so customers can find you on Google. Specialized local SEO for businesses in the Valencian Community."
     },
     "s3": {
-      "title": "Custom AI Assistants",
-      "desc": "24/7 AI employees trained on your data. They answer questions, qualify leads, book meetings, and close deals — while your team sleeps."
+      "title": "Mobile Applications",
+      "desc": "iOS and Android app development for your business. Order management, reservations, delivery, or any specific need you might have."
     },
     "s4": {
-      "title": "Digital Transformation",
-      "desc": "Complete modernization of your digital presence. We replace outdated systems with intelligent platforms that generate measurable ROI."
+      "title": "E-commerce and Online Stores",
+      "desc": "Complete online stores with payment gateways, inventory management, and shipping. Sell your products 24/7 across Spain."
     },
     "s5": {
-      "title": "Workflow Automation",
-      "desc": "Eliminate manual work across your entire operation. CRM, emails, reports, onboarding — all automated, all intelligent, all saving you money."
+      "title": "Custom Web Applications",
+      "desc": "Custom systems for your business: reservation management, CRMs, learning platforms, directories, marketplaces, and more."
     },
     "s6": {
-      "title": "Enterprise Platforms",
-      "desc": "Scalable command centers with role-based access, real-time dashboards, and AI analytics. Built for operations that need to move fast."
+      "title": "Technology Consulting",
+      "desc": "Hourly consulting to improve your existing projects, solve technical problems, or plan your digital strategy."
     }
   },
   "diff": {
-    "tag": "Why NeuralForge",
-    "title": "We're Not an Agency. We're Your Unfair Advantage.",
-    "subtitle": "While other agencies build pretty pages, we build intelligent systems that generate revenue on autopilot.",
+    "tag": "Why Choose Us",
+    "title": "Software Engineers with Real Experience",
+    "subtitle": "We are not an agency with middlemen. We are developers who work directly on your project.",
     "d1": {
-      "title": "AI-First, Always",
-      "desc": "Every solution we build has AI at its core. Not as a buzzword — as the engine that drives measurable business outcomes."
+      "title": "Experience in Top-Tier Teams",
+      "desc": "We work as frontend team leads in tech companies. We apply industry best practices to your project."
     },
     "d2": {
-      "title": "Built for Speed & Scale",
-      "desc": "Sub-second load times, 99.99% uptime, and architecture that handles 10x growth without breaking. Your technology will never hold you back."
+      "title": "Modern and Scalable Technology",
+      "desc": "We use React, Next.js, Node.js, and the latest technologies. Your website will be fast, modern, and ready to grow."
     },
     "d3": {
-      "title": "Enterprise Security",
-      "desc": "SOC 2 compliant, GDPR ready, penetration tested. Your data and your customers' data are protected by military-grade infrastructure."
+      "title": "Direct and Close Communication",
+      "desc": "You speak directly with the person programming your project. No middlemen, no misunderstandings. In-person meetings in Valencia if you prefer."
     },
     "d4": {
-      "title": "Senior-Only Team",
-      "desc": "No juniors, no outsourcing. Every person on your project has 10+ years of experience and a track record with Fortune 500 clients."
+      "title": "We Know the Local Market",
+      "desc": "We understand the needs of businesses in Valencia and Alicante. Local SEO, languages, Spanish payment gateways, and everything else you need."
     }
   },
   "process": {
@@ -105,73 +105,77 @@
     "title2": "Revenue in 90 Days",
     "s1": {
       "title": "Discovery",
-      "desc": "We audit your business, competitors, and market. You get a clear picture of what's costing you money — and how AI fixes it."
+      "desc": "We audit your business, competitors, and market. You get a clear picture of what is costing you money — and how AI solves it."
     },
     "s2": {
       "title": "Strategy",
-      "desc": "Custom roadmap with projected ROI, timelines, and KPIs. You'll know exactly what you're getting before we write a single line of code."
+      "desc": "Custom roadmap with projected ROI, timelines, and KPIs. You will know exactly what you get before we write a single line of code."
     },
     "s3": {
       "title": "Build",
-      "desc": "Our senior engineers build your solution in agile sprints. Weekly demos, real-time progress, zero surprises."
+      "desc": "Our senior engineers build your solution in agile sprints. Weekly demos, real-time progress, and zero surprises."
     },
     "s4": {
-      "title": "Optimize",
-      "desc": "AI-driven testing and optimization. Every element is tuned for maximum conversion, speed, and search ranking."
+      "title": "Optimization",
+      "desc": "AI-driven testing and optimization. Every element is fine-tuned for maximum conversion, speed, and ranking."
     },
     "s5": {
       "title": "Scale",
-      "desc": "Launch is just the beginning. We continuously improve your systems, add AI capabilities, and ensure you stay ahead."
+      "desc": "Launch is just the beginning. We continuously improve your systems, add AI capabilities, and ensure you always stay ahead."
     }
   },
   "cases": {
-    "tag": "Proven Results",
-    "title1": "Real Companies.",
-    "title2": "Real Revenue Growth.",
+    "tag": "Completed Projects",
+    "title1": "Success Stories",
+    "title2": "in the Valencian Community",
     "c1": {
-      "title": "FinanceFlow",
-      "category": "Enterprise Fintech",
-      "desc": "AI-powered analytics platform that automated 80% of reporting and increased qualified leads by 240% in 6 months for a $50M financial services firm."
+      "title": "El Mediterráneo Restaurant",
+      "category": "Hospitality Valencia",
+      "desc": "Website with integrated online reservations and QR digital menu. Increased reservations by 180% and reduced phone calls, allowing staff to focus on service."
     },
     "c2": {
-      "title": "MediConnect",
-      "category": "Healthcare SaaS",
-      "desc": "Enterprise patient management platform with AI scheduling that reduced operational costs by $2M annually and improved patient satisfaction by 45%."
+      "title": "Costa Blanca Hotel",
+      "category": "Tourism Alicante",
+      "desc": "Direct booking system that eliminated booking commissions. Recovered the investment in 4 months with a 65% increase in direct bookings."
     },
     "c3": {
-      "title": "RetailEdge",
-      "category": "Enterprise E-Commerce",
-      "desc": "AI-driven e-commerce overhaul with automated inventory, smart chatbot, and SEO that turned a declining retailer into a market leader."
+      "title": "Fashion Boutique Valencia",
+      "category": "Local E-Commerce",
+      "desc": "Online store with optimized local SEO. Tripled online sales in 6 months and now sells across Spain with shipping from Valencia."
     }
   },
   "tech": {
     "tag": "Technology",
     "title1": "Enterprise-Grade",
     "title2": "Infrastructure",
-    "subtitle": "We use the same technology stack trusted by Google, Netflix, and Amazon — scaled for your business."
+    "subtitle": "We use the same technology trusted by Google, Netflix, and Amazon — scaled for your business."
   },
   "cta": {
     "title1": "Stop Losing Revenue to",
     "title2": "Outdated Technology",
-    "subtitle": "Every week you wait, your competitors get further ahead. Let's talk about how AI can transform your business — free, no obligation.",
+    "subtitle": "Every week you wait, your competition moves further ahead. Let's talk about how AI can transform your business — completely free, with no obligation.",
     "button": "Book Your Free Strategy Call →"
   },
   "footer": {
-    "tagline": "Forging intelligent digital solutions for companies ready to dominate their market.",
-    "services": "Solutions",
+    "tagline": "Professional web development and technology consulting in Valencia and Alicante by experienced software engineers.",
+    "services": "Services",
     "company": "Company",
-    "contact": "Get in Touch",
-    "s1": "AI-Powered Websites",
-    "s2": "Search Domination",
-    "s3": "Custom AI Assistants",
-    "s4": "Workflow Automation",
-    "s5": "Enterprise Platforms",
+    "contact": "Contact",
+    "s1": "Web Development",
+    "s2": "SEO and Positioning",
+    "s3": "Mobile Applications",
+    "s4": "E-commerce",
+    "s5": "Technology Consulting",
     "c1": "Our Process",
-    "c2": "Case Studies",
+    "c2": "Success Stories",
     "c3": "Contact",
-    "consultation": "Free Strategy Call",
-    "consultationDesc": "Book a 30-minute call with our AI strategy team. No pitch — just actionable insights for your business.",
-    "response": "Response within 24 hours"
+    "consultation": "Free Consultation",
+    "consultationDesc": "We'll chat about your project with no obligation. We'll give you ideas and a quote in under 48 hours.",
+    "response": "Response in under 48 hours",
+    "locations": "Location",
+    "valencia": "Valencia, Spain",
+    "alicante": "Alicante, Spain",
+    "serviceArea": "Service throughout the Valencian Community"
   },
   "contact": {
     "tag": "Let's Talk Growth",
@@ -184,17 +188,17 @@
     "serviceLabel": "What Do You Need?",
     "servicePlaceholder": "Select a solution",
     "serviceWebsite": "AI-Powered Website",
-    "serviceSeo": "Search Domination",
-    "serviceChatbot": "Custom AI Assistant",
+    "serviceSeo": "Search Dominance",
+    "serviceChatbot": "AI Assistant",
     "serviceRedesign": "Digital Transformation",
-    "serviceAutomation": "Workflow Automation",
+    "serviceAutomation": "Process Automation",
     "servicePlatform": "Enterprise Platform",
     "message": "Tell Us About Your Goals *",
     "messagePlaceholder": "What challenges are you facing? What does success look like for you?",
     "submit": "Send Message",
     "thankyou": {
       "title": "We're On It!",
-      "desc": "A senior strategist will review your project and get back to you within 24 hours with actionable insights."
+      "desc": "A senior strategist will review your project and get back to you in under 24 hours with actionable insights."
     },
     "info": {
       "title": "Direct Contact",
@@ -210,7 +214,8 @@
     }
   },
   "Metadata": {
-    "title": "NeuralForge - AI-Powered Digital Solutions",
-    "description": "We build AI systems, automated workflows, and high-converting websites for enterprise companies."
+    "title": "Web Development Valencia and Alicante | NeuralForge - App and Website Experts",
+    "description": "Professional web development in Valencia and Alicante. We create websites, mobile applications, and improve your business traffic. Tech consulting by expert software engineers.",
+    "keywords": "web development Valencia, web development Alicante, programmers Valencia, create company website Valencia, custom web apps, IT consulting, mobile app development, improve business SEO"
   }
 }

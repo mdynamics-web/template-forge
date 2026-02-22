@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 const Footer = () => {
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
     <footer className="bg-primary border-t border-primary-foreground/10">
@@ -39,16 +40,22 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-primary-foreground/50">
               <li><Link href="/#process" className="hover:text-secondary transition-colors">{t("footer.c1")}</Link></li>
               <li><Link href="/#cases" className="hover:text-secondary transition-colors">{t("footer.c2")}</Link></li>
-              <li><Link href="/contact" className="hover:text-secondary transition-colors">{t("footer.c3")}</Link></li>
+              <li><Link href={`/${locale}/contact`} className="hover:text-secondary transition-colors">{t("footer.c3")}</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-display font-bold text-primary-foreground mb-4">{t("footer.contact")}</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/50">
-              <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-secondary" /> hello@neuralforge.io</li>
-              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-secondary" /> +1 (555) 000-0000</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-secondary" /> San Francisco, CA</li>
+              <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-secondary" /> hola@neuralforge.es</li>
+              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-secondary" /> +34 XXX XXX XXX</li>
+              <li className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-secondary mt-0.5" /> 
+                <div>
+                  <div>Valencia, España</div>
+                  <div className="text-xs text-primary-foreground/30 mt-1">Servicio en toda la Comunidad Valenciana</div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

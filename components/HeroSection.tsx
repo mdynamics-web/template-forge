@@ -4,12 +4,13 @@ import { motion } from "framer-motion";
 import { ArrowRight, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   const t = useTranslations();
+  const locale = useLocale();
 
   const stats = [
     { value: t("hero.stat1.value"), label: t("hero.stat1.label") },
@@ -86,7 +87,7 @@ const HeroSection = () => {
           transition={{ duration: 0.7, delay: 0.45 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Link href="/contact">
+          <Link href={`/${locale}/contact`}>
             <Button
               size="lg"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan text-base px-8 py-6 font-bold group"

@@ -7,96 +7,96 @@
     "cta": "Agendar Llamada"
   },
   "hero": {
-    "badge": "Crecimiento Empresarial con IA",
-    "title1": "Tu Competencia Ya Está",
-    "title2": "Usando IA para Ganar.",
-    "title3": "¿Y Tú?",
-    "subtitle": "Construimos sistemas de IA, flujos automatizados y sitios web de alta conversión que ayudan a empresas medianas y grandes a crecer ingresos, reducir costos y escalar más rápido — sin contratar más personal.",
-    "cta1": "Agenda Tu Llamada Estratégica Gratis",
-    "cta2": "Descubre Cómo Funciona",
+    "badge": "Desarrollo Web Profesional en Valencia y Alicante",
+    "title1": "Haz Crecer Tu Negocio",
+    "title2": "con una Web Profesional",
+    "title3": "que Genera Clientes",
+    "subtitle": "Ingenieros informáticos con experiencia en empresas tecnológicas. Creamos páginas web, apps móviles y soluciones SEO que generan resultados reales para negocios en Valencia y Alicante: más clientes, mejor posicionamiento y procesos optimizados.",
+    "cta1": "Consulta Gratuita",
+    "cta2": "Ver Nuestro Trabajo",
     "stat1": {
-      "value": "$2.4B+",
-      "label": "Ingresos Generados para Clientes"
+      "value": "15+",
+      "label": "Proyectos Completados"
     },
     "stat2": {
-      "value": "98%",
-      "label": "Tasa de Retención de Clientes"
+      "value": "100%",
+      "label": "Clientes Satisfechos"
     },
     "stat3": {
-      "value": "3.5x",
-      "label": "ROI Promedio en 6 Meses"
+      "value": "10+",
+      "label": "Años de Experiencia Combinada"
     },
     "stat4": {
-      "value": "24/7",
-      "label": "Sistemas de IA Activos Sin Parar"
+      "value": "3.5X",
+      "label": "ROI Promedio en 6 Meses"
     }
   },
   "problems": {
-    "tag": "El Costo Real de No Actuar",
-    "title1": "Cada Día Sin IA,",
-    "title2": "Estás Perdiendo Dinero",
+    "tag": "¿Por Qué Necesitas una Web Profesional?",
+    "title1": "Tu Negocio Necesita",
+    "title2": "Presencia Digital Profesional",
     "card1": {
-      "title": "Tu Sitio Web Está Perdiendo Clientes",
-      "desc": "Un sitio web lento y desactualizado te cuesta millones en negocios perdidos. Mientras tu competencia usa plataformas con IA, tú sigues con un folleto digital del 2015."
+      "title": "Sin Web, Pierdes Clientes Cada Día",
+      "desc": "El 89% de los consumidores buscan online antes de comprar. Si tu negocio no tiene una web profesional o es difícil de encontrar, tus clientes están eligiendo a tu competencia."
     },
     "card2": {
-      "title": "Eres Invisible para los Tomadores de Decisión",
-      "desc": "Tus clientes ideales están buscando en línea ahora mismo — y encuentran a tu competencia. Sin estrategia SEO no hay pipeline. Sin pipeline no hay crecimiento."
+      "title": "Una Mala Web Daña Tu Reputación",
+      "desc": "Una página web lenta, antigua o que no funciona en móvil transmite falta de profesionalidad. Los clientes en Valencia y Alicante buscan negocios modernos y confiables."
     },
     "card3": {
-      "title": "Tu Equipo Pierde el 40% de Su Tiempo",
-      "desc": "Correos manuales, seguimiento en hojas de cálculo, sin automatización. Tu mejor talento pasa medio día en tareas que la IA resuelve en segundos."
+      "title": "Gestión Manual Limita Tu Crecimiento",
+      "desc": "Perder tiempo con reservas por teléfono, pedidos por WhatsApp o inventario en Excel te impide escalar. Una buena aplicación web automatiza y optimiza tu negocio."
     }
   },
   "services": {
-    "tag": "Soluciones con IA",
-    "title1": "Sistemas Inteligentes Que",
-    "title2": "Operan Tu Negocio",
-    "subtitle": "No construimos sitios web — construimos motores de ingresos impulsados por inteligencia artificial y automatización.",
+    "tag": "Nuestros Servicios",
+    "title1": "Desarrollo Web y",
+    "title2": "Apps Personalizadas",
+    "subtitle": "Creamos soluciones digitales a medida para negocios que quieren crecer. Desde páginas web profesionales hasta aplicaciones complejas.",
     "s1": {
-      "title": "Sitios Web con IA",
-      "desc": "Sitios que convierten visitantes en clientes automáticamente. CTAs inteligentes, contenido personalizado y analítica en tiempo real — para empresas de $5M–$500M."
+      "title": "Páginas Web Profesionales",
+      "desc": "Diseño y desarrollo web moderno, rápido y optimizado para móviles. Perfectas para restaurantes, hoteles, tiendas, clínicas y negocios en Valencia y Alicante."
     },
     "s2": {
-      "title": "Dominio en Búsquedas con IA",
-      "desc": "Que te encuentren los compradores correctos en el momento correcto. Nuestro SEO con IA posiciona tu empresa en la primera página — garantizado."
+      "title": "SEO y Posicionamiento Web",
+      "desc": "Mejoramos el tráfico de tu negocio para que te encuentren en Google. SEO local especializado para negocios en la Comunidad Valenciana."
     },
     "s3": {
-      "title": "Asistentes de IA Personalizados",
-      "desc": "Empleados de IA 24/7 entrenados con tus datos. Responden preguntas, califican leads, agendan reuniones y cierran ventas — mientras tu equipo descansa."
+      "title": "Aplicaciones Móviles",
+      "desc": "Desarrollo de apps iOS y Android para tu negocio. Gestión de pedidos, reservas, delivery o cualquier necesidad específica que tengas."
     },
     "s4": {
-      "title": "Transformación Digital",
-      "desc": "Modernización completa de tu presencia digital. Reemplazamos sistemas obsoletos con plataformas inteligentes que generan ROI medible."
+      "title": "E-commerce y Tiendas Online",
+      "desc": "Tiendas online completas con pasarela de pago, gestión de inventario y envíos. Vende tus productos 24/7 en toda España."
     },
     "s5": {
-      "title": "Automatización de Procesos",
-      "desc": "Elimina el trabajo manual en toda tu operación. CRM, correos, reportes, onboarding — todo automatizado, todo inteligente, todo ahorrándote dinero."
+      "title": "Aplicaciones Web Personalizadas",
+      "desc": "Sistemas a medida para tu negocio: gestión de reservas, CRM, plataformas de formación, directorios, marketplaces y más."
     },
     "s6": {
-      "title": "Plataformas Empresariales",
-      "desc": "Centros de comando escalables con acceso por roles, dashboards en tiempo real y analítica con IA. Para operaciones que necesitan moverse rápido."
+      "title": "Consultoría Tecnológica",
+      "desc": "Asesoramiento por horas para mejorar tus proyectos existentes, resolver problemas técnicos o planificar tu estrategia digital."
     }
   },
   "diff": {
-    "tag": "Por Qué NeuralForge",
-    "title": "No Somos una Agencia. Somos Tu Ventaja Competitiva.",
-    "subtitle": "Mientras otras agencias hacen páginas bonitas, nosotros construimos sistemas inteligentes que generan ingresos en automático.",
+    "tag": "Por Qué Elegirnos",
+    "title": "Ingenieros Informáticos con Experiencia Real",
+    "subtitle": "No somos una agencia con intermediarios. Somos desarrolladores que trabajan directamente en tu proyecto.",
     "d1": {
-      "title": "IA Primero, Siempre",
-      "desc": "Cada solución que construimos tiene IA en su núcleo. No como una palabra de moda — como el motor que impulsa resultados de negocio medibles."
+      "title": "Experiencia en Equipos Punteros",
+      "desc": "Trabajamos como responsables de equipos frontend en empresas tech. Aplicamos las mejores prácticas del sector a tu proyecto."
     },
     "d2": {
-      "title": "Velocidad y Escalabilidad",
-      "desc": "Carga en menos de un segundo, 99.99% uptime y arquitectura que soporta 10x de crecimiento sin fallar. Tu tecnología nunca será un obstáculo."
+      "title": "Tecnología Moderna y Escalable",
+      "desc": "Usamos React, Next.js, Node.js y las últimas tecnologías. Tu web será rápida, moderna y preparada para crecer."
     },
     "d3": {
-      "title": "Seguridad Empresarial",
-      "desc": "Cumplimiento SOC 2, preparados para GDPR, con pruebas de penetración. Tus datos y los de tus clientes están protegidos con infraestructura de grado militar."
+      "title": "Trato Directo y Cercano",
+      "desc": "Hablas directamente con quien programa tu proyecto. Sin intermediarios, sin malentendidos. Reuniones presenciales en Valencia si lo prefieres."
     },
     "d4": {
-      "title": "Equipo 100% Senior",
-      "desc": "Sin juniors, sin outsourcing. Cada persona en tu proyecto tiene 10+ años de experiencia y un historial con clientes Fortune 500."
+      "title": "Conocemos el Mercado Local",
+      "desc": "Entendemos las necesidades de los negocios en Valencia y Alicante. SEO local, idiomas, pasarelas de pago españolas y todo lo que necesitas."
     }
   },
   "process": {
@@ -125,23 +125,23 @@
     }
   },
   "cases": {
-    "tag": "Resultados Comprobados",
-    "title1": "Empresas Reales.",
-    "title2": "Crecimiento Real.",
+    "tag": "Proyectos Realizados",
+    "title1": "Casos de Éxito",
+    "title2": "en la Comunidad Valenciana",
     "c1": {
-      "title": "FinanceFlow",
-      "category": "Fintech Empresarial",
-      "desc": "Plataforma analítica con IA que automatizó el 80% de los reportes y aumentó leads calificados un 240% en 6 meses para una firma financiera de $50M."
+      "title": "Restaurante El Mediterráneo",
+      "category": "Hostelería Valencia",
+      "desc": "Web con reservas online integradas y carta digital QR. Aumentó las reservas un 180% y redujo llamadas telefónicas, permitiendo al personal centrarse en el servicio."
     },
     "c2": {
-      "title": "MediConnect",
-      "category": "SaaS de Salud",
-      "desc": "Plataforma empresarial de gestión de pacientes con IA que redujo costos operativos en $2M anuales y mejoró la satisfacción del paciente un 45%."
+      "title": "Hotel Costa Blanca",
+      "category": "Turismo Alicante",
+      "desc": "Sistema de reservas directo que eliminó comisiones de booking. Recuperó la inversión en 4 meses con un aumento del 65% en reservas directas."
     },
     "c3": {
-      "title": "RetailEdge",
-      "category": "E-Commerce Empresarial",
-      "desc": "Renovación de e-commerce impulsada por IA con inventario automatizado, chatbot inteligente y SEO que convirtió un retailer en declive en líder del mercado."
+      "title": "Boutique Fashion Valencia",
+      "category": "E-Commerce Local",
+      "desc": "Tienda online con SEO local optimizado. Triplicó las ventas online en 6 meses y ahora vende en toda España con envío desde Valencia."
     }
   },
   "tech": {
@@ -157,21 +157,25 @@
     "button": "Agenda Tu Llamada Estratégica Gratis →"
   },
   "footer": {
-    "tagline": "Forjando soluciones digitales inteligentes para empresas listas para dominar su mercado.",
-    "services": "Soluciones",
+    "tagline": "Desarrollo web profesional y consultoría tecnológica en Valencia y Alicante por ingenieros informáticos con experiencia.",
+    "services": "Servicios",
     "company": "Empresa",
     "contact": "Contacto",
-    "s1": "Sitios Web con IA",
-    "s2": "Dominio en Búsquedas",
-    "s3": "Asistentes de IA",
-    "s4": "Automatización",
-    "s5": "Plataformas Empresariales",
+    "s1": "Desarrollo Web",
+    "s2": "SEO y Posicionamiento",
+    "s3": "Aplicaciones Móviles",
+    "s4": "E-commerce",
+    "s5": "Consultoría Tecnológica",
     "c1": "Nuestro Proceso",
     "c2": "Casos de Éxito",
     "c3": "Contacto",
-    "consultation": "Llamada Estratégica Gratis",
-    "consultationDesc": "Agenda 30 minutos con nuestro equipo de estrategia de IA. Sin pitch — solo ideas accionables para tu negocio.",
-    "response": "Respuesta en menos de 24 horas"
+    "consultation": "Consulta Gratuita",
+    "consultationDesc": "Charlamos sobre tu proyecto sin compromiso. Te damos ideas y presupuesto en menos de 48 horas.",
+    "response": "Respuesta en menos de 48 horas",
+    "locations": "Ubicación",
+    "valencia": "Valencia, España",
+    "alicante": "Alicante, España",
+    "serviceArea": "Servicio en toda la Comunidad Valenciana"
   },
   "contact": {
     "tag": "Hablemos de Crecimiento",
@@ -210,7 +214,8 @@
     }
   },
   "Metadata": {
-    "title": "NeuralForge - Soluciones Digitales con IA",
-    "description": "Construimos sistemas de IA, flujos automatizados y sitios web de alta conversión para empresas."
+    "title": "Desarrollo Web Valencia y Alicante | NeuralForge - Expertos en Apps y Páginas Web",
+    "description": "Desarrollo web profesional en Valencia y Alicante. Creamos páginas web, aplicaciones móviles y mejoramos el tráfico de tu negocio. Consultoría tecnológica por ingenieros informáticos expertos.",
+    "keywords": "desarrollo web Valencia, desarrollo web Alicante, programadores Valencia, crear página web empresa Valencia, aplicaciones web personalizadas, consultoría informática, desarrollo app móvil, mejorar SEO negocio"
   }
 }

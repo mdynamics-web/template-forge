@@ -4,12 +4,13 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 const CTASection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
     <section className="section-padding bg-primary relative overflow-hidden" ref={ref}>
@@ -31,7 +32,7 @@ const CTASection = () => {
           {t("cta.title1")} <span className="gradient-text">{t("cta.title2")}</span>
         </h2>
         <p className="text-primary-foreground/60 text-lg mb-10 max-w-xl mx-auto">{t("cta.subtitle")}</p>
-        <Link href="/contact">
+        <Link href={`/${locale}/contact`}>
           <Button
             size="lg"
             className="bg-secondary text-secondary-foreground hover:bg-secondary/90 animate-pulse-glow text-base px-10 py-6 font-bold"
