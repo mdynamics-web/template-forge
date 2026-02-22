@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 220 43% 97%;
+    --foreground: 0 0% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
+
+    --primary: 217 75% 15%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 194 100% 50%;
+    --secondary-foreground: 217 75% 15%;
+
+    --muted: 220 30% 94%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 250 100% 69%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 194 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(217 75% 15%), hsl(194 100% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(217 75% 15%), hsl(250 100% 69%));
+    --gradient-glow: linear-gradient(135deg, hsl(194 100% 50%), hsl(250 100% 69%));
+    --shadow-glow-cyan: 0 0 30px -5px hsl(194 100% 50% / 0.4);
+    --shadow-glow-violet: 0 0 30px -5px hsl(250 100% 69% / 0.4);
+    --shadow-card: 0 4px 24px -4px hsl(217 75% 15% / 0.08);
+    --shadow-card-hover: 0 12px 40px -8px hsl(217 75% 15% / 0.15);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 217 75% 8%;
+    --foreground: 210 40% 98%;
+    --card: 217 60% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 217 60% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 194 100% 50%;
+    --primary-foreground: 217 75% 15%;
+    --secondary: 217 32% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 250 100% 69%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 32% 20%;
+    --input: 217 32% 20%;
+    --ring: 194 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', sans-serif;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-glow);
+  }
+
+  .gradient-bg {
+    background-image: var(--gradient-primary);
+  }
+
+  .gradient-accent-bg {
+    background-image: var(--gradient-accent);
+  }
+
+  .glow-cyan {
+    box-shadow: var(--shadow-glow-cyan);
+  }
+
+  .glow-violet {
+    box-shadow: var(--shadow-glow-violet);
+  }
+
+  .card-shadow {
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-shadow-hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .section-padding {
+    @apply px-6 py-20 md:px-12 lg:px-20 xl:px-32;
+  }
+
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl border border-border/50 rounded-2xl;
+  }
+}
+
+/* Animated gradient background for hero */
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.animated-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease-in-out infinite;
+}
+
+/* Flowing lines animation */
+@keyframes flow {
+  0% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.flowing-line {
+  stroke-dasharray: 1000;
+  animation: flow 3s ease-in-out infinite;
+}
+
+/* Counter animation */
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

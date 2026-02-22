@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "services": "Soluciones",
+    "process": "Proceso",
+    "cases": "Casos de Éxito",
+    "contact": "Contacto",
+    "cta": "Agendar Llamada"
+  },
+  "hero": {
+    "badge": "Crecimiento Empresarial con IA",
+    "title1": "Tu Competencia Ya Está",
+    "title2": "Usando IA para Ganar.",
+    "title3": "¿Y Tú?",
+    "subtitle": "Construimos sistemas de IA, flujos automatizados y sitios web de alta conversión que ayudan a empresas medianas y grandes a crecer ingresos, reducir costos y escalar más rápido — sin contratar más personal.",
+    "cta1": "Agenda Tu Llamada Estratégica Gratis",
+    "cta2": "Descubre Cómo Funciona",
+    "stat1": {
+      "value": "$2.4B+",
+      "label": "Ingresos Generados para Clientes"
+    },
+    "stat2": {
+      "value": "98%",
+      "label": "Tasa de Retención de Clientes"
+    },
+    "stat3": {
+      "value": "3.5x",
+      "label": "ROI Promedio en 6 Meses"
+    },
+    "stat4": {
+      "value": "24/7",
+      "label": "Sistemas de IA Activos Sin Parar"
+    }
+  },
+  "problems": {
+    "tag": "El Costo Real de No Actuar",
+    "title1": "Cada Día Sin IA,",
+    "title2": "Estás Perdiendo Dinero",
+    "card1": {
+      "title": "Tu Sitio Web Está Perdiendo Clientes",
+      "desc": "Un sitio web lento y desactualizado te cuesta millones en negocios perdidos. Mientras tu competencia usa plataformas con IA, tú sigues con un folleto digital del 2015."
+    },
+    "card2": {
+      "title": "Eres Invisible para los Tomadores de Decisión",
+      "desc": "Tus clientes ideales están buscando en línea ahora mismo — y encuentran a tu competencia. Sin estrategia SEO no hay pipeline. Sin pipeline no hay crecimiento."
+    },
+    "card3": {
+      "title": "Tu Equipo Pierde el 40% de Su Tiempo",
+      "desc": "Correos manuales, seguimiento en hojas de cálculo, sin automatización. Tu mejor talento pasa medio día en tareas que la IA resuelve en segundos."
+    }
+  },
+  "services": {
+    "tag": "Soluciones con IA",
+    "title1": "Sistemas Inteligentes Que",
+    "title2": "Operan Tu Negocio",
+    "subtitle": "No construimos sitios web — construimos motores de ingresos impulsados por inteligencia artificial y automatización.",
+    "s1": {
+      "title": "Sitios Web con IA",
+      "desc": "Sitios que convierten visitantes en clientes automáticamente. CTAs inteligentes, contenido personalizado y analítica en tiempo real — para empresas de $5M–$500M."
+    },
+    "s2": {
+      "title": "Dominio en Búsquedas con IA",
+      "desc": "Que te encuentren los compradores correctos en el momento correcto. Nuestro SEO con IA posiciona tu empresa en la primera página — garantizado."
+    },
+    "s3": {
+      "title": "Asistentes de IA Personalizados",
+      "desc": "Empleados de IA 24/7 entrenados con tus datos. Responden preguntas, califican leads, agendan reuniones y cierran ventas — mientras tu equipo descansa."
+    },
+    "s4": {
+      "title": "Transformación Digital",
+      "desc": "Modernización completa de tu presencia digital. Reemplazamos sistemas obsoletos con plataformas inteligentes que generan ROI medible."
+    },
+    "s5": {
+      "title": "Automatización de Procesos",
+      "desc": "Elimina el trabajo manual en toda tu operación. CRM, correos, reportes, onboarding — todo automatizado, todo inteligente, todo ahorrándote dinero."
+    },
+    "s6": {
+      "title": "Plataformas Empresariales",
+      "desc": "Centros de comando escalables con acceso por roles, dashboards en tiempo real y analítica con IA. Para operaciones que necesitan moverse rápido."
+    }
+  },
+  "diff": {
+    "tag": "Por Qué NeuralForge",
+    "title": "No Somos una Agencia. Somos Tu Ventaja Competitiva.",
+    "subtitle": "Mientras otras agencias hacen páginas bonitas, nosotros construimos sistemas inteligentes que generan ingresos en automático.",
+    "d1": {
+      "title": "IA Primero, Siempre",
+      "desc": "Cada solución que construimos tiene IA en su núcleo. No como una palabra de moda — como el motor que impulsa resultados de negocio medibles."
+    },
+    "d2": {
+      "title": "Velocidad y Escalabilidad",
+      "desc": "Carga en menos de un segundo, 99.99% uptime y arquitectura que soporta 10x de crecimiento sin fallar. Tu tecnología nunca será un obstáculo."
+    },
+    "d3": {
+      "title": "Seguridad Empresarial",
+      "desc": "Cumplimiento SOC 2, preparados para GDPR, con pruebas de penetración. Tus datos y los de tus clientes están protegidos con infraestructura de grado militar."
+    },
+    "d4": {
+      "title": "Equipo 100% Senior",
+      "desc": "Sin juniors, sin outsourcing. Cada persona en tu proyecto tiene 10+ años de experiencia y un historial con clientes Fortune 500."
+    }
+  },
+  "process": {
+    "tag": "Cómo Trabajamos",
+    "title1": "De Estrategia a",
+    "title2": "Ingresos en 90 Días",
+    "s1": {
+      "title": "Descubrimiento",
+      "desc": "Auditamos tu negocio, competidores y mercado. Obtienes una imagen clara de qué te está costando dinero — y cómo la IA lo soluciona."
+    },
+    "s2": {
+      "title": "Estrategia",
+      "desc": "Hoja de ruta personalizada con ROI proyectado, plazos y KPIs. Sabrás exactamente qué recibes antes de que escribamos una sola línea de código."
+    },
+    "s3": {
+      "title": "Construcción",
+      "desc": "Nuestros ingenieros senior construyen tu solución en sprints ágiles. Demos semanales, progreso en tiempo real, cero sorpresas."
+    },
+    "s4": {
+      "title": "Optimización",
+      "desc": "Testing y optimización impulsados por IA. Cada elemento está afinado para máxima conversión, velocidad y posicionamiento."
+    },
+    "s5": {
+      "title": "Escalar",
+      "desc": "El lanzamiento es solo el principio. Mejoramos continuamente tus sistemas, agregamos capacidades de IA y aseguramos que siempre estés adelante."
+    }
+  },
+  "cases": {
+    "tag": "Resultados Comprobados",
+    "title1": "Empresas Reales.",
+    "title2": "Crecimiento Real.",
+    "c1": {
+      "title": "FinanceFlow",
+      "category": "Fintech Empresarial",
+      "desc": "Plataforma analítica con IA que automatizó el 80% de los reportes y aumentó leads calificados un 240% en 6 meses para una firma financiera de $50M."
+    },
+    "c2": {
+      "title": "MediConnect",
+      "category": "SaaS de Salud",
+      "desc": "Plataforma empresarial de gestión de pacientes con IA que redujo costos operativos en $2M anuales y mejoró la satisfacción del paciente un 45%."
+    },
+    "c3": {
+      "title": "RetailEdge",
+      "category": "E-Commerce Empresarial",
+      "desc": "Renovación de e-commerce impulsada por IA con inventario automatizado, chatbot inteligente y SEO que convirtió un retailer en declive en líder del mercado."
+    }
+  },
+  "tech": {
+    "tag": "Tecnología",
+    "title1": "Infraestructura de",
+    "title2": "Nivel Empresarial",
+    "subtitle": "Usamos la misma tecnología en la que confían Google, Netflix y Amazon — escalada para tu negocio."
+  },
+  "cta": {
+    "title1": "Deja de Perder Ingresos por",
+    "title2": "Tecnología Obsoleta",
+    "subtitle": "Cada semana que esperas, tu competencia avanza más. Hablemos de cómo la IA puede transformar tu negocio — gratis, sin compromiso.",
+    "button": "Agenda Tu Llamada Estratégica Gratis →"
+  },
+  "footer": {
+    "tagline": "Forjando soluciones digitales inteligentes para empresas listas para dominar su mercado.",
+    "services": "Soluciones",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "s1": "Sitios Web con IA",
+    "s2": "Dominio en Búsquedas",
+    "s3": "Asistentes de IA",
+    "s4": "Automatización",
+    "s5": "Plataformas Empresariales",
+    "c1": "Nuestro Proceso",
+    "c2": "Casos de Éxito",
+    "c3": "Contacto",
+    "consultation": "Llamada Estratégica Gratis",
+    "consultationDesc": "Agenda 30 minutos con nuestro equipo de estrategia de IA. Sin pitch — solo ideas accionables para tu negocio.",
+    "response": "Respuesta en menos de 24 horas"
+  },
+  "contact": {
+    "tag": "Hablemos de Crecimiento",
+    "title1": "¿Listo para Poner la IA a Trabajar",
+    "title2": "para Tu Negocio?",
+    "subtitle": "Cuéntanos sobre tus objetivos. Te mostraremos exactamente cómo la IA y la automatización pueden acelerar tus ingresos.",
+    "name": "Nombre Completo *",
+    "email": "Email Corporativo *",
+    "company": "Nombre de Empresa",
+    "serviceLabel": "¿Qué Necesitas?",
+    "servicePlaceholder": "Selecciona una solución",
+    "serviceWebsite": "Sitio Web con IA",
+    "serviceSeo": "Dominio en Búsquedas",
+    "serviceChatbot": "Asistente de IA",
+    "serviceRedesign": "Transformación Digital",
+    "serviceAutomation": "Automatización de Procesos",
+    "servicePlatform": "Plataforma Empresarial",
+    "message": "Cuéntanos Sobre Tus Objetivos *",
+    "messagePlaceholder": "¿Qué desafíos enfrentas? ¿Cómo se ve el éxito para ti?",
+    "submit": "Enviar Mensaje",
+    "thankyou": {
+      "title": "¡Estamos en Ello!",
+      "desc": "Un estratega senior revisará tu proyecto y te responderá en menos de 24 horas con ideas accionables."
+    },
+    "info": {
+      "title": "Contacto Directo",
+      "email": {
+        "label": "Email"
+      },
+      "phone": {
+        "label": "Teléfono"
+      },
+      "location": {
+        "label": "Sede Central"
+      }
+    }
+  },
+  "Metadata": {
+    "title": "NeuralForge - Soluciones Digitales con IA",
+    "description": "Construimos sistemas de IA, flujos automatizados y sitios web de alta conversión para empresas."
+  }
+}
