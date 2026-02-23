@@ -41,6 +41,8 @@ const Footer = () => {
               <li><Link href="/#process" className="hover:text-secondary transition-colors">{t("footer.c1")}</Link></li>
               <li><Link href="/#cases" className="hover:text-secondary transition-colors">{t("footer.c2")}</Link></li>
               <li><Link href={`/${locale}/contact`} className="hover:text-secondary transition-colors">{t("footer.c3")}</Link></li>
+              <li><Link href={`/${locale}/desarrollo-web-alicante`} className="hover:text-secondary transition-colors">Desarrollo Web Alicante</Link></li>
+              <li><Link href={`/${locale}/desarrollo-web-valencia`} className="hover:text-secondary transition-colors">Desarrollo Web Valencia</Link></li>
             </ul>
           </div>
 
