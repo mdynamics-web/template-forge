@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import LocationPage from "@/components/LocationPage";
+import { LocationPage } from "@/components/location";
 
 export const metadata: Metadata = {
   title: "Diseño Web y SEO en Alicante | Agencia de IA y Automatización – NeuralForge",

@@ -196,6 +196,8 @@
     "message": "Tell Us About Your Goals *",
     "messagePlaceholder": "What challenges are you facing? What does success look like for you?",
     "submit": "Send Message",
+    "error": "Form Error",
+    "errorMessage": "Please complete all required fields",
     "thankyou": {
       "title": "We're On It!",
       "desc": "A senior strategist will review your project and get back to you in under 24 hours with actionable insights."
@@ -217,5 +219,366 @@
     "title": "Web Development Valencia and Alicante | NeuralForge - App and Website Experts",
     "description": "Professional web development in Valencia and Alicante. We create websites, mobile applications, and improve your business traffic. Tech consulting by expert software engineers.",
     "keywords": "web development Valencia, web development Alicante, programmers Valencia, create company website Valencia, custom web apps, IT consulting, mobile app development, improve business SEO"
+  },
+  "location": {
+    "alicante": {
+      "city": "Alicante",
+      "metaTitle": "Web Design and SEO in Alicante | AI and Automation Agency – NeuralForge",
+      "metaDescription": "Web design agency, local SEO, and AI automation in Alicante. We create high-performance websites and intelligent chatbots for growing businesses.",
+      "hero": {
+        "badge": "Digital AI Agency in Alicante",
+        "title1": "Professional Web Design in",
+        "titleCity": "Alicante",
+        "title2": "for Businesses That Want to Dominate",
+        "subtitle": "We help Alicante businesses multiply their revenue with high-performance websites, dominant local SEO, and intelligent AI automation.",
+        "cta": "Request Free Consultation",
+        "cta2": "See Results"
+      },
+      "reality": {
+        "tag": "The Reality in Alicante",
+        "title": "73% of businesses in Alicante lose clients due to their digital presence",
+        "stats": {
+          "0": "of businesses with outdated websites in Alicante",
+          "1": "of clients search on Google before contacting",
+          "2": "weekly hours lost on manual tasks",
+          "3": "to lose a client due to slow website"
+        },
+        "statements": {
+          "0": "Your clients are searching for 'services in Alicante' right now — and finding your competition.",
+          "1": "An outdated website costs more clients than having no website. First impression is digital.",
+          "2": "Your team loses 20+ hours weekly on tasks that AI solves in minutes."
+        }
+      },
+      "services": {
+        "tag": "Solutions in Alicante",
+        "title": "Technology That Works for Your Business",
+        "items": {
+          "0": {
+            "title": "Corporate Web Design",
+            "desc": "Professional websites optimized to convert visitors into clients. Responsive design and ultra-fast loading speed.",
+            "expandedDesc": "Each project includes UX analysis of the Alicante market, speed optimization, mobile-first design, and personalized conversion strategy."
+          },
+          "1": {
+            "title": "Local SEO in Alicante",
+            "desc": "Dominate local searches in Alicante and province. Appear first when your clients search for you.",
+            "expandedDesc": "Google Maps, local directories, keyword-optimized content, and strategic link building to position you as a leader in your sector."
+          },
+          "2": {
+            "title": "AI Chatbots",
+            "desc": "24/7 virtual assistants that respond, qualify leads, and schedule meetings automatically.",
+            "expandedDesc": "Trained with your company data and the Alicante market. Serve in Spanish and English — ideal for tourism and international commerce."
+          },
+          "3": {
+            "title": "Process Automation",
+            "desc": "Intelligent CRM, email flows, and AI forms that eliminate manual work.",
+            "expandedDesc": "Integration with your current tools: HubSpot, Salesforce, WhatsApp Business. We reduce manual work by 60%."
+          },
+          "4": {
+            "title": "Web Redesign",
+            "desc": "Transform your outdated site into a modern platform that generates trust and converts.",
+            "expandedDesc": "Secure migration, SEO redirects, new responsive design, and immediate improvement in speed and conversion."
+          },
+          "5": {
+            "title": "Advanced Platforms",
+            "desc": "Admin panels, user roles, dashboards, and scalable architecture for enterprises.",
+            "expandedDesc": "Full-stack development with APIs, third-party integrations, enterprise security, and continuous support."
+          }
+        }
+      },
+      "caseStudy": {
+        "businessName": "Costa Blanca Distributions",
+        "industry": "Local distribution and logistics",
+        "before": {
+          "title": "Before NeuralForge",
+          "items": {
+            "0": {
+              "label": "Monthly visits",
+              "value": "340"
+            },
+            "1": {
+              "label": "Qualified leads",
+              "value": "5/month"
+            },
+            "2": {
+              "label": "Google position",
+              "value": "Page 4+"
+            },
+            "3": {
+              "label": "Response time",
+              "value": "48 hours"
+            }
+          }
+        },
+        "after": {
+          "title": "After NeuralForge",
+          "items": {
+            "0": {
+              "label": "Monthly visits",
+              "value": "4,200"
+            },
+            "1": {
+              "label": "Qualified leads",
+              "value": "62/month"
+            },
+            "2": {
+              "label": "Google position",
+              "value": "Top 3"
+            },
+            "3": {
+              "label": "Response time",
+              "value": "Instant (AI)"
+            }
+          }
+        },
+        "metrics": {
+          "0": "Traffic increase",
+          "1": "More qualified leads",
+          "2": "ROI in 6 months"
+        }
+      },
+      "process": {
+        "tag": "Our Process",
+        "title": "From Idea to Growth in 90 Days",
+        "steps": {
+          "0": {
+            "title": "Audit",
+            "desc": "We analyze your business, competition in Alicante, and opportunities."
+          },
+          "1": {
+            "title": "Strategy",
+            "desc": "Roadmap with projected ROI and KPIs for your sector."
+          },
+          "2": {
+            "title": "Development",
+            "desc": "Agile sprints with weekly demos and full transparency."
+          },
+          "3": {
+            "title": "Optimization",
+            "desc": "AI-powered testing and optimization for maximum conversion."
+          },
+          "4": {
+            "title": "Growth",
+            "desc": "Continuous improvement, new capabilities, and scaling."
+          }
+        }
+      },
+      "authority": {
+        "tag": "Why NeuralForge in Alicante?",
+        "title": "We're Not Just Another Agency. We're Your Competitive Advantage.",
+        "items": {
+          "0": {
+            "title": "Understanding of the Alicante Market",
+            "desc": "Tourism, technology, agriculture, commerce — we understand every sector and how to position your business."
+          },
+          "1": {
+            "title": "Real AI and Automation",
+            "desc": "We don't sell buzzwords. We implement AI systems that generate measurable ROI from month one."
+          },
+          "2": {
+            "title": "Scalable Infrastructure",
+            "desc": "From downtown startup to provincial corporation — solutions that grow with you."
+          },
+          "3": {
+            "title": "100% Senior Team",
+            "desc": "Every Alicante project receives direct attention from experts with 10+ years of experience."
+          }
+        }
+      },
+      "cta": {
+        "title1": "Ready to Transform Your Business in",
+        "titleCity": "Alicante",
+        "title2": "?",
+        "subtitle": "Every week without an effective digital strategy is money left on the table. We only accept 3 new projects per month.",
+        "button": "Request Free Consultation →",
+        "urgency": "⚡ Limited spots — March 2026 almost full"
+      },
+      "testimonialPlaceholder": {
+        "quote": "NeuralForge completely transformed our online presence. In 4 months we went from invisible on Google to receiving triple the quote requests.",
+        "author": "General Manager",
+        "company": "Service Company, Alicante"
+      }
+    },
+    "valencia": {
+      "city": "Valencia",
+      "metaTitle": "Web Development and SEO in Valencia | AI and Automation Agency – NeuralForge",
+      "metaDescription": "Web development agency, local SEO, and AI automation in Valencia. We create high-performance websites and intelligent chatbots for growing businesses.",
+      "hero": {
+        "badge": "Digital AI Agency in Valencia",
+        "title1": "Professional Web Development in",
+        "titleCity": "Valencia",
+        "title2": "for Businesses That Want to Dominate",
+        "subtitle": "We help Valencia businesses multiply their revenue with high-performance websites, dominant local SEO, and intelligent AI automation.",
+        "cta": "Request Free Consultation",
+        "cta2": "See Results"
+      },
+      "reality": {
+        "tag": "The Reality in Valencia",
+        "title": "73% of businesses in Valencia lose clients due to their digital presence",
+        "stats": {
+          "0": "of businesses with outdated websites in Valencia",
+          "1": "of clients search on Google before contacting",
+          "2": "weekly hours lost on manual tasks",
+          "3": "to lose a client due to slow website"
+        },
+        "statements": {
+          "0": "Your clients are searching for 'services in Valencia' right now — and finding your competition.",
+          "1": "An outdated website costs more clients than having no website. First impression is digital.",
+          "2": "Your team loses 20+ hours weekly on tasks that AI solves in minutes."
+        }
+      },
+      "services": {
+        "tag": "Solutions in Valencia",
+        "title": "Technology That Works for Your Business",
+        "items": {
+          "0": {
+            "title": "Corporate Web Design",
+            "desc": "Professional websites optimized to convert visitors into clients. Responsive design and ultra-fast loading speed.",
+            "expandedDesc": "Each project includes UX analysis of the Valencia market, speed optimization, mobile-first design, and personalized conversion strategy."
+          },
+          "1": {
+            "title": "Local SEO in Valencia",
+            "desc": "Dominate local searches in Valencia and province. Appear first when your clients search for you.",
+            "expandedDesc": "Google Maps, local directories, keyword-optimized content, and strategic link building to position you as a leader in your sector."
+          },
+          "2": {
+            "title": "AI Chatbots",
+            "desc": "24/7 virtual assistants that respond, qualify leads, and schedule meetings automatically.",
+            "expandedDesc": "Trained with your company data and the Valencia market. Serve in Valencian, Spanish, and English — ideal for tourism and international commerce."
+          },
+          "3": {
+            "title": "Process Automation",
+            "desc": "Intelligent CRM, email flows, and AI forms that eliminate manual work.",
+            "expandedDesc": "Integration with your current tools: HubSpot, Salesforce, WhatsApp Business. We reduce manual work by 60%."
+          },
+          "4": {
+            "title": "Web Redesign",
+            "desc": "Transform your outdated site into a modern platform that generates trust and converts.",
+            "expandedDesc": "Secure migration, SEO redirects, new responsive design, and immediate improvement in speed and conversion."
+          },
+          "5": {
+            "title": "Advanced Platforms",
+            "desc": "Admin panels, user roles, dashboards, and scalable architecture for enterprises.",
+            "expandedDesc": "Full-stack development with APIs, third-party integrations, enterprise security, and continuous support."
+          }
+        }
+      },
+      "caseStudy": {
+        "businessName": "Mediterranean Distributions",
+        "industry": "Local distribution and logistics",
+        "before": {
+          "title": "Before NeuralForge",
+          "items": {
+            "0": {
+              "label": "Monthly visits",
+              "value": "290"
+            },
+            "1": {
+              "label": "Qualified leads",
+              "value": "4/month"
+            },
+            "2": {
+              "label": "Google position",
+              "value": "Page 4+"
+            },
+            "3": {
+              "label": "Response time",
+              "value": "48 hours"
+            }
+          }
+        },
+        "after": {
+          "title": "After NeuralForge",
+          "items": {
+            "0": {
+              "label": "Monthly visits",
+              "value": "3,850"
+            },
+            "1": {
+              "label": "Qualified leads",
+              "value": "58/month"
+            },
+            "2": {
+              "label": "Google position",
+              "value": "Top 3"
+            },
+            "3": {
+              "label": "Response time",
+              "value": "Instant (AI)"
+            }
+          }
+        },
+        "metrics": {
+          "0": "Traffic increase",
+          "1": "More qualified leads",
+          "2": "ROI in 6 months"
+        }
+      },
+      "process": {
+        "tag": "Our Process",
+        "title": "From Idea to Growth in 90 Days",
+        "steps": {
+          "0": {
+            "title": "Audit",
+            "desc": "We analyze your business, competition in Valencia, and opportunities."
+          },
+          "1": {
+            "title": "Strategy",
+            "desc": "Roadmap with projected ROI and KPIs for your sector."
+          },
+          "2": {
+            "title": "Development",
+            "desc": "Agile sprints with weekly demos and full transparency."
+          },
+          "3": {
+            "title": "Optimization",
+            "desc": "AI-powered testing and optimization for maximum conversion."
+          },
+          "4": {
+            "title": "Growth",
+            "desc": "Continuous improvement, new capabilities, and scaling."
+          }
+        }
+      },
+      "authority": {
+        "tag": "Why NeuralForge in Valencia?",
+        "title": "We're Not Just Another Agency. We're Your Competitive Advantage.",
+        "items": {
+          "0": {
+            "title": "Understanding of the Valencia Market",
+            "desc": "Tourism, technology, industry, commerce — we understand every sector and how to position your business."
+          },
+          "1": {
+            "title": "Real AI and Automation",
+            "desc": "We don't sell buzzwords. We implement AI systems that generate measurable ROI from month one."
+          },
+          "2": {
+            "title": "Scalable Infrastructure",
+            "desc": "From downtown startup to provincial corporation — solutions that grow with you."
+          },
+          "3": {
+            "title": "100% Senior Team",
+            "desc": "Every Valencia project receives direct attention from experts with 10+ years of experience."
+          }
+        }
+      },
+      "cta": {
+        "title1": "Ready to Transform Your Business in",
+        "titleCity": "Valencia",
+        "title2": "?",
+        "subtitle": "Every week without an effective digital strategy is money left on the table. We only accept 3 new projects per month.",
+        "button": "Request Free Consultation →",
+        "urgency": "⚡ Limited spots — March 2026 almost full"
+      },
+      "testimonialPlaceholder": {
+        "quote": "NeuralForge completely transformed our online presence. In 4 months we went from invisible on Google to receiving triple the quote requests.",
+        "author": "General Manager",
+        "company": "Service Company, Valencia"
+      }
+    },
+    "stickyCta": {
+      "available": "Spots available — March 2026",
+      "limitedSpots": "Only {count} projects this month",
+      "button": "Request Consultation"
+    }
   }
 }
