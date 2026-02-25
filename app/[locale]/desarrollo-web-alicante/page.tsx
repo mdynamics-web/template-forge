@@ -13,5 +13,5 @@ export const metadata: Metadata = {
 };
 
 export default function DesarrolloWebAlicante() {
-  return <LocationPage />;
+  return <LocationPage city="alicante" />;
 }

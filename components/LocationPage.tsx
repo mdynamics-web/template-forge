@@ -18,6 +18,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useToast } from "@/hooks/use-toast";
 
+/* ── Types ── */
+export type CityType = "alicante" | "valencia";
+
+interface LocationPageProps {
+  city?: CityType;
+}
+
 /* ── Animated Counter ── */
 const AnimatedCounter = ({ value, suffix = "", prefix = "" }: { value: number; suffix?: string; prefix?: string }) => {
   const ref = useRef(null);
@@ -147,112 +154,227 @@ const FloatingDashboard = () => (
   </motion.div>
 );
 
-/* ── Location Data for Alicante ── */
-const locationData = {
-  city: "Alicante",
-  metaTitle: "Diseño Web y SEO en Alicante | Agencia de IA y Automatización – NeuralForge",
-  metaDescription: "Agencia de diseño web, SEO local y automatización con IA en Alicante. Creamos sitios web de alto rendimiento y chatbots inteligentes para empresas que quieren crecer.",
-  hero: {
-    badge: "Agencia Digital con IA en Alicante",
-    title1: "Diseño Web Profesional en",
-    titleCity: "Alicante",
-    title2: "para Empresas que Quieren Dominar",
-    subtitle: "Ayudamos a empresas alicantinas a multiplicar sus ingresos con sitios web de alto rendimiento, SEO local dominante y automatización inteligente con IA.",
-    cta: "Solicitar Consultoría Gratuita",
-    cta2: "Ver Resultados",
-  },
-  reality: {
-    tag: "La Realidad en Alicante",
-    title: "El 73% de las empresas en Alicante pierden clientes por su presencia digital",
-    stats: [
-      { value: 73, suffix: "%", label: "de empresas con webs obsoletas en Alicante" },
-      { value: 68, suffix: "%", label: "de clientes buscan en Google antes de contactar" },
-      { value: 20, suffix: "h", label: "semanales perdidas en tareas manuales" },
-      { value: 4, suffix: "seg", label: "para perder un cliente por web lenta" },
-    ],
-    statements: [
-      { icon: AlertTriangle, text: "Tus clientes buscan 'servicios en Alicante' ahora mismo — y encuentran a tu competencia." },
-      { icon: TrendingDown, text: "Una web obsoleta cuesta más clientes que no tener web. La primera impresión es digital." },
-      { icon: Clock, text: "Tu equipo pierde 20+ horas semanales en tareas que la IA resuelve en minutos." },
-    ],
-  },
-  services: {
-    tag: "Soluciones en Alicante",
-    title: "Tecnología que Trabaja para Tu Empresa",
-    items: [
-      { icon: Layout, title: "Diseño Web Corporativo", desc: "Sitios web profesionales optimizados para convertir visitantes en clientes. Diseño responsive y velocidad de carga ultrarrápida.", expandedDesc: "Cada proyecto incluye análisis UX del mercado alicantino, optimización de velocidad, diseño mobile-first y estrategia de conversión personalizada." },
-      { icon: Search, title: "SEO Local en Alicante", desc: "Domina las búsquedas locales en Alicante y provincia. Aparece primero cuando tus clientes te buscan.", expandedDesc: "Google Maps, directorios locales, contenido optimizado por keywords y link building estratégico para posicionarte como líder en tu sector." },
-      { icon: Bot, title: "Chatbots con IA", desc: "Asistentes virtuales 24/7 que responden, cualifican leads y agendan reuniones automáticamente.", expandedDesc: "Entrenados con datos de tu empresa y del mercado alicantino. Atienden en español e inglés — ideal para turismo y comercio internacional." },
-      { icon: Settings, title: "Automatización de Procesos", desc: "CRM inteligente, email flows y formularios con IA que eliminan el trabajo manual.", expandedDesc: "Integración con tus herramientas actuales: HubSpot, Salesforce, WhatsApp Business. Reducimos trabajo manual en un 60%." },
-      { icon: RefreshCw, title: "Rediseño Web", desc: "Transformamos tu sitio obsoleto en una plataforma moderna que genera confianza y convierte.", expandedDesc: "Migración segura, redirecciones SEO, nuevo diseño responsive y mejora inmediata en velocidad y conversión." },
-      { icon: Cpu, title: "Plataformas Avanzadas", desc: "Paneles de admin, roles de usuario, dashboards y arquitectura escalable para empresas.", expandedDesc: "Desarrollo full-stack con APIs, integraciones de terceros, seguridad enterprise y soporte continuo." },
-    ],
-  },
-  caseStudy: {
-    businessName: "Distribuciones Costa Blanca",
-    industry: "Distribución y logística local",
-    before: {
-      title: "Antes de NeuralForge",
-      items: [
-        { label: "Visitas mensuales", value: "340" },
-        { label: "Leads cualificados", value: "5/mes" },
-        { label: "Posición en Google", value: "Página 4+" },
-        { label: "Tiempo respuesta", value: "48 horas" },
-      ],
+/* ── Location Data ── */
+const getLocationData = (city: CityType = "alicante") => {
+  const cityConfigs = {
+    alicante: {
+      city: "Alicante",
+      metaTitle: "Diseño Web y SEO en Alicante | Agencia de IA y Automatización – NeuralForge",
+      metaDescription: "Agencia de diseño web, SEO local y automatización con IA en Alicante. Creamos sitios web de alto rendimiento y chatbots inteligentes para empresas que quieren crecer.",
+      hero: {
+        badge: "Agencia Digital con IA en Alicante",
+        title1: "Diseño Web Profesional en",
+        titleCity: "Alicante",
+        title2: "para Empresas que Quieren Dominar",
+        subtitle: "Ayudamos a empresas alicantinas a multiplicar sus ingresos con sitios web de alto rendimiento, SEO local dominante y automatización inteligente con IA.",
+        cta: "Solicitar Consultoría Gratuita",
+        cta2: "Ver Resultados",
+      },
+      reality: {
+        tag: "La Realidad en Alicante",
+        title: "El 73% de las empresas en Alicante pierden clientes por su presencia digital",
+        stats: [
+          { value: 73, suffix: "%", label: "de empresas con webs obsoletas en Alicante" },
+          { value: 68, suffix: "%", label: "de clientes buscan en Google antes de contactar" },
+          { value: 20, suffix: "h", label: "semanales perdidas en tareas manuales" },
+          { value: 4, suffix: "seg", label: "para perder un cliente por web lenta" },
+        ],
+        statements: [
+          { icon: AlertTriangle, text: "Tus clientes buscan 'servicios en Alicante' ahora mismo — y encuentran a tu competencia." },
+          { icon: TrendingDown, text: "Una web obsoleta cuesta más clientes que no tener web. La primera impresión es digital." },
+          { icon: Clock, text: "Tu equipo pierde 20+ horas semanales en tareas que la IA resuelve en minutos." },
+        ],
+      },
+      services: {
+        tag: "Soluciones en Alicante",
+        title: "Tecnología que Trabaja para Tu Empresa",
+        items: [
+          { icon: Layout, title: "Diseño Web Corporativo", desc: "Sitios web profesionales optimizados para convertir visitantes en clientes. Diseño responsive y velocidad de carga ultrarrápida.", expandedDesc: "Cada proyecto incluye análisis UX del mercado alicantino, optimización de velocidad, diseño mobile-first y estrategia de conversión personalizada." },
+          { icon: Search, title: "SEO Local en Alicante", desc: "Domina las búsquedas locales en Alicante y provincia. Aparece primero cuando tus clientes te buscan.", expandedDesc: "Google Maps, directorios locales, contenido optimizado por keywords y link building estratégico para posicionarte como líder en tu sector." },
+          { icon: Bot, title: "Chatbots con IA", desc: "Asistentes virtuales 24/7 que responden, cualifican leads y agendan reuniones automáticamente.", expandedDesc: "Entrenados con datos de tu empresa y del mercado alicantino. Atienden en español e inglés — ideal para turismo y comercio internacional." },
+          { icon: Settings, title: "Automatización de Procesos", desc: "CRM inteligente, email flows y formularios con IA que eliminan el trabajo manual.", expandedDesc: "Integración con tus herramientas actuales: HubSpot, Salesforce, WhatsApp Business. Reducimos trabajo manual en un 60%." },
+          { icon: RefreshCw, title: "Rediseño Web", desc: "Transformamos tu sitio obsoleto en una plataforma moderna que genera confianza y convierte.", expandedDesc: "Migración segura, redirecciones SEO, nuevo diseño responsive y mejora inmediata en velocidad y conversión." },
+          { icon: Cpu, title: "Plataformas Avanzadas", desc: "Paneles de admin, roles de usuario, dashboards y arquitectura escalable para empresas.", expandedDesc: "Desarrollo full-stack con APIs, integraciones de terceros, seguridad enterprise y soporte continuo." },
+        ],
+      },
+      caseStudy: {
+        businessName: "Distribuciones Costa Blanca",
+        industry: "Distribución y logística local",
+        before: {
+          title: "Antes de NeuralForge",
+          items: [
+            { label: "Visitas mensuales", value: "340" },
+            { label: "Leads cualificados", value: "5/mes" },
+            { label: "Posición en Google", value: "Página 4+" },
+            { label: "Tiempo respuesta", value: "48 horas" },
+          ],
+        },
+        after: {
+          title: "Después de NeuralForge",
+          items: [
+            { label: "Visitas mensuales", value: "4,200" },
+            { label: "Leads cualificados", value: "62/mes" },
+            { label: "Posición en Google", value: "Top 3" },
+            { label: "Tiempo respuesta", value: "Instantáneo (IA)" },
+          ],
+        },
+        metrics: [
+          { value: 1135, suffix: "%", label: "Aumento de tráfico" },
+          { value: 12, suffix: "x", label: "Más leads cualificados" },
+          { value: 340, suffix: "%", label: "ROI en 6 meses" },
+        ],
+      },
+      process: {
+        tag: "Nuestro Proceso",
+        title: "De la Idea al Crecimiento en 90 Días",
+        steps: [
+          { icon: Search, title: "Auditoría", desc: "Analizamos tu negocio, competencia en Alicante y oportunidades.", color: "from-secondary to-secondary" },
+          { icon: Target, title: "Estrategia", desc: "Hoja de ruta con ROI proyectado y KPIs de tu sector.", color: "from-secondary to-accent" },
+          { icon: Code2, title: "Desarrollo", desc: "Sprints ágiles con demos semanales y total transparencia.", color: "from-accent to-accent" },
+          { icon: BarChart3, title: "Optimización", desc: "Testing y optimización con IA para máxima conversión.", color: "from-accent to-secondary" },
+          { icon: Rocket, title: "Crecimiento", desc: "Mejora continua, nuevas capacidades y escalado.", color: "from-secondary to-secondary" },
+        ],
+      },
+      authority: {
+        tag: "¿Por Qué NeuralForge en Alicante?",
+        title: "No Somos una Agencia Más. Somos Tu Ventaja Competitiva.",
+        items: [
+          { icon: MapPin, title: "Conocimiento del Mercado Alicantino", desc: "Turismo, tecnología, agricultura, comercio — entendemos cada sector y cómo posicionar tu empresa." },
+          { icon: Cpu, title: "IA y Automatización Real", desc: "No vendemos buzzwords. Implementamos sistemas de IA que generan ROI medible desde el primer mes." },
+          { icon: Shield, title: "Infraestructura Escalable", desc: "Desde la startup del centro hasta la corporación provincial — soluciones que crecen contigo." },
+          { icon: Users, title: "Equipo 100% Senior", desc: "Cada proyecto en Alicante recibe atención directa de expertos con 10+ años de experiencia." },
+        ],
+      },
+      cta: {
+        title1: "¿Listo para Transformar Tu Empresa en",
+        titleCity: "Alicante",
+        title2: "?",
+        subtitle: "Cada semana sin una estrategia digital efectiva es dinero que dejas en la mesa. Solo aceptamos 3 proyectos nuevos al mes.",
+        button: "Solicitar Consultoría Gratuita →",
+        urgency: "⚡ Plazas limitadas — Marzo 2026 casi completo",
+      },
+      testimonialPlaceholder: {
+        quote: "NeuralForge transformó nuestra presencia online por completo. En 4 meses pasamos de ser invisibles en Google a recibir el triple de solicitudes de presupuesto.",
+        author: "Director General",
+        company: "Empresa de Servicios, Alicante",
+      },
     },
-    after: {
-      title: "Después de NeuralForge",
-      items: [
-        { label: "Visitas mensuales", value: "4,200" },
-        { label: "Leads cualificados", value: "62/mes" },
-        { label: "Posición en Google", value: "Top 3" },
-        { label: "Tiempo respuesta", value: "Instantáneo (IA)" },
-      ],
+    valencia: {
+      city: "Valencia",
+      metaTitle: "Desarrollo Web y SEO en Valencia | Agencia de IA y Automatización – NeuralForge",
+      metaDescription: "Agencia de desarrollo web, SEO local y automatización con IA en Valencia. Creamos sitios web de alto rendimiento y chatbots inteligentes para empresas que quieren crecer.",
+      hero: {
+        badge: "Agencia Digital con IA en Valencia",
+        title1: "Desarrollo Web Profesional en",
+        titleCity: "Valencia",
+        title2: "para Empresas que Quieren Dominar",
+        subtitle: "Ayudamos a empresas valencianas a multiplicar sus ingresos con sitios web de alto rendimiento, SEO local dominante y automatización inteligente con IA.",
+        cta: "Solicitar Consultoría Gratuita",
+        cta2: "Ver Resultados",
+      },
+      reality: {
+        tag: "La Realidad en Valencia",
+        title: "El 73% de las empresas en Valencia pierden clientes por su presencia digital",
+        stats: [
+          { value: 73, suffix: "%", label: "de empresas con webs obsoletas en Valencia" },
+          { value: 68, suffix: "%", label: "de clientes buscan en Google antes de contactar" },
+          { value: 20, suffix: "h", label: "semanales perdidas en tareas manuales" },
+          { value: 4, suffix: "seg", label: "para perder un cliente por web lenta" },
+        ],
+        statements: [
+          { icon: AlertTriangle, text: "Tus clientes buscan 'servicios en Valencia' ahora mismo — y encuentran a tu competencia." },
+          { icon: TrendingDown, text: "Una web obsoleta cuesta más clientes que no tener web. La primera impresión es digital." },
+          { icon: Clock, text: "Tu equipo pierde 20+ horas semanales en tareas que la IA resuelve en minutos." },
+        ],
+      },
+      services: {
+        tag: "Soluciones en Valencia",
+        title: "Tecnología que Trabaja para Tu Empresa",
+        items: [
+          { icon: Layout, title: "Diseño Web Corporativo", desc: "Sitios web profesionales optimizados para convertir visitantes en clientes. Diseño responsive y velocidad de carga ultrarrápida.", expandedDesc: "Cada proyecto incluye análisis UX del mercado valenciano, optimización de velocidad, diseño mobile-first y estrategia de conversión personalizada." },
+          { icon: Search, title: "SEO Local en Valencia", desc: "Domina las búsquedas locales en Valencia y provincia. Aparece primero cuando tus clientes te buscan.", expandedDesc: "Google Maps, directorios locales, contenido optimizado por keywords y link building estratégico para posicionarte como líder en tu sector." },
+          { icon: Bot, title: "Chatbots con IA", desc: "Asistentes virtuales 24/7 que responden, cualifican leads y agendan reuniones automáticamente.", expandedDesc: "Entrenados con datos de tu empresa y del mercado valenciano. Atienden en valenciano, español e inglés — ideal para turismo y comercio internacional." },
+          { icon: Settings, title: "Automatización de Procesos", desc: "CRM inteligente, email flows y formularios con IA que eliminan el trabajo manual.", expandedDesc: "Integración con tus herramientas actuales: HubSpot, Salesforce, WhatsApp Business. Reducimos trabajo manual en un 60%." },
+          { icon: RefreshCw, title: "Rediseño Web", desc: "Transformamos tu sitio obsoleto en una plataforma moderna que genera confianza y convierte.", expandedDesc: "Migración segura, redirecciones SEO, nuevo diseño responsive y mejora inmediata en velocidad y conversión." },
+          { icon: Cpu, title: "Plataformas Avanzadas", desc: "Paneles de admin, roles de usuario, dashboards y arquitectura escalable para empresas.", expandedDesc: "Desarrollo full-stack con APIs, integraciones de terceros, seguridad enterprise y soporte continuo." },
+        ],
+      },
+      caseStudy: {
+        businessName: "Distribuciones del Mediterráneo",
+        industry: "Distribución y logística local",
+        before: {
+          title: "Antes de NeuralForge",
+          items: [
+            { label: "Visitas mensuales", value: "290" },
+            { label: "Leads cualificados", value: "4/mes" },
+            { label: "Posición en Google", value: "Página 4+" },
+            { label: "Tiempo respuesta", value: "48 horas" },
+          ],
+        },
+        after: {
+          title: "Después de NeuralForge",
+          items: [
+            { label: "Visitas mensuales", value: "3,850" },
+            { label: "Leads cualificados", value: "58/mes" },
+            { label: "Posición en Google", value: "Top 3" },
+            { label: "Tiempo respuesta", value: "Instantáneo (IA)" },
+          ],
+        },
+        metrics: [
+          { value: 1227, suffix: "%", label: "Aumento de tráfico" },
+          { value: 14, suffix: "x", label: "Más leads cualificados" },
+          { value: 360, suffix: "%", label: "ROI en 6 meses" },
+        ],
+      },
+      process: {
+        tag: "Nuestro Proceso",
+        title: "De la Idea al Crecimiento en 90 Días",
+        steps: [
+          { icon: Search, title: "Auditoría", desc: "Analizamos tu negocio, competencia en Valencia y oportunidades.", color: "from-secondary to-secondary" },
+          { icon: Target, title: "Estrategia", desc: "Hoja de ruta con ROI proyectado y KPIs de tu sector.", color: "from-secondary to-accent" },
+          { icon: Code2, title: "Desarrollo", desc: "Sprints ágiles con demos semanales y total transparencia.", color: "from-accent to-accent" },
+          { icon: BarChart3, title: "Optimización", desc: "Testing y optimización con IA para máxima conversión.", color: "from-accent to-secondary" },
+          { icon: Rocket, title: "Crecimiento", desc: "Mejora continua, nuevas capacidades y escalado.", color: "from-secondary to-secondary" },
+        ],
+      },
+      authority: {
+        tag: "¿Por Qué NeuralForge en Valencia?",
+        title: "No Somos una Agencia Más. Somos Tu Ventaja Competitiva.",
+        items: [
+          { icon: MapPin, title: "Conocimiento del Mercado Valenciano", desc: "Turismo, tecnología, industria, comercio — entendemos cada sector y cómo posicionar tu empresa." },
+          { icon: Cpu, title: "IA y Automatización Real", desc: "No vendemos buzzwords. Implementamos sistemas de IA que generan ROI medible desde el primer mes." },
+          { icon: Shield, title: "Infraestructura Escalable", desc: "Desde la startup del centro hasta la corporación provincial — soluciones que crecen contigo." },
+          { icon: Users, title: "Equipo 100% Senior", desc: "Cada proyecto en Valencia recibe atención directa de expertos con 10+ años de experiencia." },
+        ],
+      },
+      cta: {
+        title1: "¿Listo para Transformar Tu Empresa en",
+        titleCity: "Valencia",
+        title2: "?",
+        subtitle: "Cada semana sin una estrategia digital efectiva es dinero que dejas en la mesa. Solo aceptamos 3 proyectos nuevos al mes.",
+        button: "Solicitar Consultoría Gratuita →",
+        urgency: "⚡ Plazas limitadas — Marzo 2026 casi completo",
+      },
+      testimonialPlaceholder: {
+        quote: "NeuralForge transformó nuestra presencia online por completo. En 4 meses pasamos de ser invisibles en Google a recibir el triple de solicitudes de presupuesto.",
+        author: "Director General",
+        company: "Empresa de Servicios, Valencia",
+      },
     },
-    metrics: [
-      { value: 1135, suffix: "%", label: "Aumento de tráfico" },
-      { value: 12, suffix: "x", label: "Más leads cualificados" },
-      { value: 340, suffix: "%", label: "ROI en 6 meses" },
-    ],
-  },
-  process: {
-    tag: "Nuestro Proceso",
-    title: "De la Idea al Crecimiento en 90 Días",
-    steps: [
-      { icon: Search, title: "Auditoría", desc: "Analizamos tu negocio, competencia en Alicante y oportunidades.", color: "from-secondary to-secondary" },
-      { icon: Target, title: "Estrategia", desc: "Hoja de ruta con ROI proyectado y KPIs de tu sector.", color: "from-secondary to-accent" },
-      { icon: Code2, title: "Desarrollo", desc: "Sprints ágiles con demos semanales y total transparencia.", color: "from-accent to-accent" },
-      { icon: BarChart3, title: "Optimización", desc: "Testing y optimización con IA para máxima conversión.", color: "from-accent to-secondary" },
-      { icon: Rocket, title: "Crecimiento", desc: "Mejora continua, nuevas capacidades y escalado.", color: "from-secondary to-secondary" },
-    ],
-  },
-  authority: {
-    tag: "¿Por Qué NeuralForge en Alicante?",
-    title: "No Somos una Agencia Más. Somos Tu Ventaja Competitiva.",
-    items: [
-      { icon: MapPin, title: "Conocimiento del Mercado Alicantino", desc: "Turismo, tecnología, agricultura, comercio — entendemos cada sector y cómo posicionar tu empresa." },
-      { icon: Cpu, title: "IA y Automatización Real", desc: "No vendemos buzzwords. Implementamos sistemas de IA que generan ROI medible desde el primer mes." },
-      { icon: Shield, title: "Infraestructura Escalable", desc: "Desde la startup del centro hasta la corporación provincial — soluciones que crecen contigo." },
-      { icon: Users, title: "Equipo 100% Senior", desc: "Cada proyecto en Alicante recibe atención directa de expertos con 10+ años de experiencia." },
-    ],
-  },
-  cta: {
-    title1: "¿Listo para Transformar Tu Empresa en",
-    titleCity: "Alicante",
-    title2: "?",
-    subtitle: "Cada semana sin una estrategia digital efectiva es dinero que dejas en la mesa. Solo aceptamos 3 proyectos nuevos al mes.",
-    button: "Solicitar Consultoría Gratuita →",
-    urgency: "⚡ Plazas limitadas — Marzo 2026 casi completo",
-  },
-  testimonialPlaceholder: {
-    quote: "NeuralForge transformó nuestra presencia online por completo. En 4 meses pasamos de ser invisibles en Google a recibir el triple de solicitudes de presupuesto.",
-    author: "Director General",
-    company: "Empresa de Servicios, Alicante",
-  },
+  };
+
+  return cityConfigs[city];
 };
 
 /* ── Interactive Service Card ── */
-const ServiceCard = ({ item, index }: { item: typeof locationData.services.items[0]; index: number }) => {
+interface ServiceItem {
+  icon: React.ComponentType<{ className?: string }>;
+  title: string;
+  desc: string;
+  expandedDesc: string;
+}
+
+const ServiceCard = ({ item, index }: { item: ServiceItem; index: number }) => {
   const [expanded, setExpanded] = useState(false);
   return (
     <motion.div
@@ -295,8 +417,8 @@ const ServiceCard = ({ item, index }: { item: typeof locationData.services.items
 };
 
 /* ── Main Component ── */
-const LocationPage = () => {
-  const data = locationData;
+const LocationPage = ({ city = "alicante" }: LocationPageProps) => {
+  const data = getLocationData(city);
   const { toast } = useToast();
   const [submitted, setSubmitted] = useState(false);
   const [stickyVisible, setStickyVisible] = useState(false);
@@ -308,17 +430,17 @@ const LocationPage = () => {
   const heroScale = useTransform(scrollYProgress, [0, 1], [1, 0.95]);
 
   useEffect(() => {
-    document.title = locationData.metaTitle;
+    document.title = data.metaTitle;
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute("content", locationData.metaDescription);
+    if (metaDesc) metaDesc.setAttribute("content", data.metaDescription);
     else {
       const meta = document.createElement("meta");
       meta.name = "description";
-      meta.content = locationData.metaDescription;
+      meta.content = data.metaDescription;
       document.head.appendChild(meta);
     }
     window.scrollTo(0, 0);
-  }, []);
+  }, [data]);
 
   useEffect(() => {
     const onScroll = () => setStickyVisible(window.scrollY > 600);
