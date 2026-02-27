@@ -52,10 +52,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <Link href={`/${locale}`} className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-            <span className="text-primary-foreground font-display font-bold text-sm">N</span>
+            <span className="text-primary-foreground font-display font-bold text-sm">C</span>
           </div>
           <span className="font-display font-bold text-xl text-primary-foreground">
-            Neural<span className="gradient-text">Forge</span>
+            Core<span className="gradient-text">Xia</span>
           </span>
         </Link>
 

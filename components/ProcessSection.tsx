@@ -34,7 +34,7 @@ const ProcessSection = () => {
         </motion.div>
 
         <div className="relative">
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-secondary via-accent to-secondary -translate-y-1/2 opacity-20" />
+          <div className="hidden lg:block absolute top-2/4 left-0 right-0 h-0.5 bg-gradient-to-r from-secondary via-accent to-secondary -translate-y-1/2 opacity-20" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
             {steps.map((step, i) => (
@@ -49,7 +49,7 @@ const ProcessSection = () => {
                   <step.icon className="w-7 h-7 text-primary-foreground" />
                 </div>
                 <span className="text-secondary text-xs font-bold mb-1">0{i + 1}</span>
-                <h3 className="font-display font-bold text-foreground mb-2">{step.title}</h3>
+                <h3 className="font-display font-bold text-foreground mb-2 min-h-[4.5rem]">{step.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{step.description}</p>
               </motion.div>
             ))}

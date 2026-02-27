@@ -15,6 +15,7 @@ const CaseStudiesSection = () => {
       title: t("cases.c1.title"),
       category: t("cases.c1.category"),
       description: t("cases.c1.desc"),
+      url: "https://www.wecleantorrevieja.es/es",
       metrics: [
         { label: "Revenue Increase", value: "+240%" },
         { label: "Page Load Time", value: "0.8s" },
@@ -25,6 +26,7 @@ const CaseStudiesSection = () => {
       title: t("cases.c2.title"),
       category: t("cases.c2.category"),
       description: t("cases.c2.desc"),
+      url: "https://taxitimetorreviejatoairport.com/es/",
       metrics: [
         { label: "Cost Savings", value: "$2M/yr" },
         { label: "Process Efficiency", value: "+75%" },
@@ -35,6 +37,7 @@ const CaseStudiesSection = () => {
       title: t("cases.c3.title"),
       category: t("cases.c3.category"),
       description: t("cases.c3.desc"),
+      url: null,
       metrics: [
         { label: "Organic Traffic", value: "+450%" },
         { label: "Avg. Order Value", value: "+35%" },
@@ -66,10 +69,14 @@ const CaseStudiesSection = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className="group p-8 rounded-2xl bg-card border border-border card-shadow hover:card-shadow-hover hover:-translate-y-1 transition-all duration-300"
+              {...(cs.url && {
+                onClick: () => window.open(cs.url, '_blank'),
+                style: { cursor: 'pointer' }
+              })}
             >
               <div className="flex items-center justify-between mb-4">
                 <span className="text-xs font-semibold text-secondary uppercase tracking-wider">{cs.category}</span>
-                <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-secondary transition-colors" />
+                {cs.url && <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-secondary transition-colors" />}
               </div>
               <h3 className="font-display font-bold text-2xl text-foreground mb-3">{cs.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed mb-6">{cs.description}</p>

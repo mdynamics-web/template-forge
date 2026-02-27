@@ -19,6 +19,10 @@ export const pathnames = {
     es: '/contacto',
     en: '/contact',
   },
+  '/cookies': {
+    es: '/política-de-cookies',
+    en: '/cookies-policy',
+  }
 } as const
 
 export type Pathname = keyof typeof pathnames

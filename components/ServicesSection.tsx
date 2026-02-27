@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Globe, Search, Bot, Paintbrush, Workflow, LayoutDashboard } from "lucide-react";
+import { Globe, Search, Paintbrush, Workflow, LayoutDashboard, ShoppingBag } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 const ServicesSection = () => {
@@ -13,7 +13,7 @@ const ServicesSection = () => {
   const services = [
     { icon: Globe, title: t("services.s1.title"), description: t("services.s1.desc"), color: "secondary" },
     { icon: Search, title: t("services.s2.title"), description: t("services.s2.desc"), color: "secondary" },
-    { icon: Bot, title: t("services.s3.title"), description: t("services.s3.desc"), color: "accent" },
+    { icon: ShoppingBag, title: t("services.s3.title"), description: t("services.s3.desc"), color: "accent" },
     { icon: Paintbrush, title: t("services.s4.title"), description: t("services.s4.desc"), color: "secondary" },
     { icon: Workflow, title: t("services.s5.title"), description: t("services.s5.desc"), color: "accent" },
     { icon: LayoutDashboard, title: t("services.s6.title"), description: t("services.s6.desc"), color: "secondary" },
@@ -51,7 +51,7 @@ const ServicesSection = () => {
               >
                 <service.icon className={`w-7 h-7 ${service.color === "accent" ? "text-accent" : "text-secondary"}`} />
               </div>
-              <h3 className="font-display font-bold text-xl text-foreground mb-3">{service.title}</h3>
+              <h3 className="font-display font-bold text-xl text-foreground mb-3 min-h-[3.5rem]">{service.title}</h3>
               <p className="text-muted-foreground leading-relaxed text-sm">{service.description}</p>
               <div
                 className={`absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none ${

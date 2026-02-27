@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { inter, manrope } from '@/lib/fonts';
 import { Toaster } from "@/components/ui/toaster";
+import CookieConsent from "@/components/CookieConsent";
 import "../globals.css";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -161,6 +162,7 @@ export default async function LocaleLayout({
       <body className="antialiased font-sans">
         <NextIntlClientProvider messages={messages}>
           {children}
+          <CookieConsent />
           <Toaster />
         </NextIntlClientProvider>
       </body>

@@ -580,5 +580,59 @@
       "limitedSpots": "Only {count} projects this month",
       "button": "Request Consultation"
     }
+  },
+  "cookies": {
+    "consent": {
+      "title": "🍪 Cookie Usage",
+      "description": "We use cookies to improve your browsing experience and analyze our website traffic. By accepting, you help us improve our services.",
+      "policyLink": "Cookie Policy",
+      "accept": "Accept all",
+      "reject": "Essential only"
+    },
+    "policy": {
+      "metaTitle": "Cookie Policy | NeuralForge",
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated: February 2026",
+      "section1": {
+        "title": "1. What are cookies?",
+        "text": "Cookies are small text files that are stored on your device (computer, tablet, or mobile) when you visit a website. Cookies are widely used to make websites work more efficiently, as well as to provide information to site owners."
+      },
+      "section2": {
+        "title": "2. What cookies do we use?",
+        "text": "At NeuralForge we use the following types of cookies:",
+        "items": [
+          "Essential cookies: Necessary for the basic operation of the website. These include session cookies and language preference cookies.",
+          "Performance cookies: Allow us to analyze how visitors use our website to improve its performance. They collect information anonymously.",
+          "Functionality cookies: Allow remembering the choices you make (such as your preferred language) to provide a more personalized experience.",
+          "Marketing cookies: Used to track visitors across websites with the intention of displaying relevant and engaging advertisements to the individual user."
+        ]
+      },
+      "section3": {
+        "title": "3. Third-party cookies",
+        "text": "Some of our partners and service providers may set cookies on your device when you visit our website. These third parties include web analytics services and external content providers. We have no control over the cookies these third parties set. We recommend consulting these third parties' privacy policies for more information."
+      },
+      "section4": {
+        "title": "4. How to control cookies?",
+        "text": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your device and set most browsers not to accept them. However, if you do this, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work properly."
+      },
+      "section5": {
+        "title": "5. Browser settings",
+        "text": "Most web browsers allow some control of cookies through browser settings. To learn more about cookies, including how to see which cookies have been set and how to manage and delete them, visit your browser settings.",
+        "items": [
+          "Google Chrome: Settings > Privacy and Security > Cookies",
+          "Mozilla Firefox: Options > Privacy & Security",
+          "Safari: Preferences > Privacy",
+          "Microsoft Edge: Settings > Privacy, search, and services"
+        ]
+      },
+      "section6": {
+        "title": "6. Changes to this policy",
+        "text": "We may update this cookie policy periodically to reflect changes in the cookies we use or for other operational, legal, or regulatory reasons. We recommend that you review this page regularly to stay informed about our use of cookies."
+      },
+      "section7": {
+        "title": "7. Contact",
+        "text": "If you have questions about our cookie policy, you can contact us at hello@neuralforge.io or through our contact page."
+      }
+    }
   }
 }

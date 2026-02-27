@@ -48,7 +48,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-5xl mx-auto text-center px-6 py-32">
+      <div className="relative z-10 max-w-5xl mx-auto text-center px-6 py-40">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -64,7 +64,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="font-display font-extrabold text-4xl md:text-6xl lg:text-7xl text-primary-foreground leading-[1.1] mb-6"
+          className="font-display font-extrabold text-4xl md:text-5xl lg:text-6xl text-primary-foreground leading-[1.1] mb-6"
         >
           {t("hero.title1")}{" "}
           <span className="gradient-text">{t("hero.title2")}</span>
@@ -111,7 +111,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.6 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 border-t border-primary-foreground/10 pt-10"
+          className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-36 border-t border-primary-foreground/10 pt-14"
         >
           {stats.map((stat) => (
             <div key={stat.label}>

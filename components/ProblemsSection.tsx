@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { AlertTriangle, TrendingDown, Clock } from "lucide-react";
+import { AlertTriangle, TrendingDown, ChartNoAxesCombined } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 const ProblemsSection = () => {
@@ -13,7 +13,7 @@ const ProblemsSection = () => {
   const problems = [
     { icon: AlertTriangle, title: t("problems.card1.title"), description: t("problems.card1.desc") },
     { icon: TrendingDown, title: t("problems.card2.title"), description: t("problems.card2.desc") },
-    { icon: Clock, title: t("problems.card3.title"), description: t("problems.card3.desc") },
+    { icon: ChartNoAxesCombined, title: t("problems.card3.title"), description: t("problems.card3.desc") },
   ];
 
   return (
@@ -40,8 +40,8 @@ const ProblemsSection = () => {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className="relative p-8 rounded-2xl bg-card border border-border card-shadow hover:card-shadow-hover transition-all duration-300 group"
             >
-              <div className="w-14 h-14 rounded-xl bg-destructive/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <problem.icon className="w-7 h-7 text-destructive" />
+              <div className={`w-14 h-14 rounded-xl ${i === 2 ? 'bg-green-500/10' : 'bg-destructive/10'} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                <problem.icon className={`w-7 h-7 ${i === 2 ? 'text-green-500' : 'text-destructive'}`} />
               </div>
               <h3 className="font-display font-bold text-xl text-foreground mb-3">{problem.title}</h3>
               <p className="text-muted-foreground leading-relaxed">{problem.description}</p>

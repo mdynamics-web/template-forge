@@ -7,121 +7,121 @@
     "cta": "Agendar Llamada"
   },
   "hero": {
-    "badge": "Desarrollo Web Profesional en Valencia y Alicante",
-    "title1": "Haz Crecer Tu Negocio",
-    "title2": "con una Web Profesional",
-    "title3": "que Genera Clientes",
-    "subtitle": "Ingenieros informáticos con experiencia en empresas tecnológicas. Creamos páginas web, apps móviles y soluciones SEO que generan resultados reales para negocios en Valencia y Alicante: más clientes, mejor posicionamiento y procesos optimizados.",
-    "cta1": "Consulta Gratuita",
-    "cta2": "Ver Nuestro Trabajo",
+    "badge": "De idea a clientes en 90 días",
+    "title1": "Tu Negocio",
+    "title2": "Merece una Web",
+    "title3": "que Trabaje por Ti",
+    "subtitle": "Ayudamos a pequeños negocios a digitalizarse con webs rápidas, posicionadas en Google y diseñadas para vender. Trato directo, precios honestos y tecnología de verdad.",
+    "cta1": "Agenda tu Consulta Gratis",
+    "cta2": "Ver Casos de Éxito",
     "stat1": {
-      "value": "15+",
+      "value": "+20",
       "label": "Proyectos Completados"
     },
     "stat2": {
-      "value": "100%",
-      "label": "Clientes Satisfechos"
+      "value": "+150%",
+      "label": "Tráfico Orgánico en 6 meses"
     },
     "stat3": {
-      "value": "10+",
+      "value": "+10",
       "label": "Años de Experiencia Combinada"
     },
     "stat4": {
-      "value": "3.5X",
-      "label": "ROI Promedio en 6 Meses"
+      "value": "100%",
+      "label": "Clientes Satisfechos"
     }
   },
   "problems": {
-    "tag": "¿Por Qué Necesitas una Web Profesional?",
-    "title1": "Tu Negocio Necesita",
-    "title2": "Presencia Digital Profesional",
+    "tag": "Lo Que está Frenando tu Negocio",
+    "title1": "Por Qué tu Negocio Local",
+    "title2": "Necesita una Web Profesional",
     "card1": {
-      "title": "Sin Web, Pierdes Clientes Cada Día",
-      "desc": "El 89% de los consumidores buscan online antes de comprar. Si tu negocio no tiene una web profesional o es difícil de encontrar, tus clientes están eligiendo a tu competencia."
+      "title": "Sin Página Web Profesional, Google no Sabe que Existes",
+      "desc": "El 89% de los consumidores buscan online antes de comprar. Si tu negocio no aparece en los primeros resultados de Google, para tus clientes potenciales simplemente no existes."
     },
     "card2": {
-      "title": "Una Mala Web Daña Tu Reputación",
-      "desc": "Una página web lenta, antigua o que no funciona en móvil transmite falta de profesionalidad. Los clientes en Valencia y Alicante buscan negocios modernos y confiables."
+      "title": "Un Mal Diseño Web Aleja a tus Clientes",
+      "desc": "Tienes menos de 3 segundos para causar buena impresión. Una web que carga lento, no funciona en móvil o parece abandonada hace que el cliente se vaya antes de leer nada."
     },
     "card3": {
-      "title": "Gestión Manual Limita Tu Crecimiento",
-      "desc": "Perder tiempo con reservas por teléfono, pedidos por WhatsApp o inventario en Excel te impide escalar. Una buena aplicación web automatiza y optimiza tu negocio."
+      "title": "Aparece en Google Sin Pagar Publicidad",
+      "desc": "Aparecer cuando alguien busca tu servicio en tu ciudad no requiere anuncios. Con una web bien optimizada, los clientes te encuentran solos — y ese tráfico no para nunca."
     }
   },
   "services": {
-    "tag": "Nuestros Servicios",
-    "title1": "Desarrollo Web y",
-    "title2": "Apps Personalizadas",
-    "subtitle": "Creamos soluciones digitales a medida para negocios que quieren crecer. Desde páginas web profesionales hasta aplicaciones complejas.",
+    "tag": "Lo Que Podemos Hacer por Ti",
+    "title1": "Soluciones Digitales para",
+    "title2": "Pequeños Negocios que Quieren Crecer",
+    "subtitle": "Sin tecnicismos, sin letra pequeña. Te ayudamos a tener presencia digital real que atraiga clientes y haga crecer tu negocio — en cualquier parte de España.",
     "s1": {
-      "title": "Páginas Web Profesionales",
-      "desc": "Diseño y desarrollo web moderno, rápido y optimizado para móviles. Perfectas para restaurantes, hoteles, tiendas, clínicas y negocios en Valencia y Alicante."
+      "title": "Página Web Profesional",
+      "desc": "Tu negocio en internet con un diseño moderno, rápido y adaptado a móvil. Que se vea bien, cargue rápido y convierta visitas en clientes desde el primer día."
     },
     "s2": {
-      "title": "SEO y Posicionamiento Web",
-      "desc": "Mejoramos el tráfico de tu negocio para que te encuentren en Google. SEO local especializado para negocios en la Comunidad Valenciana."
+      "title": "SEO y Posicionamiento en Google",
+      "desc": "Aparece cuando tus clientes te buscan. Optimizamos tu web para que Google te muestre antes que a tu competencia, sin pagar por publicidad."
     },
     "s3": {
-      "title": "Aplicaciones Móviles",
-      "desc": "Desarrollo de apps iOS y Android para tu negocio. Gestión de pedidos, reservas, delivery o cualquier necesidad específica que tengas."
+      "title": "Tienda Online y E-commerce",
+      "desc": "Vende tus productos las 24 horas, los 7 días de la semana. Tiendas completas con carrito, pago seguro y gestión sencilla — sin necesitar conocimientos técnicos."
     },
     "s4": {
-      "title": "E-commerce y Tiendas Online",
-      "desc": "Tiendas online completas con pasarela de pago, gestión de inventario y envíos. Vende tus productos 24/7 en toda España."
+      "title": "Rediseño de Web Existente",
+      "desc": "¿Tu web está anticuada o no funciona bien? La modernizamos, aceleramos y optimizamos para que deje de alejarte clientes y empiece a atraerlos."
     },
     "s5": {
-      "title": "Aplicaciones Web Personalizadas",
-      "desc": "Sistemas a medida para tu negocio: gestión de reservas, CRM, plataformas de formación, directorios, marketplaces y más."
+      "title": "Aplicaciones y Herramientas a Medida",
+      "desc": "Reservas online, CRM, gestión de pedidos, catálogos digitales — si tienes un proceso manual que te quita tiempo, lo automatizamos para tu negocio."
     },
     "s6": {
-      "title": "Consultoría Tecnológica",
-      "desc": "Asesoramiento por horas para mejorar tus proyectos existentes, resolver problemas técnicos o planificar tu estrategia digital."
+      "title": "Consultoría Digital sin Compromiso",
+      "desc": "No sabes por dónde empezar o qué necesitas realmente. Te ayudamos a entenderlo sin presionarte. Primera consulta siempre gratuita."
     }
   },
   "diff": {
-    "tag": "Por Qué Elegirnos",
-    "title": "Ingenieros Informáticos con Experiencia Real",
-    "subtitle": "No somos una agencia con intermediarios. Somos desarrolladores que trabajan directamente en tu proyecto.",
+    "tag": "Por Qué Confiar en Nosotros",
+    "title": "Ingenieros que Trabajan Directamente en tu Proyecto",
+    "subtitle": "Sin agencias, sin intermediarios, sin comerciales. Hablas con quien desarrolla tu web desde el primer día hasta el último.",
     "d1": {
-      "title": "Experiencia en Equipos Punteros",
-      "desc": "Trabajamos como responsables de equipos frontend en empresas tech. Aplicamos las mejores prácticas del sector a tu proyecto."
+      "title": "Experiencia en Empresas Tecnológicas Reales",
+      "desc": "Hemos trabajado liderando equipos de desarrollo en empresas tech. Aplicamos esas mismas prácticas y estándares a tu proyecto, sin importar su tamaño."
     },
     "d2": {
-      "title": "Tecnología Moderna y Escalable",
-      "desc": "Usamos React, Next.js, Node.js y las últimas tecnologías. Tu web será rápida, moderna y preparada para crecer."
+      "title": "Tecnología Moderna, Web Rápida y Escalable",
+      "desc": "Usamos React, Next.js y Node.js — la misma tecnología que usan Google o Netflix. Tu web cargará en menos de 1 segundo y estará preparada para crecer contigo."
     },
     "d3": {
-      "title": "Trato Directo y Cercano",
-      "desc": "Hablas directamente con quien programa tu proyecto. Sin intermediarios, sin malentendidos. Reuniones presenciales en Valencia si lo prefieres."
+      "title": "Trato Directo, Precios Honestos",
+      "desc": "Sin presupuestos inflados ni letra pequeña. Te explicamos exactamente qué vas a recibir, cuánto va a costar y cuándo estará listo — antes de que firmes nada."
     },
     "d4": {
-      "title": "Conocemos el Mercado Local",
-      "desc": "Entendemos las necesidades de los negocios en Valencia y Alicante. SEO local, idiomas, pasarelas de pago españolas y todo lo que necesitas."
+      "title": "Conocemos el Mercado Español",
+      "desc": "Pasarelas de pago españolas, facturación adaptada, SEO local en España y disponibilidad para reuniones presenciales o por videollamada en toda la península."
     }
   },
   "process": {
-    "tag": "Cómo Trabajamos",
-    "title1": "De Estrategia a",
-    "title2": "Ingresos en 90 Días",
+    "tag": "Nuestro Proceso",
+    "title1": "De la Primera Llamada",
+    "title2": "a tu Web Funcionando en 30 Días",
     "s1": {
-      "title": "Descubrimiento",
-      "desc": "Auditamos tu negocio, competidores y mercado. Obtienes una imagen clara de qué te está costando dinero — y cómo la IA lo soluciona."
+      "title": "Consulta Gratuita",
+      "desc": "Empezamos escuchándote. Analizamos tu negocio, tu competencia y lo que necesitas realmente — sin tecnicismos y sin compromiso. Tú decides si seguimos adelante."
     },
     "s2": {
-      "title": "Estrategia",
-      "desc": "Hoja de ruta personalizada con ROI proyectado, plazos y KPIs. Sabrás exactamente qué recibes antes de que escribamos una sola línea de código."
+      "title": "Propuesta Clara y sin Letra Pequeña",
+      "desc": "Recibes un presupuesto detallado con exactamente lo que incluye, lo que va a costar y cuándo estará listo. Sin sorpresas, sin costes ocultos."
     },
     "s3": {
-      "title": "Construcción",
-      "desc": "Nuestros ingenieros senior construyen tu solución en sprints ágiles. Demos semanales, progreso en tiempo real, cero sorpresas."
+      "title": "Desarrollo con Actualizaciones Semanales",
+      "desc": "Trabajamos en tu proyecto y te mantenemos informado en todo momento. Verás el progreso real cada semana y podrás darnos feedback antes de que sea tarde."
     },
     "s4": {
-      "title": "Optimización",
-      "desc": "Testing y optimización impulsados por IA. Cada elemento está afinado para máxima conversión, velocidad y posicionamiento."
+      "title": "Revisión y Ajustes Contigo",
+      "desc": "Antes de publicar nada, revisamos juntos cada detalle. Velocidad, diseño, textos, formularios — todo tiene que estar perfecto y tienes que estar 100% satisfecho."
     },
     "s5": {
-      "title": "Escalar",
-      "desc": "El lanzamiento es solo el principio. Mejoramos continuamente tus sistemas, agregamos capacidades de IA y aseguramos que siempre estés adelante."
+      "title": "Lanzamiento y Soporte Continuo",
+      "desc": "Publicamos tu web y no desaparecemos. Te formamos para que puedas gestionarla, resolvemos dudas y seguimos disponibles para cualquier mejora futura."
     }
   },
   "cases": {
@@ -129,53 +129,53 @@
     "title1": "Casos de Éxito",
     "title2": "en la Comunidad Valenciana",
     "c1": {
-      "title": "Restaurante El Mediterráneo",
-      "category": "Hostelería Valencia",
+      "title": "WeClean",
+      "category": "Limpieza Alicante",
       "desc": "Web con reservas online integradas y carta digital QR. Aumentó las reservas un 180% y redujo llamadas telefónicas, permitiendo al personal centrarse en el servicio."
     },
     "c2": {
-      "title": "Hotel Costa Blanca",
-      "category": "Turismo Alicante",
+      "title": "TaxiTime Torrevieja",
+      "category": "Transporte Alicante",
       "desc": "Sistema de reservas directo que eliminó comisiones de booking. Recuperó la inversión en 4 meses con un aumento del 65% en reservas directas."
     },
     "c3": {
-      "title": "Boutique Fashion Valencia",
-      "category": "E-Commerce Local",
+      "title": "Fisio",
+      "category": "Fisioterapia Valencia",
       "desc": "Tienda online con SEO local optimizado. Triplicó las ventas online en 6 meses y ahora vende en toda España con envío desde Valencia."
     }
   },
   "tech": {
     "tag": "Tecnología",
-    "title1": "Infraestructura de",
-    "title2": "Nivel Empresarial",
-    "subtitle": "Usamos la misma tecnología en la que confían Google, Netflix y Amazon — escalada para tu negocio."
+    "title1": "La Tecnología que Usan",
+    "title2": "las Grandes Empresas, para tu Negocio",
+    "subtitle": "React, Next.js y Node.js — el mismo stack de Google, Netflix y Airbnb, adaptado al tamaño y presupuesto de tu negocio."
   },
   "cta": {
-    "title1": "Deja de Perder Ingresos por",
-    "title2": "Tecnología Obsoleta",
-    "subtitle": "Cada semana que esperas, tu competencia avanza más. Hablemos de cómo la IA puede transformar tu negocio — gratis, sin compromiso.",
-    "button": "Agenda Tu Llamada Estratégica Gratis →"
+    "title1": "¿Listo para Tener una Web",
+    "title2": "que Trabaje por Ti?",
+    "subtitle": "Primera consulta gratuita y sin compromiso. Te decimos exactamente qué necesitas, cuánto cuesta y cuándo lo tendrás — antes de que firmes nada.",
+    "button": "Agenda tu Consulta Gratuita →"
   },
   "footer": {
     "tagline": "Desarrollo web profesional y consultoría tecnológica en Valencia y Alicante por ingenieros informáticos con experiencia.",
     "services": "Servicios",
     "company": "Empresa",
     "contact": "Contacto",
-    "s1": "Desarrollo Web",
-    "s2": "SEO y Posicionamiento",
-    "s3": "Aplicaciones Móviles",
-    "s4": "E-commerce",
-    "s5": "Consultoría Tecnológica",
-    "c1": "Nuestro Proceso",
-    "c2": "Casos de Éxito",
+    "s1": "Diseño Web Profesional",
+    "s2": "SEO y Posicionamiento Local",
+    "s3": "Aplicaciones a Medida",
+    "s4": "Tiendas Online",
+    "s5": "Consultoría Digital",
+    "c1": "Cómo Trabajamos",
+    "c2": "Proyectos Realizados",
     "c3": "Contacto",
     "consultation": "Consulta Gratuita",
-    "consultationDesc": "Charlamos sobre tu proyecto sin compromiso. Te damos ideas y presupuesto en menos de 48 horas.",
-    "response": "Respuesta en menos de 48 horas",
-    "locations": "Ubicación",
+    "consultationDesc": "Charlamos sobre tu negocio sin compromiso. Te damos orientación y presupuesto en menos de 48 horas.",
+    "response": "Respuesta garantizada en 48 horas",
+    "locations": "Dónde Estamos",
     "valencia": "Valencia, España",
     "alicante": "Alicante, España",
-    "serviceArea": "Servicio en toda la Comunidad Valenciana"
+    "serviceArea": "Servicio en toda España — presencial y remoto"
   },
   "contact": {
     "tag": "Hablemos de Crecimiento",
@@ -579,6 +579,60 @@
       "available": "Plazas disponibles — Marzo 2026",
       "limitedSpots": "Solo {count} proyectos este mes",
       "button": "Solicitar Consultoría"
+    }
+  },
+  "cookies": {
+    "consent": {
+      "title": "🍪 Uso de Cookies",
+      "description": "Utilizamos cookies para mejorar tu experiencia de navegación y analizar el tráfico de nuestro sitio web. Al aceptar, nos ayudas a mejorar nuestros servicios.",
+      "policyLink": "Política de Cookies",
+      "accept": "Aceptar todas",
+      "reject": "Solo esenciales"
+    },
+    "policy": {
+      "metaTitle": "Política de Cookies | NeuralForge",
+      "title": "Política de Cookies",
+      "lastUpdated": "Última actualización: Febrero 2026",
+      "section1": {
+        "title": "1. ¿Qué son las cookies?",
+        "text": "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo (ordenador, tablet o móvil) cuando visita un sitio web. Las cookies se utilizan ampliamente para hacer que los sitios web funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio."
+      },
+      "section2": {
+        "title": "2. ¿Qué cookies utilizamos?",
+        "text": "En NeuralForge utilizamos los siguientes tipos de cookies:",
+        "items": [
+          "Cookies esenciales: Necesarias para el funcionamiento básico del sitio web. Incluyen cookies de sesión y de preferencia de idioma.",
+          "Cookies de rendimiento: Nos permiten analizar cómo los visitantes usan nuestro sitio web para mejorar su funcionamiento. Recopilan información de forma anónima.",
+          "Cookies de funcionalidad: Permiten recordar las elecciones que usted hace (como su idioma preferido) para proporcionar una experiencia más personalizada.",
+          "Cookies de marketing: Se utilizan para rastrear visitantes en los sitios web con la intención de mostrar anuncios relevantes y atractivos para el usuario individual."
+        ]
+      },
+      "section3": {
+        "title": "3. Cookies de terceros",
+        "text": "Algunos de nuestros socios y proveedores de servicios pueden establecer cookies en su dispositivo cuando visita nuestro sitio web. Estos terceros incluyen servicios de analítica web y proveedores de contenido externo. No tenemos control sobre las cookies que estos terceros establecen. Le recomendamos consultar las políticas de privacidad de estos terceros para más información."
+      },
+      "section4": {
+        "title": "4. ¿Cómo controlar las cookies?",
+        "text": "Puede controlar y/o eliminar las cookies como desee. Puede eliminar todas las cookies que ya están en su dispositivo y configurar la mayoría de los navegadores para que no las acepten. Sin embargo, si lo hace, es posible que tenga que ajustar manualmente algunas preferencias cada vez que visite un sitio y que algunos servicios y funcionalidades no funcionen correctamente."
+      },
+      "section5": {
+        "title": "5. Configuración del navegador",
+        "text": "La mayoría de los navegadores web permiten cierto control de las cookies a través de la configuración del navegador. Para obtener más información sobre las cookies, incluido cómo ver qué cookies se han establecido y cómo administrarlas y eliminarlas, visite la configuración de su navegador.",
+        "items": [
+          "Google Chrome: Configuración > Privacidad y seguridad > Cookies",
+          "Mozilla Firefox: Opciones > Privacidad y seguridad",
+          "Safari: Preferencias > Privacidad",
+          "Microsoft Edge: Configuración > Privacidad, búsqueda y servicios"
+        ]
+      },
+      "section6": {
+        "title": "6. Cambios en esta política",
+        "text": "Podemos actualizar esta política de cookies periódicamente para reflejar cambios en las cookies que utilizamos o por otros motivos operativos, legales o regulatorios. Le recomendamos que revise esta página regularmente para estar informado sobre nuestro uso de cookies."
+      },
+      "section7": {
+        "title": "7. Contacto",
+        "text": "Si tiene preguntas sobre nuestra política de cookies, puede contactarnos en hello@neuralforge.io o a través de nuestra página de contacto."
+      }
     }
   }
 }
