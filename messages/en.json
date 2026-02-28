@@ -7,121 +7,121 @@
     "cta": "Book a Call"
   },
   "hero": {
-    "badge": "Professional Web Development in Valencia and Alicante",
-    "title1": "Grow Your Business",
-    "title2": "with a Professional Website",
-    "title3": "that Generates Clients",
-    "subtitle": "Software engineers with experience in top tech companies. We create websites, mobile apps, and SEO solutions that generate real results for businesses in Valencia and Alicante: more clients, better rankings, and optimized processes.",
-    "cta1": "Free Consultation",
-    "cta2": "View Our Work",
+    "badge": "From idea to clients in 90 days",
+    "title1": "Your Business",
+    "title2": "Deserves a Website",
+    "title3": "That Works for You",
+    "subtitle": "We help small businesses go digital with fast, Google-ranked websites designed to sell. Direct contact, honest pricing, and real technology.",
+    "cta1": "Schedule Your Free Consultation",
+    "cta2": "View Success Stories",
     "stat1": {
-      "value": "15+",
-      "label": "Completed Projects"
+      "value": "+20",
+      "label": "Projects Completed"
     },
     "stat2": {
-      "value": "100%",
-      "label": "Satisfied Clients"
+      "value": "+150%",
+      "label": "Organic Traffic in 6 months"
     },
     "stat3": {
-      "value": "10+",
+      "value": "+10",
       "label": "Years of Combined Experience"
     },
     "stat4": {
-      "value": "3.5X",
-      "label": "Average ROI in 6 Months"
+      "value": "100%",
+      "label": "Satisfied Clients"
     }
   },
   "problems": {
-    "tag": "Why Do You Need a Professional Website?",
-    "title1": "Your Business Needs a",
-    "title2": "Professional Digital Presence",
+    "tag": "What's Holding Your Business Back",
+    "title1": "Why Your Local Business",
+    "title2": "Needs a Professional Website",
     "card1": {
-      "title": "Without a Website, You Lose Clients Every Day",
-      "desc": "89% of consumers search online before buying. If your business doesn't have a professional website or is hard to find, your clients are choosing your competition."
+      "title": "Without a Professional Website, Google Doesn't Know You Exist",
+      "desc": "89% of consumers search online before buying. If your business doesn't appear in the top Google results, for your potential customers, you simply don't exist."
     },
     "card2": {
-      "title": "A Bad Website Damages Your Reputation",
-      "desc": "A slow, outdated, or non-mobile-friendly website conveys a lack of professionalism. Clients in Valencia and Alicante are looking for modern and reliable businesses."
+      "title": "Bad Web Design Drives Customers Away",
+      "desc": "You have less than 3 seconds to make a good impression. A website that loads slowly, doesn't work on mobile, or looks abandoned makes the customer leave before reading anything."
     },
     "card3": {
-      "title": "Manual Management Limits Your Growth",
-      "desc": "Wasting time with phone reservations, WhatsApp orders, or inventory in Excel prevents you from scaling. A good web application automates and optimizes your business."
+      "title": "Appear on Google Without Paying for Ads",
+      "desc": "Appearing when someone searches for your service in your city doesn't require ads. With a well-optimized website, customers find you on their own — and that traffic never stops."
     }
   },
   "services": {
-    "tag": "Our Services",
-    "title1": "Web Development and",
-    "title2": "Custom Apps",
-    "subtitle": "We create custom digital solutions for businesses that want to grow. From professional websites to complex applications.",
+    "tag": "What We Can Do for You",
+    "title1": "Digital Solutions for",
+    "title2": "Small Businesses That Want to Grow",
+    "subtitle": "No technical jargon, no fine print. We help you build a real digital presence that attracts customers and grows your business — anywhere in Spain.",
     "s1": {
-      "title": "Professional Websites",
-      "desc": "Modern, fast, and mobile-optimized web design and development. Perfect for restaurants, hotels, stores, clinics, and businesses in Valencia and Alicante."
+      "title": "Professional Website",
+      "desc": "Your business on the internet with a modern, fast, and mobile-friendly design. Looking good, loading fast, and converting visitors into customers from day one."
     },
     "s2": {
-      "title": "SEO and Search Ranking",
-      "desc": "We improve your business's traffic so customers can find you on Google. Specialized local SEO for businesses in the Valencian Community."
+      "title": "SEO and Google Ranking",
+      "desc": "Show up when your customers search for you. We optimize your website so Google shows you before your competition, without paying for advertising."
     },
     "s3": {
-      "title": "Mobile Applications",
-      "desc": "iOS and Android app development for your business. Order management, reservations, delivery, or any specific need you might have."
+      "title": "Online Store and E-commerce",
+      "desc": "Sell your products 24/7. Complete stores with a shopping cart, secure payment, and easy management — no technical knowledge required."
     },
     "s4": {
-      "title": "E-commerce and Online Stores",
-      "desc": "Complete online stores with payment gateways, inventory management, and shipping. Sell your products 24/7 across Spain."
+      "title": "Existing Website Redesign",
+      "desc": "Is your website outdated or not working well? We modernize, accelerate, and optimize it so it stops driving customers away and starts attracting them."
     },
     "s5": {
-      "title": "Custom Web Applications",
-      "desc": "Custom systems for your business: reservation management, CRMs, learning platforms, directories, marketplaces, and more."
+      "title": "Custom Apps and Tools",
+      "desc": "Online bookings, CRM, order management, digital catalogs — if you have a manual process that takes up your time, we automate it for your business."
     },
     "s6": {
-      "title": "Technology Consulting",
-      "desc": "Hourly consulting to improve your existing projects, solve technical problems, or plan your digital strategy."
+      "title": "No-Obligation Digital Consultancy",
+      "desc": "You don't know where to start or what you really need. We help you understand it without pressure. The first consultation is always free."
     }
   },
   "diff": {
-    "tag": "Why Choose Us",
-    "title": "Software Engineers with Real Experience",
-    "subtitle": "We are not an agency with middlemen. We are developers who work directly on your project.",
+    "tag": "Why Trust Us",
+    "title": "Engineers Who Work Directly on Your Project",
+    "subtitle": "No agencies, no intermediaries, no sales reps. You speak with the person developing your website from the first day to the last.",
     "d1": {
-      "title": "Experience in Top-Tier Teams",
-      "desc": "We work as frontend team leads in tech companies. We apply industry best practices to your project."
+      "title": "Experience in Real Tech Companies",
+      "desc": "We have led development teams in tech companies. We apply those same practices and standards to your project, regardless of its size."
     },
     "d2": {
-      "title": "Modern and Scalable Technology",
-      "desc": "We use React, Next.js, Node.js, and the latest technologies. Your website will be fast, modern, and ready to grow."
+      "title": "Modern Technology, Fast and Scalable Web",
+      "desc": "We use React, Next.js, and Node.js — the same technology used by Google or Netflix. Your website will load in less than 1 second and be ready to grow with you."
     },
     "d3": {
-      "title": "Direct and Close Communication",
-      "desc": "You speak directly with the person programming your project. No middlemen, no misunderstandings. In-person meetings in Valencia if you prefer."
+      "title": "Direct Contact, Honest Pricing",
+      "desc": "No inflated budgets or fine print. We explain exactly what you will receive, how much it will cost, and when it will be ready — before you sign anything."
     },
     "d4": {
-      "title": "We Know the Local Market",
-      "desc": "We understand the needs of businesses in Valencia and Alicante. Local SEO, languages, Spanish payment gateways, and everything else you need."
+      "title": "We Know the Spanish Market",
+      "desc": "Spanish payment gateways, adapted invoicing, local SEO in Spain, and availability for in-person or video meetings throughout the peninsula."
     }
   },
   "process": {
-    "tag": "How We Work",
-    "title1": "From Strategy to",
-    "title2": "Revenue in 90 Days",
+    "tag": "Our Process",
+    "title1": "From the First Call",
+    "title2": "to Your Live Website in 30 Days",
     "s1": {
-      "title": "Discovery",
-      "desc": "We audit your business, competitors, and market. You get a clear picture of what is costing you money — and how AI solves it."
+      "title": "Free Consultation",
+      "desc": "We start by listening to you. We analyze your business, your competition, and what you really need — no jargon and no obligation. You decide if we move forward."
     },
     "s2": {
-      "title": "Strategy",
-      "desc": "Custom roadmap with projected ROI, timelines, and KPIs. You will know exactly what you get before we write a single line of code."
+      "title": "Clear Proposal with No Fine Print",
+      "desc": "You receive a detailed quote with exactly what is included, the cost, and the delivery date. No surprises, no hidden costs."
     },
     "s3": {
-      "title": "Build",
-      "desc": "Our senior engineers build your solution in agile sprints. Weekly demos, real-time progress, and zero surprises."
+      "title": "Development with Weekly Updates",
+      "desc": "We work on your project and keep you informed at all times. You will see real progress every week and can give us feedback before it's too late."
     },
     "s4": {
-      "title": "Optimization",
-      "desc": "AI-driven testing and optimization. Every element is fine-tuned for maximum conversion, speed, and ranking."
+      "title": "Review and Adjustments with You",
+      "desc": "Before publishing anything, we review every detail together. Speed, design, text, forms — everything must be perfect and you must be 100% satisfied."
     },
     "s5": {
-      "title": "Scale",
-      "desc": "Launch is just the beginning. We continuously improve your systems, add AI capabilities, and ensure you always stay ahead."
+      "title": "Launch and Ongoing Support",
+      "desc": "We publish your website and don't disappear. We train you to manage it, resolve doubts, and remain available for any future improvements."
     }
   },
   "cases": {
@@ -129,83 +129,93 @@
     "title1": "Success Stories",
     "title2": "in the Valencian Community",
     "c1": {
-      "title": "El Mediterráneo Restaurant",
-      "category": "Hospitality Valencia",
-      "desc": "Website with integrated online reservations and QR digital menu. Increased reservations by 180% and reduced phone calls, allowing staff to focus on service."
+      "title": "WeClean",
+      "category": "Professional Cleaning · Alicante",
+      "desc": "We created their website from scratch 10 months ago. In less than a year, it has already accumulated over 7,000 impressions on Google and appears in key searches like 'cleaning company in Torrevieja' and 'keyholding service Guardamar' — with SEO still in the growth phase.",
+      "metric1": { "value": "7K+", "label": "Google Impressions" },
+      "metric2": { "value": "10", "label": "Months since launch" },
+      "metric3": { "value": "1.5%", "label": "Average CTR" }
     },
     "c2": {
-      "title": "Costa Blanca Hotel",
-      "category": "Tourism Alicante",
-      "desc": "Direct booking system that eliminated booking commissions. Recovered the investment in 4 months with a 65% increase in direct bookings."
+      "title": "TaxiTime Torrevieja",
+      "category": "Transport and Taxi · Torrevieja",
+      "desc": "Website developed 2 years ago for a local taxi company. Today it generates more than 415,000 annual impressions on Google with an average position of 4 and a CTR of 2.2% — dominating searches like 'taxi Torrevieja' with over 152,000 impressions for that keyword alone.",
+      "metric1": { "value": "415K", "label": "Annual Impressions" },
+      "metric2": { "value": "4", "label": "Avg. Google Position" },
+      "metric3": { "value": "2.2%", "label": "Average CTR" }
     },
     "c3": {
-      "title": "Fashion Boutique Valencia",
-      "category": "Local E-Commerce",
-      "desc": "Online store with optimized local SEO. Tripled online sales in 6 months and now sells across Spain with shipping from Valencia."
+      "title": "Sanaja Beauty",
+      "category": "Beauty and Massage · Alicante",
+      "desc": "Website designed 2 years ago for a beauty and massage center in Alicante. In the last 12 months, it has generated 32,000 impressions with a 5.3% CTR — well above the industry average — and an average position of 6 on Google.",
+      "metric1": { "value": "32K", "label": "Annual Impressions" },
+      "metric2": { "value": "5.3%", "label": "Average CTR" },
+      "metric3": { "value": "6", "label": "Avg. Google Position" }
     }
   },
   "tech": {
     "tag": "Technology",
-    "title1": "Enterprise-Grade",
-    "title2": "Infrastructure",
-    "subtitle": "We use the same technology trusted by Google, Netflix, and Amazon — scaled for your business."
+    "title1": "The Technology Used by",
+    "title2": "Big Companies, for Your Business",
+    "subtitle": "React, Next.js, and Node.js — the same stack used by Google, Netflix, and Airbnb, adapted to your business size and budget."
   },
   "cta": {
-    "title1": "Stop Losing Revenue to",
-    "title2": "Outdated Technology",
-    "subtitle": "Every week you wait, your competition moves further ahead. Let's talk about how AI can transform your business — completely free, with no obligation.",
-    "button": "Book Your Free Strategy Call →"
+    "title1": "Ready to Have a Website",
+    "title2": "That Works for You?",
+    "subtitle": "First consultation free and without obligation. We tell you exactly what you need, how much it costs, and when you'll have it — before you sign anything.",
+    "button": "Schedule Your Free Consultation →"
   },
   "footer": {
-    "tagline": "Professional web development and technology consulting in Valencia and Alicante by experienced software engineers.",
+    "tagline": "Professional web development and technology consultancy in Valencia and Alicante by experienced computer engineers.",
     "services": "Services",
     "company": "Company",
     "contact": "Contact",
-    "s1": "Web Development",
-    "s2": "SEO and Positioning",
-    "s3": "Mobile Applications",
-    "s4": "E-commerce",
-    "s5": "Technology Consulting",
-    "c1": "Our Process",
-    "c2": "Success Stories",
+    "s1": "Professional Web Design",
+    "s2": "SEO and Local Ranking",
+    "s3": "Custom Applications",
+    "s4": "Online Stores",
+    "s5": "Digital Consultancy",
+    "c1": "How We Work",
+    "c2": "Completed Projects",
     "c3": "Contact",
     "consultation": "Free Consultation",
-    "consultationDesc": "We'll chat about your project with no obligation. We'll give you ideas and a quote in under 48 hours.",
-    "response": "Response in under 48 hours",
-    "locations": "Location",
+    "consultationDesc": "Let's talk about your business without obligation. We provide guidance and a quote in less than 48 hours.",
+    "response": "Guaranteed response within 48 hours",
+    "locations": "Where We Are",
     "valencia": "Valencia, Spain",
     "alicante": "Alicante, Spain",
-    "serviceArea": "Service throughout the Valencian Community",
-    "email": "hello@corexia.es",
+    "serviceArea": "Service throughout Spain — in-person and remote",
+    "email": "hola@corexia.es",
     "phone": "+34 652 56 14 27",
     "location": "Alicante - Valencia, Spain",
     "serviceAreaFull": "Service throughout Spain — in-person and remote",
     "copyright": "All rights reserved."
   },
   "contact": {
-    "tag": "Let's Talk Growth",
-    "title1": "Ready to Put AI to Work",
-    "title2": "for Your Business?",
-    "subtitle": "Tell us about your goals. We'll show you exactly how AI and automation can accelerate your revenue.",
-    "name": "Full Name *",
-    "email": "Work Email *",
-    "company": "Company Name",
-    "serviceLabel": "What Do You Need?",
-    "servicePlaceholder": "Select a solution",
-    "serviceWebsite": "AI-Powered Website",
-    "serviceSeo": "Search Dominance",
-    "serviceChatbot": "AI Assistant",
-    "serviceRedesign": "Digital Transformation",
-    "serviceAutomation": "Process Automation",
-    "servicePlatform": "Enterprise Platform",
-    "message": "Tell Us About Your Goals *",
-    "messagePlaceholder": "What challenges are you facing? What does success look like for you?",
-    "submit": "Send Message",
-    "error": "Form Error",
-    "errorMessage": "Please complete all required fields",
+    "tag": "No Obligation, No Jargon",
+    "title1": "Tell Us What Your Business",
+    "title2": "Needs",
+    "subtitle": "First consultation free. We respond in less than 24 hours with clear guidance, real options, and a quote with no fine print.",
+    "name": "Name *",
+    "email": "Email *",
+    "company": "Business Name",
+    "serviceLabel": "What do you need?",
+    "servicePlaceholder": "Select an option",
+    "serviceWebsite": "Website from Scratch",
+    "serviceSeo": "Improve Google Ranking",
+    "serviceChatbot": "Custom App or Tool",
+    "serviceRedesign": "Existing Web Redesign",
+    "serviceAutomation": "Online Store",
+    "servicePlatform": "I don't know, I need guidance",
+    "message": "Tell us about your business *",
+    "messagePlaceholder": "What do you do? What problem do you want to solve? You don't need to know exactly what you need — that's what we're here for.",
+    "submit": "Send Free Consultation",
+    "error": "Something went wrong",
+    "errorMessage": "Please complete the required fields and try again.",
+    "successMessage": "Message received! We will respond in less than 24 hours with concrete ideas for your business.",
     "thankyou": {
-      "title": "We're On It!",
-      "desc": "A senior strategist will review your project and get back to you in under 24 hours with actionable insights."
+      "title": "Consultation Received!",
+      "desc": "We will review your project and respond in less than 24 hours with clear guidance and a surprise-free quote. No obligation."
     },
     "info": {
       "title": "Direct Contact",
@@ -216,62 +226,62 @@
         "label": "Phone"
       },
       "location": {
-        "label": "Headquarters"
+        "label": "Location"
       }
     }
   },
   "Metadata": {
-    "title": "Web Development Valencia and Alicante | NeuralForge - App and Website Experts",
-    "description": "Professional web development in Valencia and Alicante. We create websites, mobile applications, and improve your business traffic. Tech consulting by expert software engineers.",
-    "keywords": "web development Valencia, web development Alicante, programmers Valencia, create company website Valencia, custom web apps, IT consulting, mobile app development, improve business SEO"
+    "title": "Web Development Valencia and Alicante | NeuralForge - Experts in Apps and Websites",
+    "description": "Professional web development in Valencia and Alicante. We create websites, mobile applications, and improve your business traffic. Tech consultancy by expert computer engineers.",
+    "keywords": "web development Valencia, web development Alicante, programmers Valencia, create business website Valencia, custom web applications, IT consultancy, mobile app development, improve business SEO"
   },
   "location": {
     "alicante": {
       "city": "Alicante",
-      "metaTitle": "Web Design and SEO in Alicante | AI and Automation Agency – NeuralForge",
-      "metaDescription": "Web design agency, local SEO, and AI automation in Alicante. We create high-performance websites and intelligent chatbots for growing businesses.",
+      "metaTitle": "Web Design and SEO in Alicante | AI & Automation Agency – NeuralForge",
+      "metaDescription": "Web design, local SEO, and AI automation agency in Alicante. We create high-performance websites and intelligent chatbots for businesses that want to grow.",
       "hero": {
-        "badge": "Digital AI Agency in Alicante",
+        "badge": "Digital Agency with AI in Alicante",
         "title1": "Professional Web Design in",
         "titleCity": "Alicante",
-        "title2": "for Businesses That Want to Dominate",
-        "subtitle": "We help Alicante businesses multiply their revenue with high-performance websites, dominant local SEO, and intelligent AI automation.",
-        "cta": "Request Free Consultation",
-        "cta2": "See Results"
+        "title2": "for Companies That Want to Dominate",
+        "subtitle": "We help Alicante-based companies multiply their revenue with high-performance websites, dominant local SEO, and intelligent AI automation.",
+        "cta": "Request Free Consultancy",
+        "cta2": "View Results"
       },
       "reality": {
         "tag": "The Reality in Alicante",
-        "title": "73% of businesses in Alicante lose clients due to their digital presence",
+        "title": "73% of companies in Alicante lose customers due to their digital presence",
         "stats": {
-          "0": "of businesses with outdated websites in Alicante",
-          "1": "of clients search on Google before contacting",
-          "2": "weekly hours lost on manual tasks",
-          "3": "to lose a client due to slow website"
+          "0": "of companies with obsolete websites in Alicante",
+          "1": "of customers search on Google before contacting",
+          "2": "weekly hours lost in manual tasks",
+          "3": "to lose a customer due to a slow website"
         },
         "statements": {
-          "0": "Your clients are searching for 'services in Alicante' right now — and finding your competition.",
-          "1": "An outdated website costs more clients than having no website. First impression is digital.",
-          "2": "Your team loses 20+ hours weekly on tasks that AI solves in minutes."
+          "0": "Your customers are searching for 'services in Alicante' right now — and they are finding your competition.",
+          "1": "An obsolete website costs more customers than having no website at all. The first impression is digital.",
+          "2": "Your team loses 20+ hours a week on tasks that AI solves in minutes."
         }
       },
       "services": {
         "tag": "Solutions in Alicante",
-        "title": "Technology That Works for Your Business",
+        "title": "Technology That Works for Your Company",
         "items": {
           "0": {
             "title": "Corporate Web Design",
-            "desc": "Professional websites optimized to convert visitors into clients. Responsive design and ultra-fast loading speed.",
-            "expandedDesc": "Each project includes UX analysis of the Alicante market, speed optimization, mobile-first design, and personalized conversion strategy."
+            "desc": "Professional websites optimized to convert visitors into customers. Responsive design and ultra-fast loading speed.",
+            "expandedDesc": "Every project includes UX analysis of the Alicante market, speed optimization, mobile-first design, and a personalized conversion strategy."
           },
           "1": {
             "title": "Local SEO in Alicante",
-            "desc": "Dominate local searches in Alicante and province. Appear first when your clients search for you.",
+            "desc": "Dominate local searches in Alicante and the province. Appear first when your customers search for you.",
             "expandedDesc": "Google Maps, local directories, keyword-optimized content, and strategic link building to position you as a leader in your sector."
           },
           "2": {
             "title": "AI Chatbots",
             "desc": "24/7 virtual assistants that respond, qualify leads, and schedule meetings automatically.",
-            "expandedDesc": "Trained with your company data and the Alicante market. Serve in Spanish and English — ideal for tourism and international commerce."
+            "expandedDesc": "Trained with data from your company and the Alicante market. They assist in Spanish and English — ideal for tourism and international trade."
           },
           "3": {
             "title": "Process Automation",
@@ -280,12 +290,12 @@
           },
           "4": {
             "title": "Web Redesign",
-            "desc": "Transform your outdated site into a modern platform that generates trust and converts.",
+            "desc": "We transform your obsolete site into a modern platform that builds trust and converts.",
             "expandedDesc": "Secure migration, SEO redirects, new responsive design, and immediate improvement in speed and conversion."
           },
           "5": {
             "title": "Advanced Platforms",
-            "desc": "Admin panels, user roles, dashboards, and scalable architecture for enterprises.",
+            "desc": "Admin panels, user roles, dashboards, and scalable architecture for businesses.",
             "expandedDesc": "Full-stack development with APIs, third-party integrations, enterprise security, and continuous support."
           }
         }
@@ -355,11 +365,11 @@
           },
           "2": {
             "title": "Development",
-            "desc": "Agile sprints with weekly demos and full transparency."
+            "desc": "Agile sprints with weekly demos and total transparency."
           },
           "3": {
             "title": "Optimization",
-            "desc": "AI-powered testing and optimization for maximum conversion."
+            "desc": "Testing and AI optimization for maximum conversion."
           },
           "4": {
             "title": "Growth",
@@ -369,86 +379,86 @@
       },
       "authority": {
         "tag": "Why NeuralForge in Alicante?",
-        "title": "We're Not Just Another Agency. We're Your Competitive Advantage.",
+        "title": "We Are Not Just Another Agency. We Are Your Competitive Edge.",
         "items": {
           "0": {
-            "title": "Understanding of the Alicante Market",
-            "desc": "Tourism, technology, agriculture, commerce — we understand every sector and how to position your business."
+            "title": "Alicante Market Knowledge",
+            "desc": "Tourism, technology, agriculture, commerce — we understand each sector and how to position your company."
           },
           "1": {
             "title": "Real AI and Automation",
-            "desc": "We don't sell buzzwords. We implement AI systems that generate measurable ROI from month one."
+            "desc": "We don't sell buzzwords. We implement AI systems that generate measurable ROI from the first month."
           },
           "2": {
             "title": "Scalable Infrastructure",
-            "desc": "From downtown startup to provincial corporation — solutions that grow with you."
+            "desc": "From the downtown startup to the provincial corporation — solutions that grow with you."
           },
           "3": {
             "title": "100% Senior Team",
-            "desc": "Every Alicante project receives direct attention from experts with 10+ years of experience."
+            "desc": "Every project in Alicante receives direct attention from experts with 10+ years of experience."
           }
         }
       },
       "cta": {
-        "title1": "Ready to Transform Your Business in",
+        "title1": "Ready to Transform Your Company in",
         "titleCity": "Alicante",
         "title2": "?",
         "subtitle": "Every week without an effective digital strategy is money left on the table. We only accept 3 new projects per month.",
-        "button": "Request Free Consultation →",
+        "button": "Request Free Consultancy →",
         "urgency": "⚡ Limited spots — March 2026 almost full"
       },
       "testimonialPlaceholder": {
-        "quote": "NeuralForge completely transformed our online presence. In 4 months we went from invisible on Google to receiving triple the quote requests.",
+        "quote": "NeuralForge completely transformed our online presence. In 4 months, we went from being invisible on Google to receiving triple the quote requests.",
         "author": "General Manager",
         "company": "Service Company, Alicante"
       }
     },
     "valencia": {
       "city": "Valencia",
-      "metaTitle": "Web Development and SEO in Valencia | AI and Automation Agency – NeuralForge",
-      "metaDescription": "Web development agency, local SEO, and AI automation in Valencia. We create high-performance websites and intelligent chatbots for growing businesses.",
+      "metaTitle": "Web Development and SEO in Valencia | AI & Automation Agency – NeuralForge",
+      "metaDescription": "Web development, local SEO, and AI automation agency in Valencia. We create high-performance websites and intelligent chatbots for companies that want to grow.",
       "hero": {
-        "badge": "Digital AI Agency in Valencia",
+        "badge": "Digital Agency with AI in Valencia",
         "title1": "Professional Web Development in",
         "titleCity": "Valencia",
-        "title2": "for Businesses That Want to Dominate",
-        "subtitle": "We help Valencia businesses multiply their revenue with high-performance websites, dominant local SEO, and intelligent AI automation.",
-        "cta": "Request Free Consultation",
-        "cta2": "See Results"
+        "title2": "for Companies That Want to Dominate",
+        "subtitle": "We help Valencia-based companies multiply their revenue with high-performance websites, dominant local SEO, and intelligent AI automation.",
+        "cta": "Request Free Consultancy",
+        "cta2": "View Results"
       },
       "reality": {
         "tag": "The Reality in Valencia",
-        "title": "73% of businesses in Valencia lose clients due to their digital presence",
+        "title": "73% of companies in Valencia lose customers due to their digital presence",
         "stats": {
-          "0": "of businesses with outdated websites in Valencia",
-          "1": "of clients search on Google before contacting",
-          "2": "weekly hours lost on manual tasks",
-          "3": "to lose a client due to slow website"
+          "0": "of companies with obsolete websites in Valencia",
+          "1": "of customers search on Google before contacting",
+          "2": "weekly hours lost in manual tasks",
+          "3": "to lose a customer due to a slow website"
         },
         "statements": {
-          "0": "Your clients are searching for 'services in Valencia' right now — and finding your competition.",
-          "1": "An outdated website costs more clients than having no website. First impression is digital.",
-          "2": "Your team loses 20+ hours weekly on tasks that AI solves in minutes."
+          "0": "Your customers are searching for 'services in Valencia' right now — and they are finding your competition.",
+          "1": "An obsolete website costs more customers than having no website at all. The first impression is digital.",
+          "2": "Your team loses 20+ hours a week on tasks that AI solves in minutes."
         }
       },
       "services": {
         "tag": "Solutions in Valencia",
-        "title": "Technology That Works for Your Business",
+        "title": "Technology That Works for Your Company",
         "items": {
           "0": {
             "title": "Corporate Web Design",
-            "desc": "Professional websites optimized to convert visitors into clients. Responsive design and ultra-fast loading speed.",
-            "expandedDesc": "Each project includes UX analysis of the Valencia market, speed optimization, mobile-first design, and personalized conversion strategy."
+            "desc": "Professional websites optimized to convert visitors into customers. Responsive design and ultra-fast loading speed.",
+            "expandedDesc": "Every project includes UX analysis of the Valencian market, speed optimization, mobile-first design, and a personalized conversion strategy."
           },
           "1": {
             "title": "Local SEO in Valencia",
-            "desc": "Dominate local searches in Valencia and province. Appear first when your clients search for you.",
+            "desc": "Dominate local searches in Valencia and the province. Appear first when your customers search for you.",
             "expandedDesc": "Google Maps, local directories, keyword-optimized content, and strategic link building to position you as a leader in your sector."
           },
           "2": {
             "title": "AI Chatbots",
             "desc": "24/7 virtual assistants that respond, qualify leads, and schedule meetings automatically.",
-            "expandedDesc": "Trained with your company data and the Valencia market. Serve in Valencian, Spanish, and English — ideal for tourism and international commerce."
+            "expandedDesc": "Trained with data from your company and the Valencian market. They assist in Valencian, Spanish, and English — ideal for tourism and international trade."
           },
           "3": {
             "title": "Process Automation",
@@ -457,12 +467,12 @@
           },
           "4": {
             "title": "Web Redesign",
-            "desc": "Transform your outdated site into a modern platform that generates trust and converts.",
+            "desc": "We transform your obsolete site into a modern platform that builds trust and converts.",
             "expandedDesc": "Secure migration, SEO redirects, new responsive design, and immediate improvement in speed and conversion."
           },
           "5": {
             "title": "Advanced Platforms",
-            "desc": "Admin panels, user roles, dashboards, and scalable architecture for enterprises.",
+            "desc": "Admin panels, user roles, dashboards, and scalable architecture for businesses.",
             "expandedDesc": "Full-stack development with APIs, third-party integrations, enterprise security, and continuous support."
           }
         }
@@ -532,11 +542,11 @@
           },
           "2": {
             "title": "Development",
-            "desc": "Agile sprints with weekly demos and full transparency."
+            "desc": "Agile sprints with weekly demos and total transparency."
           },
           "3": {
             "title": "Optimization",
-            "desc": "AI-powered testing and optimization for maximum conversion."
+            "desc": "Testing and AI optimization for maximum conversion."
           },
           "4": {
             "title": "Growth",
@@ -546,36 +556,36 @@
       },
       "authority": {
         "tag": "Why NeuralForge in Valencia?",
-        "title": "We're Not Just Another Agency. We're Your Competitive Advantage.",
+        "title": "We Are Not Just Another Agency. We Are Your Competitive Edge.",
         "items": {
           "0": {
-            "title": "Understanding of the Valencia Market",
-            "desc": "Tourism, technology, industry, commerce — we understand every sector and how to position your business."
+            "title": "Valencian Market Knowledge",
+            "desc": "Tourism, technology, industry, commerce — we understand each sector and how to position your company."
           },
           "1": {
             "title": "Real AI and Automation",
-            "desc": "We don't sell buzzwords. We implement AI systems that generate measurable ROI from month one."
+            "desc": "We don't sell buzzwords. We implement AI systems that generate measurable ROI from the first month."
           },
           "2": {
             "title": "Scalable Infrastructure",
-            "desc": "From downtown startup to provincial corporation — solutions that grow with you."
+            "desc": "From the downtown startup to the provincial corporation — solutions that grow with you."
           },
           "3": {
             "title": "100% Senior Team",
-            "desc": "Every Valencia project receives direct attention from experts with 10+ years of experience."
+            "desc": "Every project in Valencia receives direct attention from experts with 10+ years of experience."
           }
         }
       },
       "cta": {
-        "title1": "Ready to Transform Your Business in",
+        "title1": "Ready to Transform Your Company in",
         "titleCity": "Valencia",
         "title2": "?",
         "subtitle": "Every week without an effective digital strategy is money left on the table. We only accept 3 new projects per month.",
-        "button": "Request Free Consultation →",
+        "button": "Request Free Consultancy →",
         "urgency": "⚡ Limited spots — March 2026 almost full"
       },
       "testimonialPlaceholder": {
-        "quote": "NeuralForge completely transformed our online presence. In 4 months we went from invisible on Google to receiving triple the quote requests.",
+        "quote": "NeuralForge completely transformed our online presence. In 4 months, we went from being invisible on Google to receiving triple the quote requests.",
         "author": "General Manager",
         "company": "Service Company, Valencia"
       }
@@ -583,7 +593,7 @@
     "stickyCta": {
       "available": "Spots available — March 2026",
       "limitedSpots": "Only {count} projects this month",
-      "button": "Request Consultation"
+      "button": "Request Consultancy"
     }
   },
   "cookies": {
@@ -600,39 +610,39 @@
       "lastUpdated": "Last updated: February 2026",
       "section1": {
         "title": "1. What are cookies?",
-        "text": "Cookies are small text files that are stored on your device (computer, tablet, or mobile) when you visit a website. Cookies are widely used to make websites work more efficiently, as well as to provide information to site owners."
+        "text": "Cookies are small text files stored on your device (computer, tablet, or mobile) when you visit a website. Cookies are widely used to make websites work more efficiently and to provide information to site owners."
       },
       "section2": {
         "title": "2. What cookies do we use?",
-        "text": "At NeuralForge we use the following types of cookies:",
+        "text": "At NeuralForge, we use the following types of cookies:",
         "items": [
-          "Essential cookies: Necessary for the basic operation of the website. These include session cookies and language preference cookies.",
-          "Performance cookies: Allow us to analyze how visitors use our website to improve its performance. They collect information anonymously.",
-          "Functionality cookies: Allow remembering the choices you make (such as your preferred language) to provide a more personalized experience.",
-          "Marketing cookies: Used to track visitors across websites with the intention of displaying relevant and engaging advertisements to the individual user."
+          "Essential cookies: Necessary for the basic operation of the website. They include session cookies and language preference cookies.",
+          "Performance cookies: They allow us to analyze how visitors use our website to improve its performance. They collect information anonymously.",
+          "Functionality cookies: They allow us to remember the choices you make (such as your preferred language) to provide a more personalized experience.",
+          "Marketing cookies: Used to track visitors across websites with the intention of displaying relevant and engaging ads for the individual user."
         ]
       },
       "section3": {
         "title": "3. Third-party cookies",
-        "text": "Some of our partners and service providers may set cookies on your device when you visit our website. These third parties include web analytics services and external content providers. We have no control over the cookies these third parties set. We recommend consulting these third parties' privacy policies for more information."
+        "text": "Some of our partners and service providers may set cookies on your device when you visit our website. These third parties include web analytics services and external content providers. We have no control over the cookies these third parties set. We recommend consulting the privacy policies of these third parties for more information."
       },
       "section4": {
         "title": "4. How to control cookies?",
-        "text": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your device and set most browsers not to accept them. However, if you do this, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work properly."
+        "text": "You can control and/or delete cookies as you wish. You can delete all cookies already on your device and configure most browsers to not accept them. However, if you do so, you may have to manually adjust some preferences each time you visit a site, and some services and functionalities may not work correctly."
       },
       "section5": {
         "title": "5. Browser settings",
-        "text": "Most web browsers allow some control of cookies through browser settings. To learn more about cookies, including how to see which cookies have been set and how to manage and delete them, visit your browser settings.",
+        "text": "Most web browsers allow some control over cookies through the browser settings. To learn more about cookies, including how to see what cookies have been set and how to manage and delete them, visit your browser settings.",
         "items": [
-          "Google Chrome: Settings > Privacy and Security > Cookies",
-          "Mozilla Firefox: Options > Privacy & Security",
+          "Google Chrome: Settings > Privacy and security > Cookies",
+          "Mozilla Firefox: Options > Privacy and security",
           "Safari: Preferences > Privacy",
           "Microsoft Edge: Settings > Privacy, search, and services"
         ]
       },
       "section6": {
         "title": "6. Changes to this policy",
-        "text": "We may update this cookie policy periodically to reflect changes in the cookies we use or for other operational, legal, or regulatory reasons. We recommend that you review this page regularly to stay informed about our use of cookies."
+        "text": "We may update this cookie policy periodically to reflect changes in the cookies we use or for other operational, legal, or regulatory reasons. We recommend you check this page regularly to stay informed about our use of cookies."
       },
       "section7": {
         "title": "7. Contact",

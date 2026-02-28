@@ -4,7 +4,7 @@ import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { inter, manrope } from '@/lib/fonts';
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster as SonnerToaster } from "sonner";
 import CookieConsent from "@/components/CookieConsent";
 import "../globals.css";
 
@@ -163,7 +163,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
           <CookieConsent />
-          <Toaster />
+          <SonnerToaster position="bottom-right" richColors />
         </NextIntlClientProvider>
       </body>
     </html>

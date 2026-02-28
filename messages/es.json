@@ -192,29 +192,30 @@
     "copyright": "Todos los derechos reservados."
   },
   "contact": {
-    "tag": "Hablemos de Crecimiento",
-    "title1": "¿Listo para Poner la IA a Trabajar",
-    "title2": "para Tu Negocio?",
-    "subtitle": "Cuéntanos sobre tus objetivos. Te mostraremos exactamente cómo la IA y la automatización pueden acelerar tus ingresos.",
-    "name": "Nombre Completo *",
-    "email": "Email Corporativo *",
-    "company": "Nombre de Empresa",
-    "serviceLabel": "¿Qué Necesitas?",
-    "servicePlaceholder": "Selecciona una solución",
-    "serviceWebsite": "Sitio Web con IA",
-    "serviceSeo": "Dominio en Búsquedas",
-    "serviceChatbot": "Asistente de IA",
-    "serviceRedesign": "Transformación Digital",
-    "serviceAutomation": "Automatización de Procesos",
-    "servicePlatform": "Plataforma Empresarial",
-    "message": "Cuéntanos Sobre Tus Objetivos *",
-    "messagePlaceholder": "¿Qué desafíos enfrentas? ¿Cómo se ve el éxito para ti?",
-    "submit": "Enviar Mensaje",
-    "error": "Error en el formulario",
-    "errorMessage": "Por favor, completa los campos obligatorios",
+    "tag": "Sin Compromiso, Sin Tecnicismos",
+    "title1": "Cuéntanos Qué Necesita",
+    "title2": "Tu Negocio",
+    "subtitle": "Primera consulta gratuita. Te respondemos en menos de 24 horas con orientación clara, opciones reales y un presupuesto sin letra pequeña.",
+    "name": "Nombre *",
+    "email": "Email *",
+    "company": "Nombre de tu Negocio",
+    "serviceLabel": "¿Qué necesitas?",
+    "servicePlaceholder": "Selecciona una opción",
+    "serviceWebsite": "Página Web desde Cero",
+    "serviceSeo": "Mejorar mi Posición en Google",
+    "serviceChatbot": "Aplicación o Herramienta a Medida",
+    "serviceRedesign": "Rediseño de Web Existente",
+    "serviceAutomation": "Tienda Online",
+    "servicePlatform": "No sé, necesito orientación",
+    "message": "Cuéntanos sobre tu negocio *",
+    "messagePlaceholder": "¿A qué te dedicas? ¿Qué problema quieres resolver? No hace falta que sepas exactamente qué necesitas — para eso estamos.",
+    "submit": "Enviar Consulta Gratuita",
+    "error": "Algo ha ido mal",
+    "errorMessage": "Por favor, completa los campos obligatorios e inténtalo de nuevo.",
+    "successMessage": "¡Mensaje recibido! Te respondemos en menos de 24 horas con ideas concretas para tu negocio.",
     "thankyou": {
-      "title": "¡Estamos en Ello!",
-      "desc": "Un estratega senior revisará tu proyecto y te responderá en menos de 24 horas con ideas accionables."
+      "title": "¡Consulta Recibida!",
+      "desc": "Revisaremos tu proyecto y te responderemos en menos de 24 horas con orientación clara y un presupuesto sin sorpresas. Sin compromiso."
     },
     "info": {
       "title": "Contacto Directo",
@@ -225,7 +226,7 @@
         "label": "Teléfono"
       },
       "location": {
-        "label": "Sede Central"
+        "label": "Ubicación"
       }
     }
   },
