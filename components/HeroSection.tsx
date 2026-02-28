@@ -100,7 +100,7 @@ const HeroSection = () => {
             size="lg"
             variant="outline"
             className="border-primary-foreground/40 text-primary-foreground bg-primary-foreground/5 hover:bg-primary-foreground/15 text-base"
-            onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => document.getElementById("cases")?.scrollIntoView({ behavior: "smooth" })}
           >
             {t("hero.cta2")}
           </Button>

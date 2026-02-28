@@ -175,7 +175,12 @@
     "locations": "Location",
     "valencia": "Valencia, Spain",
     "alicante": "Alicante, Spain",
-    "serviceArea": "Service throughout the Valencian Community"
+    "serviceArea": "Service throughout the Valencian Community",
+    "email": "hello@corexia.es",
+    "phone": "+34 652 56 14 27",
+    "location": "Alicante - Valencia, Spain",
+    "serviceAreaFull": "Service throughout Spain — in-person and remote",
+    "copyright": "All rights reserved."
   },
   "contact": {
     "tag": "Let's Talk Growth",

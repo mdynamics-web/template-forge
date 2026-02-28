@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
@@ -15,47 +15,92 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-sm">C</span>
+                <span className="text-primary-foreground font-display font-bold text-sm">
+                  C
+                </span>
               </div>
               <span className="font-display font-bold text-lg text-primary-foreground">
                 Core<span className="gradient-text">xia</span>
               </span>
             </div>
-            <p className="text-primary-foreground/50 text-sm leading-relaxed">{t("footer.tagline")}</p>
+            <p className="text-primary-foreground/50 text-sm leading-relaxed">
+              {t("footer.tagline")}
+            </p>
           </div>
 
           <div>
-            <h4 className="font-display font-bold text-primary-foreground mb-4">{t("footer.services")}</h4>
+            <h4 className="font-display font-bold text-primary-foreground mb-4">
+              {t("footer.services")}
+            </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/50">
-              <li className="hover:text-secondary transition-colors cursor-pointer">{t("footer.s1")}</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">{t("footer.s2")}</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">{t("footer.s3")}</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">{t("footer.s4")}</li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">{t("footer.s5")}</li>
+              <li className="hover:text-secondary transition-colors cursor-pointer">
+                {t("footer.s1")}
+              </li>
+              <li className="hover:text-secondary transition-colors cursor-pointer">
+                {t("footer.s2")}
+              </li>
+              <li className="hover:text-secondary transition-colors cursor-pointer">
+                {t("footer.s3")}
+              </li>
+              <li className="hover:text-secondary transition-colors cursor-pointer">
+                {t("footer.s4")}
+              </li>
+              <li className="hover:text-secondary transition-colors cursor-pointer">
+                {t("footer.s5")}
+              </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-display font-bold text-primary-foreground mb-4">{t("footer.company")}</h4>
+            <h4 className="font-display font-bold text-primary-foreground mb-4">
+              {t("footer.company")}
+            </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/50">
-              <li><Link href="/#process" className="hover:text-secondary transition-colors">{t("footer.c1")}</Link></li>
-              <li><Link href="/#cases" className="hover:text-secondary transition-colors">{t("footer.c2")}</Link></li>
-              <li><Link href={`/${locale}/contact`} className="hover:text-secondary transition-colors">{t("footer.c3")}</Link></li>
-              <li><Link href={`/${locale}/web-design-alicante`} className="hover:text-secondary transition-colors">Desarrollo Web Alicante</Link></li>
-              <li><Link href={`/${locale}/web-design-valencia`} className="hover:text-secondary transition-colors">Desarrollo Web Valencia</Link></li>
+              <li>
+                <Link
+                  href="/#process"
+                  className="hover:text-secondary transition-colors"
+                >
+                  {t("footer.c1")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#cases"
+                  className="hover:text-secondary transition-colors"
+                >
+                  {t("footer.c2")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/contact`}
+                  className="hover:text-secondary transition-colors"
+                >
+                  {t("footer.c3")}
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-display font-bold text-primary-foreground mb-4">{t("footer.contact")}</h4>
+            <h4 className="font-display font-bold text-primary-foreground mb-4">
+              {t("footer.contact")}
+            </h4>
             <ul className="space-y-3 text-sm text-primary-foreground/50">
-              <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-secondary" /> hola@corexia.es</li>
-              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-secondary" /> +34 652 56 14 27</li>
+              <li className="flex items-center gap-2">
+                <Mail className="w-4 h-4 text-secondary" /> {t("footer.email")}
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-secondary" /> {t("footer.phone")}
+              </li>
               <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-secondary mt-0.5" /> 
+                <MapPin className="w-4 h-4 text-secondary mt-0.5" />
                 <div>
-                  <div>Valencia, España</div>
-                  <div className="text-xs text-primary-foreground/30 mt-1">Servicio en toda España — presencial y remoto</div>
+                  <div>{t("footer.location")}</div>
+                  <div className="text-xs text-primary-foreground/30 mt-1">
+                    {t("footer.serviceAreaFull")}
+                  </div>
                 </div>
               </li>
             </ul>
@@ -63,7 +108,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center text-sm text-primary-foreground/30">
-          © {new Date().getFullYear()} Corexia. All rights reserved.
+          © {new Date().getFullYear()} Corexia. {t("footer.copyright")}
         </div>
       </div>
     </footer>

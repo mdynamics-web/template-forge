@@ -7,14 +7,6 @@ export type Locale = (typeof locales)[number]
 
 export const pathnames = {
   '/': '/',
-  '/web-design-alicante': {
-    es: '/diseño-web-alicante',
-    en: '/web-design-alicante',
-  },
-  '/web-design-valencia': {
-    es: '/diseño-web-valencia',
-    en: '/web-design-valencia',
-  },
   '/contact': {
     es: '/contacto',
     en: '/contact',

@@ -184,7 +184,12 @@
     "locations": "Dónde Estamos",
     "valencia": "Valencia, España",
     "alicante": "Alicante, España",
-    "serviceArea": "Servicio en toda España — presencial y remoto"
+    "serviceArea": "Servicio en toda España — presencial y remoto",
+    "email": "hola@corexia.es",
+    "phone": "+34 652 56 14 27",
+    "location": "Alicante - Valencia, España",
+    "serviceAreaFull": "Servicio en toda España — presencial y remoto",
+    "copyright": "Todos los derechos reservados."
   },
   "contact": {
     "tag": "Hablemos de Crecimiento",
