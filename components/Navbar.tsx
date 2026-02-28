@@ -60,7 +60,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-6">
           {navItems.map((item) =>
             item.href.startsWith("/#") ? (
               <button
@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-primary-foreground"
+          className="lg:hidden text-primary-foreground"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -110,7 +110,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-primary/98 backdrop-blur-xl border-t border-secondary/20"
+            className="lg:hidden bg-primary/98 backdrop-blur-xl border-t border-secondary/20"
           >
             <div className="flex flex-col gap-4 p-6">
               {navItems.map((item) =>

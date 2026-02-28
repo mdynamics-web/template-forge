@@ -4,6 +4,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ArrowUpRight, TrendingUp } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
+import wecleanLogo from "@/assets/weclean.webp";
+import taxitimeLogo from "@/assets/taxitime.webp";
+import SanajaLogo from "@/assets/Sanaja-Beauty.webp";
 
 const CaseStudiesSection = () => {
   const ref = useRef(null);
@@ -16,10 +20,11 @@ const CaseStudiesSection = () => {
       category: t("cases.c1.category"),
       description: t("cases.c1.desc"),
       url: "https://www.wecleantorrevieja.es/es",
+      logo: wecleanLogo,
       metrics: [
-        { label: "Revenue Increase", value: "+240%" },
-        { label: "Page Load Time", value: "0.8s" },
-        { label: "Lead Conversion", value: "+180%" },
+        { label: t("cases.c1.metric1.label"), value: t("cases.c1.metric1.value") },
+        { label: t("cases.c1.metric2.label"), value: t("cases.c1.metric2.value") },
+        { label: t("cases.c1.metric3.label"), value: t("cases.c1.metric3.value") },
       ],
     },
     {
@@ -27,21 +32,25 @@ const CaseStudiesSection = () => {
       category: t("cases.c2.category"),
       description: t("cases.c2.desc"),
       url: "https://taxitimetorreviejatoairport.com/es/",
+      logo: taxitimeLogo,
+      logoDarkBg: true,
       metrics: [
-        { label: "Cost Savings", value: "$2M/yr" },
-        { label: "Process Efficiency", value: "+75%" },
-        { label: "Patient Satisfaction", value: "+45%" },
+        { label: t("cases.c2.metric1.label"), value: t("cases.c2.metric1.value") },
+        { label: t("cases.c2.metric2.label"), value: t("cases.c2.metric2.value") },
+        { label: t("cases.c2.metric3.label"), value: t("cases.c2.metric3.value") },
       ],
     },
     {
       title: t("cases.c3.title"),
       category: t("cases.c3.category"),
       description: t("cases.c3.desc"),
-      url: null,
+      url: "https://sanajaquesada.com/",
+      logo: SanajaLogo,
+      logoDarkBg: false,
       metrics: [
-        { label: "Organic Traffic", value: "+450%" },
-        { label: "Avg. Order Value", value: "+35%" },
-        { label: "Cart Abandonment", value: "-42%" },
+        { label: t("cases.c3.metric1.label"), value: t("cases.c3.metric1.value") },
+        { label: t("cases.c3.metric2.label"), value: t("cases.c3.metric2.value") },
+        { label: t("cases.c3.metric3.label"), value: t("cases.c3.metric3.value") },
       ],
     },
   ];
@@ -61,7 +70,7 @@ const CaseStudiesSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           {cases.map((cs, i) => (
             <motion.div
               key={cs.title}
@@ -78,8 +87,16 @@ const CaseStudiesSection = () => {
                 <span className="text-xs font-semibold text-secondary uppercase tracking-wider">{cs.category}</span>
                 {cs.url && <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-secondary transition-colors" />}
               </div>
-              <h3 className="font-display font-bold text-2xl text-foreground mb-3">{cs.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-6">{cs.description}</p>
+              {cs.logo ? (
+                <div className="mb-6 w-full flex items-center justify-center h-20">
+                  <div className={`rounded-lg p-4 ${cs.logoDarkBg ? 'bg-gray-600' : 'bg-white'}`}>
+                    <Image src={cs.logo} alt={cs.title} height={60} className="object-contain max-h-12" />
+                  </div>
+                </div>
+              ) : (
+                <h3 className="font-display font-bold text-2xl text-foreground mb-3">{cs.title}</h3>
+              )}
+              <p className="text-muted-foreground text-sm leading-relaxed mb-6 lg:min-h-[10rem]">{cs.description}</p>
 
               <div className="space-y-3 pt-4 border-t border-border">
                 {cs.metrics.map((m) => (

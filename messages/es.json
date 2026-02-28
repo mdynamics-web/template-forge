@@ -130,18 +130,27 @@
     "title2": "en la Comunidad Valenciana",
     "c1": {
       "title": "WeClean",
-      "category": "Limpieza Alicante",
-      "desc": "Web con reservas online integradas y carta digital QR. Aumentó las reservas un 180% y redujo llamadas telefónicas, permitiendo al personal centrarse en el servicio."
+      "category": "Limpieza Profesional · Alicante",
+      "desc": "Creamos su web desde cero hace 10 meses. En menos de un año ya acumula más de 7.000 impresiones en Google y aparece en búsquedas clave como 'empresa de limpieza en Torrevieja' y 'servicio de keyholding Guardamar' — con el SEO aún en fase de crecimiento.",
+      "metric1": { "value": "7K+", "label": "Impresiones en Google" }, 
+      "metric2": { "value": "10", "label": "Meses desde el lanzamiento" }, 
+      "metric3": { "value": "1,5%", "label": "CTR medio" }
     },
     "c2": {
       "title": "TaxiTime Torrevieja",
-      "category": "Transporte Alicante",
-      "desc": "Sistema de reservas directo que eliminó comisiones de booking. Recuperó la inversión en 4 meses con un aumento del 65% en reservas directas."
+      "category": "Transporte y Taxi · Torrevieja",
+      "desc": "Web desarrollada hace 2 años para una empresa de taxi local. Hoy genera más de 415.000 impresiones anuales en Google con una posición media de 4 y un CTR del 2,2% — dominando búsquedas como 'taxi Torrevieja' con más de 152.000 impresiones solo esa keyword.",
+      "metric1": { "value": "415K", "label": "Impresiones anuales" },
+      "metric2": { "value": "4", "label": "Posición media en Google" },
+      "metric3": { "value": "2,2%", "label": "CTR medio" }
     },
     "c3": {
-      "title": "Fisio",
-      "category": "Fisioterapia Valencia",
-      "desc": "Tienda online con SEO local optimizado. Triplicó las ventas online en 6 meses y ahora vende en toda España con envío desde Valencia."
+      "title": "Sanaja Beauty",
+      "category": "Belleza y Masajes · Alicante",
+      "desc": "Web diseñada hace 2 años para un centro de belleza y masajes en Alicante. En los últimos 12 meses ha generado 32.000 impresiones con un CTR del 5,3% — muy por encima de la media del sector — y una posición media de 6 en Google.",
+      "metric1": { "value": "32K", "label": "Impresiones anuales" },
+      "metric2": { "value": "5,3%", "label": "CTR medio" },
+      "metric3": { "value": "6", "label": "Posición media en Google" }
     }
   },
   "tech": {

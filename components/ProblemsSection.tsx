@@ -31,7 +31,7 @@ const ProblemsSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           {problems.map((problem, i) => (
             <motion.div
               key={problem.title}
