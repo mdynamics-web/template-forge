@@ -1,60 +1,66 @@
 import type { Metadata } from "next";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
-import { inter, manrope } from '@/lib/fonts';
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, getTranslations } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import { inter, manrope } from "@/lib/fonts";
 import { Toaster as SonnerToaster } from "sonner";
 import CookieConsent from "@/components/CookieConsent";
 import "../globals.css";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'Metadata' });
+  const t = await getTranslations({ locale, namespace: "Metadata" });
 
-  const isSpanish = locale === 'es';
+  const isSpanish = locale === "es";
 
   return {
-    title: t('title'),
-    description: t('description'),
-    keywords: isSpanish ? t('keywords') : 'web development, mobile apps, SEO, custom software, technology consulting',
-    authors: [{ name: 'NeuralForge' }],
-    creator: 'NeuralForge',
-    publisher: 'NeuralForge',
+    title: t("title"),
+    description: t("description"),
+    keywords: isSpanish
+      ? t("keywords")
+      : "web development, mobile apps, SEO, custom software, technology consulting",
+    authors: [{ name: "NeuralForge" }],
+    creator: "NeuralForge",
+    publisher: "NeuralForge",
     formatDetection: {
       email: false,
       address: false,
       telephone: false,
     },
-    metadataBase: new URL('https://neuralforgeai.lovable.app'),
+    metadataBase: new URL("https://neuralforgeai.lovable.app"),
     alternates: {
-      canonical: '/',
+      canonical: "/",
       languages: {
-        'es': '/es',
-        'en': '/en',
+        es: "/es",
+        en: "/en",
       },
     },
     openGraph: {
-      type: 'website',
+      type: "website",
       locale: locale,
       url: `/${locale}`,
-      title: t('title'),
-      description: t('description'),
-      siteName: 'NeuralForge',
+      title: t("title"),
+      description: t("description"),
+      siteName: "NeuralForge",
       images: [
         {
-          url: '/og-image.png',
+          url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: 'NeuralForge - Desarrollo Web Valencia y Alicante',
+          alt: "NeuralForge - Desarrollo Web Valencia y Alicante",
         },
       ],
     },
     twitter: {
-      card: 'summary_large_image',
-      title: t('title'),
-      description: t('description'),
-      images: ['/og-image.png'],
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: ["/og-image.png"],
     },
     robots: {
       index: true,
@@ -62,28 +68,28 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       googleBot: {
         index: true,
         follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
       },
     },
     verification: {
-      google: 'your-google-verification-code',
+      google: "your-google-verification-code",
     },
   };
 }
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  
+
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as 'en' | 'es')) {
+  if (!routing.locales.includes(locale as "en" | "es")) {
     notFound();
   }
 
@@ -99,63 +105,55 @@ export default async function LocaleLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "@id": "https://neuralforgeai.lovable.app",
-              "name": "NeuralForge",
-              "image": "https://neuralforgeai.lovable.app/logo.png",
-              "description": locale === 'es' 
-                ? "Desarrollo web profesional en Valencia y Alicante. Creamos páginas web, aplicaciones móviles y mejoramos el tráfico de tu negocio."
-                : "Professional web development in Valencia and Alicante. We create websites, mobile apps and improve your business traffic.",
-              "address": {
+              "@type": "ProfessionalService",
+              "@id": "https://template-mdynamics.vercel.app",
+              name: "NeuralForge",
+              image: "https://template-mdynamics.vercel.app/logo.png",
+              description:
+                locale === "es"
+                  ? "Diseño web, SEO y apps para pequeños negocios de toda España. Ingenieros informáticos con trato directo y precios honestos."
+                  : "Web design, SEO and apps for small businesses across Spain. Direct contact with engineers, honest pricing.",
+              address: {
                 "@type": "PostalAddress",
-                "addressLocality": "Valencia",
-                "addressRegion": "Comunidad Valenciana",
-                "addressCountry": "ES"
+                addressLocality: "Valencia",
+                addressRegion: "Comunidad Valenciana",
+                postalCode: "46001",
+                addressCountry: "ES",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 39.4699,
-                "longitude": -0.3763
+                latitude: 39.4699,
+                longitude: -0.3763,
               },
-              "url": "https://neuralforgeai.lovable.app",
-              "telephone": "+34-XXX-XXX-XXX",
-              "email": "hola@neuralforge.es",
-              "priceRange": "$$",
-              "areaServed": [
-                {
-                  "@type": "City",
-                  "name": "Valencia"
-                },
-                {
-                  "@type": "City",
-                  "name": "Alicante"
-                },
-                {
-                  "@type": "State",
-                  "name": "Comunidad Valenciana"
-                }
+              url: "https://template-mdynamics.vercel.app",
+              telephone: "+34-XXX-XXX-XXX",
+              email: "hola@neuralforge.es",
+              priceRange: "$$",
+              areaServed: {
+                "@type": "Country",
+                name: "España",
+              },
+              serviceType: [
+                "Diseño Web",
+                "Desarrollo Web",
+                "SEO Local",
+                "Aplicaciones Web",
+                "E-commerce",
               ],
-              "sameAs": [
-                "https://www.linkedin.com/company/neuralforge"
-              ],
-              "openingHoursSpecification": {
+              sameAs: ["https://www.linkedin.com/company/neuralforge"],
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
+                dayOfWeek: [
                   "Monday",
-                  "Tuesday", 
+                  "Tuesday",
                   "Wednesday",
                   "Thursday",
-                  "Friday"
+                  "Friday",
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                opens: "09:00",
+                closes: "18:00",
               },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5",
-                "reviewCount": "15"
-              }
-            })
+            }),
           }}
         />
       </head>
