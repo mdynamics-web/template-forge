@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -56,12 +57,14 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <Link href={`/${locale}`} className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-            <span className="text-primary-foreground font-display font-bold text-sm">C</span>
-          </div>
-          <span className="font-display font-bold text-xl text-primary-foreground">
-            Core<span className="gradient-text">Xia</span>
-          </span>
+          <Image
+            src="/logo-without-bg.png"
+            alt="CoreXia Logo"
+            width={170}
+            height={100}
+            className="object-contain"
+          />
+
         </Link>
 
         {/* Desktop nav */}
