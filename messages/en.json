@@ -244,7 +244,7 @@
       "reject": "Essential only"
     },
     "policy": {
-      "metaTitle": "Cookie Policy | NeuralForge",
+      "metaTitle": "Cookie Policy | Corexia",
       "title": "Cookie Policy",
       "lastUpdated": "Last updated: February 2026",
       "section1": {
@@ -253,7 +253,7 @@
       },
       "section2": {
         "title": "2. What cookies do we use?",
-        "text": "At NeuralForge, we use the following types of cookies:",
+        "text": "At Corexia, we use the following types of cookies:",
         "items": [
           "Essential cookies: Necessary for the basic operation of the website. They include session cookies and language preference cookies.",
           "Performance cookies: They allow us to analyze how visitors use our website to improve its performance. They collect information anonymously.",
@@ -285,7 +285,7 @@
       },
       "section7": {
         "title": "7. Contact",
-        "text": "If you have questions about our cookie policy, you can contact us at hello@neuralforge.io or through our contact page."
+        "text": "If you have questions about our cookie policy, you can contact us at hello@corexia.es or through our contact page."
       }
     }
   }

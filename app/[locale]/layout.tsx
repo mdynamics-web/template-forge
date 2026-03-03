@@ -24,35 +24,35 @@ export async function generateMetadata({
     keywords: isSpanish
       ? t("keywords")
       : "web development, mobile apps, SEO, custom software, technology consulting",
-    authors: [{ name: "NeuralForge" }],
-    creator: "NeuralForge",
-    publisher: "NeuralForge",
+    authors: [{ name: "Corexia" }],
+    creator: "Corexia",
+    publisher: "Corexia",
     formatDetection: {
       email: false,
       address: false,
       telephone: false,
     },
-    metadataBase: new URL("https://neuralforgeai.lovable.app"),
+    metadataBase: new URL("https://corexia.es"),
     alternates: {
       canonical: "/",
       languages: {
-        es: "/es",
-        en: "/en",
+        es: "/",
+        en: "/",
       },
     },
     openGraph: {
       type: "website",
       locale: locale,
-      url: `/${locale}`,
+      url: "/",
       title: t("title"),
       description: t("description"),
-      siteName: "NeuralForge",
+      siteName: "Corexia",
       images: [
         {
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: "NeuralForge - Desarrollo Web Valencia y Alicante",
+          alt: "Corexia - Desarrollo Web para Pequeños Negocios en España",
         },
       ],
     },
@@ -106,9 +106,9 @@ export default async function LocaleLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              "@id": "https://template-mdynamics.vercel.app",
-              name: "NeuralForge",
-              image: "https://template-mdynamics.vercel.app/logo.png",
+              "@id": "https://corexia.es",
+              name: "Corexia",
+              image: "https://corexia.es/logo.png",
               description:
                 locale === "es"
                   ? "Diseño web, SEO y apps para pequeños negocios de toda España. Ingenieros informáticos con trato directo y precios honestos."
@@ -125,9 +125,9 @@ export default async function LocaleLayout({
                 latitude: 39.4699,
                 longitude: -0.3763,
               },
-              url: "https://template-mdynamics.vercel.app",
-              telephone: "+34-XXX-XXX-XXX",
-              email: "hola@neuralforge.es",
+              url: "https://corexia.es",
+              telephone: "+34 652 56 14 27",
+              email: "hello@corexia.es",
               priceRange: "$$",
               areaServed: {
                 "@type": "Country",
@@ -140,7 +140,7 @@ export default async function LocaleLayout({
                 "Aplicaciones Web",
                 "E-commerce",
               ],
-              sameAs: ["https://www.linkedin.com/company/neuralforge"],
+              sameAs: ["https://www.linkedin.com/company/corexia"],
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
                 dayOfWeek: [

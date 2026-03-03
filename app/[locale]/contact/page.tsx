@@ -10,8 +10,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'contact' });
 
   return {
-    title: `${t('title1')} ${t('title2')} | NeuralForge`,
+    title: `${t('title1')} ${t('title2')} | Corexia`,
     description: t('subtitle'),
+    alternates: {
+      canonical: locale === 'es' ? '/contacto' : '/contact',
+      languages: {
+        'es': '/contacto',
+        'en': '/contact',
+      },
+    },
   };
 }
 
