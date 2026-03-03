@@ -35,7 +35,7 @@ const TechStackSection = () => {
         >
           <span className="text-secondary font-semibold text-sm uppercase tracking-widest">{t("tech.tag")}</span>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground mt-3">
-            {t("tech.title1")} <span className="gradient-text">{t("tech.title2")}</span>
+            {t("tech.title1")} <br className="hidden lg:block" /> <span className="gradient-text">{t("tech.title2")}</span>
           </h2>
           <p className="text-muted-foreground mt-4 max-w-xl mx-auto">{t("tech.subtitle")}</p>
         </motion.div>

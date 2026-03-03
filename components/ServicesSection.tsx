@@ -30,7 +30,7 @@ const ServicesSection = () => {
         >
           <span className="text-secondary font-semibold text-sm uppercase tracking-widest">{t("services.tag")}</span>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground mt-3">
-            {t("services.title1")} <span className="gradient-text">{t("services.title2")}</span>
+            {t("services.title1")} <br className="hidden lg:block" /> <span className="gradient-text">{t("services.title2")}</span>
           </h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto text-lg">{t("services.subtitle")}</p>
         </motion.div>

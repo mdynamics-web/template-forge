@@ -4,19 +4,19 @@
     "process": "Process",
     "cases": "Success Stories",
     "contact": "Contact",
-    "cta": "Book a Call"
+    "cta": "Schedule Call"
   },
   "hero": {
-    "badge": "From idea to clients in 90 days",
-    "title1": "Your Business",
-    "title2": "Deserves a Website",
-    "title3": "That Works for You",
-    "subtitle": "We help small businesses go digital with fast, Google-ranked websites designed to sell. Direct contact, honest pricing, and real technology.",
+    "badge": "From idea to customers in 90 days",
+    "title1": "Professional Web Design",
+    "title2": "and SEO for",
+    "title3": "Businesses in Spain",
+    "subtitle": "We help businesses go digital with fast websites, ranked on Google and designed to sell. Direct contact, honest prices and real technology.",
     "cta1": "Schedule Your Free Consultation",
     "cta2": "View Success Stories",
     "stat1": {
       "value": "+20",
-      "label": "Projects Completed"
+      "label": "Completed Projects"
     },
     "stat2": {
       "value": "+150%",
@@ -32,141 +32,141 @@
     }
   },
   "problems": {
-    "tag": "What's Holding Your Business Back",
-    "title1": "Why Your Local Business",
-    "title2": "Needs a Professional Website",
+    "tag": "The Problem Your Business Has Right Now",
+    "title1": "Why Your Business Needs",
+    "title2": "Professional Web Design and Local SEO",
     "card1": {
       "title": "Without a Professional Website, Google Doesn't Know You Exist",
-      "desc": "89% of consumers search online before buying. If your business doesn't appear in the top Google results, for your potential customers, you simply don't exist."
+      "desc": "89% of consumers search online before buying. If your business doesn't appear in the first Google results, you simply don't exist for your potential customers."
     },
     "card2": {
-      "title": "Bad Web Design Drives Customers Away",
-      "desc": "You have less than 3 seconds to make a good impression. A website that loads slowly, doesn't work on mobile, or looks abandoned makes the customer leave before reading anything."
+      "title": "Poor Web Design Drives Away Your Customers",
+      "desc": "You have less than 3 seconds to make a good impression. A website that loads slowly, doesn't work on mobile or looks abandoned makes customers leave before reading anything."
     },
     "card3": {
-      "title": "Appear on Google Without Paying for Ads",
+      "title": "With Local SEO You Appear on Google Without Paying for Ads",
       "desc": "Appearing when someone searches for your service in your city doesn't require ads. With a well-optimized website, customers find you on their own — and that traffic never stops."
     }
   },
   "services": {
     "tag": "What We Can Do for You",
-    "title1": "Digital Solutions for",
-    "title2": "Small Businesses That Want to Grow",
-    "subtitle": "No technical jargon, no fine print. We help you build a real digital presence that attracts customers and grows your business — anywhere in Spain.",
+    "title1": "Web Design and SEO Services",
+    "title2": "for Businesses in Spain",
+    "subtitle": "No jargon, no fine print. Professional web design, local SEO and custom development so your business appears on Google and attracts customers — anywhere in Spain.",
     "s1": {
-      "title": "Professional Website",
-      "desc": "Your business on the internet with a modern, fast, and mobile-friendly design. Looking good, loading fast, and converting visitors into customers from day one."
+      "title": "Professional Web Design for Your Business",
+      "desc": "Your business online with a modern, fast and mobile-friendly design. That looks good, loads fast and converts visits into customers from day one."
     },
     "s2": {
       "title": "SEO and Google Ranking",
-      "desc": "Show up when your customers search for you. We optimize your website so Google shows you before your competition, without paying for advertising."
+      "desc": "Appear when your customers search for you. We optimize your website so Google shows you before your competition, without paying for advertising."
     },
     "s3": {
       "title": "Online Store and E-commerce",
-      "desc": "Sell your products 24/7. Complete stores with a shopping cart, secure payment, and easy management — no technical knowledge required."
+      "desc": "Sell your products 24 hours a day, 7 days a week. Complete stores with shopping cart, secure payment and easy management — without needing technical knowledge."
     },
     "s4": {
-      "title": "Existing Website Redesign",
-      "desc": "Is your website outdated or not working well? We modernize, accelerate, and optimize it so it stops driving customers away and starts attracting them."
+      "title": "Website Redesign and Optimization",
+      "desc": "Is your website outdated or not working well? We modernize, speed up and optimize it so it stops driving customers away and starts attracting them."
     },
     "s5": {
-      "title": "Custom Apps and Tools",
-      "desc": "Online bookings, CRM, order management, digital catalogs — if you have a manual process that takes up your time, we automate it for your business."
+      "title": "Custom Applications and Tools",
+      "desc": "Online bookings, CRM, order management, digital catalogs — if you have a manual process that wastes your time, we automate it for your business."
     },
     "s6": {
-      "title": "No-Obligation Digital Consultancy",
-      "desc": "You don't know where to start or what you really need. We help you understand it without pressure. The first consultation is always free."
+      "title": "Digital Consulting Without Commitment",
+      "desc": "Don't know where to start or what you really need? We help you understand it without pressure. First consultation always free."
     }
   },
   "diff": {
-    "tag": "Why Trust Us",
-    "title": "Engineers Who Work Directly on Your Project",
-    "subtitle": "No agencies, no intermediaries, no sales reps. You speak with the person developing your website from the first day to the last.",
+    "tag": "Why Choose Us as Your Web Agency",
+    "title": "Web Development and SEO by Engineers, Without Intermediaries",
+    "subtitle": "No agencies, no intermediaries, no salespeople. You talk to the person who develops your website from the first day to the last.",
     "d1": {
-      "title": "Experience in Real Tech Companies",
-      "desc": "We have led development teams in tech companies. We apply those same practices and standards to your project, regardless of its size."
+      "title": "Real Experience in Web Projects and Technology",
+      "desc": "We have worked leading development teams in tech companies. We apply those same practices and standards to your project, regardless of its size."
     },
     "d2": {
-      "title": "Modern Technology, Fast and Scalable Web",
-      "desc": "We use React, Next.js, and Node.js — the same technology used by Google or Netflix. Your website will load in less than 1 second and be ready to grow with you."
+      "title": "Modern Technology, Fast and Scalable Website",
+      "desc": "We use React, Next.js and Node.js — the same technology used by Google or Netflix. Your website will load in less than 1 second and be ready to grow with you."
     },
     "d3": {
-      "title": "Direct Contact, Honest Pricing",
-      "desc": "No inflated budgets or fine print. We explain exactly what you will receive, how much it will cost, and when it will be ready — before you sign anything."
+      "title": "Direct Contact, Honest Prices",
+      "desc": "No inflated budgets or fine print. We explain exactly what you're going to receive, how much it will cost and when it will be ready — before you sign anything."
     },
     "d4": {
-      "title": "We Know the Spanish Market",
-      "desc": "Spanish payment gateways, adapted invoicing, local SEO in Spain, and availability for in-person or video meetings throughout the peninsula."
+      "title": "Local SEO and Web Design Adapted to the Spanish Market",
+      "desc": "Spanish payment gateways, adapted invoicing, local SEO in Spain and availability for face-to-face or video call meetings throughout the peninsula."
     }
   },
   "process": {
-    "tag": "Our Process",
-    "title1": "From the First Call",
-    "title2": "to Your Live Website in 30 Days",
+    "tag": "Our Work Process",
+    "title1": "How We Create Your Professional Website",
+    "title2": "from Zero to Published in 30 Days",
     "s1": {
-      "title": "Free Consultation",
-      "desc": "We start by listening to you. We analyze your business, your competition, and what you really need — no jargon and no obligation. You decide if we move forward."
+      "title": "Free Consultation About Your Web Project",
+      "desc": "We start by listening to you. We analyze your business, your competition and what you really need — without jargon and without commitment. You decide if we move forward."
     },
     "s2": {
-      "title": "Clear Proposal with No Fine Print",
-      "desc": "You receive a detailed quote with exactly what is included, the cost, and the delivery date. No surprises, no hidden costs."
+      "title": "Clear Proposal with Fixed Price and Deadline",
+      "desc": "You receive a detailed budget with exactly what's included, what it will cost and when it will be ready. No surprises, no hidden costs."
     },
     "s3": {
-      "title": "Development with Weekly Updates",
-      "desc": "We work on your project and keep you informed at all times. You will see real progress every week and can give us feedback before it's too late."
+      "title": "Web Development with Weekly Updates",
+      "desc": "We work on your project and keep you informed at all times. You'll see real progress every week and can give us feedback before it's too late."
     },
     "s4": {
-      "title": "Review and Adjustments with You",
-      "desc": "Before publishing anything, we review every detail together. Speed, design, text, forms — everything must be perfect and you must be 100% satisfied."
+      "title": "Review and Adjustments Before Launch",
+      "desc": "Before publishing anything, we review every detail together. Speed, design, texts, forms — everything has to be perfect and you have to be 100% satisfied."
     },
     "s5": {
-      "title": "Launch and Ongoing Support",
-      "desc": "We publish your website and don't disappear. We train you to manage it, resolve doubts, and remain available for any future improvements."
+      "title": "Website Launch and Ongoing Support",
+      "desc": "We publish your website and don't disappear. We train you so you can manage it, resolve doubts and remain available for any future improvements."
     }
   },
   "cases": {
-    "tag": "Completed Projects",
-    "title1": "Success Stories",
-    "title2": "in the Valencian Community",
+    "tag": "Web Design and SEO Projects Completed",
+    "title1": "Real Results in Web Design",
+    "title2": "and Local SEO in Spain",
     "c1": {
       "title": "WeClean",
       "category": "Professional Cleaning · Alicante",
-      "desc": "We created their website from scratch 10 months ago. In less than a year, it has already accumulated over 7,000 impressions on Google and appears in key searches like 'cleaning company in Torrevieja' and 'keyholding service Guardamar' — with SEO still in the growth phase.",
-      "metric1": { "value": "7K+", "label": "Google Impressions" },
-      "metric2": { "value": "10", "label": "Months since launch" },
+      "desc": "We designed and developed their website from scratch 10 months ago. In less than a year it has accumulated more than 7,000 impressions on Google and ranks for key local searches like 'cleaning company in Torrevieja' — with SEO still in growth phase.",
+      "metric1": { "value": "7K+", "label": "Google Impressions" }, 
+      "metric2": { "value": "10", "label": "Months since launch" }, 
       "metric3": { "value": "1.5%", "label": "Average CTR" }
     },
     "c2": {
       "title": "TaxiTime Torrevieja",
       "category": "Transport and Taxi · Torrevieja",
-      "desc": "Website developed 2 years ago for a local taxi company. Today it generates more than 415,000 annual impressions on Google with an average position of 4 and a CTR of 2.2% — dominating searches like 'taxi Torrevieja' with over 152,000 impressions for that keyword alone.",
-      "metric1": { "value": "415K", "label": "Annual Impressions" },
-      "metric2": { "value": "4", "label": "Avg. Google Position" },
+      "desc": "We developed their website 2 years ago for this local taxi company in Torrevieja. Today it generates more than 415,000 annual impressions on Google, average position 4 and CTR of 2.2% — dominating high-volume searches like 'taxi Torrevieja'.",
+      "metric1": { "value": "415K", "label": "Annual impressions" },
+      "metric2": { "value": "4", "label": "Average Google position" },
       "metric3": { "value": "2.2%", "label": "Average CTR" }
     },
     "c3": {
       "title": "Sanaja Beauty",
       "category": "Beauty and Massage · Alicante",
-      "desc": "Website designed 2 years ago for a beauty and massage center in Alicante. In the last 12 months, it has generated 32,000 impressions with a 5.3% CTR — well above the industry average — and an average position of 6 on Google.",
-      "metric1": { "value": "32K", "label": "Annual Impressions" },
+      "desc": "Web design for beauty and massage center in Alicante. In the last 12 months: 32,000 Google impressions, 5.3% CTR — well above the industry average — and average position of 6. Organic results without advertising investment.",
+      "metric1": { "value": "32K", "label": "Annual impressions" },
       "metric2": { "value": "5.3%", "label": "Average CTR" },
-      "metric3": { "value": "6", "label": "Avg. Google Position" }
+      "metric3": { "value": "6", "label": "Average Google position" }
     }
   },
   "tech": {
     "tag": "Technology",
-    "title1": "The Technology Used by",
-    "title2": "Big Companies, for Your Business",
-    "subtitle": "React, Next.js, and Node.js — the same stack used by Google, Netflix, and Airbnb, adapted to your business size and budget."
+    "title1": "Web Development with Next.js and React:",
+    "title2": "Fast Websites Optimized for Google",
+    "subtitle": "We use Next.js, React and Node.js to create websites that load in less than 1 second — the same stack as Google or Netflix — adapted to your business budget. Loading speed is a ranking factor on Google."
   },
   "cta": {
-    "title1": "Ready to Have a Website",
-    "title2": "That Works for You?",
-    "subtitle": "First consultation free and without obligation. We tell you exactly what you need, how much it costs, and when you'll have it — before you sign anything.",
+    "title1": "Want a Professional Website",
+    "title2": "that Ranks on Google from Day One?",
+    "subtitle": "First free and no-commitment consultation. We analyze your business, tell you what you need —web design, SEO or both— how much it costs and when you'll have it.",
     "button": "Schedule Your Free Consultation →"
   },
   "footer": {
-    "tagline": "Professional web development and technology consultancy in Valencia and Alicante by experienced computer engineers.",
+    "tagline": "Web design and SEO agency in Valencia and Alicante. Computer engineers with real experience in digital projects for businesses throughout Spain.",
     "services": "Services",
     "company": "Company",
     "contact": "Contact",
@@ -174,13 +174,13 @@
     "s2": "SEO and Local Ranking",
     "s3": "Custom Applications",
     "s4": "Online Stores",
-    "s5": "Digital Consultancy",
+    "s5": "Digital Consulting",
     "c1": "How We Work",
     "c2": "Completed Projects",
     "c3": "Contact",
     "consultation": "Free Consultation",
-    "consultationDesc": "Let's talk about your business without obligation. We provide guidance and a quote in less than 48 hours.",
-    "response": "Guaranteed response within 48 hours",
+    "consultationDesc": "We talk about your business without commitment. We give you guidance and a budget in less than 48 hours.",
+    "response": "Response guaranteed in 48 hours",
     "locations": "Where We Are",
     "valencia": "Valencia, Spain",
     "alicante": "Alicante, Spain",
@@ -192,19 +192,19 @@
     "copyright": "All rights reserved."
   },
   "contact": {
-    "tag": "No Obligation, No Jargon",
-    "title1": "Tell Us What Your Business",
-    "title2": "Needs",
-    "subtitle": "First consultation free. We respond in less than 24 hours with clear guidance, real options, and a quote with no fine print.",
+    "tag": "No Commitment, No Jargon",
+    "title1": "Tell Us What Your",
+    "title2": "Business Needs",
+    "subtitle": "First free consultation. We respond in less than 24 hours with clear guidance, real options and a budget without fine print.",
     "name": "Name *",
     "email": "Email *",
-    "company": "Business Name",
+    "company": "Your Business Name",
     "serviceLabel": "What do you need?",
     "servicePlaceholder": "Select an option",
     "serviceWebsite": "Website from Scratch",
-    "serviceSeo": "Improve Google Ranking",
-    "serviceChatbot": "Custom App or Tool",
-    "serviceRedesign": "Existing Web Redesign",
+    "serviceSeo": "Improve My Google Ranking",
+    "serviceChatbot": "Custom Application or Tool",
+    "serviceRedesign": "Existing Website Redesign",
     "serviceAutomation": "Online Store",
     "servicePlatform": "I don't know, I need guidance",
     "message": "Tell us about your business *",
@@ -212,10 +212,10 @@
     "submit": "Send Free Consultation",
     "error": "Something went wrong",
     "errorMessage": "Please complete the required fields and try again.",
-    "successMessage": "Message received! We will respond in less than 24 hours with concrete ideas for your business.",
+    "successMessage": "Message received! We'll respond in less than 24 hours with concrete ideas for your business.",
     "thankyou": {
       "title": "Consultation Received!",
-      "desc": "We will review your project and respond in less than 24 hours with clear guidance and a surprise-free quote. No obligation."
+      "desc": "We'll review your project and respond in less than 24 hours with clear guidance and a budget without surprises. No commitment."
     },
     "info": {
       "title": "Direct Contact",
@@ -231,13 +231,13 @@
     }
   },
   "Metadata": {
-    "title": "Corexia | Web Design and SEO for Small Businesses",
-    "description": "Professional websites, SEO, and apps for small businesses across Spain. Engineers with direct contact, honest prices, and real results.",
-    "keywords": "web design small businesses, local business website, local SEO Spain, web development Valencia, web development Alicante, create cheap website, web developers Spain"
+    "title": "Professional Web Design and SEO for Businesses | Corexia",
+    "description": "We create fast, modern websites ranked on Google for businesses throughout Spain. Direct contact, real technology and visible results. First consultation free.",
+    "keywords": "professional web design, website for local business, local SEO Spain, web development Valencia, web development Alicante, create cheap website, web developers Spain, SEO agency Spain, Google positioning, business websites"
   },
   "cookies": {
     "consent": {
-      "title": "🍪 Cookie Usage",
+      "title": "🍪 Use of Cookies",
       "description": "We use cookies to improve your browsing experience and analyze our website traffic. By accepting, you help us improve our services.",
       "policyLink": "Cookie Policy",
       "accept": "Accept all",
@@ -249,39 +249,39 @@
       "lastUpdated": "Last updated: February 2026",
       "section1": {
         "title": "1. What are cookies?",
-        "text": "Cookies are small text files stored on your device (computer, tablet, or mobile) when you visit a website. Cookies are widely used to make websites work more efficiently and to provide information to site owners."
+        "text": "Cookies are small text files that are stored on your device (computer, tablet or mobile) when you visit a website. Cookies are widely used to make websites work more efficiently, as well as to provide information to site owners."
       },
       "section2": {
         "title": "2. What cookies do we use?",
-        "text": "At Corexia, we use the following types of cookies:",
+        "text": "At Corexia we use the following types of cookies:",
         "items": [
-          "Essential cookies: Necessary for the basic operation of the website. They include session cookies and language preference cookies.",
-          "Performance cookies: They allow us to analyze how visitors use our website to improve its performance. They collect information anonymously.",
+          "Essential cookies: Necessary for the basic functioning of the website. They include session cookies and language preference cookies.",
+          "Performance cookies: They allow us to analyze how visitors use our website to improve its operation. They collect information anonymously.",
           "Functionality cookies: They allow us to remember the choices you make (such as your preferred language) to provide a more personalized experience.",
-          "Marketing cookies: Used to track visitors across websites with the intention of displaying relevant and engaging ads for the individual user."
+          "Marketing cookies: They are used to track visitors across websites with the intention of displaying relevant and engaging ads for the individual user."
         ]
       },
       "section3": {
         "title": "3. Third-party cookies",
-        "text": "Some of our partners and service providers may set cookies on your device when you visit our website. These third parties include web analytics services and external content providers. We have no control over the cookies these third parties set. We recommend consulting the privacy policies of these third parties for more information."
+        "text": "Some of our partners and service providers may set cookies on your device when you visit our website. These third parties include web analytics services and external content providers. We have no control over the cookies that these third parties set. We recommend that you consult the privacy policies of these third parties for more information."
       },
       "section4": {
         "title": "4. How to control cookies?",
-        "text": "You can control and/or delete cookies as you wish. You can delete all cookies already on your device and configure most browsers to not accept them. However, if you do so, you may have to manually adjust some preferences each time you visit a site, and some services and functionalities may not work correctly."
+        "text": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your device and configure most browsers not to accept them. However, if you do this, you may have to manually adjust some preferences each time you visit a site and some services and functionalities may not work properly."
       },
       "section5": {
         "title": "5. Browser settings",
-        "text": "Most web browsers allow some control over cookies through the browser settings. To learn more about cookies, including how to see what cookies have been set and how to manage and delete them, visit your browser settings.",
+        "text": "Most web browsers allow some control of cookies through browser settings. For more information about cookies, including how to see what cookies have been set and how to manage and delete them, visit your browser settings.",
         "items": [
           "Google Chrome: Settings > Privacy and security > Cookies",
           "Mozilla Firefox: Options > Privacy and security",
           "Safari: Preferences > Privacy",
-          "Microsoft Edge: Settings > Privacy, search, and services"
+          "Microsoft Edge: Settings > Privacy, search and services"
         ]
       },
       "section6": {
         "title": "6. Changes to this policy",
-        "text": "We may update this cookie policy periodically to reflect changes in the cookies we use or for other operational, legal, or regulatory reasons. We recommend you check this page regularly to stay informed about our use of cookies."
+        "text": "We may update this cookie policy periodically to reflect changes in the cookies we use or for other operational, legal or regulatory reasons. We recommend that you review this page regularly to stay informed about our use of cookies."
       },
       "section7": {
         "title": "7. Contact",

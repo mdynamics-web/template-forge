@@ -29,7 +29,7 @@ const CTASection = () => {
         className="relative max-w-3xl mx-auto text-center"
       >
         <h2 className="font-display font-bold text-3xl md:text-5xl text-primary-foreground mb-6">
-          {t("cta.title1")} <span className="gradient-text">{t("cta.title2")}</span>
+          {t("cta.title1")} <br className="hidden lg:block" /> <span className="gradient-text">{t("cta.title2")}</span>
         </h2>
         <p className="text-primary-foreground/60 text-lg mb-10 max-w-xl mx-auto">{t("cta.subtitle")}</p>
         <Link href={`/${locale}/contact`}>

@@ -37,7 +37,7 @@ const DifferentiatorsSection = () => {
           className="text-center mb-16"
         >
           <span className="text-secondary font-semibold text-sm uppercase tracking-widest">{t("diff.tag")}</span>
-          <h2 className="font-display font-bold text-3xl md:text-5xl text-primary-foreground mt-3">{t("diff.title")}</h2>
+          <h2 className="font-display font-bold text-3xl md:text-5xl lg:mx-auto lg:max-w-[50rem] text-primary-foreground mt-3">{t("diff.title")}</h2>
           <p className="text-primary-foreground/60 mt-4 max-w-2xl mx-auto text-lg">{t("diff.subtitle")}</p>
         </motion.div>
 

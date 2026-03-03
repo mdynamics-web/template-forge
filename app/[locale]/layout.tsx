@@ -16,14 +16,10 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
-  const isSpanish = locale === "es";
-
   return {
     title: t("title"),
     description: t("description"),
-    keywords: isSpanish
-      ? t("keywords")
-      : "web development, mobile apps, SEO, custom software, technology consulting",
+    keywords: t("keywords"),
     authors: [{ name: "Corexia" }],
     creator: "Corexia",
     publisher: "Corexia",
@@ -34,16 +30,16 @@ export async function generateMetadata({
     },
     metadataBase: new URL("https://corexia.es"),
     alternates: {
-      canonical: "/",
+      canonical: `https://corexia.es/${locale}`,   // ✅ URL absoluta con locale
       languages: {
-        es: "/",
-        en: "/",
+        es: "https://corexia.es/es",               // ✅ hreflang correcto
+        en: "https://corexia.es/en",               // ✅ hreflang correcto
       },
     },
     openGraph: {
       type: "website",
-      locale: locale,
-      url: "/",
+      locale: locale === "es" ? "es_ES" : "en_GB",
+      url: `https://corexia.es/${locale}`,         // ✅ URL absoluta
       title: t("title"),
       description: t("description"),
       siteName: "Corexia",
@@ -52,7 +48,10 @@ export async function generateMetadata({
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Corexia - Desarrollo Web para Pequeños Negocios en España",
+          alt:
+            locale === "es"
+              ? "Corexia — Diseño Web y SEO para Negocios en España"
+              : "Corexia — Web Design & SEO for Businesses in Spain",
         },
       ],
     },
@@ -74,7 +73,7 @@ export async function generateMetadata({
       },
     },
     verification: {
-      google: "your-google-verification-code",
+      google: "your-google-verification-code",  // ← recuerda poner el código real
     },
   };
 }

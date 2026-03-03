@@ -66,7 +66,7 @@ const CaseStudiesSection = () => {
         >
           <span className="text-secondary font-semibold text-sm uppercase tracking-widest">{t("cases.tag")}</span>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground mt-3">
-            {t("cases.title1")} <span className="gradient-text">{t("cases.title2")}</span>
+            {t("cases.title1")} <br className="hidden lg:block" /> <span className="gradient-text">{t("cases.title2")}</span>
           </h2>
         </motion.div>
 
