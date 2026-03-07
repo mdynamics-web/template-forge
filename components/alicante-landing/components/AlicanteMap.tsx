@@ -12,13 +12,13 @@ export const AlicanteMap = () => {
   const [hoveredCity, setHoveredCity] = useState<string | null>(null);
   const { why } = useAlicanteTranslations();
   
-  // City coordinates (not translatable)
+  // City coordinates as % of the container (accounting for p-8 SVG padding)
   const cityCoordinates = [
-    { x: 60, y: 45 }, // Alicante
-    { x: 68, y: 72 }, // Torrevieja
-    { x: 42, y: 52 }, // Elche
-    { x: 50, y: 28 }, // Benidorm
-    { x: 72, y: 62 }, // Orihuela
+    { x: 77, y: 61 }, // Alicante (capital, east coast)
+    { x: 61, y: 79 }, // Torrevieja (south coast)
+    { x: 57, y: 66 }, // Elche (inland, SW of Alicante)
+    { x: 82, y: 36 }, // Benidorm (NE coast)
+    { x: 41, y: 76 }, // Orihuela (south inland)
   ];
   
   const cities = why.cities.map((city, i) => ({
@@ -48,12 +48,12 @@ export const AlicanteMap = () => {
       />
 
       {/* Province outline */}
-      <svg viewBox="0 0 100 100" className="w-full h-full max-w-[400px] p-8 opacity-20">
+      <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full p-8 opacity-30">
         <path
-          d="M20,10 L40,5 L65,8 L80,15 L85,30 L78,50 L72,65 L60,80 L45,90 L30,85 L22,70 L18,50 L15,30 Z"
-          fill="none"
+          d="M 14,10 L 32,3 L 50,2 L 65,5 L 78,8 L 87,15 L 90,24 L 87,33 L 85,43 L 86,53 L 82,63 L 76,72 L 70,79 L 64,85 L 55,90 L 44,88 L 32,80 L 24,70 L 16,58 L 12,44 L 14,30 L 14,18 Z"
+          fill="hsl(194 100% 50% / 0.07)"
           stroke="hsl(194 100% 50%)"
-          strokeWidth="0.5"
+          strokeWidth="0.6"
         />
       </svg>
 
