@@ -7,6 +7,8 @@ import { inter, manrope } from "@/lib/fonts";
 import { Toaster as SonnerToaster } from "sonner";
 import CookieConsent from "@/components/CookieConsent";
 import "../globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export async function generateMetadata({
   params,
@@ -157,11 +159,15 @@ export default async function LocaleLayout({
         />
       </head>
       <body className="antialiased font-sans">
+        
         <NextIntlClientProvider messages={messages}>
+          <Navbar />
           {children}
           <CookieConsent />
           <SonnerToaster position="bottom-right" richColors />
+          <Footer />
         </NextIntlClientProvider>
+        
       </body>
     </html>
   );

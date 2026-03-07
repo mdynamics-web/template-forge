@@ -288,5 +288,32 @@
         "text": "If you have questions about our cookie policy, you can contact us at hello@corexia.es or through our contact page."
       }
     }
+  },
+  "alicante": {
+    "hero": {
+      "badge": "Web Design Agency · Alicante, Spain",
+      "title": "Web Design and SEO in Alicante",
+      "titleHighlight": "That Generates Real Clients",
+      "description": "We create fast websites with Next.js, ranked on Google from day one and designed to convert visits into clients. For businesses in Alicante, Torrevieja, Elche and the entire province.",
+      "cta1": "Free Web Consultation",
+      "cta2": "See Alicante Results ↓",
+      "metrics": {
+        "m1": {
+          "value": "415000",
+          "suffix": "+",
+          "label": "Google Impressions"
+        },
+        "m2": {
+          "value": "30",
+          "suffix": "",
+          "label": "Average Days to Launch"
+        },
+        "m3": {
+          "value": "100",
+          "suffix": "%",
+          "label": "Clients with Growing Traffic"
+        }
+      }
+    }
   }
 }
