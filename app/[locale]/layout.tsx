@@ -101,6 +101,14 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${inter.variable} ${manrope.variable}`}>
       <head>
+        {/* Preload critical fonts */}
+        <link
+          rel="preload"
+          href="/_next/static/media/geist-latin.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
