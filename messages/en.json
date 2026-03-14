@@ -185,7 +185,7 @@
     "valencia": "Valencia, Spain",
     "alicante": "Alicante, Spain",
     "serviceArea": "Service throughout Spain — in-person and remote",
-    "email": "hola@corexia.es",
+    "email": "info.corexia@gmail.com",
     "phone": "+34 652 56 14 27",
     "location": "Alicante - Valencia, Spain",
     "serviceAreaFull": "Service throughout Spain — in-person and remote",
@@ -296,14 +296,14 @@
     "hero": {
       "badge": "Web Design Agency · Alicante, Spain",
       "title": "Web Design and SEO in Alicante",
-      "titleHighlight": "That Generates Real Clients",
-      "description": "We create fast websites with Next.js, ranked on Google from day one and designed to convert visits into clients. For businesses in Alicante, Torrevieja, Elche and the entire province.",
+      "titleHighlight": "More Clients, Less Word of Mouth",
+      "description": "Your website stops being an online brochure and becomes your best salesperson: it appears when someone searches for your service in Alicante, convinces the visitor, and converts them into a client. Without paying for ads every month.",
       "cta1": "Free Web Consultation",
       "cta2": "See Alicante Results ↓",
       "metrics": {
         "m1": {
-          "value": "415000",
-          "suffix": "+",
+          "value": "415",
+          "suffix": "k+",
           "label": "Google Impressions"
         },
         "m2": {
@@ -317,6 +317,195 @@
           "label": "Clients with Growing Traffic"
         }
       }
+    },
+    "trust": {
+      "title": "Alicante Businesses Already Ranking on Google with Our Websites",
+      "companies": [
+        "WeClean · Alicante",
+        "Sanaja Beauty · Alicante",
+        "TaxiTime · Torrevieja"
+      ]
+    },
+    "why": {
+      "tag": "The Local Market",
+      "title": "89% of Your Clients Search for You on Google",
+      "titleHighlight": "Do You Appear or Does Your Competition?",
+      "paragraphs": [
+        "Alicante has over 800,000 inhabitants and one of the densest SME networks in Spain. Hospitality, local commerce, clinics, academies, professional services — sectors where the client decides on Google before calling anyone.",
+        "The problem isn't that they don't search for you. It's that they search for you and find someone else. Every day your website doesn't rank, that client goes to a competitor with a faster, better-optimized website.",
+        "We've seen it with WeClean in Alicante and TaxiTime in Torrevieja: a technically well-built website with real local SEO starts generating visits in weeks, not years.",
+        "At Corexia we build websites with Next.js directly from Alicante. We know the local market: the highest-volume searches, the competition in each sector, and how to position your business above them."
+      ],
+      "benefits": [
+        {
+          "title": "Your Competition in Alicante Already Invests in Web Design",
+          "text": "While you wait, your competitors rank on Google and capture your potential clients. The digital gap between businesses in Alicante grows every month."
+        },
+        {
+          "title": "Local Searches Have High Purchase Intent",
+          "text": "Someone searching for 'plumber Alicante' or 'beauty salon Alicante' wants to hire today. Those are the searches we target with your website."
+        },
+        {
+          "title": "A Slow Website Loses 53% of Visits",
+          "text": "Google penalizes slow websites in rankings. Our Next.js websites load in less than 1 second, retaining visits and ranking higher."
+        }
+      ],
+      "cities": [
+        { "name": "Alicante", "client": "WeClean" },
+        { "name": "Torrevieja", "client": "TaxiTime" },
+        { "name": "Elche", "client": "Local Business" },
+        { "name": "Benidorm", "client": "Costa Client" },
+        { "name": "Orihuela", "client": "Orihuela Dental" }
+      ]
+    },
+    "services": {
+      "tag": "What We Do",
+      "title": "Web Design and SEO Services",
+      "titleHighlight": "for Businesses in Alicante",
+      "subtitle": "No jargon, no fine print. Real digital presence that attracts clients and grows your business in Alicante and the province.",
+      "list": [
+        {
+          "title": "Professional Web Design in Alicante",
+          "description": "Your business online with a modern, fast, mobile-first design. Built with Next.js to load in less than 1 second and convert visits into clients from day one. No templates, no limits.",
+          "chip": "Free quote in 48h"
+        },
+        {
+          "title": "Local SEO in Alicante and Province",
+          "description": "Appear when someone searches for your service in Alicante, Torrevieja, Elche or Benidorm. We optimize your website and Google Business Profile so Google shows you before your competition — without paying for ads.",
+          "chip": "Free SEO audit included"
+        },
+        {
+          "title": "Online Store for Businesses in Alicante",
+          "description": "Sell your products 24/7. Complete stores with shopping cart, secure payment with Spanish gateways (Redsys, Stripe) and easy management — no technical knowledge needed. Local SEO included.",
+          "chip": "Free consultation, no commitment"
+        },
+        {
+          "title": "Redesign and Optimization of Existing Website",
+          "description": "Is your current website slow, looks bad on mobile or invisible on Google? We analyze it, identify the real problems and modernize it with current technology. More traffic, more clients, same business.",
+          "chip": "Free analysis in 48h"
+        }
+      ]
+    },
+    "caseStudy": {
+      "tag": "Real Result · Torrevieja, Alicante",
+      "title": "From Zero Visits to Dominating Google in Torrevieja",
+      "badge": "TaxiTime · Transport · Torrevieja",
+      "description": "TaxiTime started as a taxi company in Torrevieja with no digital presence. They needed to appear on Google for high-volume searches like 'taxi Torrevieja' — the type of search where the client hires immediately.",
+      "metrics": [
+        {
+          "value": "415",
+          "suffix": "k+",
+          "label": "Annual Google impressions",
+          "sub": "for taxi searches in the province"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "Average position on Google",
+          "sub": "for 'taxi Torrevieja' and variants"
+        },
+        {
+          "value": "2",
+          "suffix": "%",
+          "label": "Average CTR",
+          "sub": "without advertising investment",
+          "isDecimal": true
+        }
+      ],
+      "conclusion": "In two years, TaxiTime went from not existing on Google to dominating taxi searches in Torrevieja and surroundings. Today it generates over 415,000 annual impressions with an average position of 4.",
+      "ctaText": "Get your free consultation"
+    },
+    "process": {
+      "tag": "How We Work",
+      "title": "How We Create Your Website in Alicante:",
+      "titleHighlight": "From Brief to Launch",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Free Consultation",
+          "text": "We talk about your business, your competition in Alicante and what you really need. No jargon. You decide if we continue."
+        },
+        {
+          "num": "02",
+          "title": "Proposal and Development",
+          "text": "You receive a fixed quote with price and deadline. We develop with weekly updates so you see real progress and can give feedback before it's too late."
+        },
+        {
+          "num": "03",
+          "title": "Launch and SEO",
+          "text": "We publish, configure local SEO on Google and train you to manage your website. We don't disappear once it's done."
+        }
+      ]
+    },
+    "faq": {
+      "tag": "Frequently Asked Questions",
+      "title": "Questions About Web Design and SEO in Alicante",
+      "questions": [
+        {
+          "question": "How much does a professional website in Alicante cost?",
+          "answer": "It depends on the project — not all businesses need the same thing. A presentation website for a local business has a very different cost from an online store or a custom platform. What we can guarantee is a fixed quote before starting: you know exactly what you'll receive, how much it costs and when it will be ready. No surprises, no hidden costs. Ask us for a quote — we respond in less than 48h."
+        },
+        {
+          "question": "How long does it take for a website to rank on Google in Alicante?",
+          "answer": "The first local SEO results in Alicante start to show between 3 and 6 months after launch. In sectors with little digital competition — plumbing, cleaning, academies, professional services — results can come sooner. TaxiTime in Torrevieja today generates over 415,000 annual impressions on Google with average position 4, starting from zero. SEO is a medium-term investment, but once you rank, that traffic doesn't stop and costs you nothing month to month."
+        },
+        {
+          "question": "Do you only work with businesses in Alicante?",
+          "answer": "No — we have clients throughout Spain and work perfectly remotely. But we do have a special focus on Alicante and the province because we know the local market: the sectors with the most digital demand, the competition in each area and the highest-volume searches. If your business is in Alicante, Torrevieja, Elche, Benidorm or Orihuela, we can also meet in person when you need it."
+        },
+        {
+          "question": "My business already has a website, can you improve it?",
+          "answer": "It's one of the jobs we do most. Most local business websites in Alicante have the same problems: they load slowly, aren't optimized for mobile and Google doesn't rank them. We analyze them, identify what's failing and tell you exactly what can be improved — free, no commitment. If we decide to work together, we modernize the website with current technology and optimize it to start generating organic visits."
+        },
+        {
+          "question": "What does local SEO for businesses in Alicante include?",
+          "answer": "Local keyword research for your sector in Alicante and province, technical optimization of your website, configuration and optimization of Google Business Profile, loading speed and structured data so Google understands your business. All aimed at making you appear when someone searches for your service in Alicante — without paying for ads every month."
+        },
+        {
+          "question": "Why choose a local agency in Alicante and not one from Madrid or Barcelona?",
+          "answer": "Because we know the market. We know what users search for in the province, which sectors have more digital competition and how to position yourself in specific local searches. Plus, we can meet with you in person when you need it — something an agency 400km away can't do. We've worked with businesses in Alicante, Torrevieja and the Costa Blanca, and that shows in the results."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Free Consultation About Your Website in Alicante",
+      "subtitle": "Tell us about your business and in 48 hours we'll tell you exactly what you need, how much it costs and when you'll have it.",
+      "form": {
+        "name": "Your name",
+        "email": "email@example.com",
+        "phone": "+34 600 000 000",
+        "phoneOptional": "Optional",
+        "servicePlaceholder": "What do you need?",
+        "services": [
+          { "value": "nueva-web", "label": "Create a new website" },
+          { "value": "mejorar-web", "label": "Improve my current website" },
+          { "value": "seo", "label": "SEO and Google positioning" },
+          { "value": "tienda", "label": "Online store" },
+          { "value": "no-seguro", "label": "I'm not sure yet" }
+        ],
+        "message": "Briefly describe your business and what you're looking for. No commitment.",
+        "submit": "Send Free Consultation",
+        "sending": "Sending...",
+        "successTitle": "Received!",
+        "successMessage": "We'll reply in less than 48h.",
+        "errorTitle": "Error",
+        "errorMessage": "Something went wrong. Please try again."
+      },
+      "info": {
+        "title": "Direct Contact",
+        "subtitle": "We respond in less than 48 hours. Phone, email or video call — whatever works best for you."
+      }
+    },
+    "schema": {
+      "businessName": "Corexia - Web Design and SEO Alicante",
+      "businessDescription": "Professional web design and local SEO agency in Alicante. We create fast websites with Next.js that rank on Google and attract real clients.",
+      "telephone": "+34-652-561-427",
+      "email": "info.corexia@gmail.com",
+      "streetAddress": "Alicante",
+      "city": "Alicante",
+      "region": "Comunitat Valenciana",
+      "postalCode": "03001",
+      "country": "ES"
     }
   }
 }

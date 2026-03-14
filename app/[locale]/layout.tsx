@@ -10,6 +10,8 @@ import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+const BASE_URL = "https://www.corexia.es";
+
 export async function generateMetadata({
   params,
 }: {
@@ -17,51 +19,42 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const isSpanish = locale === "es";
 
   return {
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
-    authors: [{ name: "Corexia" }],
+    authors: [{ name: "Corexia", url: BASE_URL }],
     creator: "Corexia",
     publisher: "Corexia",
-    formatDetection: {
-      email: false,
-      address: false,
-      telephone: false,
-    },
-    metadataBase: new URL("https://corexia.es"),
+    formatDetection: { email: false, address: false, telephone: false },
+    metadataBase: new URL(BASE_URL),
     alternates: {
-      canonical: `https://corexia.es/${locale}`,   // ✅ URL absoluta con locale
-      languages: {
-        es: "https://corexia.es/es",               // ✅ hreflang correcto
-        en: "https://corexia.es/en",               // ✅ hreflang correcto
-      },
+      canonical: isSpanish ? `${BASE_URL}/` : undefined,
+      languages: { es: `${BASE_URL}/` },
     },
     openGraph: {
       type: "website",
-      locale: locale === "es" ? "es_ES" : "en_GB",
-      url: `https://corexia.es/${locale}`,         // ✅ URL absoluta
+      locale: isSpanish ? "es_ES" : "en_GB",
+      url: `${BASE_URL}/`,
       title: t("title"),
       description: t("description"),
       siteName: "Corexia",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt:
-            locale === "es"
-              ? "Corexia — Diseño Web y SEO para Negocios en España"
-              : "Corexia — Web Design & SEO for Businesses in Spain",
-        },
-      ],
+      images: [{
+        url: `${BASE_URL}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: isSpanish
+          ? "Corexia — Diseño Web y SEO para Negocios en España"
+          : "Corexia — Web Design & SEO for Businesses in Spain",
+      }],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images: ["/og-image.png"],
+      images: [`${BASE_URL}/og-image.png`],
     },
     robots: {
       index: true,
@@ -75,7 +68,7 @@ export async function generateMetadata({
       },
     },
     verification: {
-      google: "your-google-verification-code",  // ← recuerda poner el código real
+      google: "your-google-verification-code",
     },
   };
 }
@@ -89,85 +82,63 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale as "en" | "es")) {
     notFound();
   }
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": `${BASE_URL}/#business`,
+    name: "Corexia",
+    image: `${BASE_URL}/logo.png`,
+    description:
+      locale === "es"
+        ? "Diseño web, SEO y apps para pequeños negocios de toda España. Ingenieros informáticos con trato directo y precios honestos."
+        : "Web design, SEO and apps for small businesses across Spain. Direct contact with engineers, honest pricing.",
+    url: BASE_URL,
+    telephone: "+34652561427",
+    email: "info.corexia@gmail.com",
+    priceRange: "€€",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Alicante",
+      addressRegion: "Comunidad Valenciana",
+      addressCountry: "ES",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 38.3452,
+      longitude: -0.4815,
+    },
+    areaServed: [
+      { "@type": "City", name: "Alicante" },
+      { "@type": "City", name: "Valencia" },
+      { "@type": "City", name: "Torrevieja" },
+      { "@type": "City", name: "Elche" },
+      { "@type": "City", name: "Benidorm" },
+      { "@type": "City", name: "Orihuela" },
+    ],
+    serviceType: ["Diseño Web", "Desarrollo Web", "SEO Local", "Aplicaciones Web", "E-commerce"],
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+  };
 
   return (
     <html lang={locale} className={`${inter.variable} ${manrope.variable}`}>
       <head>
-        {/* Preload critical fonts */}
-        <link
-          rel="preload"
-          href="/_next/static/media/geist-latin.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ProfessionalService",
-              "@id": "https://corexia.es",
-              name: "Corexia",
-              image: "https://corexia.es/logo.png",
-              description:
-                locale === "es"
-                  ? "Diseño web, SEO y apps para pequeños negocios de toda España. Ingenieros informáticos con trato directo y precios honestos."
-                  : "Web design, SEO and apps for small businesses across Spain. Direct contact with engineers, honest pricing.",
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Valencia",
-                addressRegion: "Comunidad Valenciana",
-                postalCode: "46001",
-                addressCountry: "ES",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: 39.4699,
-                longitude: -0.3763,
-              },
-              url: "https://corexia.es",
-              telephone: "+34 652 56 14 27",
-              email: "hello@corexia.es",
-              priceRange: "$$",
-              areaServed: {
-                "@type": "Country",
-                name: "España",
-              },
-              serviceType: [
-                "Diseño Web",
-                "Desarrollo Web",
-                "SEO Local",
-                "Aplicaciones Web",
-                "E-commerce",
-              ],
-              sameAs: ["https://www.linkedin.com/company/corexia"],
-              openingHoursSpecification: {
-                "@type": "OpeningHoursSpecification",
-                dayOfWeek: [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                ],
-                opens: "09:00",
-                closes: "18:00",
-              },
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body className="antialiased font-sans">
-        
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
@@ -175,7 +146,6 @@ export default async function LocaleLayout({
           <SonnerToaster position="bottom-right" richColors />
           <Footer />
         </NextIntlClientProvider>
-        
       </body>
     </html>
   );

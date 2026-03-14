@@ -11,15 +11,17 @@ import { ContactSection } from "@/components/alicante-landing/sections/ContactSe
 
 export const AlicanteWebDesignLanding = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <HeroSection />
-      <TrustBarSection />
-      <WhyAlicanteSection />
-      <ServicesSection />
-      <CaseStudySection />
-      <ProcessSection />
-      <FAQSection />
-      <ContactSection />
-    </div>
+    <>
+      <div className="min-h-screen bg-background">
+        <HeroSection />
+        <TrustBarSection />
+        <WhyAlicanteSection />
+        <ServicesSection />
+        <CaseStudySection />
+        <ProcessSection />
+        <FAQSection />
+        <ContactSection />
+      </div>
+    </>
   );
 };

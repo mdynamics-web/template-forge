@@ -8,7 +8,7 @@ export type Locale = (typeof locales)[number]
 export const pathnames = {
   '/': '/',
   '/web-design-seo-alicante': {
-    es: '/diseño-web-seo-alicante',
+    es: '/diseno-web-seo-alicante',
     en: '/web-design-seo-alicante',
   },
   '/contact': {
@@ -16,7 +16,7 @@ export const pathnames = {
     en: '/contact',
   },
   '/cookies': {
-    es: '/política-de-cookies',
+    es: '/politica-de-cookies',
     en: '/cookies-policy',
   }
 } as const

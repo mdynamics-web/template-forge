@@ -1,61 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- VERSIÓN CORREGIDA: sin prefijo /es/ — localePrefix:'never' -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
-  <!-- Homepage (same for both languages) -->
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ─── Homepage ─────────────────────────────────────────────────────── -->
+  <!-- Con localePrefix:'never' la raíz / sirve el locale por defecto (ES)  -->
+
   <url>
-    <loc>https://corexia.es/</loc>
+    <loc>https://www.corexia.es/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://corexia.es/es"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://corexia.es/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://corexia.es/es"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/"/>
   </url>
 
-  <!-- Contact Spanish -->
+  <!-- ─── Contact ──────────────────────────────────────────────────────── -->
+
   <url>
-    <loc>https://corexia.es/contacto</loc>
+    <loc>https://www.corexia.es/contacto</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://corexia.es/contacto"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://corexia.es/contact"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://corexia.es/contacto"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/contacto"/>
   </url>
 
-  <!-- Contact English -->
   <url>
-    <loc>https://corexia.es/contact</loc>
+    <loc>https://www.corexia.es/contact</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/contacto"/>
+  </url>
+
+  <!-- ─── Cookies Policy ───────────────────────────────────────────────── -->
+
+  <url>
+    <loc>https://www.corexia.es/politica-de-cookies</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/politica-de-cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/politica-de-cookies"/>
+  </url>
+
+  <url>
+    <loc>https://www.corexia.es/cookies-policy</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/politica-de-cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/politica-de-cookies"/>
+  </url>
+
+  <!-- ─── Alicante Landing ─────────────────────────────────────────────── -->
+
+  <url>
+    <loc>https://www.corexia.es/diseno-web-alicante</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/diseno-web-alicante"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/web-design-alicante"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/diseno-web-alicante"/>
+  </url>
+
+  <url>
+    <loc>https://www.corexia.es/web-design-alicante</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://corexia.es/contacto"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://corexia.es/contact"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://corexia.es/contacto"/>
-  </url>
-
-  <!-- Cookies Policy Spanish -->
-  <url>
-    <loc>https://corexia.es/política-de-cookies</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://corexia.es/política-de-cookies"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://corexia.es/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://corexia.es/política-de-cookies"/>
-  </url>
-
-  <!-- Cookies Policy English -->
-  <url>
-    <loc>https://corexia.es/cookies-policy</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://corexia.es/política-de-cookies"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://corexia.es/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://corexia.es/política-de-cookies"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/diseno-web-alicante"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/web-design-alicante"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/diseno-web-alicante"/>
   </url>
 
 </urlset>

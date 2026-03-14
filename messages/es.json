@@ -185,7 +185,7 @@
     "valencia": "Valencia, España",
     "alicante": "Alicante, España",
     "serviceArea": "Servicio en toda España — presencial y remoto",
-    "email": "hola@corexia.es",
+    "email": "info.corexia@gmail.com",
     "phone": "+34 652 56 14 27",
     "location": "Alicante - Valencia, España",
     "serviceAreaFull": "Servicio en toda España — presencial y remoto",
@@ -497,10 +497,23 @@
         "signals": [
           { "text": "Alicante, España" },
           { "text": "+34 652 56 14 27" },
-          { "text": "hola@corexia.es" },
+          { "text": "info.corexia@gmail.com" },
           { "text": "Respuesta garantizada en 48 horas" }
         ]
       }
+    },
+    "schema": {
+      "businessName": "Corexia - Diseño Web y SEO Alicante",
+      "businessDescription": "Agencia de diseño web profesional y SEO local en Alicante. Creamos páginas web rápidas con Next.js que posicionan en Google y atraen clientes reales.",
+      "telephone": "+34-652-561-427",
+      "email": "info.corexia@gmail.com",
+      "streetAddress": "Alicante",
+      "city": "Alicante",
+      "region": "Comunidad Valenciana",
+      "postalCode": "03001",
+      "country": "ES",
+      "areasServed": ["Alicante", "Torrevieja", "Elche", "Benidorm", "Orihuela"],
+      "openingHours": "Mo-Fr 09:00-18:00"
     }
   }
 }

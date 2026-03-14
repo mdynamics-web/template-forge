@@ -1,6 +1,4 @@
 import { Mail, Phone, MapPin } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
@@ -28,7 +26,6 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
 
       <section className="pt-32 lg:pt-40 pb-20 section-padding">
         <div className="max-w-6xl mx-auto">
@@ -61,7 +58,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                     </div>
                     <div>
                       <div className="text-sm text-muted-foreground">{t("contact.info.email.label")}</div>
-                      <div className="text-foreground font-medium">hello@corexia.es</div>
+                      <div className="text-foreground font-medium">info.corexia@gmail.com</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
@@ -96,8 +93,6 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }

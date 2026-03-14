@@ -20,9 +20,9 @@ export async function generateMetadata({ params }: CookiePageProps): Promise<Met
       follow: true,
     },
     alternates: {
-      canonical: locale === 'es' ? '/política-de-cookies' : '/cookies-policy',
+      canonical: locale === 'es' ? '/politica-de-cookies' : '/cookies-policy',
       languages: {
-        'es': '/política-de-cookies',
+        'es': '/politica-de-cookies',
         'en': '/cookies-policy',
       },
     },

@@ -56,7 +56,8 @@ export const WhyAlicanteSection = () => {
                   <Image
                     className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
                     src={AlicanteImage}
-                    alt="Alicante Map"
+                    alt="Diseño web y SEO en Alicante - Mapa de la provincia con Torrevieja, Elche, Benidorm y áreas de servicio de Corexia"
+                    title="Agencia de diseño web en Alicante - Áreas de servicio"
                     width={600}
                     height={600}
                     priority

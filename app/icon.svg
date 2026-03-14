@@ -1,0 +1,75 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definir gradientes -->
+  <defs>
+    <!-- Gradiente para la línea diagonal izquierda (cyan a azul) -->
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0080FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para la línea diagonal derecha (azul a púrpura) -->
+    <linearGradient id="gradient2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B8DEF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Filtro de sombra suave -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Fondo con gradiente sutil -->
+  <rect width="512" height="512" rx="80" fill="url(#bgGradient)"/>
+  <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#0a0d1e;stop-opacity:1" />
+    <stop offset="50%" style="stop-color:#1a1f3a;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#0f1229;stop-opacity:1" />
+  </linearGradient>
+  
+  <!-- Puntos decorativos en las esquinas -->
+  <circle cx="50" cy="50" r="12" fill="#00C2FF" opacity="0.4"/>
+  <circle cx="462" cy="50" r="12" fill="#A855F7" opacity="0.4"/>
+  <circle cx="50" cy="462" r="12" fill="#5B8DEF" opacity="0.4"/>
+  <circle cx="462" cy="462" r="12" fill="#00D9FF" opacity="0.4"/>
+  
+  <!-- Grupo de la X con sombra -->
+  <g filter="url(#shadow)">
+    <!-- Línea diagonal: superior izquierda a inferior derecha (cyan a azul) -->
+    <line 
+      x1="100" y1="100" 
+      x2="412" y2="412" 
+      stroke="url(#gradient1)" 
+      stroke-width="52" 
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    
+    <!-- Línea diagonal: superior derecha a inferior izquierda (azul a púrpura) -->
+    <line 
+      x1="412" y1="100" 
+      x2="100" y2="412" 
+      stroke="url(#gradient2)" 
+      stroke-width="52" 
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    
+    <!-- Círculo central donde se cruzan las líneas -->
+    <circle 
+      cx="256" 
+      cy="256" 
+      r="32" 
+      fill="#fff" 
+      opacity="0.15"
+    />
+  </g>
+</svg>
