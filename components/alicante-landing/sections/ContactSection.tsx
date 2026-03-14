@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Check, Clock, Mail, MapPin } from "lucide-react";
+import { ArrowRight, Check, Clock, Mail, MapPin, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -29,7 +29,7 @@ export const ContactSection = () => {
           text: t("trust.signals.0.text"),
         },
         {
-          icon: MapPin,
+          icon: PhoneIcon,
           text: t("trust.signals.1.text"),
         },
         {
@@ -114,9 +114,6 @@ export const ContactSection = () => {
                       value={formData.phone}
                       onChange={(e) => updateFormField("phone", e.target.value)}
                     />
-                    <span className="text-primary-foreground/30 text-xs mt-1.5 block pl-1">
-                      {t("form.phoneOptional")}
-                    </span>
                   </div>
 
                   <Select

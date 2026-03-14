@@ -9,14 +9,14 @@ import Image from "next/image";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
-  const t = useTranslations();
+  const t = useTranslations("hero");
   const locale = useLocale();
 
   const stats = [
-    { value: t("hero.stat1.value"), label: t("hero.stat1.label") },
-    { value: t("hero.stat2.value"), label: t("hero.stat2.label") },
-    { value: t("hero.stat3.value"), label: t("hero.stat3.label") },
-    { value: t("hero.stat4.value"), label: t("hero.stat4.label") },
+    { value: t("stat1.value"), label: t("stat1.label") },
+    { value: t("stat2.value"), label: t("stat2.label") },
+    { value: t("stat3.value"), label: t("stat3.label") },
+    { value: t("stat4.value"), label: t("stat4.label") },
   ];
 
   return (
@@ -56,7 +56,7 @@ const HeroSection = () => {
         >
           <div className="inline-flex items-center gap-2 bg-secondary/10 border border-secondary/30 rounded-full px-5 py-2.5 mb-8">
             <Zap className="w-4 h-4 text-secondary" />
-            <span className="text-secondary text-sm font-semibold">{t("hero.badge")}</span>
+            <span className="text-secondary text-sm font-semibold">{t("badge")}</span>
           </div>
         </motion.div>
 
@@ -66,10 +66,10 @@ const HeroSection = () => {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="font-display font-extrabold text-4xl md:text-5xl lg:text-6xl text-primary-foreground leading-[1.1] mb-6"
         >
-          {t("hero.title1")}{" "}
-          <span className="gradient-text">{t("hero.title2")}</span>
+          {t("title1")}{" "}
+          <span className="gradient-text">{t("title2")}</span>
           <br />
-          <span className="text-secondary">{t("hero.title3")}</span>
+          <span className="text-secondary">{t("title3")}</span>
         </motion.h1>
 
         <motion.p
@@ -78,7 +78,7 @@ const HeroSection = () => {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="text-primary-foreground/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          {t("hero.subtitle")}
+          {t("subtitle")}
         </motion.p>
 
         <motion.div
@@ -92,7 +92,7 @@ const HeroSection = () => {
               size="lg"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan text-base px-8 py-6 font-bold group"
             >
-              {t("hero.cta1")}
+              {t("cta1")}
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
@@ -102,7 +102,7 @@ const HeroSection = () => {
             className="border-primary-foreground/40 text-primary-foreground bg-primary-foreground/5 hover:bg-primary-foreground/15 text-base"
             onClick={() => document.getElementById("cases")?.scrollIntoView({ behavior: "smooth" })}
           >
-            {t("hero.cta2")}
+            {t("cta2")}
           </Button>
         </motion.div>
 

@@ -12,16 +12,11 @@ export const MetricCard = ({
   label,
   sub,
   delay,
-  isDecimal,
 }: MetricCardProps) => (
   <FadeSection delay={delay}>
     <div className="relative text-center p-8 rounded-2xl border border-secondary/10 bg-primary-foreground/[0.03] backdrop-blur-sm">
       <div className="font-display font-extrabold text-5xl sm:text-6xl lg:text-7xl text-primary-foreground mb-3">
-        {isDecimal ? (
-          <span>1,5{suffix}</span>
-        ) : (
-          <Counter end={end} suffix={suffix} />
-        )}
+        <Counter end={end} suffix={suffix} />
       </div>
       <p className="text-secondary font-semibold text-sm uppercase tracking-wider">
         {label}

@@ -8,6 +8,7 @@ import { GridOverlay } from "@/components/alicante-landing/components/GridOverla
 import { Counter } from "@/components/alicante-landing/components/Counter";
 import { useHeroParallax } from "@/hooks/useHeroParallax";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 /**
  * Hero section component with i18n
@@ -69,7 +70,7 @@ export const HeroSection = () => {
 
       <motion.div
         style={{ y: heroY, opacity: heroOpacity }}
-        className="relative z-10 max-w-[720px] mx-auto text-center px-6 py-32"
+        className="relative z-10 max-w-[800px] mx-auto text-center px-6 py-32"
       >
         {/* Badge */}
         <motion.div
@@ -91,7 +92,8 @@ export const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.15 }}
           className="font-display font-extrabold text-4xl sm:text-5xl lg:text-[64px] leading-[1.05] text-primary-foreground mb-7"
         >
-          {t("title")}{" "}
+          {t("title")}
+          <br className="hidden lg:block" />{" "}
           <span className="relative">
             <span className="gradient-text">{t("titleHighlight")}</span>
             <motion.div
@@ -102,7 +104,11 @@ export const HeroSection = () => {
               }}
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
-              transition={{ duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              transition={{
+                duration: 0.8,
+                delay: 0.8,
+                ease: [0.16, 1, 0.3, 1],
+              }}
             />
           </span>
         </motion.h1>
@@ -124,20 +130,23 @@ export const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.45 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
         >
-          <a href="#contacto">
-            <Button className="bg-secondary text-secondary-foreground font-bold px-8 py-4 h-auto rounded-xl shadow-[0_0_30px_rgba(0,194,255,0.3)] hover:shadow-[0_0_50px_rgba(0,194,255,0.5)] transition-all duration-300 text-base gap-2 group">
+          <Link href={`/contact`}>
+            <Button className="bg-secondary text-secondary-foreground font-bold px-8 py-4 h-auto rounded-xl shadow-[0_0_30px_rgba(0,194,255,0.3)] hover:bg-secondary/90 transition-all duration-300 text-base gap-2 group">
               {t("cta1")}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-          </a>
-          <a href="#caso-real">
-            <Button
-              variant="outline"
-              className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/5 hover:border-primary-foreground/30 px-8 py-4 h-auto rounded-xl transition-all duration-300 text-base"
-            >
-              {t("cta2")}
-            </Button>
-          </a>
+          </Link>
+          <Button
+            variant="outline"
+            className="border-primary-foreground/20 text-primary-foreground bg-primary-foreground/5 hover:border-primary-foreground/30 px-8 py-4 h-auto rounded-xl transition-all duration-300 text-base"
+            onClick={() =>
+              document
+                .getElementById("caso-real")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            {t("cta2")}
+          </Button>
         </motion.div>
 
         {/* Metrics */}

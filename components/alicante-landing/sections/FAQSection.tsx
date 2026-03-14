@@ -38,6 +38,10 @@ export const FAQSection = () => {
           question: t("questions.4.question"),
           answer: t("questions.4.answer"),
         },
+        {
+          question: t("questions.5.question"),
+          answer: t("questions.5.answer"),
+        },
       ]
   
   return (

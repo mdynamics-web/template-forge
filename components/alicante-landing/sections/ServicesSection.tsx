@@ -4,6 +4,7 @@ import { Monitor, RefreshCw, ShoppingCart, TrendingUp } from "lucide-react";
 import { FadeSection } from "@/components/alicante-landing/components/FadeSection";
 import { ServiceCard } from "@/components/alicante-landing/components/ServiceCard";
 import { useTranslations } from "next-intl";
+import SectionTitle from "@/components/ui/SectionTitle";
 
 /**
  * Services section with i18n
@@ -48,13 +49,11 @@ export const ServicesSection = () => {
             <Monitor className="w-3.5 h-3.5" />
             {t("tag")}
           </span>
-          <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-foreground mt-4 mb-5">
-            {t("title")}{" "}
-            <span className="gradient-text">{t("titleHighlight")}</span>
-          </h2>
-          <p className="text-muted-foreground max-w-xl mx-auto text-[15px] leading-relaxed">
-            {t("subtitle")}
-          </p>
+          <SectionTitle 
+            firstTitle={t("title")}
+            secondTitle={t("titleHighlight")}
+            description={t("subtitle")}
+            />
         </FadeSection>
 
         <div className="grid md:grid-cols-2 gap-6">

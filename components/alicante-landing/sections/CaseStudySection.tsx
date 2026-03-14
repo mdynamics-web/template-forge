@@ -62,12 +62,6 @@ export const CaseStudySection = () => {
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-primary-foreground mt-4 mb-5">
             {t("title")}
           </h2>
-          <div className="inline-flex items-center gap-2 border border-secondary/30 bg-secondary/[0.08] backdrop-blur-sm rounded-full px-5 py-2 mb-6">
-            <div className="w-1.5 h-1.5 rounded-full bg-secondary" />
-            <span className="text-xs font-semibold text-secondary">
-              {t("badge")}
-            </span>
-          </div>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto text-[15px] leading-relaxed">
             {t("description")}
           </p>
@@ -88,8 +82,13 @@ export const CaseStudySection = () => {
             {t("conclusion")}
           </p>
           <Button
-            variant="outline"
-            className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/5 rounded-xl gap-2 px-6 py-3 h-auto group"
+            variant="outline"  
+            className="border-primary-foreground/20 text-primary-foreground bg-primary-foreground/5 hover:border-primary-foreground/30 px-8 py-4 h-auto rounded-xl transition-all duration-300 text-base"
+            onClick={() =>
+              document
+                .getElementById("caso-real")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
           >
             {t("ctaText")}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

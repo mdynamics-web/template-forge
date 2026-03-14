@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary border-t border-primary-foreground/10">
       <div className="max-w-6xl mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-4 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
@@ -79,6 +79,25 @@ const Footer = () => {
                 >
                   {t("footer.c3")}
                 </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-display font-bold text-primary-foreground mb-4">
+              {t("footer.serviceAreas")}
+            </h4>
+            <ul className="space-y-2 text-sm text-primary-foreground/50">
+              <li>
+                <Link
+                  href={`/${locale}/web-design-seo-alicante`}
+                  className="hover:text-secondary transition-colors"
+                >
+                  {t("footer.alicanteWeb")}
+                </Link>
+              </li>
+              <li className="text-xs text-primary-foreground/30 pt-2">
+                {t("footer.allSpain")}
               </li>
             </ul>
           </div>

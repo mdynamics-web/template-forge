@@ -8,23 +8,23 @@ import { useTranslations } from "next-intl";
 const ProblemsSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
-  const t = useTranslations();
+  const t = useTranslations("problems");
 
   const problems = [
     {
       icon: AlertTriangle,
-      title: t("problems.card1.title"),
-      description: t("problems.card1.desc"),
+      title: t("card1.title"),
+      description: t("card1.desc"),
     },
     {
       icon: TrendingDown,
-      title: t("problems.card2.title"),
-      description: t("problems.card2.desc"),
+      title: t("card2.title"),
+      description: t("card2.desc"),
     },
     {
       icon: ChartNoAxesCombined,
-      title: t("problems.card3.title"),
-      description: t("problems.card3.desc"),
+      title: t("card3.title"),
+      description: t("card3.desc"),
     },
   ];
 
@@ -38,11 +38,11 @@ const ProblemsSection = () => {
           className="text-center mb-16"
         >
           <span className="text-secondary font-semibold text-sm uppercase tracking-widest">
-            {t("problems.tag")}
+            {t("tag")}
           </span>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground mt-3">
-            {t("problems.title1")} <br className="hidden lg:block" />{" "}
-            <span className="gradient-text">{t("problems.title2")}</span>
+            {t("title1")} <br className="hidden lg:block" />{" "}
+            <span className="gradient-text">{t("title2")}</span>
           </h2>
         </motion.div>
 

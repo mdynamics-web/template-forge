@@ -4,6 +4,7 @@ import { Zap } from "lucide-react";
 import { FadeSection } from "@/components/alicante-landing/components/FadeSection";
 import { ProcessStep } from "@/components/alicante-landing/components/ProcessStep";
 import { useTranslations } from "next-intl";
+import SectionTitle from "@/components/ui/SectionTitle";
 
 /**
  * Process section with i18n
@@ -39,10 +40,10 @@ export const ProcessSection = () => {
             <Zap className="w-3.5 h-3.5" />
             {t("tag")}
           </span>
-          <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-foreground mt-4">
-            {t("title")}{" "}
-            <span className="gradient-text">{t("titleHighlight")}</span>
-          </h2>
+          <SectionTitle
+            firstTitle={t("title")}
+            secondTitle={t("titleHighlight")}
+          />
         </FadeSection>
 
         <div className="relative">

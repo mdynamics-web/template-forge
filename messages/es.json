@@ -189,6 +189,9 @@
     "phone": "+34 652 56 14 27",
     "location": "Alicante - Valencia, España",
     "serviceAreaFull": "Servicio en toda España — presencial y remoto",
+    "serviceAreas": "Zonas de Servicio",
+    "alicanteWeb": "Diseño Web en Alicante",
+    "allSpain": "Servicio en toda España",
     "copyright": "Todos los derechos reservados."
   },
   "contact": {
@@ -293,8 +296,8 @@
     "hero": {
       "badge": "Agencia de Diseño Web · Alicante, España",
       "title": "Diseño Web y SEO en Alicante",
-      "titleHighlight": "Que Genera Clientes Reales",
-      "description": "Creamos webs rápidas con Next.js, posicionadas en Google desde el día uno y diseñadas para convertir visitas en clientes. Para negocios en Alicante, Torrevieja, Elche y toda la provincia.",
+      "titleHighlight": "Más Clientes, Menos Boca a Boca",
+      "description": "Tu web deja de ser un folleto online y pasa a ser tu mejor comercial: aparece cuando alguien busca tu servicio en Alicante, convence al visitante y lo convierte en cliente. Sin pagar anuncios cada mes.",
       "cta1": "Consultoría Web Gratuita",
       "cta2": "Ver Resultados Alicante ↓",
       "metrics": {
@@ -325,13 +328,13 @@
     },
     "why": {
       "tag": "El Mercado Local",
-      "title": "Diseño Web en Alicante: un Mercado Local con",
-      "titleHighlight": "Alta Demanda Digital",
+      "title": "El 89% de tus Clientes te Busca en Google",
+      "titleHighlight": "¿Apareces Tú o Aparece tu Competencia?",
       "paragraphs": [
-        "Alicante y su provincia albergan más de 800.000 habitantes y uno de los ecosistemas de pequeñas empresas más densos de España. Hostelería, comercio local, servicios profesionales, empresas turísticas en la Costa Blanca, clínicas, academias...",
-        "El 89% de los consumidores busca online antes de decidir a quién contratar. Si tu negocio en Alicante no aparece en los primeros resultados de Google, simplemente no existes para tus potenciales clientes.",
-        "El problema es que la mayoría de webs de negocios locales en Alicante están construidas con plantillas lentas, sin SEO local real y sin estrategia. Cargan en más de 3 segundos, no están optimizadas para búsquedas como &quot;fontanero en Alicante&quot; o &quot;clínica dental Alicante precio&quot;, y no generan ningún cliente nuevo.",
-        "En Corexia construimos webs con Next.js — la misma tecnología que usa Netflix — directamente desde Alicante. Conocemos el mercado local: las búsquedas con más volumen, la competencia en cada sector y cómo posicionar tu negocio por encima."
+        "Alicante tiene más de 800.000 habitantes y uno de los tejidos de pymes más densos de España. Hostelería, comercio local, clínicas, academias, servicios profesionales — sectores donde el cliente decide en Google antes de llamar a nadie.",
+        "El problema no es que no te busquen. Es que te buscan y encuentran a otro. Cada día que tu web no posiciona, ese cliente se lo lleva un competidor con una web más rápida y mejor optimizada.",
+        "Nosotros lo hemos visto con WeClean en Alicante y TaxiTime en Torrevieja: una web técnicamente bien construida y con SEO local real empieza a generar visitas en semanas, no en años.",
+        "En Corexia construimos webs con Next.js directamente desde Alicante. Conocemos el mercado local: las búsquedas con más volumen, la competencia en cada sector y cómo posicionar tu negocio por encima."
       ],
       "benefits": [
         {
@@ -364,7 +367,7 @@
         {
           "title": "Diseño Web Profesional en Alicante",
           "description": "Tu negocio online con un diseño moderno, rápido y mobile-first. Construido con Next.js para cargar en menos de 1 segundo y convertir visitas en clientes desde el día uno. Sin plantillas, sin límites.",
-          "chip": "Desde 990€ · Entrega en 30 días"
+          "chip": "Presupuesto gratuito en 48h"
         },
         {
           "title": "SEO Local en Alicante y Provincia",
@@ -374,7 +377,7 @@
         {
           "title": "Tienda Online para Negocios en Alicante",
           "description": "Vende tus productos 24/7. Tiendas completas con carrito, pago seguro con pasarelas españolas (Redsys, Stripe) y gestión fácil — sin conocimientos técnicos. Con SEO local incluido.",
-          "chip": "E-commerce desde 1.490€"
+          "chip": "Consulta gratuita sin compromiso"
         },
         {
           "title": "Rediseño y Optimización de Web Existente",
@@ -384,33 +387,33 @@
       ]
     },
     "caseStudy": {
-      "tag": "Resultado Real · Alicante",
-      "title": "Resultado Real: Diseño Web y SEO para un Negocio en Alicante",
-      "badge": "WeClean · Limpieza Profesional · Alicante",
-      "description": "WeClean es una empresa de limpieza profesional en Alicante. Llegaron a nosotros sin web y sin presencia digital, necesitando aparecer en Google para búsquedas locales con alta intención de compra.",
+      "tag": "Resultado Real · Torrevieja, Alicante",
+      "title": "De Cero Visitas a Dominar Google en Torrevieja",
+      "badge": "TaxiTime · Transporte · Torrevieja",
+      "description": "TaxiTime arrancaba como empresa de taxi en Torrevieja sin presencia digital. Necesitaban aparecer en Google para búsquedas de alto volumen como 'taxi Torrevieja' — el tipo de búsqueda donde el cliente contrata en el momento.",
       "metrics": [
         {
-          "value": "7",
+          "value": "415",
           "suffix": "k+",
-          "label": "Impresiones en Google",
-          "sub": "en menos de 10 meses"
+          "label": "Impresiones anuales en Google",
+          "sub": "para búsquedas de taxi en la provincia"
         },
         {
-          "value": "10",
+          "value": "4",
           "suffix": "",
-          "label": "Meses",
-          "sub": "desde el lanzamiento"
+          "label": "Posición media en Google",
+          "sub": "para 'taxi Torrevieja' y variantes"
         },
         {
-          "value": "1.5",
+          "value": "2",
           "suffix": "%",
           "label": "CTR medio",
-          "sub": "y creciendo",
+          "sub": "sin inversión en publicidad",
           "isDecimal": true
         }
       ],
-      "conclusion": "En menos de un año desde el lanzamiento, la web de WeClean ha acumulado más de 7.000 impresiones en Google, posicionando para búsquedas clave como &quot;empresa de limpieza en Torrevieja&quot; y &quot;servicio de llaves Guardamar&quot;. El SEO aún está en fase de crecimiento — en 6 meses más, estos números se multiplicarán.",
-      "ctaText": "Ver todos los casos de estudio"
+      "conclusion": "En dos años, TaxiTime pasó de no existir en Google a dominar las búsquedas de taxi en Torrevieja y alrededores. Hoy genera más de 415.000 impresiones anuales con una posición media de 4.",
+      "ctaText": "Consigue tu consulta gratis"
     },
     "process": {
       "tag": "Cómo Trabajamos",
@@ -419,17 +422,17 @@
       "steps": [
         {
           "num": "01",
-          "title": "Consultoría Gratuita (Día 1)",
+          "title": "Consultoría Gratuita",
           "text": "Hablamos de tu negocio, tu competencia en Alicante y lo que realmente necesitas. Sin tecnicismos. Tú decides si seguimos."
         },
         {
           "num": "02",
-          "title": "Propuesta y Desarrollo (Días 2–25)",
+          "title": "Propuesta y Desarrollo",
           "text": "Recibes un presupuesto cerrado con precio y plazo. Desarrollamos con actualizaciones semanales para que veas avances reales y puedas dar feedback antes de que sea tarde."
         },
         {
           "num": "03",
-          "title": "Lanzamiento y SEO (Día 30+)",
+          "title": "Lanzamiento y SEO",
           "text": "Publicamos, configuramos el SEO local en Google y te formamos para gestionar tu web. No desaparecemos una vez hecho."
         }
       ]
@@ -440,23 +443,27 @@
       "questions": [
         {
           "question": "¿Cuánto cuesta una web profesional en Alicante?",
-          "answer": "Una web profesional en Alicante con Corexia parte desde 990€ para webs corporativas y desde 1.490€ para tiendas online. El precio incluye diseño, desarrollo con Next.js, SEO básico y formación para que puedas gestionarla. Siempre con presupuesto cerrado antes de empezar — sin costes ocultos, sin sorpresas."
+          "answer": "Depende del proyecto — no todos los negocios necesitan lo mismo. Una web de presentación para un negocio local tiene un coste muy diferente a una tienda online o una plataforma a medida. Lo que sí podemos garantizar es presupuesto cerrado antes de empezar: sabes exactamente qué recibes, cuánto cuesta y cuándo estará listo. Sin sorpresas, sin costes ocultos. Pídenos presupuesto — te respondemos en menos de 48h."
         },
         {
-          "question": "¿Cuánto tarda mi web en posicionar en Google en Alicante?",
-          "answer": "Los primeros resultados de SEO local en Alicante se ven normalmente entre 3 y 6 meses tras el lanzamiento, dependiendo del sector y la competencia. En sectores con poca competencia digital (fontanería, limpieza, servicios locales) los resultados pueden llegar antes. Nuestro caso WeClean Alicante generó más de 7.000 impresiones en menos de 10 meses."
+          "question": "¿Cuánto tarda una web en posicionar en Google en Alicante?",
+          "answer": "Los primeros resultados de SEO local en Alicante se empiezan a ver entre 3 y 6 meses tras el lanzamiento. En sectores con poca competencia digital — fontanería, limpieza, academias, servicios profesionales — los resultados pueden llegar antes. TaxiTime en Torrevieja hoy genera más de 415.000 impresiones anuales en Google con posición media 4, partiendo de cero. El SEO es inversión a medio plazo, pero una vez posicionas, ese tráfico no para y no te cuesta nada mes a mes."
         },
         {
-          "question": "¿Hacéis reuniones presenciales en Alicante?",
-          "answer": "Sí. Aunque trabajamos con clientes de toda España de forma remota, estamos disponibles para reuniones presenciales en Alicante y Valencia. La primera consultoría puede ser por videollamada o en persona — como prefieras."
+          "question": "¿Trabajáis solo con negocios de Alicante?",
+          "answer": "No — tenemos clientes en toda España y trabajamos perfectamente en remoto. Pero sí tenemos especial foco en Alicante y la provincia porque conocemos el mercado local: los sectores con más demanda digital, la competencia en cada zona y las búsquedas con más volumen. Si tu negocio está en Alicante, Torrevieja, Elche, Benidorm u Orihuela, podemos además quedar en persona cuando lo necesites."
+        },
+        {
+          "question": "Mi negocio ya tiene web, ¿podéis mejorarla?",
+          "answer": "Es uno de los trabajos que más hacemos. La mayoría de webs de negocios locales en Alicante tienen los mismos problemas: cargan lento, no están optimizadas para móvil y Google no las posiciona. Las analizamos, identificamos qué está fallando y te decimos exactamente qué se puede mejorar — gratis, sin compromiso. Si decidimos trabajar juntos, modernizamos la web con tecnología actual y la optimizamos para que empiece a generar visitas orgánicas."
         },
         {
           "question": "¿Qué incluye el SEO local para negocios en Alicante?",
-          "answer": "El SEO local incluye: optimización de tu web para búsquedas locales en Alicante y provincia, configuración y optimización de Google Business Profile, investigación de palabras clave locales de tu sector, optimización de velocidad de carga y marcado de datos estructurados. Todo enfocado en que aparezcas cuando alguien busque tu servicio en Alicante."
+          "answer": "Investigación de palabras clave locales de tu sector en Alicante y provincia, optimización técnica de tu web, configuración y optimización de Google Business Profile, velocidad de carga y datos estructurados para que Google entienda tu negocio. Todo orientado a que aparezcas cuando alguien busque tu servicio en Alicante — sin pagar anuncios cada mes."
         },
         {
-          "question": "¿Puedo ver ejemplos de webs que habéis hecho en Alicante?",
-          "answer": "Sí. Hemos desarrollado webs para WeClean (empresa de limpieza en Alicante), Sanaja Beauty (centro de estética en Alicante) y TaxiTime (taxi en Torrevieja), entre otros. Sanaja Beauty tiene un CTR en Google del 5,3% — muy por encima de la media del sector. Puedes ver todos los casos en nuestra sección de proyectos."
+          "question": "¿Por qué elegir una agencia local en Alicante y no una de Madrid o Barcelona?",
+          "answer": "Porque conocemos el mercado. Sabemos qué buscan los usuarios en la provincia, qué sectores tienen más competencia digital y cómo posicionarse en búsquedas locales específicas. Además, podemos reunirnos contigo en persona cuando lo necesites — algo que una agencia a 400km no puede hacer. Hemos trabajado con negocios en Alicante, Torrevieja y la Costa Blanca, y eso se nota en los resultados."
         }
       ]
     },
@@ -465,7 +472,7 @@
       "subtitle": "Cuéntanos sobre tu negocio y en 48 horas te decimos exactamente qué necesitas, cuánto cuesta y cuándo lo tendrás.",
       "form": {
         "name": "Tu nombre",
-        "email": "tu@tunegocio.com",
+        "email": "correo@email.com",
         "phone": "+34 600 000 000",
         "phoneOptional": "Opcional",
         "servicePlaceholder": "¿Qué necesitas?",
@@ -488,7 +495,7 @@
         "testimonial": "&quot;En menos de un año pasamos de no existir en Google a aparecer para búsquedas clave.&quot;",
         "testimonialAuthor": "— WeClean, Alicante",
         "signals": [
-          { "text": "Alicante & Valencia, España" },
+          { "text": "Alicante, España" },
           { "text": "+34 652 56 14 27" },
           { "text": "hola@corexia.es" },
           { "text": "Respuesta garantizada en 48 horas" }
