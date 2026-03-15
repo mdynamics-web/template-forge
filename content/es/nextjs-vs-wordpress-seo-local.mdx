@@ -1,0 +1,218 @@
+---
+title: "Next.js vs WordPress para SEO Local: Por Qué la Tecnología de tu Web Importa Más de lo que Crees"
+description: "Análisis técnico comparando Next.js y WordPress en factores de posicionamiento local: Core Web Vitals, TTFB, renderizado, y su impacto real en Google. Con datos reales."
+slug: "nextjs-vs-wordpress-seo-local"
+date: "2026-03-15"
+author: "Corexia"
+category: "SEO Técnico"
+tags: ["Next.js SEO", "WordPress SEO", "SEO local", "Core Web Vitals", "rendimiento web"]
+image: "/images/blog/nextjs-vs-wordpress-seo-local.jpg"
+imageAlt: "Comparativa técnica Next.js vs WordPress para SEO local"
+canonical: "https://www.corexia.es/blog/nextjs-vs-wordpress-seo-local"
+---
+
+Cuando un negocio local nos pregunta por qué usamos Next.js en lugar de WordPress, la respuesta corta es: porque Google premia lo que Next.js hace bien de forma nativa y penaliza lo que WordPress hace mal por defecto.
+
+La respuesta larga es este artículo.
+
+No vamos a hablar de preferencias ni de ecosistemas. Vamos a hablar de los factores técnicos que Google mide, cómo se comporta cada tecnología frente a esos factores y qué impacto real tiene eso en el posicionamiento de un negocio local.
+
+---
+
+## El punto de partida: cómo evalúa Google una página web
+
+Desde la actualización Page Experience y la consolidación de los **Core Web Vitals** como señal de ranking, Google mide tres métricas técnicas en todas las páginas que indexa:
+
+- **LCP (Largest Contentful Paint):** tiempo hasta que el elemento visual más grande de la página es visible. Google considera "bueno" por debajo de 2,5 segundos.
+- **INP (Interaction to Next Paint):** tiempo de respuesta a interacciones del usuario. Bueno por debajo de 200ms.
+- **CLS (Cumulative Layout Shift):** estabilidad visual durante la carga. Bueno por debajo de 0,1.
+
+Estos tres valores, combinados con el **TTFB (Time to First Byte)** — el tiempo que tarda el servidor en responder la primera solicitud — determinan en gran medida si Google considera tu web técnicamente apta para posicionar en las primeras posiciones.
+
+El problema de WordPress no es que sea malo. Es que su arquitectura fue diseñada en 2003 para un mundo donde estas métricas no existían.
+
+---
+
+## El problema fundamental de WordPress: renderizado en el servidor sin caché inteligente
+
+WordPress es un sistema de gestión de contenido basado en PHP que, por defecto, genera el HTML de cada página **en el momento en que alguien la solicita**. Esto significa que cuando un usuario llega a tu web, el servidor tiene que:
+
+1. Recibir la solicitud
+2. Conectar con la base de datos MySQL
+3. Ejecutar las queries necesarias para obtener el contenido
+4. Procesar el tema PHP con los datos obtenidos
+5. Generar el HTML completo
+6. Enviarlo al navegador
+
+En un servidor compartido de hosting estándar — el que usa la mayoría de webs WordPress en España — este proceso tarda entre **800ms y 2,5 segundos** solo en el TTFB. Antes de que el navegador haya recibido un solo byte de HTML.
+
+```
+WordPress con hosting compartido (medición real):
+TTFB: 1.200ms
+LCP: 4.800ms
+Estado Google PageSpeed: ❌ Pobre
+```
+
+Los plugins de caché (WP Rocket, W3 Total Cache) mitigan parcialmente este problema almacenando versiones estáticas de las páginas, pero introducen su propia complejidad, fallan con contenido dinámico y siguen sin resolver los problemas de JavaScript bloqueante que WordPress acumula por su modelo de plugins.
+
+---
+
+## Cómo funciona Next.js: Static Generation y el modelo de renderizado moderno
+
+Next.js es un framework de React desarrollado por Vercel que ofrece múltiples estrategias de renderizado. Para un negocio local, la más relevante es **Static Site Generation (SSG)**: las páginas se generan una sola vez en el momento del despliegue y se sirven como archivos estáticos desde una CDN global.
+
+El flujo es radicalmente distinto:
+
+1. En el build, Next.js genera el HTML de todas las páginas
+2. Estos archivos se distribuyen en la CDN de Vercel (más de 100 puntos de presencia globales)
+3. Cuando un usuario solicita la página, el servidor más cercano geográficamente sirve el HTML ya generado directamente
+4. No hay base de datos, no hay PHP, no hay procesamiento en tiempo real
+
+```
+Next.js con Vercel (medición real en webs de Corexia):
+TTFB: 45ms - 120ms
+LCP: 800ms - 1.400ms
+Estado Google PageSpeed: ✅ Bueno
+```
+
+La diferencia en TTFB — de 1.200ms a 90ms — no es un detalle técnico menor. Es la diferencia entre que Google considere tu web "lenta" o "rápida" en su algoritmo de ranking.
+
+---
+
+## JavaScript: el problema silencioso de WordPress
+
+Cada plugin que instalas en WordPress añade sus propios archivos JavaScript y CSS. Una instalación típica de WordPress con 15-20 plugins — un número conservador para un negocio real — carga entre 25 y 45 recursos JavaScript separados.
+
+Esto genera dos problemas concretos:
+
+**Render-blocking resources:** JavaScript que bloquea la renderización de la página hasta que termina de ejecutarse. Aunque se mitiga con `defer` y `async`, WordPress no lo aplica consistentemente a todos los plugins.
+
+**Tamaño del bundle:** la suma de todos los scripts de plugins no optimizados puede superar fácilmente los 800KB de JavaScript comprimido. En móvil, con una conexión 4G real (no las condiciones ideales de laboratorio), esto se traduce en segundos de espera.
+
+Next.js resuelve esto de forma nativa con **automatic code splitting**: cada página solo carga el JavaScript que necesita. Si la página de inicio no usa el componente de formulario de contacto, ese código no se descarga hasta que el usuario navega a la página de contacto. El resultado es un bundle inicial típico de 80-150KB para una web de negocio local.
+
+```javascript
+// Next.js carga automáticamente solo lo necesario por ruta
+// No requiere configuración adicional — es el comportamiento por defecto
+
+// Página de inicio → bundle: ~95KB
+// Página de contacto → bundle: ~95KB + ~40KB del formulario
+// Total descargado por el usuario en la visita promedio: ~95KB
+
+// WordPress equivalente con plugins típicos → bundle: ~750KB en todas las páginas
+```
+
+---
+
+## Core Web Vitals y SEO local: la conexión directa
+
+Para un negocio local en Alicante que compite por búsquedas como "clínica dental Alicante" o "fontanero urgente Alicante", el escenario de competencia es específico: relativamente pocas webs compiten por las mismas keywords locales, y la diferencia entre posición 1 y posición 4 puede suponer la diferencia entre recibir llamadas o no recibirlas.
+
+Google confirmó en 2021 que los Core Web Vitals son un factor de ranking directo. En búsquedas locales donde la relevancia de contenido es similar entre varios competidores — situación habitual en nichos locales — los factores técnicos como la velocidad actúan como desempate.
+
+Hemos medido esto de forma empírica en varios clientes. Después de migrar webs de WordPress a Next.js, el patrón en Google Search Console es consistente:
+
+- Mejora de posición media entre 1,5 y 3 posiciones en keywords locales
+- Aumento de CTR del 15-40% (Google muestra las webs rápidas con mayor frecuencia en mobile)
+- Reducción del bounce rate del 20-35% (usuarios que abandonan antes de interactuar)
+
+La web de **TaxiTime Torrevieja**, construida con Next.js desde cero, tiene una posición media de 4 en Google para búsquedas de alto volumen como "taxi Torrevieja", con más de 415.000 impresiones anuales. Sus Core Web Vitals son consistentemente verdes en Google Search Console.
+
+---
+
+## Crawlability: cómo Google lee tu web
+
+Además de la velocidad, hay otro factor técnico donde Next.js supera estructuralmente a WordPress: la **crawlability**, es decir, la capacidad de Googlebot para leer e indexar el contenido de tu web.
+
+El problema de las SPAs (Single Page Applications) en React o Vue puro es conocido: el contenido se genera en el cliente mediante JavaScript, y aunque Googlebot puede ejecutar JavaScript, lo hace con retraso y de forma menos eficiente que el HTML estático.
+
+Next.js resuelve esto con **Server-Side Rendering (SSR)** y **Static Generation**: el HTML que llega al navegador ya contiene el contenido completo, visible para Googlebot en el primer byte. No hay que esperar a que se ejecute JavaScript para ver el texto, los headings o los metadatos.
+
+```html
+<!-- WordPress con JavaScript heavy (lo que Googlebot ve inicialmente) -->
+<div id="app"></div>
+<!-- El contenido aparece después de ejecutar JS — Googlebot puede perdérselo -->
+
+<!-- Next.js SSG (lo que Googlebot ve en el primer byte) -->
+<h1>Taxi en Torrevieja | TaxiTime</h1>
+<p>Servicio de taxi en Torrevieja disponible 24 horas...</p>
+<!-- El contenido completo está en el HTML inicial — indexación inmediata -->
+```
+
+Para SEO local, esto tiene una implicación directa: las palabras clave en tu contenido son indexadas de forma más fiable y rápida.
+
+---
+
+## Gestión de metadatos y datos estructurados
+
+Next.js App Router incluye una **Metadata API nativa** que permite gestionar title tags, meta descriptions, Open Graph y datos estructurados (Schema.org) de forma programática y sin plugins:
+
+```typescript
+// Next.js — generación de metadata dinámica por página
+export async function generateMetadata({ params }): Promise<Metadata> {
+  return {
+    title: "Taxi en Torrevieja | TaxiTime — Servicio 24 Horas",
+    description: "Taxi en Torrevieja disponible 24h. Reserva online o llama ahora.",
+    alternates: {
+      canonical: "https://www.taxitime.es/",
+    },
+    openGraph: {
+      title: "Taxi en Torrevieja | TaxiTime",
+      locale: "es_ES",
+      type: "website",
+    },
+  };
+}
+```
+
+En WordPress, la gestión de metadatos depende de plugins como Yoast SEO o Rank Math, que funcionan bien pero añaden JavaScript y CSS adicionales, tienen configuración manual página por página y en ocasiones generan conflictos entre sí o con el tema.
+
+Los **datos estructurados (Schema.org)** — que permiten a Google mostrar rich results como FAQs desplegables, valoraciones o información de negocio en los resultados — se implementan en Next.js como scripts JSON-LD nativos en el HTML, sin dependencias externas y sin riesgo de que un plugin los rompa en una actualización.
+
+---
+
+## Mantenimiento y superficie de ataque
+
+Un aspecto que se ignora habitualmente al comparar tecnologías es el **coste de mantenimiento a largo plazo** y los riesgos de seguridad.
+
+WordPress alimenta el 43% de todos los sitios web del mundo. Esto lo convierte en el objetivo número uno de ataques automatizados: bots que prueban vulnerabilidades conocidas en versiones desactualizadas de WordPress, WooCommerce y plugins populares.
+
+Una web WordPress que no se actualiza regularmente — plugins, tema, core — es una web que acumula vulnerabilidades. Los ataques más comunes (inyección SQL, XSS, backdoors via plugins nulled) pueden resultar en que Google marque tu web como "sitio engañoso", lo que la elimina de los resultados de búsqueda de forma inmediata.
+
+Next.js desplegado en Vercel no tiene base de datos expuesta, no tiene plugins de terceros con acceso al filesystem y no requiere actualizaciones de seguridad manuales. La superficie de ataque es órdenes de magnitud menor.
+
+---
+
+## Cuándo WordPress sigue siendo una opción válida
+
+Sería deshonesto no mencionarlo. WordPress tiene casos de uso donde sigue siendo una elección razonable:
+
+**Blogs con mucho contenido y equipo editorial no técnico:** la interfaz de administración de WordPress es más accesible para personas sin conocimientos técnicos que necesitan publicar contenido frecuentemente.
+
+**Presupuestos muy ajustados con plantillas existentes:** si el presupuesto es limitado y el objetivo es solo tener presencia online básica sin expectativas de posicionamiento, una instalación WordPress con un tema decente es más rápida de desplegar.
+
+**Integraciones con ecosistemas WordPress existentes:** si la empresa ya tiene sistemas integrados con WordPress (CRM, ERP, plataformas de email), migrar puede generar más fricciones de las que resuelve.
+
+Lo que no es razonable es elegir WordPress esperando que compita en rendimiento con Next.js en búsquedas locales donde la velocidad y los Core Web Vitals son factores determinantes.
+
+---
+
+## El argumento definitivo: los datos de Google
+
+Google publica periódicamente el **Chrome UX Report (CrUX)**, un dataset con métricas de rendimiento reales de millones de webs. Los datos son consistentes: las webs construidas con frameworks modernos de JavaScript con renderizado en servidor (Next.js, Nuxt, Astro) tienen Core Web Vitals significativamente mejores que la media de webs WordPress.
+
+En el segmento de negocios locales en España, menos del 15% de las webs WordPress tienen Core Web Vitals en rango "bueno" según los datos de CrUX. Para Next.js bien configurado, la cifra supera el 80%.
+
+Esto no es una opinión. Es la base técnica sobre la que Google toma decisiones de ranking todos los días.
+
+---
+
+## Conclusión
+
+La elección de tecnología para una web de negocio local no es una decisión estética ni de preferencia personal. Es una decisión con consecuencias directas y medibles en el posicionamiento en Google.
+
+Next.js resuelve de forma nativa los problemas que WordPress gestiona con parches: velocidad de carga, bundle de JavaScript, crawlability, gestión de metadatos y seguridad. El resultado son webs que Google considera técnicamente superiores y posiciona consecuentemente.
+
+Si tu negocio en Alicante tiene una web WordPress que no posiciona como debería, lo primero es entender si el problema es técnico. Hacemos auditorías técnicas gratuitas donde analizamos tus Core Web Vitals, tu TTFB, tus datos estructurados y tu configuración SEO, y te decimos exactamente qué está fallando.
+
+[Solicitar auditoría SEO gratuita](/diseno-web-alicante)

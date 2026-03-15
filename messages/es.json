@@ -515,5 +515,17 @@
       "areasServed": ["Alicante", "Torrevieja", "Elche", "Benidorm", "Orihuela"],
       "openingHours": "Mo-Fr 09:00-18:00"
     }
+  },
+  "blog": {
+    "readArticle": "Leer Artículo",
+    "title": "Descubre Nuestro Blog",
+    "subtitle": "Consejos, casos de éxito y tendencias en diseño web y SEO para negocios en España.",
+    "latestArticles": "Últimos Artículos",
+    "tag": "Blog",
+    "back": "Volver al Blog",
+    "share": "Compartir",
+    "cta": "¿Quieres que tu negocio aparezca en Google?",
+    "ctaDescription": "Hablamos de tu negocio, tu competencia y lo que realmente necesitas. Sin tecnicismos, sin compromiso. Te respondemos en menos de 48 horas con orientación clara y un presupuesto sin letra pequeña.",
+    "ctaButton": "Agendar Consulta Gratuita"
   }
 }
