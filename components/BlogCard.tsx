@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { PostMeta, formatDate } from '@/lib/mdx'
+import { BlogPostMeta, formatDate } from '@/lib/mdx'
 
 type Props = {
-  post: PostMeta
+  post: BlogPostMeta
 }
 
 export default function BlogCard({ post }: Props) {
@@ -34,7 +34,7 @@ export default function BlogCard({ post }: Props) {
               <span>·</span>
             </>
           )}
-          <time dateTime={post.date}>{formatDate(post.date)}</time>
+          <time dateTime={post.date}>{formatDate(post.date, post.locale)}</time>
         </div>
 
         {/* Título */}

@@ -3,6 +3,9 @@ import path from 'path'
 import matter from 'gray-matter'
 import type { BlogPostMeta, BlogPostFull } from '@/types/blog'
 
+// Re-export types for convenience
+export type { BlogPostMeta, BlogPostFull }
+
 const CONTENT_DIR = path.join(process.cwd(), 'content')
 
 /**

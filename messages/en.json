@@ -2,18 +2,19 @@
   "nav": {
     "services": "Solutions",
     "process": "Process",
-    "cases": "Success Stories",
+    "cases": "Case Studies",
     "contact": "Contact",
-    "cta": "Schedule Call"
+    "cta": "Schedule a Call",
+    "blog": "Blog"
   },
   "hero": {
-    "badge": "From idea to customers in 90 days",
+    "badge": "From idea to clients in 90 days",
     "title1": "Professional Web Design",
-    "title2": "and SEO for",
-    "title3": "Businesses in Spain",
-    "subtitle": "We help businesses go digital with fast websites, ranked on Google and designed to sell. Direct contact, honest prices and real technology.",
+    "title2": "and SEO for Businesses",
+    "title3": "in Spain",
+    "subtitle": "We help businesses go digital with fast websites, Google-ranked, and designed to sell. Direct communication, honest prices, and real technology.",
     "cta1": "Schedule Your Free Consultation",
-    "cta2": "View Success Stories",
+    "cta2": "View Case Studies",
     "stat1": {
       "value": "+20",
       "label": "Completed Projects"
@@ -32,30 +33,30 @@
     }
   },
   "problems": {
-    "tag": "The Problem Your Business Has Right Now",
+    "tag": "The Problem Your Business Has Now",
     "title1": "Why Your Business Needs",
     "title2": "Professional Web Design and Local SEO",
     "card1": {
       "title": "Without a Professional Website, Google Doesn't Know You Exist",
-      "desc": "89% of consumers search online before buying. If your business doesn't appear in the first Google results, you simply don't exist for your potential customers."
+      "desc": "89% of consumers search online before buying. If your business doesn't appear in the first Google results, for your potential customers, you simply don't exist."
     },
     "card2": {
-      "title": "Poor Web Design Drives Away Your Customers",
-      "desc": "You have less than 3 seconds to make a good impression. A website that loads slowly, doesn't work on mobile or looks abandoned makes customers leave before reading anything."
+      "title": "Bad Web Design Drives Your Customers Away",
+      "desc": "You have less than 3 seconds to make a good impression. A website that loads slowly, doesn't work on mobile, or looks abandoned makes customers leave before reading anything."
     },
     "card3": {
-      "title": "With Local SEO You Appear on Google Without Paying for Ads",
+      "title": "With Local SEO, You Appear on Google Without Paying for Ads",
       "desc": "Appearing when someone searches for your service in your city doesn't require ads. With a well-optimized website, customers find you on their own — and that traffic never stops."
     }
   },
   "services": {
-    "tag": "What We Can Do for You",
+    "tag": "What We Can Do For You",
     "title1": "Web Design and SEO Services",
     "title2": "for Businesses in Spain",
-    "subtitle": "No jargon, no fine print. Professional web design, local SEO and custom development so your business appears on Google and attracts customers — anywhere in Spain.",
+    "subtitle": "No technical jargon, no small print. Professional web design, local SEO, and custom development so your business appears on Google and attracts clients — anywhere in Spain.",
     "s1": {
       "title": "Professional Web Design for Your Business",
-      "desc": "Your business online with a modern, fast and mobile-friendly design. That looks good, loads fast and converts visits into customers from day one."
+      "desc": "Your business online with a modern, fast, and mobile-adapted design. It looks good, loads quickly, and converts visits into clients from day one."
     },
     "s2": {
       "title": "SEO and Google Ranking",
@@ -63,110 +64,110 @@
     },
     "s3": {
       "title": "Online Store and E-commerce",
-      "desc": "Sell your products 24 hours a day, 7 days a week. Complete stores with shopping cart, secure payment and easy management — without needing technical knowledge."
+      "desc": "Sell your products 24 hours a day, 7 days a week. Complete stores with shopping cart, secure payment, and easy management — without needing technical knowledge."
     },
     "s4": {
       "title": "Website Redesign and Optimization",
-      "desc": "Is your website outdated or not working well? We modernize, speed up and optimize it so it stops driving customers away and starts attracting them."
+      "desc": "Is your website outdated or not working well? We modernize, speed it up, and optimize it so it stops driving customers away and starts attracting them."
     },
     "s5": {
       "title": "Custom Applications and Tools",
-      "desc": "Online bookings, CRM, order management, digital catalogs — if you have a manual process that wastes your time, we automate it for your business."
+      "desc": "Online bookings, CRM, order management, digital catalogs — if you have a manual process that takes up your time, we automate it for your business."
     },
     "s6": {
-      "title": "Digital Consulting Without Commitment",
-      "desc": "Don't know where to start or what you really need? We help you understand it without pressure. First consultation always free."
+      "title": "No-Obligation Digital Consulting",
+      "desc": "You don't know where to start or what you really need. We help you understand it without pressure. First consultation always free."
     }
   },
   "diff": {
     "tag": "Why Choose Us as Your Web Agency",
     "title": "Web Development and SEO by Engineers, Without Intermediaries",
-    "subtitle": "No agencies, no intermediaries, no salespeople. You talk to the person who develops your website from the first day to the last.",
+    "subtitle": "No agencies, no intermediaries, no sales reps. You speak with the person developing your website from the first day to the last.",
     "d1": {
       "title": "Real Experience in Web Projects and Technology",
-      "desc": "We have worked leading development teams in tech companies. We apply those same practices and standards to your project, regardless of its size."
+      "desc": "We have led development teams in tech companies. We apply those same practices and standards to your project, regardless of its size."
     },
     "d2": {
-      "title": "Modern Technology, Fast and Scalable Website",
-      "desc": "We use React, Next.js and Node.js — the same technology used by Google or Netflix. Your website will load in less than 1 second and be ready to grow with you."
+      "title": "Modern Technology, Fast and Scalable Web",
+      "desc": "We use React, Next.js, and Node.js — the same technology used by Google or Netflix. Your website will load in less than 1 second and be ready to grow with you."
     },
     "d3": {
-      "title": "Direct Contact, Honest Prices",
-      "desc": "No inflated budgets or fine print. We explain exactly what you're going to receive, how much it will cost and when it will be ready — before you sign anything."
+      "title": "Direct Communication, Honest Prices",
+      "desc": "No inflated budgets or small print. We tell you exactly what you will receive, how much it will cost, and when it will be ready — before you sign anything."
     },
     "d4": {
       "title": "Local SEO and Web Design Adapted to the Spanish Market",
-      "desc": "Spanish payment gateways, adapted invoicing, local SEO in Spain and availability for face-to-face or video call meetings throughout the peninsula."
+      "desc": "Spanish payment gateways, adapted invoicing, local SEO in Spain, and availability for in-person or video call meetings throughout the peninsula."
     }
   },
   "process": {
-    "tag": "Our Work Process",
+    "tag": "Our Workflow",
     "title1": "How We Create Your Professional Website",
-    "title2": "from Zero to Published in 30 Days",
+    "title2": "From Scratch to Published in 30 Days",
     "s1": {
-      "title": "Free Consultation About Your Web Project",
-      "desc": "We start by listening to you. We analyze your business, your competition and what you really need — without jargon and without commitment. You decide if we move forward."
+      "title": "Free Consultation on Your Web Project",
+      "desc": "We start by listening to you. We analyze your business, your competition, and what you really need — without technical jargon and without obligation. You decide if we move forward."
     },
     "s2": {
       "title": "Clear Proposal with Fixed Price and Deadline",
-      "desc": "You receive a detailed budget with exactly what's included, what it will cost and when it will be ready. No surprises, no hidden costs."
+      "desc": "You receive a detailed quote with exactly what it includes, what it will cost, and when it will be ready. No surprises, no hidden costs."
     },
     "s3": {
       "title": "Web Development with Weekly Updates",
-      "desc": "We work on your project and keep you informed at all times. You'll see real progress every week and can give us feedback before it's too late."
+      "desc": "We work on your project and keep you informed at all times. You will see real progress every week and can give us feedback before it's too late."
     },
     "s4": {
-      "title": "Review and Adjustments Before Launch",
-      "desc": "Before publishing anything, we review every detail together. Speed, design, texts, forms — everything has to be perfect and you have to be 100% satisfied."
+      "title": "Review and Adjustments before Launch",
+      "desc": "Before publishing anything, we review every detail together. Speed, design, texts, forms — everything has to be perfect, and you have to be 100% satisfied."
     },
     "s5": {
-      "title": "Website Launch and Ongoing Support",
-      "desc": "We publish your website and don't disappear. We train you so you can manage it, resolve doubts and remain available for any future improvements."
+      "title": "Website Launch and Continuous Support",
+      "desc": "We publish your website and don't disappear. We train you to manage it, answer questions, and remain available for any future improvements."
     }
   },
   "cases": {
-    "tag": "Web Design and SEO Projects Completed",
-    "title1": "Real Results in Web Design",
+    "tag": "Completed Web Design and SEO Projects",
+    "title1": "Real Web Design Results",
     "title2": "and Local SEO in Spain",
     "c1": {
       "title": "WeClean",
       "category": "Professional Cleaning · Alicante",
-      "desc": "We designed and developed their website from scratch 10 months ago. In less than a year it has accumulated more than 7,000 impressions on Google and ranks for key local searches like 'cleaning company in Torrevieja' — with SEO still in growth phase.",
-      "metric1": { "value": "7K+", "label": "Google Impressions" }, 
-      "metric2": { "value": "10", "label": "Months since launch" }, 
+      "desc": "We designed and developed their website from scratch 10 months ago. In less than a year, it has accumulated more than 7,000 impressions on Google and ranks for key local searches like 'cleaning company in Torrevieja' — with SEO still in the growth phase.",
+      "metric1": { "value": "7K+", "label": "Google Impressions" },
+      "metric2": { "value": "10", "label": "Months since launch" },
       "metric3": { "value": "1.5%", "label": "Average CTR" }
     },
     "c2": {
       "title": "TaxiTime Torrevieja",
       "category": "Transport and Taxi · Torrevieja",
       "desc": "We developed their website 2 years ago for this local taxi company in Torrevieja. Today it generates more than 415,000 annual impressions on Google, average position 4 and CTR of 2.2% — dominating high-volume searches like 'taxi Torrevieja'.",
-      "metric1": { "value": "415K", "label": "Annual impressions" },
-      "metric2": { "value": "4", "label": "Average Google position" },
+      "metric1": { "value": "415K", "label": "Annual Impressions" },
+      "metric2": { "value": "4", "label": "Average Google Position" },
       "metric3": { "value": "2.2%", "label": "Average CTR" }
     },
     "c3": {
       "title": "Sanaja Beauty",
-      "category": "Beauty and Massage · Alicante",
-      "desc": "Web design for beauty and massage center in Alicante. In the last 12 months: 32,000 Google impressions, 5.3% CTR — well above the industry average — and average position of 6. Organic results without advertising investment.",
-      "metric1": { "value": "32K", "label": "Annual impressions" },
+      "category": "Beauty and Massages · Alicante",
+      "desc": "Web design for beauty and massage center in Alicante. In the last 12 months: 32,000 impressions on Google, CTR of 5.3% — well above the industry average — and average position 6. Organic results without advertising investment.",
+      "metric1": { "value": "32K", "label": "Annual Impressions" },
       "metric2": { "value": "5.3%", "label": "Average CTR" },
-      "metric3": { "value": "6", "label": "Average Google position" }
+      "metric3": { "value": "6", "label": "Average Google Position" }
     }
   },
   "tech": {
     "tag": "Technology",
     "title1": "Web Development with Next.js and React:",
-    "title2": "Fast Websites Optimized for Google",
-    "subtitle": "We use Next.js, React and Node.js to create websites that load in less than 1 second — the same stack as Google or Netflix — adapted to your business budget. Loading speed is a ranking factor on Google."
+    "title2": "Fast and Google-Optimized Websites",
+    "subtitle": "We use Next.js, React, and Node.js to create websites that load in less than 1 second — the same stack as Google or Netflix — adapted to your business's budget. Loading speed is a Google ranking factor."
   },
   "cta": {
-    "title1": "Want a Professional Website",
+    "title1": "Do You Want a Professional Website",
     "title2": "that Ranks on Google from Day One?",
-    "subtitle": "First free and no-commitment consultation. We analyze your business, tell you what you need —web design, SEO or both— how much it costs and when you'll have it.",
+    "subtitle": "First consultation free and without obligation. We analyze your business, tell you what you need — web design, SEO, or both — how much it costs, and when you'll have it.",
     "button": "Schedule Your Free Consultation →"
   },
   "footer": {
-    "tagline": "Web design and SEO agency in Valencia and Alicante. Computer engineers with real experience in digital projects for businesses throughout Spain.",
+    "tagline": "Web design and SEO agency in Valencia and Alicante. Computer engineers with real experience in digital projects for businesses across Spain.",
     "services": "Services",
     "company": "Company",
     "contact": "Contact",
@@ -179,8 +180,8 @@
     "c2": "Completed Projects",
     "c3": "Contact",
     "consultation": "Free Consultation",
-    "consultationDesc": "We talk about your business without commitment. We give you guidance and a budget in less than 48 hours.",
-    "response": "Response guaranteed in 48 hours",
+    "consultationDesc": "We'll chat about your business without obligation. We provide guidance and a quote in less than 48 hours.",
+    "response": "Guaranteed response within 48 hours",
     "locations": "Where We Are",
     "valencia": "Valencia, Spain",
     "alicante": "Alicante, Spain",
@@ -195,17 +196,17 @@
     "copyright": "All rights reserved."
   },
   "contact": {
-    "tag": "No Commitment, No Jargon",
-    "title1": "Tell Us What Your",
-    "title2": "Business Needs",
-    "subtitle": "First free consultation. We respond in less than 24 hours with clear guidance, real options and a budget without fine print.",
+    "tag": "No Obligation, No Jargon",
+    "title1": "Tell Us What Your Business",
+    "title2": "Needs",
+    "subtitle": "First consultation free. We'll respond in less than 24 hours with clear guidance, real options, and a transparent quote.",
     "name": "Name *",
     "email": "Email *",
     "company": "Your Business Name",
     "serviceLabel": "What do you need?",
     "servicePlaceholder": "Select an option",
     "serviceWebsite": "Website from Scratch",
-    "serviceSeo": "Improve My Google Ranking",
+    "serviceSeo": "Improve my Google Ranking",
     "serviceChatbot": "Custom Application or Tool",
     "serviceRedesign": "Existing Website Redesign",
     "serviceAutomation": "Online Store",
@@ -218,7 +219,7 @@
     "successMessage": "Message received! We'll respond in less than 24 hours with concrete ideas for your business.",
     "thankyou": {
       "title": "Consultation Received!",
-      "desc": "We'll review your project and respond in less than 24 hours with clear guidance and a budget without surprises. No commitment."
+      "desc": "We will review your project and respond in less than 24 hours with clear guidance and a transparent quote. No obligation."
     },
     "info": {
       "title": "Direct Contact",
@@ -235,8 +236,8 @@
   },
   "Metadata": {
     "title": "Professional Web Design and SEO for Businesses | Corexia",
-    "description": "We create fast, modern websites ranked on Google for businesses throughout Spain. Direct contact, real technology and visible results. First consultation free.",
-    "keywords": "professional web design, website for local business, local SEO Spain, web development Valencia, web development Alicante, create cheap website, web developers Spain, SEO agency Spain, Google positioning, business websites"
+    "description": "We create fast, modern, and Google-ranked websites for businesses across Spain. Direct communication, real technology, and visible results. First consultation free.",
+    "keywords": "professional web design, local business website, local SEO Spain, web development Valencia, web development Alicante, create cheap website, web programmers Spain, SEO agency Spain, Google ranking, websites for businesses"
   },
   "cookies": {
     "consent": {
@@ -244,7 +245,7 @@
       "description": "We use cookies to improve your browsing experience and analyze our website traffic. By accepting, you help us improve our services.",
       "policyLink": "Cookie Policy",
       "accept": "Accept all",
-      "reject": "Essential only"
+      "reject": "Only essential"
     },
     "policy": {
       "metaTitle": "Cookie Policy | Corexia",
@@ -252,39 +253,39 @@
       "lastUpdated": "Last updated: February 2026",
       "section1": {
         "title": "1. What are cookies?",
-        "text": "Cookies are small text files that are stored on your device (computer, tablet or mobile) when you visit a website. Cookies are widely used to make websites work more efficiently, as well as to provide information to site owners."
+        "text": "Cookies are small text files stored on your device (computer, tablet, or mobile) when you visit a website. Cookies are widely used to make websites work more efficiently, as well as to provide information to site owners."
       },
       "section2": {
         "title": "2. What cookies do we use?",
-        "text": "At Corexia we use the following types of cookies:",
+        "text": "At Corexia, we use the following types of cookies:",
         "items": [
-          "Essential cookies: Necessary for the basic functioning of the website. They include session cookies and language preference cookies.",
-          "Performance cookies: They allow us to analyze how visitors use our website to improve its operation. They collect information anonymously.",
-          "Functionality cookies: They allow us to remember the choices you make (such as your preferred language) to provide a more personalized experience.",
-          "Marketing cookies: They are used to track visitors across websites with the intention of displaying relevant and engaging ads for the individual user."
+          "Essential cookies: Necessary for the basic functioning of the website. These include session and language preference cookies.",
+          "Performance cookies: Allow us to analyze how visitors use our website to improve its functionality. They collect information anonymously.",
+          "Functionality cookies: Allow us to remember choices you make (such as your preferred language) to provide a more personalized experience.",
+          "Marketing cookies: Used to track visitors across websites with the intention of displaying relevant and engaging advertisements to the individual user."
         ]
       },
       "section3": {
         "title": "3. Third-party cookies",
-        "text": "Some of our partners and service providers may set cookies on your device when you visit our website. These third parties include web analytics services and external content providers. We have no control over the cookies that these third parties set. We recommend that you consult the privacy policies of these third parties for more information."
+        "text": "Some of our partners and service providers may set cookies on your device when you visit our website. These third parties include web analytics services and external content providers. We have no control over the cookies these third parties set. We recommend you consult the privacy policies of these third parties for more information."
       },
       "section4": {
         "title": "4. How to control cookies?",
-        "text": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your device and configure most browsers not to accept them. However, if you do this, you may have to manually adjust some preferences each time you visit a site and some services and functionalities may not work properly."
+        "text": "You can control and/or delete cookies as you wish. You can delete all cookies already on your device and set most browsers to prevent them from being placed. However, if you do this, you may have to manually adjust some preferences every time you visit a site, and some services and functionalities may not work correctly."
       },
       "section5": {
         "title": "5. Browser settings",
-        "text": "Most web browsers allow some control of cookies through browser settings. For more information about cookies, including how to see what cookies have been set and how to manage and delete them, visit your browser settings.",
+        "text": "Most web browsers allow some control of cookies through browser settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit your browser settings.",
         "items": [
           "Google Chrome: Settings > Privacy and security > Cookies",
           "Mozilla Firefox: Options > Privacy and security",
           "Safari: Preferences > Privacy",
-          "Microsoft Edge: Settings > Privacy, search and services"
+          "Microsoft Edge: Settings > Privacy, search, and services"
         ]
       },
       "section6": {
         "title": "6. Changes to this policy",
-        "text": "We may update this cookie policy periodically to reflect changes in the cookies we use or for other operational, legal or regulatory reasons. We recommend that you review this page regularly to stay informed about our use of cookies."
+        "text": "We may update this cookie policy periodically to reflect changes in the cookies we use or for other operational, legal, or regulatory reasons. We encourage you to review this page regularly to stay informed about our use of cookies."
       },
       "section7": {
         "title": "7. Contact",
@@ -296,10 +297,10 @@
     "hero": {
       "badge": "Web Design Agency · Alicante, Spain",
       "title": "Web Design and SEO in Alicante",
-      "titleHighlight": "More Clients, Less Word of Mouth",
+      "titleHighlight": "More Clients, Less Word-of-Mouth",
       "description": "Your website stops being an online brochure and becomes your best salesperson: it appears when someone searches for your service in Alicante, convinces the visitor, and converts them into a client. Without paying for ads every month.",
       "cta1": "Free Web Consultation",
-      "cta2": "See Alicante Results ↓",
+      "cta2": "View Alicante Results ↓",
       "metrics": {
         "m1": {
           "value": "415",
@@ -319,7 +320,7 @@
       }
     },
     "trust": {
-      "title": "Alicante Businesses Already Ranking on Google with Our Websites",
+      "title": "Alicante Businesses already ranking on Google with our websites",
       "companies": [
         "WeClean · Alicante",
         "Sanaja Beauty · Alicante",
@@ -328,22 +329,22 @@
     },
     "why": {
       "tag": "The Local Market",
-      "title": "89% of Your Clients Search for You on Google",
+      "title": "89% of Your Customers Search for You on Google",
       "titleHighlight": "Do You Appear or Does Your Competition?",
       "paragraphs": [
-        "Alicante has over 800,000 inhabitants and one of the densest SME networks in Spain. Hospitality, local commerce, clinics, academies, professional services — sectors where the client decides on Google before calling anyone.",
-        "The problem isn't that they don't search for you. It's that they search for you and find someone else. Every day your website doesn't rank, that client goes to a competitor with a faster, better-optimized website.",
-        "We've seen it with WeClean in Alicante and TaxiTime in Torrevieja: a technically well-built website with real local SEO starts generating visits in weeks, not years.",
-        "At Corexia we build websites with Next.js directly from Alicante. We know the local market: the highest-volume searches, the competition in each sector, and how to position your business above them."
+        "Alicante has more than 800,000 inhabitants and one of the densest SME networks in Spain. Hospitality, local commerce, clinics, academies, professional services — sectors where customers decide on Google before calling anyone.",
+        "The problem is not that they don't look for you. It's that they look for you and find someone else. Every day your website doesn't rank, that customer goes to a competitor with a faster, better-optimized website.",
+        "We have seen it with WeClean in Alicante and TaxiTime in Torrevieja: a technically well-built website with real local SEO starts generating visits in weeks, not years.",
+        "At Corexia, we build websites with Next.js directly from Alicante. We know the local market: the highest volume searches, the competition in each sector, and how to rank your business above others."
       ],
       "benefits": [
         {
-          "title": "Your Competition in Alicante Already Invests in Web Design",
-          "text": "While you wait, your competitors rank on Google and capture your potential clients. The digital gap between businesses in Alicante grows every month."
+          "title": "Your Competition in Alicante is Already Investing in Web Design",
+          "text": "While you wait, your competitors are ranking on Google and capturing your potential customers. The digital gap between businesses in Alicante grows every month."
         },
         {
           "title": "Local Searches Have High Purchase Intent",
-          "text": "Someone searching for 'plumber Alicante' or 'beauty salon Alicante' wants to hire today. Those are the searches we target with your website."
+          "text": "Someone searching for 'plumber Alicante' or 'beauty salon Alicante' wants to hire today. These are the searches we target with your website."
         },
         {
           "title": "A Slow Website Loses 53% of Visits",
@@ -362,26 +363,26 @@
       "tag": "What We Do",
       "title": "Web Design and SEO Services",
       "titleHighlight": "for Businesses in Alicante",
-      "subtitle": "No jargon, no fine print. Real digital presence that attracts clients and grows your business in Alicante and the province.",
+      "subtitle": "No technical jargon, no small print. Real digital presence that attracts customers and grows your business in Alicante and the province.",
       "list": [
         {
           "title": "Professional Web Design in Alicante",
-          "description": "Your business online with a modern, fast, mobile-first design. Built with Next.js to load in less than 1 second and convert visits into clients from day one. No templates, no limits.",
+          "description": "Your business online with a modern, fast, and mobile-first design. Built with Next.js to load in less than 1 second and convert visits into clients from day one. No templates, no limits.",
           "chip": "Free quote in 48h"
         },
         {
           "title": "Local SEO in Alicante and Province",
-          "description": "Appear when someone searches for your service in Alicante, Torrevieja, Elche or Benidorm. We optimize your website and Google Business Profile so Google shows you before your competition — without paying for ads.",
+          "description": "Appear when someone searches for your service in Alicante, Torrevieja, Elche, or Benidorm. We optimize your website and your Google Business Profile so Google shows you before your competition — without paying for ads.",
           "chip": "Free SEO audit included"
         },
         {
           "title": "Online Store for Businesses in Alicante",
-          "description": "Sell your products 24/7. Complete stores with shopping cart, secure payment with Spanish gateways (Redsys, Stripe) and easy management — no technical knowledge needed. Local SEO included.",
-          "chip": "Free consultation, no commitment"
+          "description": "Sell your products 24/7. Complete stores with shopping cart, secure payment with Spanish gateways (Redsys, Stripe), and easy management — without technical knowledge. Local SEO included.",
+          "chip": "Free no-obligation consultation"
         },
         {
           "title": "Redesign and Optimization of Existing Website",
-          "description": "Is your current website slow, looks bad on mobile or invisible on Google? We analyze it, identify the real problems and modernize it with current technology. More traffic, more clients, same business.",
+          "description": "Is your current website slow, looks bad on mobile, or is invisible on Google? We analyze it, identify the real problems, and modernize it with current technology. More traffic, more customers, same business.",
           "chip": "Free analysis in 48h"
         }
       ]
@@ -390,7 +391,7 @@
       "tag": "Real Result · Torrevieja, Alicante",
       "title": "From Zero Visits to Dominating Google in Torrevieja",
       "badge": "TaxiTime · Transport · Torrevieja",
-      "description": "TaxiTime started as a taxi company in Torrevieja with no digital presence. They needed to appear on Google for high-volume searches like 'taxi Torrevieja' — the type of search where the client hires immediately.",
+      "description": "TaxiTime started as a taxi company in Torrevieja with no digital presence. They needed to appear on Google for high-volume searches like 'taxi Torrevieja' — the kind of search where the customer hires on the spot.",
       "metrics": [
         {
           "value": "415",
@@ -401,7 +402,7 @@
         {
           "value": "4",
           "suffix": "",
-          "label": "Average position on Google",
+          "label": "Average Google position",
           "sub": "for 'taxi Torrevieja' and variants"
         },
         {
@@ -412,7 +413,7 @@
           "isDecimal": true
         }
       ],
-      "conclusion": "In two years, TaxiTime went from not existing on Google to dominating taxi searches in Torrevieja and surroundings. Today it generates over 415,000 annual impressions with an average position of 4.",
+      "conclusion": "In two years, TaxiTime went from not existing on Google to dominating taxi searches in Torrevieja and its surroundings. Today it generates more than 415,000 annual impressions with an average position of 4.",
       "ctaText": "Get your free consultation"
     },
     "process": {
@@ -423,17 +424,17 @@
         {
           "num": "01",
           "title": "Free Consultation",
-          "text": "We talk about your business, your competition in Alicante and what you really need. No jargon. You decide if we continue."
+          "text": "We discuss your business, your competition in Alicante, and what you really need. No technical jargon. You decide if we proceed."
         },
         {
           "num": "02",
           "title": "Proposal and Development",
-          "text": "You receive a fixed quote with price and deadline. We develop with weekly updates so you see real progress and can give feedback before it's too late."
+          "text": "You receive a fixed quote with price and deadline. We develop with weekly updates so you see real progress and can provide feedback before it's too late."
         },
         {
           "num": "03",
           "title": "Launch and SEO",
-          "text": "We publish, configure local SEO on Google and train you to manage your website. We don't disappear once it's done."
+          "text": "We publish, configure local SEO on Google, and train you to manage your website. We don't disappear once it's done."
         }
       ]
     },
@@ -442,58 +443,64 @@
       "title": "Questions About Web Design and SEO in Alicante",
       "questions": [
         {
-          "question": "How much does a professional website in Alicante cost?",
-          "answer": "It depends on the project — not all businesses need the same thing. A presentation website for a local business has a very different cost from an online store or a custom platform. What we can guarantee is a fixed quote before starting: you know exactly what you'll receive, how much it costs and when it will be ready. No surprises, no hidden costs. Ask us for a quote — we respond in less than 48h."
+          "question": "How much does a professional website cost in Alicante?",
+          "answer": "It depends on the project — not all businesses need the same thing. A presentation website for a local business has a very different cost than an online store or a custom platform. What we can guarantee is a fixed budget before starting: you know exactly what you get, how much it costs, and when it will be ready. No surprises, no hidden costs. Ask us for a quote — we'll respond in less than 48 hours."
         },
         {
           "question": "How long does it take for a website to rank on Google in Alicante?",
-          "answer": "The first local SEO results in Alicante start to show between 3 and 6 months after launch. In sectors with little digital competition — plumbing, cleaning, academies, professional services — results can come sooner. TaxiTime in Torrevieja today generates over 415,000 annual impressions on Google with average position 4, starting from zero. SEO is a medium-term investment, but once you rank, that traffic doesn't stop and costs you nothing month to month."
+          "answer": "The first local SEO results in Alicante start to be seen between 3 and 6 months after launch. In sectors with little digital competition — plumbing, cleaning, academies, professional services — results can come sooner. TaxiTime in Torrevieja today generates more than 415,000 annual impressions on Google with an average position of 4, starting from scratch. SEO is a medium-term investment, but once you rank, that traffic is constant and costs you nothing month to month."
         },
         {
           "question": "Do you only work with businesses in Alicante?",
-          "answer": "No — we have clients throughout Spain and work perfectly remotely. But we do have a special focus on Alicante and the province because we know the local market: the sectors with the most digital demand, the competition in each area and the highest-volume searches. If your business is in Alicante, Torrevieja, Elche, Benidorm or Orihuela, we can also meet in person when you need it."
+          "answer": "No — we have clients throughout Spain and work perfectly remotely. But we do have a special focus on Alicante and the province because we know the local market: the sectors with the most digital demand, the competition in each area, and the highest volume searches. If your business is in Alicante, Torrevieja, Elche, Benidorm, or Orihuela, we can also meet in person when you need it."
         },
         {
           "question": "My business already has a website, can you improve it?",
-          "answer": "It's one of the jobs we do most. Most local business websites in Alicante have the same problems: they load slowly, aren't optimized for mobile and Google doesn't rank them. We analyze them, identify what's failing and tell you exactly what can be improved — free, no commitment. If we decide to work together, we modernize the website with current technology and optimize it to start generating organic visits."
+          "answer": "It's one of the jobs we do most often. Most local business websites in Alicante have the same problems: they load slowly, are not mobile-optimized, and Google doesn't rank them. We analyze them, identify what's failing, and tell you exactly what can be improved — for free, without obligation. If we decide to work together, we modernize the website with current technology and optimize it to start generating organic visits."
         },
         {
           "question": "What does local SEO for businesses in Alicante include?",
-          "answer": "Local keyword research for your sector in Alicante and province, technical optimization of your website, configuration and optimization of Google Business Profile, loading speed and structured data so Google understands your business. All aimed at making you appear when someone searches for your service in Alicante — without paying for ads every month."
+          "answer": "Research of local keywords for your sector in Alicante and province, technical optimization of your website, configuration and optimization of Google Business Profile, loading speed, and structured data so Google understands your business. All aimed at making you appear when someone searches for your service in Alicante — without paying for ads every month."
         },
         {
           "question": "Why choose a local agency in Alicante and not one from Madrid or Barcelona?",
-          "answer": "Because we know the market. We know what users search for in the province, which sectors have more digital competition and how to position yourself in specific local searches. Plus, we can meet with you in person when you need it — something an agency 400km away can't do. We've worked with businesses in Alicante, Torrevieja and the Costa Blanca, and that shows in the results."
+          "answer": "Because we know the market. We know what users in the province are looking for, which sectors have more digital competition, and how to rank for specific local searches. Plus, we can meet with you in person when you need it — something an agency 400km away cannot do. We have worked with businesses in Alicante, Torrevieja, and the Costa Blanca, and that shows in the results."
         }
       ]
     },
     "contact": {
       "title": "Free Consultation About Your Website in Alicante",
-      "subtitle": "Tell us about your business and in 48 hours we'll tell you exactly what you need, how much it costs and when you'll have it.",
+      "subtitle": "Tell us about your business, and in 48 hours, we'll tell you exactly what you need, how much it costs, and when you'll have it.",
       "form": {
         "name": "Your name",
-        "email": "email@example.com",
+        "email": "email@email.com",
         "phone": "+34 600 000 000",
         "phoneOptional": "Optional",
         "servicePlaceholder": "What do you need?",
         "services": [
           { "value": "nueva-web", "label": "Create a new website" },
           { "value": "mejorar-web", "label": "Improve my current website" },
-          { "value": "seo", "label": "SEO and Google positioning" },
+          { "value": "seo", "label": "SEO and Google ranking" },
           { "value": "tienda", "label": "Online store" },
           { "value": "no-seguro", "label": "I'm not sure yet" }
         ],
-        "message": "Briefly describe your business and what you're looking for. No commitment.",
+        "message": "Briefly describe your business and what you are looking for. No obligation.",
         "submit": "Send Free Consultation",
         "sending": "Sending...",
         "successTitle": "Received!",
         "successMessage": "We'll reply in less than 48h.",
-        "errorTitle": "Error",
-        "errorMessage": "Something went wrong. Please try again."
+        "errorTitle": "Please complete name and email"
       },
-      "info": {
-        "title": "Direct Contact",
-        "subtitle": "We respond in less than 48 hours. Phone, email or video call — whatever works best for you."
+      "trust": {
+        "intro": "We work with businesses in Alicante, Torrevieja, Elche, Valencia, and throughout Spain — in-person and remotely.",
+        "testimonial": "&quot;In less than a year, we went from not existing on Google to appearing for key searches.&quot;",
+        "testimonialAuthor": "— WeClean, Alicante",
+        "signals": [
+          { "text": "Alicante, Spain" },
+          { "text": "+34 652 56 14 27" },
+          { "text": "info.corexia@gmail.com" },
+          { "text": "Guaranteed response within 48 hours" }
+        ]
       }
     },
     "schema": {
@@ -503,29 +510,31 @@
       "email": "info.corexia@gmail.com",
       "streetAddress": "Alicante",
       "city": "Alicante",
-      "region": "Comunitat Valenciana",
+      "region": "Comunidad Valenciana",
       "postalCode": "03001",
-      "country": "ES"
-    },
-    "blog": {
-      "readArticle": "Read Article",
-      "title": "Discover Our Blog",
-      "subtitle": "Tips, success stories and trends in web design and SEO for businesses in Spain.",
-      "latestArticles": "Latest Articles",
-      "tag": "Blog",
-      "back": "Back to Blog",
-      "share": "Share",
-      "cta": "Want your business to appear on Google?",
-      "ctaDescription": "We'll discuss your business, your competition and what you really need. No jargon, no commitment. We'll respond within 48 hours with clear guidance and a no-strings-attached quote.",
-      "ctaButton": "Schedule Free Consultation",
-      "featured": "Featured",
-      "relatedArticles": "Related Articles",
-      "meta": {
-        "title": "Web Design & SEO Blog | Corexia",
-        "description": "Technical and practical articles on web design, local SEO and Google ranking for businesses in Spain. Written by engineers with real case studies.",
-        "ogTitle": "Corexia Blog — Web Design & SEO for Businesses",
-        "ogDescription": "Guides, comparisons and case studies on professional web design, local SEO and organic Google rankings. No fluff, real data."
-      }
+      "country": "ES",
+      "areasServed": ["Alicante", "Torrevieja", "Elche", "Benidorm", "Orihuela"],
+      "openingHours": "Mo-Fr 09:00-18:00"
+    }
+  },
+  "blog": {
+    "readArticle": "Read Article",
+    "title": "Discover Our Blog",
+    "subtitle": "Tips, case studies, and trends in web design and SEO for businesses in Spain.",
+    "latestArticles": "Latest Articles",
+    "tag": "Blog",
+    "back": "Back to Blog",
+    "share": "Share",
+    "cta": "Do you want your business to appear on Google?",
+    "ctaDescription": "We discuss your business, your competition, and what you really need. No technical jargon, no obligation. We'll respond in less than 48 hours with clear guidance and a transparent quote.",
+    "ctaButton": "Schedule Free Consultation",
+    "featured" : "Featured",
+    "relatedArticles": "Related Articles",
+    "meta": {
+      "title": "Web Design and SEO Blog | Corexia",
+      "description": "Technical and practical articles on web design, local SEO, and Google organic ranking for businesses in Spain. Written by engineers with real cases.",
+      "ogTitle": "Corexia Blog — Web Design and SEO for Businesses",
+      "ogDescription": "Guides, comparisons, and case studies on professional web design, local SEO, and organic Google ranking. No fluff, with real data."
     }
   }
 }
