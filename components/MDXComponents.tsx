@@ -83,14 +83,21 @@ export const components: MDXComponents = {
     <hr className="my-10 border-neutral-200 dark:border-neutral-700" />
   ),
 
-  code: ({ children }) => (
-    <code className="rounded bg-neutral-100 px-1.5 py-0.5 font-mono text-sm text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200">
-      {children}
-    </code>
-  ),
+  code: ({ children, className }) => {
+    // Si tiene className, es parte de un bloque de código (dentro de <pre>)
+    if (className) {
+      return <code className="font-mono">{children}</code>
+    }
+    // Código inline
+    return (
+      <code className="rounded bg-secondary/10 px-1.5 py-0.5 font-mono text-sm text-secondary">
+        {children}
+      </code>
+    )
+  },
 
   pre: ({ children }) => (
-    <pre className="my-6 overflow-x-auto rounded-xl bg-neutral-900 p-5 text-sm text-neutral-100">
+    <pre className="my-6 overflow-x-auto rounded-xl bg-card/30 backdrop-blur-sm border border-border/20 p-5 text-sm text-primary-foreground leading-relaxed font-mono">
       {children}
     </pre>
   ),

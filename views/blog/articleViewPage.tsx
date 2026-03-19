@@ -153,6 +153,23 @@ export default function ArticleViewPage({ article, related }: ArticleViewPagePro
                   {children}
                 </td>
               ),
+              code: ({ children, className }) => {
+                // Si tiene className, es parte de un bloque de código (dentro de <pre>)
+                if (className) {
+                  return <code className="font-mono">{children}</code>
+                }
+                // Código inline
+                return (
+                  <code className="rounded  px-1.5 py-0.5 font-mono text-sm text-secondary">
+                    {children}
+                  </code>
+                )
+              },
+              pre: ({ children }) => (
+                <pre className="my-6 overflow-x-auto rounded-xl bg-card/10 border border-border/20 p-5 text-sm text-primary-foreground leading-relaxed font-mono">
+                  {children}
+                </pre>
+              ),
             }}
           >
             {article.content}

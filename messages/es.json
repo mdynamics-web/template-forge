@@ -4,7 +4,8 @@
     "process": "Proceso",
     "cases": "Casos de Éxito",
     "contact": "Contacto",
-    "cta": "Agendar Llamada"
+    "cta": "Agendar Llamada",
+    "blog": "Blog"
   },
   "hero": {
     "badge": "De idea a clientes en 90 días",
@@ -526,6 +527,14 @@
     "share": "Compartir",
     "cta": "¿Quieres que tu negocio aparezca en Google?",
     "ctaDescription": "Hablamos de tu negocio, tu competencia y lo que realmente necesitas. Sin tecnicismos, sin compromiso. Te respondemos en menos de 48 horas con orientación clara y un presupuesto sin letra pequeña.",
-    "ctaButton": "Agendar Consulta Gratuita"
+    "ctaButton": "Agendar Consulta Gratuita",
+    "featured" : "Destacado",
+    "relatedArticles": "Artículos Relacionados",
+    "meta": {
+      "title": "Blog de Diseño Web y SEO | Corexia",
+      "description": "Artículos técnicos y prácticos sobre diseño web, SEO local y posicionamiento en Google para negocios en España. Escrito por ingenieros con casos reales.",
+      "ogTitle": "Blog Corexia — Diseño Web y SEO para Negocios",
+      "ogDescription": "Guías, comparativas y casos de estudio sobre diseño web profesional, SEO local y posicionamiento orgánico en Google. Sin humo, con datos reales."
+    }
   }
 }

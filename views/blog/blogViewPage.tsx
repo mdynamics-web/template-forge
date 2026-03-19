@@ -58,10 +58,12 @@ export default function BlogViewPage({ featured, rest }: BlogProps) {
             <Link href={`/blog/${featured.slug}`} className="group block">
               <div className="relative rounded-2xl overflow-hidden border border-border/20 bg-card/5 backdrop-blur-sm">
                 <div className="grid md:grid-cols-2 gap-0">
-                  <div className="relative h-64 md:h-[420px] overflow-hidden">
+                  <div className="relative h-64 md:h-[450px] overflow-hidden">
                     <Image
                       src={featured.image}
                       alt={featured.title}
+                      width={1200}
+                      height={800}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent to-primary/60 md:block hidden" />
@@ -129,8 +131,8 @@ export default function BlogViewPage({ featured, rest }: BlogProps) {
                     <Image
                       src={post.image}
                       alt={post.title}
-                      width={300}
-                      height={200}
+                      width={600}
+                      height={400}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />

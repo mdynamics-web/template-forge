@@ -506,6 +506,26 @@
       "region": "Comunitat Valenciana",
       "postalCode": "03001",
       "country": "ES"
+    },
+    "blog": {
+      "readArticle": "Read Article",
+      "title": "Discover Our Blog",
+      "subtitle": "Tips, success stories and trends in web design and SEO for businesses in Spain.",
+      "latestArticles": "Latest Articles",
+      "tag": "Blog",
+      "back": "Back to Blog",
+      "share": "Share",
+      "cta": "Want your business to appear on Google?",
+      "ctaDescription": "We'll discuss your business, your competition and what you really need. No jargon, no commitment. We'll respond within 48 hours with clear guidance and a no-strings-attached quote.",
+      "ctaButton": "Schedule Free Consultation",
+      "featured": "Featured",
+      "relatedArticles": "Related Articles",
+      "meta": {
+        "title": "Web Design & SEO Blog | Corexia",
+        "description": "Technical and practical articles on web design, local SEO and Google ranking for businesses in Spain. Written by engineers with real case studies.",
+        "ogTitle": "Corexia Blog — Web Design & SEO for Businesses",
+        "ogDescription": "Guides, comparisons and case studies on professional web design, local SEO and organic Google rankings. No fluff, real data."
+      }
     }
   }
 }

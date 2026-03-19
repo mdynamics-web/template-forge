@@ -23,6 +23,7 @@ const Navbar = () => {
     { label: t("nav.process"), href: "/#process" },
     { label: t("nav.cases"), href: "/#cases" },
     { label: t("nav.contact"), href: `/${locale}/contact` },
+    { label: t("nav.blog"), href: `/${locale}/blog` },
   ];
 
   // Detectar si estamos en la home
