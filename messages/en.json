@@ -192,6 +192,7 @@
     "serviceAreaFull": "Service throughout Spain — in-person and remote",
     "serviceAreas": "Service Areas",
     "alicanteWeb": "Web Design in Alicante",
+    "valenciaWeb": "Web Design in Valencia",
     "allSpain": "Service throughout Spain",
     "copyright": "All rights reserved."
   },
@@ -515,6 +516,62 @@
       "country": "ES",
       "areasServed": ["Alicante", "Torrevieja", "Elche", "Benidorm", "Orihuela"],
       "openingHours": "Mo-Fr 09:00-18:00"
+    }
+  },
+  "valencia": {
+    "why": {
+      "tag": "Valencia, Ribera Alta and Nearby Areas",
+      "title": "Ribera Alta and Valencia Are Full of Opportunity",
+      "titleHighlight": "Especially If You Move Before Competitors",
+      "paragraphs": [
+        "Valencia city has strong volume, but Ribera Alta holds highly profitable local demand: Alzira as the regional hub and towns like Algemesí, L'Alcúdia, Guadassuar, Carlet, Benifaió, and Carcaixent show buying-intent searches with less professional competition.",
+        "The recurring issue is clear: slow websites, weak local SEO structure, and generic messaging that does not connect with each town. A focused local strategy is what creates the gap.",
+        "Even without a published flagship case in Valencia yet, this can be your first-mover advantage: building a strong presence now in Alzira and Ribera Alta puts you ahead before others react.",
+        "We apply a validated methodology from real Alicante projects (performance, technical SEO, architecture, and conversion) adapted to Valencia and Ribera Alta to generate measurable business opportunities."
+      ],
+      "benefits": [
+        {
+          "title": "Local Positioning Focused on Alzira and Ribera Alta",
+          "text": "We prioritize keywords and pages that capture real demand in your area, bringing nearby clients with clear hiring intent."
+        },
+        {
+          "title": "Area-Specific Messaging, Not Generic Website Copy",
+          "text": "We tailor structure and content for Valencia and each key town, improving relevance and trust from the first visit."
+        },
+        {
+          "title": "Built to Scale Across the Province",
+          "text": "We build a strong technical foundation so you can grow in Valencia now and expand later without rebuilding everything."
+        }
+      ]
+    },
+    "caseStudy": {
+      "tag": "Proven Method · Applied to Valencia",
+      "title": "How We Can Grow Your Business in Valencia and Ribera Alta",
+      "badge": "Local Strategy · SEO + Conversion · Technical Execution",
+      "description": "No empty promises. In Valencia, we apply the same methodology that already works with our Alicante clients: local market analysis, area-based SEO architecture, and a website built to turn visits into leads.",
+      "metrics": [
+        {
+          "value": "3",
+          "suffix": "x",
+          "label": "More qualified opportunities",
+          "sub": "by capturing local searches with buying intent"
+        },
+        {
+          "value": "2",
+          "suffix": "x",
+          "label": "Higher visit-to-lead conversion",
+          "sub": "with a clear, fast experience focused on local users"
+        },
+        {
+          "value": "40",
+          "suffix": "%",
+          "label": "Potential organic visibility growth",
+          "sub": "within 4-6 months depending on sector and competition",
+          "isDecimal": true
+        }
+      ],
+      "conclusion": "If your business is in Valencia, Alzira, or Ribera Alta, the best time to position is now. We implement a complete local strategy focused on generating clients, not just traffic.",
+      "ctaText": "I want my Valencia strategy"
     }
   },
   "blog": {

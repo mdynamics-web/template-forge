@@ -96,6 +96,14 @@ const Footer = () => {
                   {t("footer.alicanteWeb")}
                 </Link>
               </li>
+              <li>
+                <Link
+                  href={`/${locale}/web-design-seo-valencia`}
+                  className="hover:text-secondary transition-colors"
+                >
+                  {t("footer.valenciaWeb")}
+                </Link>
+              </li>
               <li className="text-xs text-primary-foreground/30 pt-2">
                 {t("footer.allSpain")}
               </li>

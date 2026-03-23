@@ -11,6 +11,10 @@ export const pathnames = {
     es: '/diseno-web-seo-alicante',
     en: '/web-design-seo-alicante',
   },
+  '/web-design-seo-valencia': {
+    es: '/diseno-web-seo-valencia',
+    en: '/web-design-seo-valencia',
+  },
   '/contact': {
     es: '/contacto',
     en: '/contact',

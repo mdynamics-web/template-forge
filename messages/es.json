@@ -192,6 +192,7 @@
     "serviceAreaFull": "Servicio en toda España — presencial y remoto",
     "serviceAreas": "Zonas de Servicio",
     "alicanteWeb": "Diseño Web en Alicante",
+    "valenciaWeb": "Diseño Web en Valencia",
     "allSpain": "Servicio en toda España",
     "copyright": "Todos los derechos reservados."
   },
@@ -515,6 +516,62 @@
       "country": "ES",
       "areasServed": ["Alicante", "Torrevieja", "Elche", "Benidorm", "Orihuela"],
       "openingHours": "Mo-Fr 09:00-18:00"
+    }
+  },
+  "valencia": {
+    "why": {
+      "tag": "Valencia, Ribera Alta y Alrededores",
+      "title": "Ribera Alta y Valencia Están Llenas de Oportunidad",
+      "titleHighlight": "Especialmente Si Llegas Antes Que Tu Competencia",
+      "paragraphs": [
+        "Valencia capital concentra volumen, pero en Ribera Alta se está moviendo una demanda local muy rentable: Alzira como cabecera y municipios como Algemesí, L'Alcúdia, Guadassuar, Carlet, Benifaió y Carcaixent tienen búsquedas con intención de compra y menos competencia profesional.",
+        "El problema es repetido: webs lentas, sin estructura SEO local y mensajes genéricos que no conectan con cada municipio. Ahí es donde una estrategia local bien planteada marca la diferencia.",
+        "Aunque todavía no hay un caso público cerrado en Valencia, para ti puede ser una ventaja real: construir una presencia fuerte desde ahora en Alzira y Ribera Alta te coloca por delante cuando más negocios se pongan al día digitalmente.",
+        "Aplicamos metodología validada en proyectos reales de Alicante (rendimiento, SEO técnico, arquitectura y conversión) adaptada al contexto de Valencia y Ribera Alta para generar oportunidades comerciales medibles."
+      ],
+      "benefits": [
+        {
+          "title": "Posicionamiento Local con Foco en Alzira y Ribera Alta",
+          "text": "Priorizamos términos y páginas que captan demanda real en tu área para que te contacten clientes cercanos con intención de contratar."
+        },
+        {
+          "title": "Mensaje Comercial por Zona, No una Web Genérica",
+          "text": "Ajustamos contenidos y estructura para Valencia y cada municipio clave, aumentando relevancia y confianza desde la primera visita."
+        },
+        {
+          "title": "Sistema Preparado para Escalar Provincia a Provincia",
+          "text": "Creamos una base técnica sólida para crecer en Valencia hoy y expandir después sin rehacer la web cada pocos meses."
+        }
+      ]
+    },
+    "caseStudy": {
+      "tag": "Método Probado · Aplicado a Valencia",
+      "title": "Cómo Podemos Disparar Tu Negocio en Valencia y Ribera Alta",
+      "badge": "Estrategia Local · SEO + Conversión · Implementación Técnica",
+      "description": "No usamos promesas vacías. Aplicamos en Valencia la misma metodología que ya nos funciona con clientes de Alicante: análisis de mercado local, estructura SEO por zonas y una web orientada a convertir visitas en contactos.",
+      "metrics": [
+        {
+          "value": "3",
+          "suffix": "x",
+          "label": "Más oportunidades cualificadas",
+          "sub": "al captar búsquedas locales con intención de compra"
+        },
+        {
+          "value": "2",
+          "suffix": "x",
+          "label": "Mejor conversión de visitas a contacto",
+          "sub": "con una propuesta clara, rápida y enfocada al usuario local"
+        },
+        {
+          "value": "40",
+          "suffix": "%",
+          "label": "Mejora potencial en visibilidad orgánica",
+          "sub": "en 4-6 meses según sector y competencia",
+          "isDecimal": true
+        }
+      ],
+      "conclusion": "Si tu negocio está en Valencia, Alzira o Ribera Alta, el mejor momento para posicionarte es ahora. Implementamos contigo una estrategia local completa para generar clientes, no solo tráfico.",
+      "ctaText": "Quiero mi estrategia para Valencia"
     }
   },
   "blog": {
