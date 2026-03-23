@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -90,8 +91,10 @@ const Navbar = () => {
             )
           )}
 
-          {/* Language switcher */}
-          <LanguageSwitcher />
+          <div className="flex items-center gap-2">
+            <LanguageSwitcher />
+            <ThemeToggle />
+          </div>
 
           <Link href={`/${locale}/contact`}>
             <Button
@@ -141,7 +144,10 @@ const Navbar = () => {
                   </Link>
                 )
               )}
-              <LanguageSwitcher />
+              <div className="flex items-center gap-2">
+                <LanguageSwitcher />
+                <ThemeToggle />
+              </div>
               <Link href={`/${locale}/contact`}>
                 <Button className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
                   {t("nav.cta")}

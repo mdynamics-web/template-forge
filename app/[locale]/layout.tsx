@@ -7,8 +7,10 @@ import { inter, manrope } from "@/lib/fonts";
 import { Toaster as SonnerToaster } from "sonner";
 import CookieConsent from "@/components/CookieConsent";
 import "../globals.css";
+import "@theme-toggles/react/css/Classic.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ThemeProvider from "@/components/ThemeProvider";
 
 const BASE_URL = "https://www.corexia.es";
 
@@ -134,17 +136,24 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${inter.variable} ${manrope.variable}`}>
       <head>
         <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var key="corexia-theme";var saved=localStorage.getItem(key);var theme=(saved==="dark"||saved==="light")?saved:(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(theme==="dark"){document.documentElement.classList.add("dark")}else{document.documentElement.classList.remove("dark")}}catch(e){}})();`,
+          }}
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body className="antialiased font-sans">
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
-          <CookieConsent />
-          <SonnerToaster position="bottom-right" richColors />
-          <Footer />
+          <ThemeProvider>
+            <Navbar />
+            {children}
+            <CookieConsent />
+            <SonnerToaster position="bottom-right" richColors />
+            <Footer />
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

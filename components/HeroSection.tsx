@@ -21,13 +21,11 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
       <div className="absolute inset-0">
         <Image src={heroBg} alt="" fill className="object-cover" priority />
-        <div className="absolute inset-0 bg-primary/75" />
+        <div className="absolute inset-0 bg-primary/75 dark:bg-background/85" />
       </div>
 
-      {/* Animated particles overlay */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(5)].map((_, i) => (
           <motion.div
@@ -47,7 +45,6 @@ const HeroSection = () => {
         ))}
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto text-center px-6 py-28 lg:py-40">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -106,7 +103,6 @@ const HeroSection = () => {
           </Button>
         </motion.div>
 
-        {/* Metrics */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

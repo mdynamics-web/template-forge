@@ -1,7 +1,6 @@
 import createIntlMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
 import { NextRequest, NextResponse } from "next/server";
-import { normalizePathname } from "@/lib/route-utils";
 
 const intlMiddleware = createIntlMiddleware(routing);
 

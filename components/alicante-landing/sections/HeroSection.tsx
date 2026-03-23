@@ -46,7 +46,7 @@ export const HeroSection = () => {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(160deg, hsl(217 75% 10%) 0%, hsl(217 75% 15%) 30%, hsl(250 60% 20%) 70%, hsl(217 75% 12%) 100%)",
+            "linear-gradient(160deg, hsl(var(--primary)) 0%, hsl(var(--primary) / 0.88) 30%, hsl(var(--accent) / 0.38) 70%, hsl(var(--primary) / 0.95) 100%)",
         }}
       />
       <HeroParticles />
@@ -57,14 +57,14 @@ export const HeroSection = () => {
         className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full opacity-20"
         style={{
           background:
-            "radial-gradient(circle, hsl(194 100% 50% / 0.15) 0%, transparent 70%)",
+            "radial-gradient(circle, hsl(var(--secondary) / 0.25) 0%, transparent 70%)",
         }}
       />
       <div
         className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full opacity-15"
         style={{
           background:
-            "radial-gradient(circle, hsl(250 100% 69% / 0.15) 0%, transparent 70%)",
+            "radial-gradient(circle, hsl(var(--accent) / 0.2) 0%, transparent 70%)",
         }}
       />
 
