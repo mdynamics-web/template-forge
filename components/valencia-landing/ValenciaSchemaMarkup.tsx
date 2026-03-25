@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { localizeToValencia } from "@/components/valencia-landing/utils/localizeToValencia";
+import { VALENCIA_PHONE_RAW } from "@/lib/contact";
 
 export const ValenciaSchemaMarkup = async () => {
   const t = await getTranslations("alicante");
@@ -12,7 +13,7 @@ export const ValenciaSchemaMarkup = async () => {
     name: "Corexia",
     image: "https://www.corexia.es/logo.png",
     url: "https://www.corexia.es/es/diseno-web-seo-valencia",
-    telephone: "+34652561427",
+    telephone: `+${VALENCIA_PHONE_RAW}`,
     email: "info.corexia@gmail.com",
     priceRange: "€€",
     address: {

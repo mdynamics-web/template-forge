@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { ALICANTE_PHONE_RAW } from "@/lib/contact";
 
 /**
  * Schema Markup (JSON-LD) for Alicante landing page
@@ -20,7 +21,7 @@ export const AlicanteSchemaMarkup = async () => {
     name: "Corexia",
     image: "https://www.corexia.es/logo.png",
     url: "https://www.corexia.es/es/diseno-web-seo-alicante",
-    telephone: "+34652561427",
+    telephone: `+${ALICANTE_PHONE_RAW}`,
     email: "info.corexia@gmail.com",
     priceRange: "€€",
     address: {

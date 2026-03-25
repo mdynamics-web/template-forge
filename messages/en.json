@@ -187,7 +187,7 @@
     "alicante": "Alicante, Spain",
     "serviceArea": "Service throughout Spain — in-person and remote",
     "email": "info.corexia@gmail.com",
-    "phone": "+34 652 56 14 27",
+    "phone": "+34 652 56 14 27 · +34 655 59 90 21",
     "location": "Alicante - Valencia, Spain",
     "serviceAreaFull": "Service throughout Spain — in-person and remote",
     "serviceAreas": "Service Areas",
@@ -475,7 +475,7 @@
       "form": {
         "name": "Your name",
         "email": "email@email.com",
-        "phone": "+34 600 000 000",
+        "phone": "+34 652 56 14 27",
         "phoneOptional": "Optional",
         "servicePlaceholder": "What do you need?",
         "services": [
@@ -507,7 +507,7 @@
     "schema": {
       "businessName": "Corexia - Web Design and SEO Alicante",
       "businessDescription": "Professional web design and local SEO agency in Alicante. We create fast websites with Next.js that rank on Google and attract real clients.",
-      "telephone": "+34-652-561-427",
+      "telephone": "+34 652 56 14 27",
       "email": "info.corexia@gmail.com",
       "streetAddress": "Alicante",
       "city": "Alicante",

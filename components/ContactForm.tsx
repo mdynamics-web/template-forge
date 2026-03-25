@@ -9,16 +9,18 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Send, CheckCircle } from "lucide-react";
 import { toast } from "sonner";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function ContactForm() {
   const t = useTranslations();
+  const locale = useLocale();
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     company: "",
+    phone: "",
     service: "",
     message: "",
   });
@@ -32,13 +34,31 @@ export default function ContactForm() {
     }
     
     setIsSubmitting(true);
-    
-    // Simular envío (aquí puedes agregar tu lógica de API)
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    setSubmitted(true);
-    setIsSubmitting(false);
-    toast.success(t("contact.successMessage"));
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          source: "general",
+          locale: locale === "es" ? "es" : "en",
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Contact form submission failed");
+      }
+
+      setSubmitted(true);
+      toast.success(t("contact.successMessage"));
+    } catch {
+      toast.error(t("contact.errorMessage"));
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (submitted) {
@@ -70,7 +90,7 @@ export default function ContactForm() {
           <Label htmlFor="name">{t("contact.name")}</Label>
           <Input 
             id="name" 
-            placeholder="John Doe" 
+            placeholder="Nombre" 
             value={formData.name} 
             onChange={(e) => setFormData({ ...formData, name: e.target.value })} 
             className="bg-background" 
@@ -106,21 +126,36 @@ export default function ContactForm() {
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="service">{t("contact.serviceLabel")}</Label>
-          <Select onValueChange={(val: string) => setFormData({ ...formData, service: val })}>
-            <SelectTrigger className="bg-background">
-              <SelectValue placeholder={t("contact.servicePlaceholder")} />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="website">{t("contact.serviceWebsite")}</SelectItem>
-              <SelectItem value="seo">{t("contact.serviceSeo")}</SelectItem>
-              <SelectItem value="chatbot">{t("contact.serviceChatbot")}</SelectItem>
-              <SelectItem value="redesign">{t("contact.serviceRedesign")}</SelectItem>
-              <SelectItem value="automation">{t("contact.serviceAutomation")}</SelectItem>
-              <SelectItem value="platform">{t("contact.servicePlatform")}</SelectItem>
-            </SelectContent>
-          </Select>
+          <Label htmlFor="phone">
+            {locale === "es" ? "Teléfono (opcional)" : "Phone (optional)"}
+          </Label>
+          <Input
+            id="phone"
+            type="tel"
+            placeholder="+34 600 000 000"
+            value={formData.phone}
+            onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+            className="bg-background"
+            maxLength={50}
+          />
         </div>
+      </div>
+
+      <div className="space-y-2">
+        <Label htmlFor="service">{t("contact.serviceLabel")}</Label>
+        <Select onValueChange={(val: string) => setFormData({ ...formData, service: val })}>
+          <SelectTrigger className="bg-background">
+            <SelectValue placeholder={t("contact.servicePlaceholder")} />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="website">{t("contact.serviceWebsite")}</SelectItem>
+            <SelectItem value="seo">{t("contact.serviceSeo")}</SelectItem>
+            <SelectItem value="chatbot">{t("contact.serviceChatbot")}</SelectItem>
+            <SelectItem value="redesign">{t("contact.serviceRedesign")}</SelectItem>
+            <SelectItem value="automation">{t("contact.serviceAutomation")}</SelectItem>
+            <SelectItem value="platform">{t("contact.servicePlatform")}</SelectItem>
+          </SelectContent>
+        </Select>
       </div>
 
       <div className="space-y-2">
@@ -143,7 +178,11 @@ export default function ContactForm() {
         className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan font-semibold group"
         disabled={isSubmitting}
       >
-        {isSubmitting ? t("contact.sending") || "Enviando..." : t("contact.submit")}
+        {isSubmitting
+          ? locale === "es"
+            ? "Enviando..."
+            : "Sending..."
+          : t("contact.submit")}
         <Send className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
       </Button>
     </form>

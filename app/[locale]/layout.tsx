@@ -11,6 +11,11 @@ import "@theme-toggles/react/css/Classic.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
+import WhatsAppContact from "@/components/WhatsAppContact";
+import {
+  ALICANTE_PHONE_RAW,
+  VALENCIA_PHONE_RAW,
+} from "@/lib/contact";
 
 const BASE_URL = "https://www.corexia.es";
 
@@ -101,7 +106,21 @@ export default async function LocaleLayout({
         ? "Diseño web, SEO y apps para pequeños negocios de toda España. Ingenieros informáticos con trato directo y precios honestos."
         : "Web design, SEO and apps for small businesses across Spain. Direct contact with engineers, honest pricing.",
     url: BASE_URL,
-    telephone: "+34652561427",
+    telephone: `+${ALICANTE_PHONE_RAW}`,
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "customer service",
+        telephone: `+${ALICANTE_PHONE_RAW}`,
+        areaServed: "ES",
+      },
+      {
+        "@type": "ContactPoint",
+        contactType: "customer service",
+        telephone: `+${VALENCIA_PHONE_RAW}`,
+        areaServed: "ES",
+      },
+    ],
     email: "info.corexia@gmail.com",
     priceRange: "€€",
     address: {
@@ -152,6 +171,7 @@ export default async function LocaleLayout({
             {children}
             <CookieConsent />
             <SonnerToaster position="bottom-right" richColors />
+            <WhatsAppContact />
             <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>

@@ -15,11 +15,16 @@ import {
 import { FadeSection } from "@/components/alicante-landing/components/FadeSection";
 import { HeroParticles } from "@/components/alicante-landing/components/HeroParticles";
 import { useContactForm } from "@/components/alicante-landing/hooks/useContactForm";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { localizeToValencia } from "@/components/valencia-landing/utils/localizeToValencia";
+import { VALENCIA_PHONE_DISPLAY } from "@/lib/contact";
 
 export const ContactSection = () => {
-  const { formState, formData, handleSubmit, updateFormField } = useContactForm();
+  const locale = useLocale();
+  const { formState, formData, handleSubmit, updateFormField } = useContactForm({
+    source: "valencia",
+    locale: locale === "es" ? "es" : "en",
+  });
   const t = useTranslations("alicante.contact");
   const tv = (key: string) => localizeToValencia(t(key));
 
@@ -30,7 +35,7 @@ export const ContactSection = () => {
     },
     {
       icon: PhoneIcon,
-      text: tv("trust.signals.1.text"),
+      text: VALENCIA_PHONE_DISPLAY,
     },
     {
       icon: Mail,

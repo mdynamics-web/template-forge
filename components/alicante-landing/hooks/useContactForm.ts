@@ -9,7 +9,14 @@ import { FormData, FormState } from "../types";
  * Follows Single Responsibility Principle - handles form state and submission
  * Follows Dependency Inversion Principle - depends on toast abstraction
  */
-export const useContactForm = () => {
+type ContactSource = "alicante" | "valencia" | "location";
+
+interface UseContactFormOptions {
+  source: ContactSource;
+  locale: "es" | "en";
+}
+
+export const useContactForm = ({ source, locale }: UseContactFormOptions) => {
   const { toast } = useToast();
   const [formState, setFormState] = useState<FormState>("idle");
   const [formData, setFormData] = useState<FormData>({
@@ -26,7 +33,7 @@ export const useContactForm = () => {
 
       if (!formData.name || !formData.email) {
         toast({
-          title: "Por favor completa nombre y email",
+          title: locale === "es" ? "Por favor completa nombre y email" : "Please complete name and email",
           variant: "destructive",
         });
         return;
@@ -34,15 +41,36 @@ export const useContactForm = () => {
 
       setFormState("sending");
 
-      // Simulate API call - replace with actual API endpoint
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      try {
+        const response = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            ...formData,
+            source,
+            locale,
+          }),
+        });
 
-      setFormState("sent");
-      toast({
-        title: "¡Recibido! Te contactamos en 48h.",
-      });
+        if (!response.ok) {
+          throw new Error("Contact form submission failed");
+        }
+
+        setFormState("sent");
+        toast({
+          title: locale === "es" ? "¡Recibido! Te contactamos en 48h." : "Received! We'll contact you within 48h.",
+        });
+      } catch {
+        setFormState("idle");
+        toast({
+          title: locale === "es" ? "No se pudo enviar el mensaje" : "Message could not be sent",
+          variant: "destructive",
+        });
+      }
     },
-    [formData, toast]
+    [formData, locale, source, toast]
   );
 
   const updateFormField = useCallback(

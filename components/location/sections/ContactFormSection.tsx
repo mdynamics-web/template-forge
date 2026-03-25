@@ -15,11 +15,13 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
+import { useLocale } from "next-intl";
 
 interface FormData {
   name: string;
   email: string;
   company: string;
+  phone: string;
   service: string;
   message: string;
 }
@@ -29,12 +31,15 @@ interface ContactFormSectionProps {
 }
 
 export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
+  const locale = useLocale();
   const { toast } = useToast();
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
     company: "",
+    phone: "",
     service: "",
     message: "",
   });
@@ -50,7 +55,7 @@ export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
     setFormData((prev) => ({ ...prev, service: value }));
   };
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
       toast({
@@ -60,11 +65,38 @@ export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
       });
       return;
     }
-    setSubmitted(true);
-    toast({
-      title: t("contact.thankyou.title"),
-      description: t("contact.thankyou.desc"),
-    });
+    setIsSubmitting(true);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          source: "location",
+          locale: locale === "es" ? "es" : "en",
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Contact form submission failed");
+      }
+
+      setSubmitted(true);
+      toast({
+        title: t("contact.thankyou.title"),
+        description: t("contact.thankyou.desc"),
+      });
+    } catch {
+      toast({
+        title: t("contact.error"),
+        description: t("contact.errorMessage"),
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (submitted) {
@@ -154,36 +186,50 @@ export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="service">{t("contact.serviceLabel")}</Label>
-              <Select
-                value={formData.service}
-                onValueChange={handleServiceChange}
-              >
-                <SelectTrigger>
-                  <SelectValue
-                    placeholder={t("contact.servicePlaceholder")}
-                  />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="website">
-                    {t("contact.serviceWebsite")}
-                  </SelectItem>
-                  <SelectItem value="seo">{t("contact.serviceSeo")}</SelectItem>
-                  <SelectItem value="chatbot">
-                    {t("contact.serviceChatbot")}
-                  </SelectItem>
-                  <SelectItem value="redesign">
-                    {t("contact.serviceRedesign")}
-                  </SelectItem>
-                  <SelectItem value="automation">
-                    {t("contact.serviceAutomation")}
-                  </SelectItem>
-                  <SelectItem value="platform">
-                    {t("contact.servicePlatform")}
-                  </SelectItem>
-                </SelectContent>
-              </Select>
+              <Label htmlFor="phone">
+                {locale === "es" ? "Teléfono (opcional)" : "Phone (optional)"}
+              </Label>
+              <Input
+                id="phone"
+                name="phone"
+                type="tel"
+                value={formData.phone}
+                onChange={handleChange}
+                placeholder="+34 600 000 000"
+              />
             </div>
+          </div>
+
+          <div className="space-y-2">
+            <Label htmlFor="service">{t("contact.serviceLabel")}</Label>
+            <Select
+              value={formData.service}
+              onValueChange={handleServiceChange}
+            >
+              <SelectTrigger>
+                <SelectValue
+                  placeholder={t("contact.servicePlaceholder")}
+                />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="website">
+                  {t("contact.serviceWebsite")}
+                </SelectItem>
+                <SelectItem value="seo">{t("contact.serviceSeo")}</SelectItem>
+                <SelectItem value="chatbot">
+                  {t("contact.serviceChatbot")}
+                </SelectItem>
+                <SelectItem value="redesign">
+                  {t("contact.serviceRedesign")}
+                </SelectItem>
+                <SelectItem value="automation">
+                  {t("contact.serviceAutomation")}
+                </SelectItem>
+                <SelectItem value="platform">
+                  {t("contact.servicePlatform")}
+                </SelectItem>
+              </SelectContent>
+            </Select>
           </div>
 
           <div className="space-y-2">
@@ -203,8 +249,13 @@ export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
             type="submit"
             size="lg"
             className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan font-bold"
+            disabled={isSubmitting}
           >
-            {t("contact.submit")}
+            {isSubmitting
+              ? locale === "es"
+                ? "Enviando..."
+                : "Sending..."
+              : t("contact.submit")}
           </Button>
         </motion.form>
       </div>

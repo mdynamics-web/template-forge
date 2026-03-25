@@ -2,6 +2,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { ALICANTE_PHONE_DISPLAY, VALENCIA_PHONE_DISPLAY } from "@/lib/contact";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -67,7 +68,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                     </div>
                     <div>
                       <div className="text-sm text-muted-foreground">{t("contact.info.phone.label")}</div>
-                      <div className="text-foreground font-medium">+34 652 56 14 27</div>
+                      <div className="text-foreground font-medium">{ALICANTE_PHONE_DISPLAY}</div>
+                      <div className="text-foreground font-medium">{VALENCIA_PHONE_DISPLAY}</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
