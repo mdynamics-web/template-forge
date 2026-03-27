@@ -4,13 +4,18 @@ import { usePathname, useRouter } from "@/i18n/routing";
 import { Globe } from "lucide-react";
 import { useLocale } from "next-intl";
 
-export default function LanguageSwitcher() {
+type LanguageSwitcherProps = {
+  onChange?: () => void;
+};
+
+export default function LanguageSwitcher({ onChange }: LanguageSwitcherProps) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
 
   const handleLanguageChange = (newLocale: string) => {
     router.replace(pathname, { locale: newLocale });
+    onChange?.();
   };
 
   return (

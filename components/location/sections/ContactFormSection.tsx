@@ -16,6 +16,8 @@ import {
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import { useLocale } from "next-intl";
+import BrandLoader from "@/components/ui/brand-loader";
+import { setGlobalLoaderVisible } from "@/components/ui/global-loader-overlay";
 
 interface FormData {
   name: string;
@@ -66,6 +68,7 @@ export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
       return;
     }
     setIsSubmitting(true);
+    setGlobalLoaderVisible(true);
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -96,6 +99,7 @@ export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
       });
     } finally {
       setIsSubmitting(false);
+      setGlobalLoaderVisible(false);
     }
   };
 
@@ -248,13 +252,16 @@ export const ContactFormSection = ({ t }: ContactFormSectionProps) => {
           <Button
             type="submit"
             size="lg"
-            className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan font-bold"
+            className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan font-bold flex items-center justify-center"
             disabled={isSubmitting}
           >
             {isSubmitting
-              ? locale === "es"
-                ? "Enviando..."
-                : "Sending..."
+              ? (
+                <>
+                  <BrandLoader size="sm" label={locale === "es" ? "Enviando" : "Sending"} />
+                  {locale === "es" ? "Enviando..." : "Sending..."}
+                </>
+              )
               : t("contact.submit")}
           </Button>
         </motion.form>

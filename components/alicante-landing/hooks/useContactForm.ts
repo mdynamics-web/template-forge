@@ -3,6 +3,7 @@
 import { useState, useCallback } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { FormData, FormState } from "../types";
+import { setGlobalLoaderVisible } from "@/components/ui/global-loader-overlay";
 
 /**
  * Custom hook for contact form logic
@@ -40,6 +41,7 @@ export const useContactForm = ({ source, locale }: UseContactFormOptions) => {
       }
 
       setFormState("sending");
+      setGlobalLoaderVisible(true);
 
       try {
         const response = await fetch("/api/contact", {
@@ -68,6 +70,8 @@ export const useContactForm = ({ source, locale }: UseContactFormOptions) => {
           title: locale === "es" ? "No se pudo enviar el mensaje" : "Message could not be sent",
           variant: "destructive",
         });
+      } finally {
+        setGlobalLoaderVisible(false);
       }
     },
     [formData, locale, source, toast]

@@ -20,9 +20,9 @@ const Navbar = () => {
   const locale = useLocale();
 
   const navItems = [
-    { label: t("nav.services"), href: "/#services" },
-    { label: t("nav.process"), href: "/#process" },
-    { label: t("nav.cases"), href: "/#cases" },
+    { label: t("nav.services"), href: "#services" },
+    { label: t("nav.process"), href: "#process" },
+    { label: t("nav.cases"), href: "#cases" },
     { label: t("nav.contact"), href: `/${locale}/contact` },
     { label: t("nav.blog"), href: `/${locale}/blog` },
   ];
@@ -36,13 +36,22 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const normalizePath = (value: string) =>
+    value === "/" ? "/" : value.replace(/\/+$/, "") || "/";
+
   const handleNavClick = (href: string) => {
-    if (href.startsWith("/#")) {
-      const id = href.slice(2);
+    if (href.startsWith("#")) {
+      const id = href.slice(1);
       if (isHome) {
         document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
       } else {
-        router.push(`/${locale}${href}`);
+        router.push(`/${locale}/${href}`);
+      }
+    } else {
+      const currentPath = normalizePath(pathname);
+      const targetPath = normalizePath(href);
+      if (targetPath !== currentPath) {
+        router.push(href);
       }
     }
     setMobileOpen(false);
@@ -64,6 +73,8 @@ const Navbar = () => {
             alt="CoreXia Logo"
             width={170}
             height={100}
+            loading="eager"
+            style={{ width: "170px", height: "auto" }}
             className="object-contain"
           />
 
@@ -72,7 +83,7 @@ const Navbar = () => {
         {/* Desktop nav */}
         <div className="hidden lg:flex items-center gap-6">
           {navItems.map((item) =>
-            item.href.startsWith("/#") ? (
+            item.href.startsWith("#") ? (
               <button
                 key={item.label}
                 onClick={() => handleNavClick(item.href)}
@@ -81,13 +92,13 @@ const Navbar = () => {
                 {item.label}
               </button>
             ) : (
-              <Link
+              <button
                 key={item.label}
-                href={item.href}
+                onClick={() => handleNavClick(item.href)}
                 className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium"
               >
                 {item.label}
-              </Link>
+              </button>
             )
           )}
 
@@ -126,7 +137,7 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-4 p-6">
               {navItems.map((item) =>
-                item.href.startsWith("/#") ? (
+                item.href.startsWith("#") ? (
                   <button
                     key={item.label}
                     onClick={() => handleNavClick(item.href)}
@@ -135,20 +146,20 @@ const Navbar = () => {
                     {item.label}
                   </button>
                 ) : (
-                  <Link
+                  <button
                     key={item.label}
-                    href={item.href}
-                    className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium"
+                    onClick={() => handleNavClick(item.href)}
+                    className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium text-left"
                   >
                     {item.label}
-                  </Link>
+                  </button>
                 )
               )}
               <div className="flex items-center gap-2">
-                <LanguageSwitcher />
-                <ThemeToggle />
+                <LanguageSwitcher onChange={() => setMobileOpen(false)} />
+                <ThemeToggle onToggle={() => setMobileOpen(false)} />
               </div>
-              <Link href={`/${locale}/contact`}>
+              <Link href={`/${locale}/contact`} onClick={() => setMobileOpen(false)}>
                 <Button className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
                   {t("nav.cta")}
                 </Button>

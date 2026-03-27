@@ -183,3 +183,116 @@ h1, h2, h3, h4, h5, h6 {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+@keyframes brand-loader-shift {
+  0% {
+    transform: translate(0px, 15px);
+  }
+  16.67% {
+    transform: translate(80px, 13px);
+  }
+  33.34% {
+    transform: translate(40px, 10px);
+  }
+  50.01% {
+    transform: translate(40px, -28px);
+  }
+  66.68% {
+    transform: translate(40px, 54px);
+  }
+  83.35% {
+    transform: translate(40px, 10px);
+  }
+  100% {
+    transform: translate(0px, 15px);
+  }
+}
+
+.brand-loader {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+}
+
+.brand-loader__bar {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  background: linear-gradient(
+    135deg,
+    hsl(var(--primary-foreground) / 0.92),
+    hsl(var(--accent) / 0.5)
+  );
+  border: 1px solid hsl(var(--secondary) / 0.45);
+  border-radius: 9999px;
+  box-shadow:
+    0 8px 26px hsl(var(--background) / 0.45),
+    inset 0 0 12px hsl(var(--primary-foreground) / 0.25);
+}
+
+.brand-loader__bar--a {
+  transform: rotate(45deg);
+}
+
+.brand-loader__bar--b {
+  transform: rotate(-90deg);
+}
+
+.brand-loader__bubble {
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 12px;
+  animation: brand-loader-shift 5s ease-in-out infinite;
+  box-shadow: 0 0 16px hsl(var(--secondary) / 0.25);
+}
+
+.brand-loader__bubble--1 {
+  background: radial-gradient(
+    circle at 32% 30%,
+    hsl(var(--secondary) / 0.95),
+    hsl(var(--accent) / 0.85) 65%,
+    hsl(var(--secondary) / 0.7)
+  );
+  animation-duration: 4.2s;
+  z-index: 4;
+}
+
+.brand-loader__bubble--2 {
+  background: radial-gradient(
+    circle at 32% 30%,
+    hsl(var(--accent) / 0.95),
+    hsl(var(--secondary) / 0.9) 68%,
+    hsl(var(--accent) / 0.75)
+  );
+  animation-duration: 5.1s;
+  z-index: 3;
+}
+
+.brand-loader__bubble--3 {
+  background: radial-gradient(
+    circle at 32% 30%,
+    hsl(var(--secondary) / 0.95),
+    hsl(var(--primary) / 0.72) 70%,
+    hsl(var(--accent) / 0.7)
+  );
+  animation-duration: 6.2s;
+  z-index: 2;
+}
+
+.brand-loader__bubble--4 {
+  background: radial-gradient(
+    circle at 32% 30%,
+    hsl(var(--accent) / 0.95),
+    hsl(var(--primary) / 0.76) 72%,
+    hsl(var(--secondary) / 0.65)
+  );
+  animation-duration: 7s;
+  z-index: 1;
+}

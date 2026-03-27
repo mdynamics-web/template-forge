@@ -12,6 +12,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
 import WhatsAppContact from "@/components/WhatsAppContact";
+import GlobalLoaderOverlay from "@/components/ui/global-loader-overlay";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import {
@@ -171,6 +172,7 @@ export default async function LocaleLayout({
           <ThemeProvider>
             <Navbar />
             {children}
+            <GlobalLoaderOverlay />
             <CookieConsent />
             <SonnerToaster position="bottom-right" richColors />
             <WhatsAppContact />

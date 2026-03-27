@@ -18,6 +18,7 @@ import { useContactForm } from "@/components/alicante-landing/hooks/useContactFo
 import { useLocale, useTranslations } from "next-intl";
 import { localizeToValencia } from "@/components/valencia-landing/utils/localizeToValencia";
 import { VALENCIA_PHONE_DISPLAY } from "@/lib/contact";
+import BrandLoader from "@/components/ui/brand-loader";
 
 export const ContactSection = () => {
   const locale = useLocale();
@@ -150,7 +151,7 @@ export const ContactSection = () => {
                 >
                   {formState === "sending" ? (
                     <span className="flex items-center gap-2">
-                      <span className="w-5 h-5 border-2 border-secondary-foreground/30 border-t-secondary-foreground rounded-full animate-spin" />
+                      <BrandLoader size="sm" label={locale === "es" ? "Enviando" : "Sending"} />
                       {tv("form.sending")}
                     </span>
                   ) : (

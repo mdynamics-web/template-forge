@@ -3,7 +3,7 @@
 import { BlogPostMeta } from "@/types/blog";
 import { motion } from "framer-motion";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,6 +14,7 @@ interface BlogProps {
 
 export default function BlogViewPage({ featured, rest }: BlogProps) {
     const t = useTranslations("blog");
+    const locale = useLocale();
   return (
     <section className="min-h-screen bg-primary">
       <section className="relative pt-32 pb-20 overflow-hidden">
@@ -55,7 +56,7 @@ export default function BlogViewPage({ featured, rest }: BlogProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <Link href={`/blog/${featured.slug}`} className="group block">
+            <Link href={`/${locale}/blog/${featured.slug}`} className="group block">
               <div className="relative rounded-2xl overflow-hidden border border-border/20 bg-card/5 backdrop-blur-sm">
                 <div className="grid md:grid-cols-2 gap-0">
                   <div className="relative h-64 md:h-[450px] overflow-hidden">
@@ -125,7 +126,7 @@ export default function BlogViewPage({ featured, rest }: BlogProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 * i }}
             >
-              <Link href={`/blog/${post.slug}`} className="group block h-full">
+              <Link href={`/${locale}/blog/${post.slug}`} className="group block h-full">
                 <div className="h-full rounded-2xl border border-border/10 bg-card/5 backdrop-blur-sm overflow-hidden hover:border-secondary/30 transition-all duration-500 hover:shadow-[0_0_40px_-10px_hsl(var(--secondary)/0.15)]">
                   <div className="relative h-48 overflow-hidden">
                     <Image

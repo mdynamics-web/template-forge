@@ -2,7 +2,7 @@
 import { BlogPostFull, BlogPostMeta } from "@/types/blog";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, Clock, Share2 } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
@@ -14,6 +14,7 @@ interface ArticleViewPageProps {
 
 export default function ArticleViewPage({ article, related }: ArticleViewPageProps) {
   const t = useTranslations("blog");
+  const locale = useLocale();
 
   const handleShare = () => {
     navigator.share?.({ title: article.title, url: window.location.href }).catch(() => {});
@@ -34,7 +35,7 @@ export default function ArticleViewPage({ article, related }: ArticleViewPagePro
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="max-w-4xl mx-auto">
             <Link
-              href="/blog"
+              href={`/${locale}/blog`}
               className="inline-flex items-center gap-2 text-secondary text-sm font-medium mb-6 hover:gap-3 transition-all duration-300"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -190,7 +191,7 @@ export default function ArticleViewPage({ article, related }: ArticleViewPagePro
             {t("ctaDescription")}
           </p>
           <Link
-            href="/contact"
+            href={`/${locale}/contact`}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-semibold text-sm hover:bg-secondary/90 glow-cyan transition-all duration-300"
           >
             {t("ctaButton")}
@@ -210,7 +211,7 @@ export default function ArticleViewPage({ article, related }: ArticleViewPagePro
 
           <div className="grid md:grid-cols-2 gap-8">
             {related.map((p) => (
-              <Link key={p.slug} href={`/blog/${p.slug}`} className="group block">
+              <Link key={p.slug} href={`/${locale}/blog/${p.slug}`} className="group block">
                 <div className="rounded-2xl border border-border/10 bg-card/5 overflow-hidden hover:border-secondary/30 transition-all duration-500">
                   <div className="relative h-40 overflow-hidden">
                     <Image

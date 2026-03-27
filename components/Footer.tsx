@@ -58,7 +58,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-primary-foreground/50">
               <li>
                 <Link
-                  href="/#process"
+                  href={`/${locale}/#process`}
                   className="hover:text-secondary transition-colors"
                 >
                   {t("footer.c1")}
@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#cases"
+                  href={`/${locale}/#cases`}
                   className="hover:text-secondary transition-colors"
                 >
                   {t("footer.c2")}

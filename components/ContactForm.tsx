@@ -10,6 +10,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Send, CheckCircle } from "lucide-react";
 import { toast } from "sonner";
 import { useLocale, useTranslations } from "next-intl";
+import BrandLoader from "@/components/ui/brand-loader";
+import { setGlobalLoaderVisible } from "@/components/ui/global-loader-overlay";
 
 export default function ContactForm() {
   const t = useTranslations();
@@ -34,6 +36,7 @@ export default function ContactForm() {
     }
     
     setIsSubmitting(true);
+    setGlobalLoaderVisible(true);
 
     try {
       const response = await fetch("/api/contact", {
@@ -58,6 +61,7 @@ export default function ContactForm() {
       toast.error(t("contact.errorMessage"));
     } finally {
       setIsSubmitting(false);
+      setGlobalLoaderVisible(false);
     }
   };
 
@@ -90,7 +94,7 @@ export default function ContactForm() {
           <Label htmlFor="name">{t("contact.name")}</Label>
           <Input 
             id="name" 
-            placeholder="Nombre" 
+            placeholder={t("contact.namePlaceholder")}
             value={formData.name} 
             onChange={(e) => setFormData({ ...formData, name: e.target.value })} 
             className="bg-background" 
@@ -103,7 +107,7 @@ export default function ContactForm() {
           <Input 
             id="email" 
             type="email" 
-            placeholder="john@company.com" 
+            placeholder={t("contact.emailPlaceholder")}
             value={formData.email} 
             onChange={(e) => setFormData({ ...formData, email: e.target.value })} 
             className="bg-background" 
@@ -118,7 +122,7 @@ export default function ContactForm() {
           <Label htmlFor="company">{t("contact.company")}</Label>
           <Input 
             id="company" 
-            placeholder="Acme Corp" 
+            placeholder={t("contact.companyPlaceholder")}
             value={formData.company} 
             onChange={(e) => setFormData({ ...formData, company: e.target.value })} 
             className="bg-background" 
@@ -132,7 +136,7 @@ export default function ContactForm() {
           <Input
             id="phone"
             type="tel"
-            placeholder="+34 600 000 000"
+            placeholder={t("contact.phonePlaceholder")}
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
             className="bg-background"
@@ -175,15 +179,22 @@ export default function ContactForm() {
       <Button 
         type="submit" 
         size="lg" 
-        className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan font-semibold group"
+        className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan font-semibold group flex items-center justify-center"
         disabled={isSubmitting}
       >
         {isSubmitting
-          ? locale === "es"
-            ? "Enviando..."
-            : "Sending..."
-          : t("contact.submit")}
-        <Send className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          ? (
+            <>
+              <BrandLoader size="sm" label={locale === "es" ? "Enviando" : "Sending"} />
+              {locale === "es" ? "Enviando..." : "Sending..."}
+            </>
+          )
+          : (
+            <>
+              {t("contact.submit")}
+              <Send className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </>
+          )}
       </Button>
     </form>
   );
