@@ -1,121 +1,99 @@
-'use client';
-
-import { motion } from "framer-motion";
 import { ArrowRight, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import heroBg from "@/assets/hero-bg.jpg";
 
-const HeroSection = () => {
-  const t = useTranslations("hero");
-  const locale = useLocale();
+interface HeroStat {
+  value: string;
+  label: string;
+}
 
-  const stats = [
-    { value: t("stat1.value"), label: t("stat1.label") },
-    { value: t("stat2.value"), label: t("stat2.label") },
-    { value: t("stat3.value"), label: t("stat3.label") },
-    { value: t("stat4.value"), label: t("stat4.label") },
-  ];
+interface HeroSectionProps {
+  locale: string;
+  badge: string;
+  title1: string;
+  title2: string;
+  title3: string;
+  subtitle: string;
+  ctaPrimary: string;
+  ctaSecondary: string;
+  stats: HeroStat[];
+}
+
+const HeroSection = ({
+  locale,
+  badge,
+  title1,
+  title2,
+  title3,
+  subtitle,
+  ctaPrimary,
+  ctaSecondary,
+  stats,
+}: HeroSectionProps) => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <Image src={heroBg} alt="" fill className="object-cover" priority />
+        <Image src={heroBg} alt="" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-primary/75 dark:bg-background/85" />
       </div>
 
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(5)].map((_, i) => (
-          <motion.div
+          <div
             key={i}
-            className="absolute w-1 h-1 rounded-full bg-secondary/40"
-            style={{ left: `${20 + i * 15}%`, top: `${30 + i * 10}%` }}
-            animate={{
-              y: [0, -30, 0],
-              opacity: [0.2, 0.8, 0.2],
-            }}
-            transition={{
-              duration: 3 + i,
-              repeat: Infinity,
-              delay: i * 0.5,
-            }}
+            className="absolute w-1 h-1 rounded-full bg-secondary/40 animate-pulse"
+            style={{ left: `${20 + i * 15}%`, top: `${30 + i * 10}%`, animationDelay: `${i * 300}ms` }}
           />
         ))}
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto text-center px-6 py-28 lg:py-40">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className="inline-flex items-center gap-2 bg-secondary/10 border border-secondary/30 rounded-full px-5 py-2.5 mb-8">
-            <Zap className="w-4 h-4 text-secondary" />
-            <span className="text-secondary text-sm font-semibold">{t("badge")}</span>
-          </div>
-        </motion.div>
+        <div className="inline-flex items-center gap-2 bg-secondary/10 border border-secondary/30 rounded-full px-5 py-2.5 mb-8">
+          <Zap className="w-4 h-4 text-secondary" />
+          <span className="text-secondary text-sm font-semibold">{badge}</span>
+        </div>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="font-display font-extrabold text-4xl md:text-5xl lg:text-6xl text-primary-foreground leading-[1.1] mb-6"
-        >
-          {t("title1")}{" "}
-          <span className="gradient-text">{t("title2")}</span>
+        <h1 className="font-display font-extrabold text-4xl md:text-5xl lg:text-6xl text-primary-foreground leading-[1.1] mb-6">
+          {title1} <span className="gradient-text">{title2}</span>
           <br />
-          <span className="text-secondary">{t("title3")}</span>
-        </motion.h1>
+          <span className="text-secondary">{title3}</span>
+        </h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          className="text-primary-foreground/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
-        >
-          {t("subtitle")}
-        </motion.p>
+        <p className="text-primary-foreground/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+          {subtitle}
+        </p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.45 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-        >
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link href={`/${locale}/contact`}>
             <Button
               size="lg"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 glow-cyan text-base px-8 py-6 font-bold group"
             >
-              {t("cta1")}
+              {ctaPrimary}
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
           <Button
+            asChild
             size="lg"
             variant="outline"
             className="border-primary-foreground/40 text-primary-foreground bg-primary-foreground/5 hover:bg-primary-foreground/15 text-base"
-            onClick={() => document.getElementById("cases")?.scrollIntoView({ behavior: "smooth" })}
           >
-            {t("cta2")}
+            <Link href="#cases">{ctaSecondary}</Link>
           </Button>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.6 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-36 border-t border-primary-foreground/10 pt-14"
-        >
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-36 border-t border-primary-foreground/10 pt-14">
           {stats.map((stat) => (
             <div key={stat.label}>
               <div className="text-3xl md:text-4xl font-display font-bold gradient-text">{stat.value}</div>
               <div className="text-primary-foreground/50 text-sm mt-1">{stat.label}</div>
             </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
