@@ -36,7 +36,16 @@ const HeroSection = ({
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <Image src={heroBg} alt="" fill className="object-cover" priority sizes="100vw" />
+        <Image
+          src={heroBg}
+          alt=""
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+          quality={60}
+          placeholder="blur"
+        />
         <div className="absolute inset-0 bg-primary/75 dark:bg-background/85" />
       </div>
 

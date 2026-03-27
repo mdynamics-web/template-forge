@@ -22,6 +22,10 @@ export default async function Home({
     { value: t("stat3.value"), label: t("stat3.label") },
     { value: t("stat4.value"), label: t("stat4.label") },
   ];
+  const belowFoldStyle = {
+    contentVisibility: "auto" as const,
+    containIntrinsicSize: "900px",
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -36,13 +40,27 @@ export default async function Home({
         ctaSecondary={t("cta2")}
         stats={stats}
       />
-      <ProblemsSection />
-      <ServicesSection />
-      <DifferentiatorsSection />
-      <ProcessSection />
-      <CaseStudiesSection />
-      <TechStackSection />
-      <CTASection />
+      <div style={belowFoldStyle}>
+        <ProblemsSection />
+      </div>
+      <div style={belowFoldStyle}>
+        <ServicesSection />
+      </div>
+      <div style={belowFoldStyle}>
+        <DifferentiatorsSection />
+      </div>
+      <div style={belowFoldStyle}>
+        <ProcessSection />
+      </div>
+      <div style={belowFoldStyle}>
+        <CaseStudiesSection />
+      </div>
+      <div style={belowFoldStyle}>
+        <TechStackSection />
+      </div>
+      <div style={belowFoldStyle}>
+        <CTASection />
+      </div>
     </div>
   );
 }
