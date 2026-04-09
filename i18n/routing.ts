@@ -7,6 +7,30 @@ export type Locale = (typeof locales)[number]
 
 export const pathnames = {
   '/': '/',
+  '/blog': {
+    es: '/blog',
+    en: '/blog',
+  },
+  '/services/web-design': {
+    es: '/servicios/diseno-web',
+    en: '/services/web-design',
+  },
+  '/services/local-seo': {
+    es: '/servicios/seo-local',
+    en: '/services/local-seo',
+  },
+  '/services/apps': {
+    es: '/servicios/aplicaciones',
+    en: '/services/apps',
+  },
+  '/services/online-stores': {
+    es: '/servicios/tiendas-online',
+    en: '/services/online-stores',
+  },
+  '/services/consulting': {
+    es: '/servicios/consultoria',
+    en: '/services/consulting',
+  },
   '/web-design-seo-alicante': {
     es: '/diseno-web-seo-alicante',
     en: '/web-design-seo-alicante',

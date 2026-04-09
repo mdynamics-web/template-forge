@@ -5,7 +5,39 @@
     "cases": "Case Studies",
     "contact": "Contact",
     "cta": "Schedule a Call",
-    "blog": "Blog"
+    "blog": "Blog",
+    "serviceItems": {
+      "webDesign": {
+        "label": "Professional Web Design",
+        "description": "Fast, modern websites built to convert visits into real opportunities."
+      },
+      "localSeo": {
+        "label": "SEO and Local Ranking",
+        "description": "SEO strategy to rank on Google without relying only on ads."
+      },
+      "apps": {
+        "label": "Custom Applications",
+        "description": "We automate internal workflows with tools tailored to your business."
+      },
+      "onlineStores": {
+        "label": "Online Stores",
+        "description": "Complete e-commerce with secure checkout, catalog and easy management."
+      },
+      "consulting": {
+        "label": "Digital Consulting",
+        "description": "We assess your current setup and build a realistic digital roadmap."
+      }
+    },
+    "localLanding": {
+      "alicante": {
+        "label": "Web Design + SEO Alicante",
+        "description": "Local growth service for businesses targeting Alicante."
+      },
+      "valencia": {
+        "label": "Web Design + SEO Valencia",
+        "description": "City-focused strategy to attract qualified demand in Valencia."
+      }
+    }
   },
   "hero": {
     "badge": "From idea to clients in 90 days",
@@ -177,7 +209,7 @@
     "s4": "Online Stores",
     "s5": "Digital Consulting",
     "c1": "How We Work",
-    "c2": "Completed Projects",
+    "c2": "Case Studies",
     "c3": "Contact",
     "consultation": "Free Consultation",
     "consultationDesc": "We'll chat about your business without obligation. We provide guidance and a quote in less than 48 hours.",
@@ -236,6 +268,372 @@
       },
       "location": {
         "label": "Location"
+      }
+    }
+  },
+  "casesPage": {
+    "title": "Real Web Design and SEO Case Studies | Corexia",
+    "description": "Real outcomes from web design and local SEO projects in Spain, with measurable growth metrics."
+  },
+  "servicePages": {
+    "common": {
+      "heroCta": "Request a Proposal",
+      "problemsTitle": "Problems we solve",
+      "processTitle": "How we work with you",
+      "includesTitle": "What the service includes",
+      "technologiesTitle": "Technologies we use",
+      "casesTitle": "Related case studies",
+      "faqTitle": "Frequently asked questions",
+      "finalCta": "Schedule a Call"
+    },
+    "webDesign": {
+      "name": "Professional Web Design",
+      "meta": {
+        "title": "Professional Web Design for Businesses in Spain | Corexia",
+        "description": "We build fast, modern, conversion-focused websites for businesses in Spain. Custom design, performance and SEO-ready structure from day one.",
+        "ogTitle": "Professional Web Design for Businesses | Corexia",
+        "ogDescription": "Business-focused websites with speed, mobile UX and a solid technical foundation to scale."
+      },
+      "hero": {
+        "title": "Professional websites that turn traffic into real opportunities",
+        "subtitle": "We design and develop your website with business strategy, technical performance and excellent mobile experience so every visit creates value.",
+        "support": "Estimated launch timeline: 30 days."
+      },
+      "problems": [
+        "Your current website does not build trust and you lose leads before the first call.",
+        "Mobile experience is weak and a large share of traffic leaves without taking action.",
+        "You lack a clear lead capture structure and reliable measurement setup."
+      ],
+      "process": [
+        "Kickoff session to define your value proposition, audience and conversion goals.",
+        "Strategic architecture and content planning focused on clarity and SEO.",
+        "Design and development in Next.js with weekly reviews and iterative improvements.",
+        "Launch with performance checks, analytics setup and support onboarding."
+      ],
+      "includes": [
+        "Custom visual design tailored to your brand and market.",
+        "Responsive website optimized for mobile, tablet and desktop.",
+        "Conversion-oriented page structure and clear CTAs.",
+        "Performance optimization and Core Web Vitals baseline.",
+        "On-page SEO foundation for proper indexation.",
+        "Editable setup and handover for your internal team."
+      ],
+      "technologies": ["Next.js", "React", "TypeScript", "Node.js", "Vercel"],
+      "cases": [
+        {
+          "title": "WeClean",
+          "description": "Website created from scratch to grow local organic visibility and improve qualified lead generation.",
+          "metricValue": "7K+",
+          "metricLabel": "Google impressions"
+        },
+        {
+          "title": "Sanaja Beauty",
+          "description": "Redesign focused on UX and commercial messaging with direct impact on organic CTR.",
+          "metricValue": "5.3%",
+          "metricLabel": "Average CTR"
+        }
+      ],
+      "faq": [
+        {
+          "question": "How long does a professional website project take?",
+          "answer": "Most projects are delivered in around 30 days, depending on scope and feedback cadence."
+        },
+        {
+          "question": "Will we be able to edit content afterward?",
+          "answer": "Yes. We deliver a setup that lets your team update key content blocks without external dependency."
+        },
+        {
+          "question": "Is SEO included from the start?",
+          "answer": "Yes. We implement technical and on-page SEO fundamentals so search engines can crawl and index correctly."
+        },
+        {
+          "question": "What happens after launch?",
+          "answer": "We support your first post-launch phase with fine-tuning, team questions and priority improvements."
+        }
+      ],
+      "final": {
+        "title": "Turn your website into a real business asset",
+        "subtitle": "Strategic design, robust development and performance-first execution to make your digital presence work harder."
+      }
+    },
+    "localSeo": {
+      "name": "SEO and Local Ranking",
+      "meta": {
+        "title": "SEO and Local Ranking for Businesses in Spain | Corexia",
+        "description": "Increase Google visibility with a complete SEO strategy: technical optimization, content and local authority focused on results.",
+        "ogTitle": "SEO and Local Ranking for Businesses | Corexia",
+        "ogDescription": "SEO strategy built for measurable growth: qualified traffic, stronger visibility and long-term organic acquisition."
+      },
+      "hero": {
+        "title": "Rank on Google when your ideal client is ready to buy",
+        "subtitle": "We apply an end-to-end SEO methodology so you can improve local visibility, gain stronger positions and attract high-intent traffic.",
+        "support": "Phase-based roadmap with monthly KPI tracking."
+      },
+      "problems": [
+        "Your business is not visible for high-value searches in your service area.",
+        "You attract low-intent traffic that rarely converts into opportunities.",
+        "You do not have a structured approach to improve rankings consistently."
+      ],
+      "process": [
+        "Initial technical audit and local competitive analysis.",
+        "SEO architecture, keyword mapping and priority content strategy.",
+        "On-page optimization, internal linking and local authority signals.",
+        "Monthly reporting with clear actions and iteration plan."
+      ],
+      "includes": [
+        "Technical and content SEO audit.",
+        "Optimization of key pages for local queries.",
+        "Google Business Profile strategy.",
+        "Internal linking and semantic structure improvements.",
+        "Content plan aligned with search intent.",
+        "Performance dashboard for continuous tracking."
+      ],
+      "technologies": ["Google Search Console", "Google Analytics", "Schema Markup", "Next.js", "Ahrefs"],
+      "cases": [
+        {
+          "title": "TaxiTime Torrevieja",
+          "description": "Local SEO execution focused on high-volume search terms and stronger average ranking positions.",
+          "metricValue": "415K",
+          "metricLabel": "Annual impressions"
+        },
+        {
+          "title": "WeClean",
+          "description": "Early local visibility growth with a structured positioning roadmap.",
+          "metricValue": "1.5%",
+          "metricLabel": "Average CTR"
+        }
+      ],
+      "faq": [
+        {
+          "question": "When should we expect SEO results?",
+          "answer": "It depends on competition and baseline, but meaningful progress is typically visible between months 3 and 6 with consistent execution."
+        },
+        {
+          "question": "Can you handle local SEO for multiple cities?",
+          "answer": "Yes. We design city-specific strategies to cover your service areas while preventing content cannibalization."
+        },
+        {
+          "question": "Do you include Google Business optimization?",
+          "answer": "Yes. It is a core layer of local SEO and part of our standard delivery."
+        },
+        {
+          "question": "How do we measure impact?",
+          "answer": "Through visibility, ranking movements, qualified organic clicks and conversion metrics tied to business outcomes."
+        }
+      ],
+      "final": {
+        "title": "Win visibility where buying decisions happen",
+        "subtitle": "Well-executed local SEO lowers paid dependency and creates a stable organic acquisition engine."
+      }
+    },
+    "apps": {
+      "name": "Custom Applications",
+      "meta": {
+        "title": "Custom Applications for Businesses in Spain | Corexia",
+        "description": "We build tailored applications to automate internal operations, centralize workflows and improve productivity.",
+        "ogTitle": "Custom Applications for Businesses | Corexia",
+        "ogDescription": "Business software built around your real processes to reduce manual work and improve operational control."
+      },
+      "hero": {
+        "title": "Custom software built around how your business actually works",
+        "subtitle": "We create internal tools and business applications that connect processes, remove friction and support scalable operations.",
+        "support": "Modular development with iterative deliveries."
+      },
+      "problems": [
+        "Manual repetitive tasks consume too much team time every week.",
+        "Your operation depends on disconnected spreadsheets and tools.",
+        "You lack real-time visibility to make faster, better decisions."
+      ],
+      "process": [
+        "Current process mapping and automation opportunity prioritization.",
+        "Functional flow design, user roles and core business logic.",
+        "Module-based development with integrations and ongoing validation.",
+        "Team onboarding and stabilization support after deployment."
+      ],
+      "includes": [
+        "Functional discovery and technical design.",
+        "Backend and frontend development tailored to your needs.",
+        "API integrations with existing systems.",
+        "User management, permissions and action traceability.",
+        "Operational documentation for your team.",
+        "Initial support for adoption and optimization."
+      ],
+      "technologies": ["Node.js", "PostgreSQL", "React", "TypeScript", "REST API"],
+      "cases": [
+        {
+          "title": "Booking Management",
+          "description": "Custom system to centralize scheduling, availability and automated confirmations.",
+          "metricValue": "-60%",
+          "metricLabel": "Administrative time"
+        },
+        {
+          "title": "Order Operations Control",
+          "description": "Operational tool with status tracking, notifications and real-time reporting.",
+          "metricValue": "+35%",
+          "metricLabel": "Operational efficiency"
+        }
+      ],
+      "faq": [
+        {
+          "question": "When is a custom app the right move?",
+          "answer": "When your critical workflows do not fit off-the-shelf tools and this creates costs, delays or quality issues."
+        },
+        {
+          "question": "Can you integrate with our current stack?",
+          "answer": "Yes. We evaluate available APIs and integration points to avoid duplication and preserve continuity."
+        },
+        {
+          "question": "Can we roll out in phases?",
+          "answer": "Yes. We recommend phased modules to validate value quickly and scale with lower risk."
+        },
+        {
+          "question": "Do you train our team?",
+          "answer": "Yes. We provide practical sessions and handover materials to ensure adoption."
+        }
+      ],
+      "final": {
+        "title": "Scale operations without increasing friction",
+        "subtitle": "A well-designed application cuts errors, speeds execution and frees your team for high-value work."
+      }
+    },
+    "onlineStores": {
+      "name": "Online Stores",
+      "meta": {
+        "title": "Online Stores for Businesses in Spain | Corexia",
+        "description": "We build online stores optimized to increase sales, simplify catalog management and scale securely.",
+        "ogTitle": "Online Stores for Businesses | Corexia",
+        "ogDescription": "Conversion-ready e-commerce: secure checkout, strong UX and operational control."
+      },
+      "hero": {
+        "title": "Your online store ready to sell 24/7 with a solid buying experience",
+        "subtitle": "We develop e-commerce focused on conversion with frictionless checkout, secure payments and scalable architecture.",
+        "support": "Custom implementation with launch support."
+      },
+      "problems": [
+        "You lack a reliable online sales channel and depend too much on offline traffic.",
+        "Your checkout flow creates drop-off due to friction or low trust signals.",
+        "Catalog, stock and order operations are time-consuming and error-prone."
+      ],
+      "process": [
+        "Catalog structure and business objective definition.",
+        "Purchase experience design with conversion focus.",
+        "Payments, shipping and operations integration.",
+        "End-to-end purchase QA, launch and initial optimization."
+      ],
+      "includes": [
+        "Custom e-commerce design and development.",
+        "Conversion-optimized cart and checkout.",
+        "Stripe and/or Redsys integration.",
+        "Product, variant and inventory management.",
+        "Order status and transactional email setup.",
+        "Initial support for commercial launch."
+      ],
+      "technologies": ["Next.js", "Stripe", "Redsys", "Node.js", "PostgreSQL"],
+      "cases": [
+        {
+          "title": "B2C Service Catalog",
+          "description": "Sales platform with simplified checkout and confirmation automation.",
+          "metricValue": "+28%",
+          "metricLabel": "Initial conversion"
+        },
+        {
+          "title": "Specialized Product Store",
+          "description": "E-commerce with inventory controls and operational order dashboard.",
+          "metricValue": "-40%",
+          "metricLabel": "Management errors"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Do you support secure payments in Spain?",
+          "answer": "Yes. We implement secure gateways like Stripe and Redsys aligned with Spanish market requirements."
+        },
+        {
+          "question": "Can non-technical teams manage the store?",
+          "answer": "Yes. Admin workflows are built for business teams, with clear and simple day-to-day operations."
+        },
+        {
+          "question": "Is mobile optimization included?",
+          "answer": "Yes. We prioritize mobile-first UX because a large share of purchases happens on smartphones."
+        },
+        {
+          "question": "Can we add features later?",
+          "answer": "Yes. We build a scalable base to expand with promotions, automations and integrations."
+        }
+      ],
+      "final": {
+        "title": "Turn digital commerce into a stable revenue channel",
+        "subtitle": "A well-structured online store improves conversion and reduces operational overhead at the same time."
+      }
+    },
+    "consulting": {
+      "name": "Digital Consulting",
+      "meta": {
+        "title": "Digital Consulting for Businesses in Spain | Corexia",
+        "description": "Get a clear roadmap to prioritize digital initiatives with technical criteria and business focus.",
+        "ogTitle": "Digital Consulting for Businesses | Corexia",
+        "ogDescription": "Actionable digital diagnosis to prioritize investments and execute with clarity."
+      },
+      "hero": {
+        "title": "Make better digital decisions before investing resources",
+        "subtitle": "We analyze your context, identify real opportunities and deliver a practical roadmap to move forward with confidence.",
+        "support": "First orientation session is free and no-obligation."
+      },
+      "problems": [
+        "You are unsure which digital initiatives should be prioritized first.",
+        "You received technical proposals that are hard to compare from a business perspective.",
+        "You need an experienced external view to reduce execution risk."
+      ],
+      "process": [
+        "Discovery session to understand goals, constraints and available resources.",
+        "Review of digital presence, competition and growth opportunities.",
+        "Prioritization by impact, effort and expected return.",
+        "Roadmap delivery with concrete next actions."
+      ],
+      "includes": [
+        "Current digital state assessment.",
+        "Website, SEO and acquisition funnel review.",
+        "Competitive benchmark analysis.",
+        "Prioritized opportunity map.",
+        "Actionable technical and business recommendations.",
+        "Initial phased execution plan."
+      ],
+      "technologies": ["Google Analytics", "Search Console", "Looker Studio", "Next.js", "CRM Integrations"],
+      "cases": [
+        {
+          "title": "Commercial Growth Roadmap",
+          "description": "Structured digital priorities to shift from ad-hoc actions to a repeatable acquisition model.",
+          "metricValue": "90 days",
+          "metricLabel": "Execution-ready roadmap"
+        },
+        {
+          "title": "Investment Optimization",
+          "description": "Reprioritization of initiatives to reduce low-impact spend and focus on high-return channels.",
+          "metricValue": "2.1x",
+          "metricLabel": "Estimated ROI"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is the first consulting session paid?",
+          "answer": "No. The first session is free and focused on understanding your context and fit."
+        },
+        {
+          "question": "Is consulting only for large companies?",
+          "answer": "No. We adapt the approach for local businesses, SMBs and growing teams."
+        },
+        {
+          "question": "Do you provide actionable outputs?",
+          "answer": "Yes. You get a prioritized roadmap with concrete actions and implementation criteria."
+        },
+        {
+          "question": "Can you execute the plan afterward?",
+          "answer": "Yes. If there is fit, we can move from consulting to implementation with the same technical team."
+        }
+      ],
+      "final": {
+        "title": "Decide with clarity and execute with focus",
+        "subtitle": "Less improvisation, more direction: prioritize realistic digital actions to drive sustainable growth."
       }
     }
   },

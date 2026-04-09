@@ -1,12 +1,26 @@
 "use client";
 
-import Link from "next/link";
+import NextLink from "next/link";
+import { Link } from "@/i18n/routing";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
+import { MouseEvent } from "react";
+import { usePathname } from "@/i18n/routing";
 
 const Footer = () => {
   const t = useTranslations();
-  const locale = useLocale();
+  const pathname = usePathname();
+
+  const handleCasesClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    if (pathname === "/") {
+      event.preventDefault();
+      const section = document.getElementById("cases");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+        window.history.replaceState(null, "", "#cases");
+      }
+    }
+  };
 
   return (
     <footer className="bg-primary border-t border-primary-foreground/10">
@@ -33,20 +47,30 @@ const Footer = () => {
               {t("footer.services")}
             </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/50">
-              <li className="hover:text-secondary transition-colors cursor-pointer">
-                {t("footer.s1")}
+              <li>
+                <Link href="/services/web-design" className="hover:text-secondary transition-colors">
+                  {t("footer.s1")}
+                </Link>
               </li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">
-                {t("footer.s2")}
+              <li>
+                <Link href="/services/local-seo" className="hover:text-secondary transition-colors">
+                  {t("footer.s2")}
+                </Link>
               </li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">
-                {t("footer.s3")}
+              <li>
+                <Link href="/services/apps" className="hover:text-secondary transition-colors">
+                  {t("footer.s3")}
+                </Link>
               </li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">
-                {t("footer.s4")}
+              <li>
+                <Link href="/services/online-stores" className="hover:text-secondary transition-colors">
+                  {t("footer.s4")}
+                </Link>
               </li>
-              <li className="hover:text-secondary transition-colors cursor-pointer">
-                {t("footer.s5")}
+              <li>
+                <Link href="/services/consulting" className="hover:text-secondary transition-colors">
+                  {t("footer.s5")}
+                </Link>
               </li>
             </ul>
           </div>
@@ -57,26 +81,17 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/50">
               <li>
-                <Link
-                  href={`/${locale}/#process`}
-                  className="hover:text-secondary transition-colors"
-                >
+                <NextLink href="/#process" className="hover:text-secondary transition-colors">
                   {t("footer.c1")}
-                </Link>
+                </NextLink>
               </li>
               <li>
-                <Link
-                  href={`/${locale}/#cases`}
-                  className="hover:text-secondary transition-colors"
-                >
+                <NextLink href="/#cases" onClick={handleCasesClick} className="hover:text-secondary transition-colors">
                   {t("footer.c2")}
-                </Link>
+                </NextLink>
               </li>
               <li>
-                <Link
-                  href={`/${locale}/contact`}
-                  className="hover:text-secondary transition-colors"
-                >
+                <Link href="/contact" className="hover:text-secondary transition-colors">
                   {t("footer.c3")}
                 </Link>
               </li>
@@ -89,18 +104,12 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-sm text-primary-foreground/50">
               <li>
-                <Link
-                  href={`/${locale}/web-design-seo-alicante`}
-                  className="hover:text-secondary transition-colors"
-                >
+                <Link href="/web-design-seo-alicante" className="hover:text-secondary transition-colors">
                   {t("footer.alicanteWeb")}
                 </Link>
               </li>
               <li>
-                <Link
-                  href={`/${locale}/web-design-seo-valencia`}
-                  className="hover:text-secondary transition-colors"
-                >
+                <Link href="/web-design-seo-valencia" className="hover:text-secondary transition-colors">
                   {t("footer.valenciaWeb")}
                 </Link>
               </li>

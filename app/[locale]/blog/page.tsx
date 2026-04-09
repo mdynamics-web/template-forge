@@ -67,8 +67,8 @@ export default async function BlogPage({ params }: Props) {
 
   if (posts.length === 0) {
     return (
-      <div className="min-h-screen bg-primary flex items-center justify-center">
-        <p className="text-primary-foreground/60">No articles available yet.</p>
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <p className="text-muted-foreground">No articles available yet.</p>
       </div>
     )
   }

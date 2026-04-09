@@ -5,7 +5,39 @@
     "cases": "Casos de Éxito",
     "contact": "Contacto",
     "cta": "Agendar Llamada",
-    "blog": "Blog"
+    "blog": "Blog",
+    "serviceItems": {
+      "webDesign": {
+        "label": "Diseño Web Profesional",
+        "description": "Webs rápidas, modernas y pensadas para convertir visitas en clientes."
+      },
+      "localSeo": {
+        "label": "SEO y Posicionamiento Local",
+        "description": "Estrategia SEO para aparecer en Google sin depender de anuncios."
+      },
+      "apps": {
+        "label": "Aplicaciones a Medida",
+        "description": "Automatizamos procesos con herramientas adaptadas a tu negocio."
+      },
+      "onlineStores": {
+        "label": "Tiendas Online",
+        "description": "E-commerce completo con pagos seguros, catálogo y gestión sencilla."
+      },
+      "consulting": {
+        "label": "Consultoría Digital",
+        "description": "Analizamos tu situación y definimos una hoja de ruta clara y viable."
+      }
+    },
+    "localLanding": {
+      "alicante": {
+        "label": "Diseño Web + SEO Alicante",
+        "description": "Servicio local para empresas que quieren liderar búsquedas en Alicante."
+      },
+      "valencia": {
+        "label": "Diseño Web + SEO Valencia",
+        "description": "Estrategia enfocada en captar clientes en Valencia con SEO local."
+      }
+    }
   },
   "hero": {
     "badge": "De idea a clientes en 90 días",
@@ -177,7 +209,7 @@
     "s4": "Tiendas Online",
     "s5": "Consultoría Digital",
     "c1": "Cómo Trabajamos",
-    "c2": "Proyectos Realizados",
+    "c2": "Casos de Éxito",
     "c3": "Contacto",
     "consultation": "Consulta Gratuita",
     "consultationDesc": "Charlamos sobre tu negocio sin compromiso. Te damos orientación y presupuesto en menos de 48 horas.",
@@ -236,6 +268,372 @@
       },
       "location": {
         "label": "Ubicación"
+      }
+    }
+  },
+  "casesPage": {
+    "title": "Casos de Éxito Reales de Diseño Web y SEO | Corexia",
+    "description": "Resultados reales de proyectos de diseño web y posicionamiento SEO local en España, con métricas verificables de crecimiento."
+  },
+  "servicePages": {
+    "common": {
+      "heroCta": "Solicitar Presupuesto",
+      "problemsTitle": "Problemas que resolvemos",
+      "processTitle": "Cómo trabajamos contigo",
+      "includesTitle": "Qué incluye el servicio",
+      "technologiesTitle": "Tecnologías utilizadas",
+      "casesTitle": "Casos de éxito relacionados",
+      "faqTitle": "Preguntas frecuentes",
+      "finalCta": "Agendar Llamada"
+    },
+    "webDesign": {
+      "name": "Diseño Web Profesional",
+      "meta": {
+        "title": "Diseño Web Profesional para Empresas en España | Corexia",
+        "description": "Creamos webs rápidas, modernas y orientadas a conversión para empresas en España. Diseño personalizado, rendimiento y estructura SEO desde el inicio.",
+        "ogTitle": "Diseño Web Profesional para Empresas | Corexia",
+        "ogDescription": "Webs profesionales con foco en negocio: velocidad, experiencia móvil y una base sólida para escalar resultados."
+      },
+      "hero": {
+        "title": "Webs profesionales que convierten visitas en oportunidades reales",
+        "subtitle": "Diseñamos y desarrollamos tu web con estrategia de negocio, rendimiento técnico y experiencia móvil impecable para que cada visita tenga impacto comercial.",
+        "support": "Plazo estimado de lanzamiento: 30 días."
+      },
+      "problems": [
+        "Tu web actual no transmite confianza y pierdes oportunidades antes de la primera llamada.",
+        "La experiencia móvil es pobre y gran parte del tráfico abandona sin interactuar.",
+        "No tienes una estructura clara para captar leads ni medir resultados de forma fiable."
+      ],
+      "process": [
+        "Sesión inicial para entender propuesta de valor, tipo de cliente y objetivo de conversión.",
+        "Arquitectura y contenido estratégico enfocado en claridad comercial y SEO técnico.",
+        "Diseño y desarrollo en Next.js con revisiones semanales y mejoras iterativas.",
+        "Lanzamiento con validación final de rendimiento, analítica y soporte de adopción."
+      ],
+      "includes": [
+        "Diseño visual personalizado para tu marca y sector.",
+        "Web responsive optimizada para móvil, tablet y desktop.",
+        "Páginas orientadas a conversión con CTAs claros.",
+        "Optimización de velocidad y Core Web Vitals.",
+        "Base SEO on-page para indexación correcta.",
+        "Panel editable y guía de uso para tu equipo."
+      ],
+      "technologies": ["Next.js", "React", "TypeScript", "Node.js", "Vercel"],
+      "cases": [
+        {
+          "title": "WeClean",
+          "description": "Web creada desde cero para escalar visibilidad orgánica local y mejorar captación en búsquedas comerciales.",
+          "metricValue": "7K+",
+          "metricLabel": "Impresiones en Google"
+        },
+        {
+          "title": "Sanaja Beauty",
+          "description": "Rediseño centrado en experiencia y mensajes comerciales con impacto directo en CTR orgánico.",
+          "metricValue": "5,3%",
+          "metricLabel": "CTR medio"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuánto tarda una web profesional en estar lista?",
+          "answer": "La mayoría de proyectos se entregan en torno a 30 días, dependiendo del alcance y la velocidad de validación de contenidos."
+        },
+        {
+          "question": "¿Podré editar los contenidos después?",
+          "answer": "Sí. Dejamos la web preparada para que tu equipo pueda actualizar textos, bloques y elementos clave sin depender de terceros."
+        },
+        {
+          "question": "¿Incluye SEO desde el inicio?",
+          "answer": "Sí. Integramos una base SEO técnica y on-page para que Google pueda rastrear e indexar correctamente tu web."
+        },
+        {
+          "question": "¿Qué pasa tras publicar?",
+          "answer": "Te acompañamos en la fase inicial post-lanzamiento para ajustes finos, dudas del equipo y mejoras prioritarias."
+        }
+      ],
+      "final": {
+        "title": "Convierte tu web en un activo comercial real",
+        "subtitle": "Diseño estratégico, desarrollo sólido y enfoque en resultados para que tu presencia digital trabaje por tu negocio."
+      }
+    },
+    "localSeo": {
+      "name": "SEO y Posicionamiento Local",
+      "meta": {
+        "title": "SEO y Posicionamiento Local para Empresas en España | Corexia",
+        "description": "Aumenta tu visibilidad en Google con una estrategia de SEO técnico, contenido y posicionamiento local orientado a negocio.",
+        "ogTitle": "SEO y Posicionamiento Local para Empresas | Corexia",
+        "ogDescription": "Estrategias SEO con foco en resultados: tráfico cualificado, visibilidad local y crecimiento orgánico sostenible."
+      },
+      "hero": {
+        "title": "Te ayudamos a aparecer en Google cuando tu cliente te busca",
+        "subtitle": "Aplicamos una metodología SEO completa para que ganes visibilidad local, mejores posiciones y atraigas tráfico con intención real de compra.",
+        "support": "Plan de trabajo por fases con métricas mensuales."
+      },
+      "problems": [
+        "Tu negocio no aparece en búsquedas clave de tu ciudad o zona de servicio.",
+        "Recibes tráfico poco cualificado que no genera oportunidades comerciales.",
+        "No tienes un sistema claro para mejorar posiciones de forma sostenida."
+      ],
+      "process": [
+        "Auditoría técnica inicial y análisis de competencia local.",
+        "Definición de arquitectura SEO, palabras clave y contenidos prioritarios.",
+        "Optimización on-page, enlazado interno y señales locales de autoridad.",
+        "Seguimiento mensual con reporting claro y plan de iteración."
+      ],
+      "includes": [
+        "Auditoría SEO técnica y de contenido.",
+        "Optimización de páginas clave para búsquedas locales.",
+        "Estrategia de Google Business Profile.",
+        "Mejora de enlazado interno y estructura semántica.",
+        "Plan de contenidos orientado a intención de búsqueda.",
+        "Panel de métricas para seguimiento continuo."
+      ],
+      "technologies": ["Google Search Console", "Google Analytics", "Schema Markup", "Next.js", "Ahrefs"],
+      "cases": [
+        {
+          "title": "TaxiTime Torrevieja",
+          "description": "Proyecto local con foco en búsquedas de alto volumen y mejora constante de posición media.",
+          "metricValue": "415K",
+          "metricLabel": "Impresiones anuales"
+        },
+        {
+          "title": "WeClean",
+          "description": "Crecimiento inicial de visibilidad local en fase de consolidación del posicionamiento.",
+          "metricValue": "1,5%",
+          "metricLabel": "CTR medio"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿En cuánto tiempo se ven resultados en SEO?",
+          "answer": "Depende de competencia y punto de partida, pero habitualmente se observan avances entre los 3 y 6 meses con una estrategia constante."
+        },
+        {
+          "question": "¿Trabajáis SEO local para varias ciudades?",
+          "answer": "Sí. Diseñamos estrategias por ubicación para cubrir áreas de servicio concretas y evitar canibalización de contenidos."
+        },
+        {
+          "question": "¿Incluye la optimización de Google Business?",
+          "answer": "Sí. Es una pieza clave del posicionamiento local y la trabajamos como parte del servicio."
+        },
+        {
+          "question": "¿Cómo medimos el impacto?",
+          "answer": "Con indicadores de visibilidad, posiciones, clics cualificados y conversiones vinculadas al canal orgánico."
+        }
+      ],
+      "final": {
+        "title": "Gana visibilidad donde tus clientes toman la decisión",
+        "subtitle": "El SEO local bien ejecutado reduce dependencia publicitaria y construye una base estable de captación orgánica."
+      }
+    },
+    "apps": {
+      "name": "Aplicaciones a Medida",
+      "meta": {
+        "title": "Aplicaciones a Medida para Empresas en España | Corexia",
+        "description": "Desarrollamos aplicaciones personalizadas para automatizar procesos internos, centralizar operaciones y mejorar productividad.",
+        "ogTitle": "Aplicaciones a Medida para Empresas | Corexia",
+        "ogDescription": "Software adaptado a tus procesos reales para eliminar tareas manuales y escalar operación con control."
+      },
+      "hero": {
+        "title": "Software adaptado a tu negocio para operar mejor y crecer con control",
+        "subtitle": "Construimos herramientas internas y aplicaciones de negocio que conectan tus procesos, eliminan fricción y te permiten escalar sin caos operativo.",
+        "support": "Desarrollo por módulos con entregas iterativas."
+      },
+      "problems": [
+        "Tienes tareas manuales repetitivas que consumen horas de tu equipo cada semana.",
+        "Tu operación depende de hojas de cálculo y sistemas desconectados entre sí.",
+        "No cuentas con visibilidad en tiempo real para tomar decisiones rápidas."
+      ],
+      "process": [
+        "Mapeo de procesos actuales y definición de prioridades de automatización.",
+        "Diseño funcional del flujo, roles y reglas de negocio.",
+        "Desarrollo de módulos con integraciones y validación continua.",
+        "Formación al equipo y soporte de estabilización tras despliegue."
+      ],
+      "includes": [
+        "Análisis funcional y diseño técnico inicial.",
+        "Desarrollo backend y frontend según necesidades reales.",
+        "Integración con APIs o sistemas existentes.",
+        "Gestión de usuarios, permisos y trazabilidad.",
+        "Documentación operativa para el equipo.",
+        "Soporte inicial de adopción y mejora."
+      ],
+      "technologies": ["Node.js", "PostgreSQL", "React", "TypeScript", "REST API"],
+      "cases": [
+        {
+          "title": "Gestión de Reservas",
+          "description": "Sistema personalizado para centralizar agenda, disponibilidad y confirmaciones automáticas.",
+          "metricValue": "-60%",
+          "metricLabel": "Tiempo administrativo"
+        },
+        {
+          "title": "Control de Pedidos",
+          "description": "Herramienta de seguimiento operativo con estados, notificaciones e informes en tiempo real.",
+          "metricValue": "+35%",
+          "metricLabel": "Eficiencia operativa"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuándo conviene desarrollar una app a medida?",
+          "answer": "Cuando los procesos críticos no se adaptan bien a herramientas estándar y eso impacta en costes, tiempos o calidad."
+        },
+        {
+          "question": "¿Podéis integrar con nuestro software actual?",
+          "answer": "Sí. Evaluamos APIs y opciones de integración para evitar duplicidades y mantener continuidad operativa."
+        },
+        {
+          "question": "¿Se puede evolucionar por fases?",
+          "answer": "Sí. Recomendamos construir por módulos prioritarios para validar valor rápido y escalar con menor riesgo."
+        },
+        {
+          "question": "¿Incluís formación para el equipo?",
+          "answer": "Sí. Entregamos sesiones prácticas y materiales para facilitar adopción y autonomía."
+        }
+      ],
+      "final": {
+        "title": "Haz que tu operación escale sin fricción",
+        "subtitle": "Una aplicación bien diseñada reduce errores, acelera tareas y libera tiempo para actividades de mayor valor."
+      }
+    },
+    "onlineStores": {
+      "name": "Tiendas Online",
+      "meta": {
+        "title": "Tiendas Online para Empresas en España | Corexia",
+        "description": "Diseñamos y desarrollamos tiendas online optimizadas para vender más, gestionar catálogo de forma simple y escalar con seguridad.",
+        "ogTitle": "Tiendas Online para Empresas | Corexia",
+        "ogDescription": "E-commerce pensado para convertir: catálogo, pagos seguros, experiencia fluida y control operativo."
+      },
+      "hero": {
+        "title": "Tu tienda online lista para vender 24/7 con experiencia de compra sólida",
+        "subtitle": "Creamos e-commerce orientado a conversión, con procesos de compra simples, pagos seguros y una base técnica preparada para crecer.",
+        "support": "Implementación personalizada con acompañamiento en lanzamiento."
+      },
+      "problems": [
+        "No tienes un canal de venta online fiable y dependes solo de tráfico físico o marketplace.",
+        "Tu proceso de compra actual genera abandono por fricción o falta de confianza.",
+        "Gestionar catálogo, stock y pedidos te consume tiempo y genera errores."
+      ],
+      "process": [
+        "Definición de catálogo, estructura de categorías y objetivos comerciales.",
+        "Diseño de experiencia de compra centrada en conversión.",
+        "Integración de pagos, envíos y lógica de gestión operativa.",
+        "Pruebas de compra completa, lanzamiento y optimización inicial."
+      ],
+      "includes": [
+        "Diseño y desarrollo e-commerce personalizado.",
+        "Carrito y checkout optimizados para conversión.",
+        "Integración de Stripe y/o Redsys.",
+        "Gestión de productos, variantes y stock.",
+        "Configuración de emails y estados de pedido.",
+        "Soporte inicial para lanzamiento comercial."
+      ],
+      "technologies": ["Next.js", "Stripe", "Redsys", "Node.js", "PostgreSQL"],
+      "cases": [
+        {
+          "title": "Catálogo B2C de Servicios",
+          "description": "Plataforma de venta con checkout simplificado y automatización de confirmaciones.",
+          "metricValue": "+28%",
+          "metricLabel": "Conversión inicial"
+        },
+        {
+          "title": "Tienda de Producto Especializado",
+          "description": "E-commerce con control de inventario y panel de pedidos para operación diaria.",
+          "metricValue": "-40%",
+          "metricLabel": "Errores de gestión"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Trabajáis con pagos seguros para España?",
+          "answer": "Sí. Implementamos pasarelas como Stripe y Redsys, adaptadas al contexto de negocio en España."
+        },
+        {
+          "question": "¿Puedo gestionar productos y pedidos sin conocimientos técnicos?",
+          "answer": "Sí. La administración está pensada para equipos no técnicos con flujos claros y sencillos."
+        },
+        {
+          "question": "¿Incluye optimización móvil?",
+          "answer": "Sí. Priorizamos experiencia mobile-first porque gran parte de las compras se realiza desde móvil."
+        },
+        {
+          "question": "¿Podemos añadir funcionalidades más adelante?",
+          "answer": "Sí. Diseñamos la base para crecer con promociones, automatizaciones y nuevas integraciones."
+        }
+      ],
+      "final": {
+        "title": "Convierte tu canal digital en una línea de ingresos estable",
+        "subtitle": "Una tienda online bien diseñada no solo vende más: también reduce carga operativa y mejora la experiencia del cliente."
+      }
+    },
+    "consulting": {
+      "name": "Consultoría Digital",
+      "meta": {
+        "title": "Consultoría Digital para Empresas en España | Corexia",
+        "description": "Recibe una hoja de ruta clara para decidir prioridades digitales con criterio técnico y enfoque de negocio.",
+        "ogTitle": "Consultoría Digital para Empresas | Corexia",
+        "ogDescription": "Diagnóstico accionable de tu situación digital para priorizar inversiones y ejecutar con claridad."
+      },
+      "hero": {
+        "title": "Te ayudamos a decidir bien antes de invertir en digital",
+        "subtitle": "Analizamos tu contexto, detectamos oportunidades reales y te entregamos una hoja de ruta práctica para avanzar con foco y seguridad.",
+        "support": "Primera sesión de orientación gratuita y sin compromiso."
+      },
+      "problems": [
+        "No tienes claro qué acciones digitales priorizar para generar impacto real.",
+        "Has recibido propuestas técnicas difíciles de comparar y sin enfoque de negocio.",
+        "Necesitas una visión externa experta para tomar decisiones con menos riesgo."
+      ],
+      "process": [
+        "Sesión de descubrimiento para entender objetivos, recursos y limitaciones.",
+        "Análisis de presencia digital, competencia y oportunidades de mejora.",
+        "Priorización de iniciativas por impacto, complejidad y retorno esperado.",
+        "Entrega de hoja de ruta con próximos pasos concretos."
+      ],
+      "includes": [
+        "Diagnóstico de estado digital actual.",
+        "Revisión de web, SEO y embudo de captación.",
+        "Análisis competitivo de referencia.",
+        "Mapa de oportunidades priorizadas.",
+        "Recomendaciones técnicas y de negocio accionables.",
+        "Plan inicial de implementación por fases."
+      ],
+      "technologies": ["Google Analytics", "Search Console", "Looker Studio", "Next.js", "CRM Integrations"],
+      "cases": [
+        {
+          "title": "Plan de Escalado Comercial",
+          "description": "Definición de prioridades digitales para pasar de acciones aisladas a sistema de captación continuo.",
+          "metricValue": "90 días",
+          "metricLabel": "Hoja de ruta ejecutable"
+        },
+        {
+          "title": "Optimización de Inversión",
+          "description": "Reordenación de iniciativas para reducir costes sin impacto y reforzar canales con mejor retorno.",
+          "metricValue": "+2,1x",
+          "metricLabel": "ROI estimado"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿La primera consulta tiene coste?",
+          "answer": "No. La primera sesión es gratuita y está orientada a entender tu situación y si podemos ayudarte."
+        },
+        {
+          "question": "¿La consultoría es solo para empresas grandes?",
+          "answer": "No. Adaptamos el enfoque a negocios locales, pymes y proyectos en crecimiento."
+        },
+        {
+          "question": "¿Entregáis recomendaciones accionables?",
+          "answer": "Sí. La salida es una hoja de ruta priorizada con acciones concretas y criterios de implementación."
+        },
+        {
+          "question": "¿Podéis ejecutar después la estrategia?",
+          "answer": "Sí. Si encaja, podemos pasar de consultoría a ejecución con el mismo equipo técnico."
+        }
+      ],
+      "final": {
+        "title": "Decide con criterio y ejecuta con una hoja de ruta clara",
+        "subtitle": "Menos improvisación, más foco: define prioridades digitales realistas para crecer de forma sostenible."
       }
     }
   },
