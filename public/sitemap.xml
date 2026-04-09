@@ -213,17 +213,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog"/>
-  </url>
-
-  <url>
-    <loc>https://www.corexia.es/en/blog</loc>
-    <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/blog"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog"/>
   </url>
 
@@ -235,17 +225,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog/seo-local-alicante-guia-practica-2026"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog/local-seo-alicante-practical-guide-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/blog/local-seo-alicante-practical-guide-2026"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog/seo-local-alicante-guia-practica-2026"/>
   </url>
 
   <url>
-    <loc>https://www.corexia.es/en/blog/local-seo-alicante-practical-guide-2026</loc>
+    <loc>https://www.corexia.es/blog/local-seo-alicante-practical-guide-2026</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog/seo-local-alicante-guia-practica-2026"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog/local-seo-alicante-practical-guide-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/blog/local-seo-alicante-practical-guide-2026"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog/seo-local-alicante-guia-practica-2026"/>
   </url>
 
@@ -255,17 +245,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog/nextjs-vs-wordpress-seo-local"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog/nextjs-vs-wordpress-local-seo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/blog/nextjs-vs-wordpress-local-seo"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog/nextjs-vs-wordpress-seo-local"/>
   </url>
 
   <url>
-    <loc>https://www.corexia.es/en/blog/nextjs-vs-wordpress-local-seo</loc>
+    <loc>https://www.corexia.es/blog/nextjs-vs-wordpress-local-seo</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog/nextjs-vs-wordpress-seo-local"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog/nextjs-vs-wordpress-local-seo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/blog/nextjs-vs-wordpress-local-seo"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog/nextjs-vs-wordpress-seo-local"/>
   </url>
 
@@ -275,17 +265,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog/seo-organico-vs-google-ads"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog/organic-seo-vs-google-ads"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/blog/organic-seo-vs-google-ads"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog/seo-organico-vs-google-ads"/>
   </url>
 
   <url>
-    <loc>https://www.corexia.es/en/blog/organic-seo-vs-google-ads</loc>
+    <loc>https://www.corexia.es/blog/organic-seo-vs-google-ads</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.corexia.es/blog/seo-organico-vs-google-ads"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/en/blog/organic-seo-vs-google-ads"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.corexia.es/blog/organic-seo-vs-google-ads"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.corexia.es/blog/seo-organico-vs-google-ads"/>
   </url>
 

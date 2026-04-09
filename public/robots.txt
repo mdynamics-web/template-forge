@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://corexia.es/sitemap.xml
+Sitemap: https://www.corexia.es/sitemap.xml
 
 # Disallow admin and private pages
 Disallow: /admin/
@@ -14,6 +14,17 @@ Allow: /contacto
 Allow: /contact
 Allow: /politica-de-cookies
 Allow: /cookies-policy
+Allow: /servicios/diseno-web
+Allow: /services/web-design
+Allow: /servicios/seo-local
+Allow: /services/local-seo
+Allow: /servicios/aplicaciones
+Allow: /services/apps
+Allow: /servicios/tiendas-online
+Allow: /services/online-stores
+Allow: /servicios/consultoria
+Allow: /services/consulting
+Allow: /blog
 
 # Crawl-delay
 Crawl-delay: 0
