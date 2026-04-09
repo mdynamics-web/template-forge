@@ -6,6 +6,7 @@ export type ServiceKey = "webDesign" | "localSeo" | "apps" | "onlineStores" | "c
 
 export const buildServicePageContent = (serviceKey: ServiceKey, t: Translate): ServicePageContent => {
   return {
+    serviceKey,
     serviceName: t(`${serviceKey}.name`),
     heroTitle: t(`${serviceKey}.hero.title`),
     heroSubtitle: t(`${serviceKey}.hero.subtitle`),

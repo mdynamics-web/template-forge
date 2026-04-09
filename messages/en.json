@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Home",
     "services": "Solutions",
     "process": "Process",
     "cases": "Case Studies",
@@ -284,7 +285,160 @@
       "technologiesTitle": "Technologies we use",
       "casesTitle": "Related case studies",
       "faqTitle": "Frequently asked questions",
-      "finalCta": "Schedule a Call"
+      "finalCta": "Schedule a Call",
+      "charts": {
+        "step": "Step {value}",
+        "phase": "Phase {value}",
+        "block": "Block {value}",
+        "month1": "Month 1",
+        "month2": "Month 2",
+        "month3": "Month 3",
+        "month4": "Month 4",
+        "month5": "Month 5",
+        "month6": "Month 6",
+        "q1": "Week 1",
+        "q2": "Week 2",
+        "q3": "Week 3",
+        "q4": "Week 4",
+        "q5": "Week 5",
+        "sprint1": "Sprint 1",
+        "sprint2": "Sprint 2",
+        "sprint3": "Sprint 3",
+        "sprint4": "Sprint 4",
+        "sprint5": "Sprint 5",
+        "release1": "Release 1",
+        "release2": "Release 2",
+        "release3": "Release 3",
+        "release4": "Release 4",
+        "release5": "Release 5",
+        "quarter1": "Q1",
+        "quarter2": "Q2",
+        "quarter3": "Q3",
+        "quarter4": "Q4",
+        "quarter5": "Q5",
+        "channelOrganic": "Organic",
+        "channelPaid": "Paid",
+        "channelEmail": "Email",
+        "channelDirect": "Direct",
+        "areaOffer": "Offer",
+        "areaChannels": "Channels",
+        "areaProcess": "Process",
+        "areaMeasurement": "Measurement",
+        "areaTeam": "Team",
+        "webDesign": {
+          "ux": {
+            "title": "UX architecture + conversion copy",
+            "description": "We redesign structure, hierarchy and messaging so users understand value and next steps instantly.",
+            "reason": "We do this to improve commercial clarity and reduce first-touch friction.",
+            "without": "Website without UX architecture",
+            "with": "Website with UX architecture"
+          },
+          "speed": {
+            "title": "Core Web Vitals optimization",
+            "description": "We implement prioritized loading, compression and optimized frontend architecture for smoother UX.",
+            "reason": "We do this to reduce mobile bounce and improve conversions on key pages.",
+            "without": "Website without CWV optimization",
+            "with": "Website optimized for CWV"
+          }
+        },
+        "localSeo": {
+          "gbp": {
+            "title": "Google Business Profile + local SEO",
+            "description": "We optimize profile structure, categories and local signals to gain transactional visibility.",
+            "reason": "We do this because local intent converts better when your business ranks in maps and local pack.",
+            "without": "Unoptimized business profile",
+            "with": "Optimized business profile"
+          },
+          "content": {
+            "title": "Semantic SEO and local content",
+            "description": "We create intent-based local landing pages with entities, FAQs and schema aligned to high-conversion searches.",
+            "reason": "We do this to widen coverage on specific local queries and increase local organic CTR.",
+            "without": "Without local semantic SEO",
+            "with": "With local semantic SEO"
+          }
+        },
+        "apps": {
+          "architecture": {
+            "title": "Modular and scalable architecture",
+            "description": "We structure business modules to accelerate delivery while preserving stability.",
+            "reason": "We do this to ship features faster with less technical friction.",
+            "without": "App without modular architecture",
+            "with": "App with modular architecture"
+          },
+          "cicd": {
+            "title": "CI/CD + technical observability",
+            "description": "We automate deployments and monitoring to catch issues before they impact end users.",
+            "reason": "We do this to ship stable releases faster and reduce recovery time from incidents.",
+            "without": "Without CI/CD or observability",
+            "with": "With CI/CD and observability"
+          }
+        },
+        "onlineStores": {
+          "recovery": {
+            "title": "Cart recovery and optimized checkout",
+            "description": "We apply recovery sequences and checkout simplification to recover lost revenue.",
+            "reason": "We do this because checkout improvements have direct impact on monthly revenue.",
+            "without": "Without cart recovery",
+            "with": "With cart recovery"
+          },
+          "channels": {
+            "title": "Channel mix with stronger organic share",
+            "description": "We rebalance acquisition so growth does not depend excessively on paid traffic.",
+            "reason": "We do this to improve margin and sustain growth with stronger profitability.",
+            "without": "Mix without channel strategy",
+            "with": "Mix with channel strategy",
+            "totalLabel": "Channels",
+            "organicGain": "Organic share increase",
+            "paidDrop": "Paid dependency reduction"
+          }
+        },
+        "consulting": {
+          "roadmap": {
+            "title": "Strategic roadmap with business priorities",
+            "description": "We define a quarterly plan with goals, milestones and clear ownership by team.",
+            "reason": "We do this to align execution, avoid drift and accelerate measurable outcomes.",
+            "without": "Without strategic roadmap",
+            "with": "With strategic roadmap"
+          },
+          "attribution": {
+            "title": "Attribution model and impact visibility",
+            "description": "We connect data sources and unify metrics to identify which channels and actions drive profitable growth.",
+            "reason": "We do this to allocate investment based on business data, not assumptions.",
+            "without": "Without attribution model",
+            "with": "With attribution model"
+          }
+        },
+        "tech": {
+          "figma": "Figma",
+          "ga4": "GA4",
+          "hotjar": "Hotjar",
+          "nextjs": "Next.js",
+          "image": "Next Image",
+          "cdn": "Edge CDN",
+          "gbp": "Google Business Profile",
+          "geoGrid": "Geo Grid",
+          "gsc": "Google Search Console",
+          "schema": "Schema.org",
+          "sem": "Keyword Mapping",
+          "entities": "Entity SEO",
+          "typescript": "TypeScript",
+          "cleanArchitecture": "Clean Architecture",
+          "prisma": "Prisma",
+          "githubActions": "GitHub Actions",
+          "playwright": "Playwright",
+          "sentry": "Sentry",
+          "klaviyo": "Klaviyo",
+          "checkoutExt": "Checkout Ext.",
+          "shopify": "Shopify",
+          "merchantCenter": "Merchant Center",
+          "metaAds": "Meta Ads",
+          "notion": "Notion",
+          "lookerStudio": "Looker Studio",
+          "crm": "HubSpot CRM",
+          "bigquery": "BigQuery",
+          "powerbi": "Power BI"
+        }
+      }
     },
     "webDesign": {
       "name": "Professional Web Design",

@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Inicio",
     "services": "Soluciones",
     "process": "Proceso",
     "cases": "Casos de Éxito",
@@ -284,7 +285,160 @@
       "technologiesTitle": "Tecnologías utilizadas",
       "casesTitle": "Casos de éxito relacionados",
       "faqTitle": "Preguntas frecuentes",
-      "finalCta": "Agendar Llamada"
+      "finalCta": "Agendar Llamada",
+      "charts": {
+        "step": "Paso {value}",
+        "phase": "Fase {value}",
+        "block": "Bloque {value}",
+        "month1": "Mes 1",
+        "month2": "Mes 2",
+        "month3": "Mes 3",
+        "month4": "Mes 4",
+        "month5": "Mes 5",
+        "month6": "Mes 6",
+        "q1": "Semana 1",
+        "q2": "Semana 2",
+        "q3": "Semana 3",
+        "q4": "Semana 4",
+        "q5": "Semana 5",
+        "sprint1": "Sprint 1",
+        "sprint2": "Sprint 2",
+        "sprint3": "Sprint 3",
+        "sprint4": "Sprint 4",
+        "sprint5": "Sprint 5",
+        "release1": "Release 1",
+        "release2": "Release 2",
+        "release3": "Release 3",
+        "release4": "Release 4",
+        "release5": "Release 5",
+        "quarter1": "Q1",
+        "quarter2": "Q2",
+        "quarter3": "Q3",
+        "quarter4": "Q4",
+        "quarter5": "Q5",
+        "channelOrganic": "Orgánico",
+        "channelPaid": "Pago",
+        "channelEmail": "Email",
+        "channelDirect": "Directo",
+        "areaOffer": "Oferta",
+        "areaChannels": "Canales",
+        "areaProcess": "Procesos",
+        "areaMeasurement": "Medición",
+        "areaTeam": "Equipo",
+        "webDesign": {
+          "ux": {
+            "title": "Arquitectura UX + copy de conversión",
+            "description": "Reordenamos estructura, jerarquía y mensajes para que el usuario entienda rápido el valor y el siguiente paso.",
+            "reason": "Lo hacemos para subir claridad comercial y reducir fricción en la primera interacción.",
+            "without": "Web sin arquitectura UX",
+            "with": "Web con arquitectura UX"
+          },
+          "speed": {
+            "title": "Optimización Core Web Vitals",
+            "description": "Implementamos carga prioritaria, compresión y arquitectura de frontend optimizada para mantener la experiencia fluida.",
+            "reason": "Lo hacemos para reducir abandono en móvil y mejorar conversiones en páginas clave.",
+            "without": "Web sin optimización CWV",
+            "with": "Web optimizada en CWV"
+          }
+        },
+        "localSeo": {
+          "gbp": {
+            "title": "Google Business Profile + SEO local",
+            "description": "Combinamos optimización de ficha, categorías y señales locales para ganar visibilidad transaccional.",
+            "reason": "Lo hacemos porque la intención local convierte mejor cuando el negocio aparece arriba en mapas y pack local.",
+            "without": "Ficha local sin optimizar",
+            "with": "Ficha local optimizada"
+          },
+          "content": {
+            "title": "SEO semántico y contenidos locales",
+            "description": "Creamos landings por intención local con entidades, FAQs y schema alineado a consultas de alta conversión.",
+            "reason": "Lo hacemos para ampliar cobertura en búsquedas específicas y mejorar CTR orgánico local.",
+            "without": "Sin SEO semántico local",
+            "with": "Con SEO semántico local"
+          }
+        },
+        "apps": {
+          "architecture": {
+            "title": "Arquitectura modular y escalable",
+            "description": "Estructuramos módulos de negocio para acelerar entregas sin degradar estabilidad.",
+            "reason": "Lo hacemos para lanzar funcionalidades nuevas con menor fricción técnica.",
+            "without": "App sin arquitectura modular",
+            "with": "App con arquitectura modular"
+          },
+          "cicd": {
+            "title": "CI/CD + observabilidad técnica",
+            "description": "Automatizamos despliegues y monitorización para detectar fallos antes de afectar al usuario final.",
+            "reason": "Lo hacemos para acelerar releases estables y reducir tiempo de recuperación ante errores.",
+            "without": "Sin CI/CD ni observabilidad",
+            "with": "Con CI/CD y observabilidad"
+          }
+        },
+        "onlineStores": {
+          "recovery": {
+            "title": "Recuperación de carritos y checkout optimizado",
+            "description": "Aplicamos secuencias de recuperación y simplificación de pago para recuperar ingresos perdidos.",
+            "reason": "Lo hacemos porque una mejora en checkout impacta directamente en facturación mensual.",
+            "without": "Sin recuperación de carrito",
+            "with": "Con recuperación de carrito"
+          },
+          "channels": {
+            "title": "Mix de canales con peso en orgánico",
+            "description": "Reequilibramos la adquisición para no depender en exceso de tráfico de pago.",
+            "reason": "Lo hacemos para ganar margen y sostener crecimiento con mejor rentabilidad.",
+            "without": "Mix sin estrategia de canales",
+            "with": "Mix con estrategia de canales",
+            "totalLabel": "Canales",
+            "organicGain": "Incremento de peso orgánico",
+            "paidDrop": "Reducción de dependencia paid"
+          }
+        },
+        "consulting": {
+          "roadmap": {
+            "title": "Roadmap estratégico con prioridades de negocio",
+            "description": "Definimos un plan trimestral con objetivos, hitos y ownership claro por equipo.",
+            "reason": "Lo hacemos para alinear ejecución, evitar dispersión y acelerar resultados medibles.",
+            "without": "Sin roadmap estratégico",
+            "with": "Con roadmap estratégico"
+          },
+          "attribution": {
+            "title": "Modelo de atribución y lectura de impacto",
+            "description": "Conectamos fuentes y unificamos métricas para entender qué canal y acción generan crecimiento rentable.",
+            "reason": "Lo hacemos para decidir inversión con datos de negocio y no por intuición.",
+            "without": "Sin modelo de atribución",
+            "with": "Con modelo de atribución"
+          }
+        },
+        "tech": {
+          "figma": "Figma",
+          "ga4": "GA4",
+          "hotjar": "Hotjar",
+          "nextjs": "Next.js",
+          "image": "Next Image",
+          "cdn": "CDN Edge",
+          "gbp": "Google Business Profile",
+          "geoGrid": "Geo Grid",
+          "gsc": "Google Search Console",
+          "schema": "Schema.org",
+          "sem": "Keyword Mapping",
+          "entities": "Entity SEO",
+          "typescript": "TypeScript",
+          "cleanArchitecture": "Clean Architecture",
+          "prisma": "Prisma",
+          "githubActions": "GitHub Actions",
+          "playwright": "Playwright",
+          "sentry": "Sentry",
+          "klaviyo": "Klaviyo",
+          "checkoutExt": "Checkout Ext.",
+          "shopify": "Shopify",
+          "merchantCenter": "Merchant Center",
+          "metaAds": "Meta Ads",
+          "notion": "Notion",
+          "lookerStudio": "Looker Studio",
+          "crm": "HubSpot CRM",
+          "bigquery": "BigQuery",
+          "powerbi": "Power BI"
+        }
+      }
     },
     "webDesign": {
       "name": "Diseño Web Profesional",

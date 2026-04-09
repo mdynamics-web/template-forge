@@ -3,7 +3,7 @@
 import { MouseEvent as ReactMouseEvent, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import NextLink from "next/link";
-import { ChevronDown, Code2, MapPin, Menu, Search, ShoppingCart, Sparkles, X } from "lucide-react";
+import { ChevronDown, Code2, Menu, Search, ShoppingCart, Sparkles, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
@@ -60,20 +60,7 @@ const Navbar = () => {
     },
   ];
 
-  const localLandingItems: ServiceLinkItem[] = [
-    {
-      label: t("nav.localLanding.alicante.label"),
-      description: t("nav.localLanding.alicante.description"),
-      href: "/web-design-seo-alicante",
-      icon: MapPin,
-    },
-    {
-      label: t("nav.localLanding.valencia.label"),
-      description: t("nav.localLanding.valencia.description"),
-      href: "/web-design-seo-valencia",
-      icon: MapPin,
-    },
-  ];
+  const localLandingItems: ServiceLinkItem[] = [];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -131,13 +118,9 @@ const Navbar = () => {
         </Link>
 
         <div className="hidden lg:flex items-center gap-6">
-          <NextLink
-            href="/#cases"
-            onClick={handleCasesClick}
-            className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium"
-          >
-            {t("nav.cases")}
-          </NextLink>
+          <Link href="/" className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium">
+            {t("nav.home")}
+          </Link>
 
           <div className="relative" ref={dropdownRef}>
             <button
@@ -183,7 +166,7 @@ const Navbar = () => {
                         </Link>
                       );
                     })}
-                    <div className="my-1 h-px bg-secondary/20" />
+                    {localLandingItems.length > 0 ? <div className="my-1 h-px bg-secondary/20" /> : null}
                     {serviceItems.map((item) => {
                       const Icon = item.icon;
                       return (
@@ -210,6 +193,14 @@ const Navbar = () => {
               ) : null}
             </AnimatePresence>
           </div>
+
+          <NextLink
+            href="/#cases"
+            onClick={handleCasesClick}
+            className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium"
+          >
+            {t("nav.cases")}
+          </NextLink>
 
           <Link href="/blog" className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium">
             {t("nav.blog")}
@@ -248,13 +239,13 @@ const Navbar = () => {
             className="lg:hidden bg-primary/98 backdrop-blur-xl border-t border-secondary/20"
           >
             <div className="flex flex-col gap-4 p-6">
-              <NextLink
-                href="/#cases"
-                onClick={handleCasesClick}
+              <Link
+                href="/"
+                onClick={handleCloseAllMenus}
                 className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium text-left"
               >
-                {t("nav.cases")}
-              </NextLink>
+                {t("nav.home")}
+              </Link>
 
               <button
                 type="button"
@@ -266,6 +257,14 @@ const Navbar = () => {
                 {t("nav.services")}
                 <ChevronDown className={`h-4 w-4 transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`} />
               </button>
+
+              <NextLink
+                href="/#cases"
+                onClick={handleCasesClick}
+                className="text-primary-foreground/80 hover:text-secondary transition-colors text-sm font-medium text-left"
+              >
+                {t("nav.cases")}
+              </NextLink>
 
               <AnimatePresence initial={false}>
                 {mobileServicesOpen ? (
@@ -287,7 +286,7 @@ const Navbar = () => {
                           {item.label}
                         </Link>
                       ))}
-                      <div className="my-1 h-px bg-secondary/20" />
+                      {localLandingItems.length > 0 ? <div className="my-1 h-px bg-secondary/20" /> : null}
                       {serviceItems.map((item) => (
                         <Link
                           key={item.href}
