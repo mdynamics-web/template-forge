@@ -56,7 +56,7 @@ export default function BlogViewPage({ featured, rest }: BlogProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <Link href={`/${locale}/blog/${featured.slug}`} className="group block">
+            <Link href={`/blog/${featured.slug}`} className="group block">
               <div className="relative rounded-2xl overflow-hidden border border-border/40 bg-card/80 backdrop-blur-sm">
                 <div className="grid md:grid-cols-2 gap-0">
                   <div className="relative h-64 md:h-[450px] overflow-hidden">
@@ -126,7 +126,7 @@ export default function BlogViewPage({ featured, rest }: BlogProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 * i }}
             >
-              <Link href={`/${locale}/blog/${post.slug}`} className="group block h-full">
+              <Link href={`/blog/${post.slug}`} className="group block h-full">
                 <div className="h-full rounded-2xl border border-border/40 bg-card/80 backdrop-blur-sm overflow-hidden hover:border-secondary/30 transition-all duration-500 hover:shadow-[0_0_40px_-10px_hsl(var(--secondary)/0.15)]">
                   <div className="relative h-48 overflow-hidden">
                     <Image

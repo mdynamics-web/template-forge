@@ -5,6 +5,7 @@ import { TrustBarSection } from "@/components/alicante-landing/sections/TrustBar
 import { WhyAlicanteSection } from "@/components/alicante-landing/sections/WhyAlicanteSection";
 import { ServicesSection } from "@/components/alicante-landing/sections/ServicesSection";
 import { CaseStudySection } from "@/components/alicante-landing/sections/CaseStudySection";
+import { PricingSection } from "@/components/alicante-landing/sections/PricingSection";
 import { ProcessSection } from "@/components/alicante-landing/sections/ProcessSection";
 import { FAQSection } from "@/components/alicante-landing/sections/FAQSection";
 import { ContactSection } from "@/components/alicante-landing/sections/ContactSection";
@@ -17,6 +18,7 @@ export const AlicanteWebDesignLanding = () => {
         <TrustBarSection />
         <WhyAlicanteSection />
         <ServicesSection />
+        <PricingSection />
         <CaseStudySection />
         <ProcessSection />
         <FAQSection />

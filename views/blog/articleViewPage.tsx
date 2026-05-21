@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 interface ArticleViewPageProps {
   article: BlogPostFull;
@@ -35,7 +36,7 @@ export default function ArticleViewPage({ article, related }: ArticleViewPagePro
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="max-w-4xl mx-auto">
             <Link
-              href={`/${locale}/blog`}
+              href="/blog"
               className="inline-flex items-center gap-2 text-secondary text-sm font-medium mb-6 hover:gap-3 transition-all duration-300"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -83,6 +84,7 @@ export default function ArticleViewPage({ article, related }: ArticleViewPagePro
           className="prose-custom"
         >
           <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
             components={{
               h2: ({ children }) => (
                 <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mt-16 mb-6 pb-3 border-b border-secondary/20">
@@ -211,7 +213,7 @@ export default function ArticleViewPage({ article, related }: ArticleViewPagePro
 
           <div className="grid md:grid-cols-2 gap-8">
             {related.map((p) => (
-              <Link key={p.slug} href={`/${locale}/blog/${p.slug}`} className="group block">
+              <Link key={p.slug} href={`/blog/${p.slug}`} className="group block">
                 <div className="rounded-2xl border border-border/30 bg-card/80 overflow-hidden hover:border-secondary/30 transition-all duration-500">
                   <div className="relative h-40 overflow-hidden">
                     <Image

@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/valencia-landing/sections/HeroSection"
 import { TrustBarSection } from "@/components/valencia-landing/sections/TrustBarSection";
 import { WhyValenciaSection } from "@/components/valencia-landing/sections/WhyValenciaSection";
 import { ServicesSection } from "@/components/valencia-landing/sections/ServicesSection";
+import { PricingSection } from "@/components/valencia-landing/sections/PricingSection";
 import { CaseStudySection } from "@/components/valencia-landing/sections/CaseStudySection";
 import { ProcessSection } from "@/components/valencia-landing/sections/ProcessSection";
 import { FAQSection } from "@/components/valencia-landing/sections/FAQSection";
@@ -17,6 +18,7 @@ export const ValenciaWebDesignLanding = () => {
         <TrustBarSection />
         <WhyValenciaSection />
         <ServicesSection />
+        <PricingSection />
         <CaseStudySection />
         <ProcessSection />
         <FAQSection />

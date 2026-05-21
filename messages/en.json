@@ -166,25 +166,52 @@
       "title": "WeClean",
       "category": "Professional Cleaning · Alicante",
       "desc": "We designed and developed their website from scratch 10 months ago. In less than a year, it has accumulated more than 7,000 impressions on Google and ranks for key local searches like 'cleaning company in Torrevieja' — with SEO still in the growth phase.",
-      "metric1": { "value": "7K+", "label": "Google Impressions" },
-      "metric2": { "value": "10", "label": "Months since launch" },
-      "metric3": { "value": "1.5%", "label": "Average CTR" }
+      "metric1": {
+        "value": "7K+",
+        "label": "Google Impressions"
+      },
+      "metric2": {
+        "value": "10",
+        "label": "Months since launch"
+      },
+      "metric3": {
+        "value": "1.5%",
+        "label": "Average CTR"
+      }
     },
     "c2": {
       "title": "TaxiTime Torrevieja",
       "category": "Transport and Taxi · Torrevieja",
       "desc": "We developed their website 2 years ago for this local taxi company in Torrevieja. Today it generates more than 415,000 annual impressions on Google, average position 4 and CTR of 2.2% — dominating high-volume searches like 'taxi Torrevieja'.",
-      "metric1": { "value": "415K", "label": "Annual Impressions" },
-      "metric2": { "value": "4", "label": "Average Google Position" },
-      "metric3": { "value": "2.2%", "label": "Average CTR" }
+      "metric1": {
+        "value": "415K",
+        "label": "Annual Impressions"
+      },
+      "metric2": {
+        "value": "4",
+        "label": "Average Google Position"
+      },
+      "metric3": {
+        "value": "2.2%",
+        "label": "Average CTR"
+      }
     },
     "c3": {
       "title": "Sanaja Beauty",
       "category": "Beauty and Massages · Alicante",
       "desc": "Web design for beauty and massage center in Alicante. In the last 12 months: 32,000 impressions on Google, CTR of 5.3% — well above the industry average — and average position 6. Organic results without advertising investment.",
-      "metric1": { "value": "32K", "label": "Annual Impressions" },
-      "metric2": { "value": "5.3%", "label": "Average CTR" },
-      "metric3": { "value": "6", "label": "Average Google Position" }
+      "metric1": {
+        "value": "32K",
+        "label": "Annual Impressions"
+      },
+      "metric2": {
+        "value": "5.3%",
+        "label": "Average CTR"
+      },
+      "metric3": {
+        "value": "6",
+        "label": "Average Google Position"
+      }
     }
   },
   "tech": {
@@ -473,7 +500,13 @@
         "On-page SEO foundation for proper indexation.",
         "Editable setup and handover for your internal team."
       ],
-      "technologies": ["Next.js", "React", "TypeScript", "Node.js", "Vercel"],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vercel"
+      ],
       "cases": [
         {
           "title": "WeClean",
@@ -543,7 +576,13 @@
         "Content plan aligned with search intent.",
         "Performance dashboard for continuous tracking."
       ],
-      "technologies": ["Google Search Console", "Google Analytics", "Schema Markup", "Next.js", "Ahrefs"],
+      "technologies": [
+        "Google Search Console",
+        "Google Analytics",
+        "Schema Markup",
+        "Next.js",
+        "Ahrefs"
+      ],
       "cases": [
         {
           "title": "TaxiTime Torrevieja",
@@ -613,7 +652,13 @@
         "Operational documentation for your team.",
         "Initial support for adoption and optimization."
       ],
-      "technologies": ["Node.js", "PostgreSQL", "React", "TypeScript", "REST API"],
+      "technologies": [
+        "Node.js",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "REST API"
+      ],
       "cases": [
         {
           "title": "Booking Management",
@@ -683,7 +728,13 @@
         "Order status and transactional email setup.",
         "Initial support for commercial launch."
       ],
-      "technologies": ["Next.js", "Stripe", "Redsys", "Node.js", "PostgreSQL"],
+      "technologies": [
+        "Next.js",
+        "Stripe",
+        "Redsys",
+        "Node.js",
+        "PostgreSQL"
+      ],
       "cases": [
         {
           "title": "B2C Service Catalog",
@@ -753,7 +804,13 @@
         "Actionable technical and business recommendations.",
         "Initial phased execution plan."
       ],
-      "technologies": ["Google Analytics", "Search Console", "Looker Studio", "Next.js", "CRM Integrations"],
+      "technologies": [
+        "Google Analytics",
+        "Search Console",
+        "Looker Studio",
+        "Next.js",
+        "CRM Integrations"
+      ],
       "cases": [
         {
           "title": "Commercial Growth Roadmap",
@@ -910,11 +967,26 @@
         }
       ],
       "cities": [
-        { "name": "Alicante", "client": "WeClean" },
-        { "name": "Torrevieja", "client": "TaxiTime" },
-        { "name": "Elche", "client": "Local Business" },
-        { "name": "Benidorm", "client": "Costa Client" },
-        { "name": "Orihuela", "client": "Orihuela Dental" }
+        {
+          "name": "Alicante",
+          "client": "WeClean"
+        },
+        {
+          "name": "Torrevieja",
+          "client": "TaxiTime"
+        },
+        {
+          "name": "Elche",
+          "client": "Local Business"
+        },
+        {
+          "name": "Benidorm",
+          "client": "Costa Client"
+        },
+        {
+          "name": "Orihuela",
+          "client": "Orihuela Dental"
+        }
       ]
     },
     "services": {
@@ -1036,11 +1108,26 @@
         "phoneOptional": "Optional",
         "servicePlaceholder": "What do you need?",
         "services": [
-          { "value": "nueva-web", "label": "Create a new website" },
-          { "value": "mejorar-web", "label": "Improve my current website" },
-          { "value": "seo", "label": "SEO and Google ranking" },
-          { "value": "tienda", "label": "Online store" },
-          { "value": "no-seguro", "label": "I'm not sure yet" }
+          {
+            "value": "nueva-web",
+            "label": "Create a new website"
+          },
+          {
+            "value": "mejorar-web",
+            "label": "Improve my current website"
+          },
+          {
+            "value": "seo",
+            "label": "SEO and Google ranking"
+          },
+          {
+            "value": "tienda",
+            "label": "Online store"
+          },
+          {
+            "value": "no-seguro",
+            "label": "I'm not sure yet"
+          }
         ],
         "message": "Briefly describe your business and what you are looking for. No obligation.",
         "submit": "Send Free Consultation",
@@ -1054,10 +1141,18 @@
         "testimonial": "&quot;In less than a year, we went from not existing on Google to appearing for key searches.&quot;",
         "testimonialAuthor": "— WeClean, Alicante",
         "signals": [
-          { "text": "Alicante, Spain" },
-          { "text": "+34 652 56 14 27" },
-          { "text": "info.corexia@gmail.com" },
-          { "text": "Guaranteed response within 48 hours" }
+          {
+            "text": "Alicante, Spain"
+          },
+          {
+            "text": "+34 652 56 14 27"
+          },
+          {
+            "text": "info.corexia@gmail.com"
+          },
+          {
+            "text": "Guaranteed response within 48 hours"
+          }
         ]
       }
     },
@@ -1071,8 +1166,46 @@
       "region": "Comunidad Valenciana",
       "postalCode": "03001",
       "country": "ES",
-      "areasServed": ["Alicante", "Torrevieja", "Elche", "Benidorm", "Orihuela"],
+      "areasServed": [
+        "Alicante",
+        "Torrevieja",
+        "Elche",
+        "Benidorm",
+        "Orihuela"
+      ],
       "openingHours": "Mo-Fr 09:00-18:00"
+    },
+    "pricing": {
+      "tag": "Transparent Pricing",
+      "title": "What the Market Charges vs. What Corexia Charges",
+      "subtitle": "No large agency structure behind us. We are engineers working directly with you, and that shows in the budget.",
+      "colService": "Service",
+      "colMarket": "Market average",
+      "colCorexia": "Corexia",
+      "rows": {
+        "webCorp": {
+          "service": "Professional corporate site (Next.js)",
+          "market": "€3,000 – €8,000",
+          "corexia": "from €1,000 – €2,500"
+        },
+        "landing": {
+          "service": "Conversion landing page",
+          "market": "€1,000 – €3,000",
+          "corexia": "from €350 – €900"
+        },
+        "store": {
+          "service": "Basic online store",
+          "market": "€1,500 – €4,000",
+          "corexia": "from €500 – €1,300"
+        },
+        "seo": {
+          "service": "Local SEO (setup + first months)",
+          "market": "€800 – €2,500",
+          "corexia": "from €300 – €800"
+        }
+      },
+      "disclaimer": "Same technology (Next.js, TypeScript, Vercel), same process, same quality. No intermediaries or large agency overhead. First consultation always free.",
+      "cta": "Get a free quote"
     }
   },
   "valencia": {
@@ -1137,6 +1270,38 @@
       ],
       "conclusion": "If your business is in Valencia, Alzira, or Ribera Alta, the best time to position is now. We implement a complete local strategy focused on generating clients, not just traffic.",
       "ctaText": "I want my Valencia strategy"
+    },
+    "pricing": {
+      "tag": "Transparent Pricing",
+      "title": "What the Market Charges vs. What Corexia Charges",
+      "subtitle": "No large agency structures behind the scenes. We are software engineers working directly with you from Valencia — and that shows in your quote.",
+      "colService": "Service",
+      "colMarket": "Market price",
+      "colCorexia": "Corexia",
+      "rows": {
+        "webCorp": {
+          "service": "Professional corporate website (Next.js)",
+          "market": "€3,000 – €8,000",
+          "corexia": "from €1,000 – €2,500"
+        },
+        "landing": {
+          "service": "Conversion landing page",
+          "market": "€1,000 – €3,000",
+          "corexia": "from €350 – €900"
+        },
+        "store": {
+          "service": "Basic online store",
+          "market": "€1,500 – €4,000",
+          "corexia": "from €500 – €1,300"
+        },
+        "seo": {
+          "service": "Local SEO (setup + first months)",
+          "market": "€800 – €2,500",
+          "corexia": "from €300 – €800"
+        }
+      },
+      "disclaimer": "Same technology (Next.js, TypeScript, Vercel), same process, same quality. No middlemen or large agency overhead. First consultation always free.",
+      "cta": "Request a no-commitment quote"
     }
   },
   "blog": {
@@ -1150,7 +1315,7 @@
     "cta": "Do you want your business to appear on Google?",
     "ctaDescription": "We discuss your business, your competition, and what you really need. No technical jargon, no obligation. We'll respond in less than 48 hours with clear guidance and a transparent quote.",
     "ctaButton": "Schedule Free Consultation",
-    "featured" : "Featured",
+    "featured": "Featured",
     "relatedArticles": "Related Articles",
     "meta": {
       "title": "Web Design and SEO Blog | Corexia",

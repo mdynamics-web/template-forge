@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:corexia.es)"
+      "WebFetch(domain:corexia.es)",
+      "WebFetch(domain:www.corexia.es)",
+      "Bash(powershell -Command \"Expand-Archive -Path 'corexia.es-Coverage-2026-05-21.zip' -DestinationPath 'corexia-coverage' -Force\")",
+      "Bash(dir \"corexia-coverage\")",
+      "Bash(npm list *)",
+      "Bash(python *)"
     ]
   }
 }

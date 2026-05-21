@@ -15,12 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug, locale)
   if (!post) return {}
 
-  const canonicalUrl = post.canonical ?? `${BASE_URL}/${locale}/blog/${slug}`
-
-  // hreflang: si el artículo existe en el otro idioma, enlazarlo
-  // Si no, apuntar ambos al mismo canonical
-  const esUrl = `${BASE_URL}/es/blog/${slug}`
-  const enUrl = `${BASE_URL}/en/blog/${slug}`
+  const canonicalUrl = post.canonical ?? `${BASE_URL}/blog/${slug}`
 
   return {
     title: post.title,
@@ -32,9 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        es: esUrl,
-        en: enUrl,
-        'x-default': esUrl,
+        [locale]: canonicalUrl,
+        'x-default': canonicalUrl,
       },
     },
     openGraph: {
@@ -136,7 +130,7 @@ export default async function PostPage({ params }: Props) {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': post.canonical ?? `${BASE_URL}/${locale}/blog/${slug}`,
+      '@id': post.canonical ?? `${BASE_URL}/blog/${slug}`,
     },
     // keywords solo si existen en el frontmatter
     ...(post.tags?.length && { keywords: post.tags.join(', ') }),
@@ -156,19 +150,19 @@ export default async function PostPage({ params }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: breadcrumbLabels[locale].home,
-        item: `${BASE_URL}/${locale === 'es' ? '' : 'en'}`,
+        item: BASE_URL,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: breadcrumbLabels[locale].blog,
-        item: `${BASE_URL}/${locale}/blog`,
+        item: `${BASE_URL}/blog`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: post.title,
-        item: post.canonical ?? `${BASE_URL}/${locale}/blog/${slug}`,
+        item: post.canonical ?? `${BASE_URL}/blog/${slug}`,
       },
     ],
   }
