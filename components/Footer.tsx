@@ -130,6 +130,9 @@ const Footer = () => {
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-secondary" /> {t("footer.phone")}
               </li>
+              <li className="text-primary-foreground/50 text-sm">
+                {t("footer.hours")}
+              </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-secondary mt-0.5" />
                 <div>

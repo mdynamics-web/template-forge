@@ -6,17 +6,28 @@ import { ALICANTE_PHONE_DISPLAY, VALENCIA_PHONE_DISPLAY } from "@/lib/contact";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'contact' });
+  const BASE_URL = "https://www.corexia.es";
+  const isEs = locale === "es";
+  const path = isEs ? "/contacto" : "/contact";
 
   return {
-    title: `${t('title1')} ${t('title2')} | Corexia`,
-    description: t('subtitle'),
+    title: isEs ? "Contacta con Corexia | Diseño Web y SEO en Alicante" : "Contact Corexia | Web Design & SEO in Alicante",
+    description: isEs
+      ? "Cuéntanos qué necesita tu negocio. Primera consulta gratuita. Diseño web, SEO local y apps para negocios en Alicante y Valencia."
+      : "Tell us what your business needs. Free first consultation. Web design, local SEO and apps for businesses in Alicante and Valencia.",
     alternates: {
-      canonical: locale === 'es' ? '/contacto' : '/contact',
+      canonical: `${BASE_URL}${path}`,
       languages: {
-        'es': '/contacto',
-        'en': '/contact',
+        es: `${BASE_URL}/contacto`,
+        en: `${BASE_URL}/contact`,
+        "x-default": `${BASE_URL}/contacto`,
       },
+    },
+    openGraph: {
+      title: isEs ? "Contacta con Corexia" : "Contact Corexia",
+      description: isEs ? "Primera consulta gratuita. Diseño web y SEO para negocios." : "Free first consultation. Web design and SEO for businesses.",
+      url: `${BASE_URL}${path}`,
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 }],
     },
   };
 }

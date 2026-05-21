@@ -42,7 +42,10 @@ export async function generateMetadata({
     metadataBase: new URL(BASE_URL),
     alternates: {
       canonical: isSpanish ? `${BASE_URL}/` : undefined,
-      languages: { es: `${BASE_URL}/` },
+      languages: {
+        es: `${BASE_URL}/`,
+        "x-default": `${BASE_URL}/`,
+      },
     },
     openGraph: {
       type: "website",
@@ -100,7 +103,7 @@ export default async function LocaleLayout({
 
   const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": ["LocalBusiness", "ProfessionalService"],
     "@id": `${BASE_URL}/#business`,
     name: "Corexia",
     image: `${BASE_URL}/logo.png`,
@@ -128,6 +131,8 @@ export default async function LocaleLayout({
     priceRange: "€€",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "TODO: añadir dirección real",
+      postalCode: "03001",
       addressLocality: "Alicante",
       addressRegion: "Comunidad Valenciana",
       addressCountry: "ES",
@@ -152,6 +157,10 @@ export default async function LocaleLayout({
       opens: "09:00",
       closes: "18:00",
     },
+    sameAs: [
+      "https://www.linkedin.com/company/corexia",
+      "https://www.instagram.com/corexia.es",
+    ],
   };
 
   return (

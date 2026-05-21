@@ -1,6 +1,6 @@
 import { routing } from '@/i18n/routing'
 
-import { Route } from '@/types/routes'
+import { Route } from '../../theme-weaver/types/routes'
 
 /**
  * Normaliza un pathname traducido a su forma canónica (clave en pathnames)

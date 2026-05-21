@@ -11,9 +11,7 @@ export async function generateMetadata({
 
   const isSpanish = locale === "es";
   const baseUrl = "https://www.corexia.es";
-  const pagePath = isSpanish
-    ? `/${locale}/diseno-web-seo-valencia`
-    : `/${locale}/web-design-seo-valencia`;
+  const pagePath = isSpanish ? "/diseno-web-seo-valencia" : "/web-design-seo-valencia";
   const fullUrl = `${baseUrl}${pagePath}`;
 
   return {
@@ -73,7 +71,7 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: `${baseUrl}/og-alicante.png`,
+          url: `${baseUrl}/og-valencia.png`,
           width: 1200,
           height: 630,
           alt: isSpanish
@@ -90,14 +88,14 @@ export async function generateMetadata({
       description: isSpanish
         ? "Agencia web en Valencia especializada en Next.js y SEO local. Webs que convierten visitas en clientes reales."
         : "Web agency in Valencia specialized in Next.js and local SEO. Websites that convert visits into real clients.",
-      images: [`${baseUrl}/og-alicante.png`],
+      images: [`${baseUrl}/og-valencia.png`],
     },
     alternates: {
       canonical: fullUrl,
       languages: {
-        es: `${baseUrl}/es/diseno-web-seo-valencia`,
-        en: `${baseUrl}/en/web-design-seo-valencia`,
-        "x-default": `${baseUrl}/es/diseno-web-seo-valencia`,
+        es: `${baseUrl}/diseno-web-seo-valencia`,
+        en: `${baseUrl}/web-design-seo-valencia`,
+        "x-default": `${baseUrl}/diseno-web-seo-valencia`,
       },
     },
     robots: {

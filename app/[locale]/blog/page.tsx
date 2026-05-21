@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: canonicalUrl,
       languages: {
         es: `${BASE_URL}/blog`,
-        en: `${BASE_URL}/en/blog`,
+        en: `${BASE_URL}/blog`,
         'x-default': `${BASE_URL}/blog`,
       },
     },

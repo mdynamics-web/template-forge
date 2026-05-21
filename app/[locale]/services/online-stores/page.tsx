@@ -11,6 +11,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "servicePages" });
+  const BASE_URL = "https://www.corexia.es";
   const localeKey = locale === "es" ? "es" : "en";
   const route = serviceRouteMap.onlineStores[localeKey];
 
@@ -18,18 +19,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t("onlineStores.meta.title"),
     description: t("onlineStores.meta.description"),
     alternates: {
-      canonical: route,
+      canonical: `${BASE_URL}${route}`,
       languages: {
-        es: serviceRouteMap.onlineStores.es,
-        en: serviceRouteMap.onlineStores.en,
+        es: `${BASE_URL}${serviceRouteMap.onlineStores.es}`,
+        en: `${BASE_URL}${serviceRouteMap.onlineStores.en}`,
+        "x-default": `${BASE_URL}${serviceRouteMap.onlineStores.es}`,
       },
     },
     openGraph: {
       title: t("onlineStores.meta.ogTitle"),
       description: t("onlineStores.meta.ogDescription"),
-      url: `https://www.corexia.es${route}`,
+      url: `${BASE_URL}${route}`,
       siteName: "Corexia",
       type: "website",
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 }],
     },
   };
 }

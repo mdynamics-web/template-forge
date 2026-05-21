@@ -227,6 +227,7 @@
     "alicanteWeb": "Diseño Web en Alicante",
     "valenciaWeb": "Diseño Web en Valencia",
     "allSpain": "Servicio en toda España",
+    "hours": "Lun – Vie: 9:00 – 18:00",
     "copyright": "Todos los derechos reservados."
   },
   "contact": {
@@ -1140,7 +1141,7 @@
   },
   "blog": {
     "readArticle": "Leer Artículo",
-    "title": "Descubre Nuestro Blog",
+    "title": "Blog de Diseño Web y SEO Local",
     "subtitle": "Consejos, casos de éxito y tendencias en diseño web y SEO para negocios en España.",
     "latestArticles": "Últimos Artículos",
     "tag": "Blog",

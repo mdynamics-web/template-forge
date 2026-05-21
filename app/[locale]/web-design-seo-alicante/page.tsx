@@ -11,7 +11,7 @@ export async function generateMetadata({
 
   const isSpanish = locale === "es";
   const baseUrl = "https://www.corexia.es";
-  const pagePath = isSpanish ? `/${locale}/diseno-web-seo-alicante` : `/${locale}/web-design-seo-alicante`;
+  const pagePath = isSpanish ? "/diseno-web-seo-alicante" : "/web-design-seo-alicante";
   const fullUrl = `${baseUrl}${pagePath}`;
 
   return {
@@ -93,9 +93,9 @@ export async function generateMetadata({
     alternates: {
       canonical: fullUrl,
       languages: {
-        es: `${baseUrl}/es/diseno-web-seo-alicante`,
-        en: `${baseUrl}/en/web-design-seo-alicante`,
-        "x-default": `${baseUrl}/es/diseno-web-seo-alicante`,
+        es: `${baseUrl}/diseno-web-seo-alicante`,
+        en: `${baseUrl}/web-design-seo-alicante`,
+        "x-default": `${baseUrl}/diseno-web-seo-alicante`,
       },
     },
     robots: {

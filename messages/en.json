@@ -227,6 +227,7 @@
     "alicanteWeb": "Web Design in Alicante",
     "valenciaWeb": "Web Design in Valencia",
     "allSpain": "Service throughout Spain",
+    "hours": "Mon – Fri: 9:00 – 18:00",
     "copyright": "All rights reserved."
   },
   "contact": {
@@ -1140,7 +1141,7 @@
   },
   "blog": {
     "readArticle": "Read Article",
-    "title": "Discover Our Blog",
+    "title": "Web Design & Local SEO Blog",
     "subtitle": "Tips, case studies, and trends in web design and SEO for businesses in Spain.",
     "latestArticles": "Latest Articles",
     "tag": "Blog",
